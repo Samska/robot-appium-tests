@@ -8,7 +8,7 @@
   "robot": {
     "_attributes": {
       "generator": "Robot 6.1 (Python 3.8.17 on linux)",
-      "generated": "20230622 01:53:12.136",
+      "generated": "20230622 01:56:19.232",
       "rpa": "false",
       "schemaversion": "4"
     },
@@ -86,7 +86,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:18.477",
+                            "timestamp": "20230622 01:56:25.133",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -94,40 +94,40 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:18.476",
-                            "endtime": "20230622 01:53:18.478"
+                            "starttime": "20230622 01:56:25.132",
+                            "endtime": "20230622 01:56:25.134"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:18.480",
+                            "timestamp": "20230622 01:56:25.136",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:18.480",
+                            "timestamp": "20230622 01:56:25.136",
                             "level": "FAIL"
                           },
-                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c18744232d3c482c9d92968014919719\n"
+                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/83f726dde8324f4787497960f526d45d\n"
                         }
                       ],
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:12.332",
-                          "endtime": "20230622 01:53:18.480"
+                          "starttime": "20230622 01:56:19.378",
+                          "endtime": "20230622 01:56:25.136"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:12.332",
-                        "endtime": "20230622 01:53:18.481"
+                        "starttime": "20230622 01:56:19.378",
+                        "endtime": "20230622 01:56:25.136"
                       }
                     }
                   },
@@ -155,7 +155,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:18.482",
+                            "timestamp": "20230622 01:56:25.137",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -163,22 +163,22 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:18.482",
-                            "endtime": "20230622 01:53:18.482"
+                            "starttime": "20230622 01:56:25.137",
+                            "endtime": "20230622 01:56:25.137"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:18.484",
+                            "timestamp": "20230622 01:56:25.139",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:18.484",
+                            "timestamp": "20230622 01:56:25.139",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -187,16 +187,16 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:18.481",
-                          "endtime": "20230622 01:53:18.484"
+                          "starttime": "20230622 01:56:25.137",
+                          "endtime": "20230622 01:56:25.139"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:18.481",
-                        "endtime": "20230622 01:53:18.484"
+                        "starttime": "20230622 01:56:25.136",
+                        "endtime": "20230622 01:56:25.139"
                       },
                       "_text": "No application is open"
                     }
@@ -205,10 +205,10 @@
                 "status": {
                   "_attributes": {
                     "status": "FAIL",
-                    "starttime": "20230622 01:53:12.331",
-                    "endtime": "20230622 01:53:18.484"
+                    "starttime": "20230622 01:56:19.377",
+                    "endtime": "20230622 01:56:25.139"
                   },
-                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c18744232d3c482c9d92968014919719\n\n\nAlso teardown failed:\nNo application is open"
+                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/83f726dde8324f4787497960f526d45d\n\n\nAlso teardown failed:\nNo application is open"
                 }
               },
               {
@@ -265,7 +265,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:23.839",
+                            "timestamp": "20230622 01:56:30.767",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -273,40 +273,40 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:23.838",
-                            "endtime": "20230622 01:53:23.839"
+                            "starttime": "20230622 01:56:30.767",
+                            "endtime": "20230622 01:56:30.768"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:23.841",
+                            "timestamp": "20230622 01:56:30.769",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:23.841",
+                            "timestamp": "20230622 01:56:30.769",
                             "level": "FAIL"
                           },
-                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/ccb5edf3dd4e48fdb8e1cf75535e0233\n"
+                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/d807df5189d6486493a71c5909633cce\n"
                         }
                       ],
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:18.485",
-                          "endtime": "20230622 01:53:23.841"
+                          "starttime": "20230622 01:56:25.140",
+                          "endtime": "20230622 01:56:30.769"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:18.485",
-                        "endtime": "20230622 01:53:23.842"
+                        "starttime": "20230622 01:56:25.140",
+                        "endtime": "20230622 01:56:30.770"
                       }
                     }
                   },
@@ -334,7 +334,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:23.843",
+                            "timestamp": "20230622 01:56:30.771",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -342,22 +342,22 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:23.842",
-                            "endtime": "20230622 01:53:23.843"
+                            "starttime": "20230622 01:56:30.770",
+                            "endtime": "20230622 01:56:30.771"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:23.845",
+                            "timestamp": "20230622 01:56:30.772",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:23.845",
+                            "timestamp": "20230622 01:56:30.772",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -366,16 +366,16 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:23.842",
-                          "endtime": "20230622 01:53:23.845"
+                          "starttime": "20230622 01:56:30.770",
+                          "endtime": "20230622 01:56:30.773"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:23.842",
-                        "endtime": "20230622 01:53:23.845"
+                        "starttime": "20230622 01:56:30.770",
+                        "endtime": "20230622 01:56:30.773"
                       },
                       "_text": "No application is open"
                     }
@@ -384,10 +384,10 @@
                 "status": {
                   "_attributes": {
                     "status": "FAIL",
-                    "starttime": "20230622 01:53:18.485",
-                    "endtime": "20230622 01:53:23.845"
+                    "starttime": "20230622 01:56:25.140",
+                    "endtime": "20230622 01:56:30.773"
                   },
-                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/ccb5edf3dd4e48fdb8e1cf75535e0233\n\n\nAlso teardown failed:\nNo application is open"
+                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/d807df5189d6486493a71c5909633cce\n\n\nAlso teardown failed:\nNo application is open"
                 }
               },
               {
@@ -444,7 +444,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.506",
+                            "timestamp": "20230622 01:56:36.343",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -452,40 +452,40 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:29.505",
-                            "endtime": "20230622 01:53:29.508"
+                            "starttime": "20230622 01:56:36.343",
+                            "endtime": "20230622 01:56:36.345"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.510",
+                            "timestamp": "20230622 01:56:36.346",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.510",
+                            "timestamp": "20230622 01:56:36.346",
                             "level": "FAIL"
                           },
-                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/805953a28e9a45ca82989f76c9fbf911\n"
+                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/eec99649b18148239d80d7fc4429017c\n"
                         }
                       ],
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:23.847",
-                          "endtime": "20230622 01:53:29.510"
+                          "starttime": "20230622 01:56:30.774",
+                          "endtime": "20230622 01:56:36.347"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:23.846",
-                        "endtime": "20230622 01:53:29.511"
+                        "starttime": "20230622 01:56:30.773",
+                        "endtime": "20230622 01:56:36.347"
                       }
                     }
                   },
@@ -513,7 +513,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.512",
+                            "timestamp": "20230622 01:56:36.348",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -521,22 +521,22 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:29.512",
-                            "endtime": "20230622 01:53:29.512"
+                            "starttime": "20230622 01:56:36.348",
+                            "endtime": "20230622 01:56:36.348"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.514",
+                            "timestamp": "20230622 01:56:36.349",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.514",
+                            "timestamp": "20230622 01:56:36.350",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -545,16 +545,16 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:29.511",
-                          "endtime": "20230622 01:53:29.514"
+                          "starttime": "20230622 01:56:36.347",
+                          "endtime": "20230622 01:56:36.350"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:29.511",
-                        "endtime": "20230622 01:53:29.514"
+                        "starttime": "20230622 01:56:36.347",
+                        "endtime": "20230622 01:56:36.350"
                       },
                       "_text": "No application is open"
                     }
@@ -563,26 +563,26 @@
                 "status": {
                   "_attributes": {
                     "status": "FAIL",
-                    "starttime": "20230622 01:53:23.846",
-                    "endtime": "20230622 01:53:29.514"
+                    "starttime": "20230622 01:56:30.773",
+                    "endtime": "20230622 01:56:36.350"
                   },
-                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/805953a28e9a45ca82989f76c9fbf911\n\n\nAlso teardown failed:\nNo application is open"
+                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/eec99649b18148239d80d7fc4429017c\n\n\nAlso teardown failed:\nNo application is open"
                 }
               }
             ],
             "status": {
               "_attributes": {
                 "status": "FAIL",
-                "starttime": "20230622 01:53:12.159",
-                "endtime": "20230622 01:53:29.515"
+                "starttime": "20230622 01:56:19.254",
+                "endtime": "20230622 01:56:36.350"
               }
             }
           },
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "starttime": "20230622 01:53:12.157",
-              "endtime": "20230622 01:53:29.516"
+              "starttime": "20230622 01:56:19.252",
+              "endtime": "20230622 01:56:36.351"
             }
           }
         },
@@ -653,7 +653,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.789",
+                            "timestamp": "20230622 01:56:36.659",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -661,22 +661,22 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:29.788",
-                            "endtime": "20230622 01:53:29.789"
+                            "starttime": "20230622 01:56:36.659",
+                            "endtime": "20230622 01:56:36.659"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.790",
+                            "timestamp": "20230622 01:56:36.661",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.791",
+                            "timestamp": "20230622 01:56:36.661",
                             "level": "FAIL"
                           },
                           "_text": "SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n"
@@ -685,16 +685,16 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:29.524",
-                          "endtime": "20230622 01:53:29.791"
+                          "starttime": "20230622 01:56:36.359",
+                          "endtime": "20230622 01:56:36.661"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:29.524",
-                        "endtime": "20230622 01:53:29.791"
+                        "starttime": "20230622 01:56:36.358",
+                        "endtime": "20230622 01:56:36.661"
                       }
                     }
                   },
@@ -722,7 +722,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.792",
+                            "timestamp": "20230622 01:56:36.662",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -730,22 +730,22 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:29.792",
-                            "endtime": "20230622 01:53:29.792"
+                            "starttime": "20230622 01:56:36.662",
+                            "endtime": "20230622 01:56:36.662"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.794",
+                            "timestamp": "20230622 01:56:36.664",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.794",
+                            "timestamp": "20230622 01:56:36.664",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -754,16 +754,16 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:29.792",
-                          "endtime": "20230622 01:53:29.794"
+                          "starttime": "20230622 01:56:36.662",
+                          "endtime": "20230622 01:56:36.664"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:29.791",
-                        "endtime": "20230622 01:53:29.794"
+                        "starttime": "20230622 01:56:36.662",
+                        "endtime": "20230622 01:56:36.664"
                       },
                       "_text": "No application is open"
                     }
@@ -772,8 +772,8 @@
                 "status": {
                   "_attributes": {
                     "status": "FAIL",
-                    "starttime": "20230622 01:53:29.523",
-                    "endtime": "20230622 01:53:29.794"
+                    "starttime": "20230622 01:56:36.358",
+                    "endtime": "20230622 01:56:36.664"
                   },
                   "_text": "Setup failed:\nSessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
                 }
@@ -832,7 +832,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.991",
+                            "timestamp": "20230622 01:56:37.045",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -840,22 +840,22 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:29.990",
-                            "endtime": "20230622 01:53:29.991"
+                            "starttime": "20230622 01:56:37.044",
+                            "endtime": "20230622 01:56:37.045"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.993",
+                            "timestamp": "20230622 01:56:37.046",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.993",
+                            "timestamp": "20230622 01:56:37.046",
                             "level": "FAIL"
                           },
                           "_text": "SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n"
@@ -864,16 +864,16 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:29.796",
-                          "endtime": "20230622 01:53:29.993"
+                          "starttime": "20230622 01:56:36.665",
+                          "endtime": "20230622 01:56:37.047"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:29.795",
-                        "endtime": "20230622 01:53:29.993"
+                        "starttime": "20230622 01:56:36.665",
+                        "endtime": "20230622 01:56:37.047"
                       }
                     }
                   },
@@ -901,7 +901,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.995",
+                            "timestamp": "20230622 01:56:37.048",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -909,22 +909,22 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:29.994",
-                            "endtime": "20230622 01:53:29.995"
+                            "starttime": "20230622 01:56:37.048",
+                            "endtime": "20230622 01:56:37.048"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.996",
+                            "timestamp": "20230622 01:56:37.049",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:29.997",
+                            "timestamp": "20230622 01:56:37.049",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -933,16 +933,16 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:29.994",
-                          "endtime": "20230622 01:53:29.997"
+                          "starttime": "20230622 01:56:37.047",
+                          "endtime": "20230622 01:56:37.050"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:29.994",
-                        "endtime": "20230622 01:53:29.997"
+                        "starttime": "20230622 01:56:37.047",
+                        "endtime": "20230622 01:56:37.050"
                       },
                       "_text": "No application is open"
                     }
@@ -951,8 +951,8 @@
                 "status": {
                   "_attributes": {
                     "status": "FAIL",
-                    "starttime": "20230622 01:53:29.795",
-                    "endtime": "20230622 01:53:29.997"
+                    "starttime": "20230622 01:56:36.664",
+                    "endtime": "20230622 01:56:37.050"
                   },
                   "_text": "Setup failed:\nSessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
                 }
@@ -1011,7 +1011,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:30.181",
+                            "timestamp": "20230622 01:56:37.440",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -1019,22 +1019,22 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:30.181",
-                            "endtime": "20230622 01:53:30.182"
+                            "starttime": "20230622 01:56:37.439",
+                            "endtime": "20230622 01:56:37.440"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:30.183",
+                            "timestamp": "20230622 01:56:37.441",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:30.183",
+                            "timestamp": "20230622 01:56:37.442",
                             "level": "FAIL"
                           },
                           "_text": "SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n"
@@ -1043,16 +1043,16 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:29.998",
-                          "endtime": "20230622 01:53:30.184"
+                          "starttime": "20230622 01:56:37.051",
+                          "endtime": "20230622 01:56:37.442"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:29.998",
-                        "endtime": "20230622 01:53:30.184"
+                        "starttime": "20230622 01:56:37.050",
+                        "endtime": "20230622 01:56:37.442"
                       }
                     }
                   },
@@ -1080,7 +1080,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:30.185",
+                            "timestamp": "20230622 01:56:37.443",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -1088,22 +1088,22 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20230622 01:53:30.185",
-                            "endtime": "20230622 01:53:30.185"
+                            "starttime": "20230622 01:56:37.443",
+                            "endtime": "20230622 01:56:37.443"
                           }
                         }
                       },
                       "msg": [
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:30.186",
+                            "timestamp": "20230622 01:56:37.444",
                             "level": "WARN"
                           },
                           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                         },
                         {
                           "_attributes": {
-                            "timestamp": "20230622 01:53:30.186",
+                            "timestamp": "20230622 01:56:37.445",
                             "level": "FAIL"
                           },
                           "_text": "No application is open"
@@ -1112,16 +1112,16 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 01:53:30.184",
-                          "endtime": "20230622 01:53:30.187"
+                          "starttime": "20230622 01:56:37.442",
+                          "endtime": "20230622 01:56:37.445"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 01:53:30.184",
-                        "endtime": "20230622 01:53:30.187"
+                        "starttime": "20230622 01:56:37.442",
+                        "endtime": "20230622 01:56:37.445"
                       },
                       "_text": "No application is open"
                     }
@@ -1130,8 +1130,8 @@
                 "status": {
                   "_attributes": {
                     "status": "FAIL",
-                    "starttime": "20230622 01:53:29.997",
-                    "endtime": "20230622 01:53:30.187"
+                    "starttime": "20230622 01:56:37.050",
+                    "endtime": "20230622 01:56:37.445"
                   },
                   "_text": "Setup failed:\nSessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
                 }
@@ -1140,16 +1140,16 @@
             "status": {
               "_attributes": {
                 "status": "FAIL",
-                "starttime": "20230622 01:53:29.519",
-                "endtime": "20230622 01:53:30.187"
+                "starttime": "20230622 01:56:36.354",
+                "endtime": "20230622 01:56:37.446"
               }
             }
           },
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "starttime": "20230622 01:53:29.517",
-              "endtime": "20230622 01:53:30.189"
+              "starttime": "20230622 01:56:36.352",
+              "endtime": "20230622 01:56:37.448"
             }
           }
         }
@@ -1157,8 +1157,8 @@
       "status": {
         "_attributes": {
           "status": "FAIL",
-          "starttime": "20230622 01:53:12.137",
-          "endtime": "20230622 01:53:30.190"
+          "starttime": "20230622 01:56:19.233",
+          "endtime": "20230622 01:56:37.449"
         }
       }
     },
@@ -1233,98 +1233,98 @@
       "msg": [
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:12.326",
+            "timestamp": "20230622 01:56:19.372",
             "level": "ERROR"
           },
           "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/variables/android_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist."
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:18.480",
+            "timestamp": "20230622 01:56:25.136",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:18.484",
+            "timestamp": "20230622 01:56:25.139",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:23.841",
+            "timestamp": "20230622 01:56:30.769",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:23.845",
+            "timestamp": "20230622 01:56:30.772",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:29.510",
+            "timestamp": "20230622 01:56:36.346",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:29.514",
+            "timestamp": "20230622 01:56:36.349",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:29.522",
+            "timestamp": "20230622 01:56:36.356",
             "level": "ERROR"
           },
           "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/ios/variables/ios_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist."
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:29.790",
+            "timestamp": "20230622 01:56:36.661",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:29.794",
+            "timestamp": "20230622 01:56:36.664",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:29.993",
+            "timestamp": "20230622 01:56:37.046",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:29.996",
+            "timestamp": "20230622 01:56:37.049",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:30.183",
+            "timestamp": "20230622 01:56:37.441",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:53:30.186",
+            "timestamp": "20230622 01:56:37.444",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"

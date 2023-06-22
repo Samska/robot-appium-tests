@@ -6,5 +6,11 @@ Test Setup      Before Tests
 Test Teardown   After Tests
 
 *** Test Cases ***
-Scenario: Test Scenario
+Scenario: Login with wrong credentials
+    Capture Page Screenshot
+
+Scenario: Login successfully
+    Capture Page Screenshot
+
+Scenario: Logout successfully
     Capture Page Screenshot

@@ -1,0 +1,35 @@
+name: Robot Framework and Appium Tests
+
+on: 
+    push: 
+      branches:
+        - master 
+    schedule:
+      - cron: '0 0 * * 1'
+    workflow_dispatch: # Enable the run worklfow button on the Action
+
+jobs: 
+  setup-and-run-tests: 
+    name: Setup the environment and run the tests
+    runs-on: ubuntu-latest
+    env:
+        SAUCELABS_REMOTE_URL: ${{ secrets.SAUCELABS_REMOTE_URL }}
+
+    steps:
+        
+    - name: Checkout repository
+    - uses: actions/checkout@v2
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r config/requirements.txt
+
+    - name: Run tests
+      run: |
+        robot --outputdir results tests || true

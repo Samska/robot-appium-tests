@@ -1,6 +1,6 @@
 *** Settings ***
 Resource            ../../config/settings.robot
-Resource            ../../resources/android/variables/android_base_variables.robot
+Resource            ../../resources/android/variables/base_variables.robot
 Resource            ../../resources/android/variables/login_variables.robot
 Resource            ../../resources/android/keywords/setup_keywords.robot
 Resource            ../../resources/android/keywords/login_keywords.robot

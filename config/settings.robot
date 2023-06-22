@@ -1,2 +1,3 @@
 *** Settings ***
-Library     AppiumLibrary
+Library    AppiumLibrary
+Library    BuiltIn

@@ -1,5 +1,4 @@
 *** Variables ***
-${HAMBURGUER_MENU}      accessibility_id=open menu
 ${LOGIN_MENU}           accessibility_id=menu item log in
 ${LOGOUT_MENU}          accessibility_id=menu item log out
 ${USERNAME_FIELD}       accessibility_id=Username input field

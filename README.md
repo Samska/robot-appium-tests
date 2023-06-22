@@ -26,6 +26,24 @@ These instructions will get you a copy of the project up and running on your Sau
 2. Change the value of the `${SAUCELABS_REMOTE_URL}` variable in the `ios_base_variables.robot` and `android_base_variables.robot` files to your [Ondemand URL](https://app.saucelabs.com/user-settings).
 3. Run the tests through the command `robot --outputdir results tests`
 
+## Capabilities
+
+Capabilities is the name used to define the parameters used to start an Appium Session. If you want to change some of them, here is the Capabilities I used for the tests, both Android and iOS have their own `base_variables.robot` with their own properties.
+
+`${REMOTE_URL}` - Used for continuous integration with SauceLabs, you can get your own at `https://app.saucelabs.com/user-settings`
+
+`${PLATFORM_NAME}` - The type of platform hosting the app or browser,  e.g., `Android` or `iOS`
+
+`${PLATFORM_VERSION}` - The version of a platform, e.g., for iOS, `16.0`
+
+`${DEVICE_NAME}` - The name of a particular device to automate, e.g., `iPhone 14` 
+
+`${APP}` - The path to an installable application, e.g., `C:\\Users\\samska\\Desktop\\robot-appium-tests\\app\\android\\demo-saucelabs.apk`
+
+`${AUTOMATION_NAME}` - The name of the Appium driver to use, e.g., `UiAutomator2` for Android or `XCUITest` for iOS
+
+`${JOB_NAME}` - The name of your test, used in SauceLabs, e.g., `Robot Framework Appium Tests`
+
 ## Continuous integration
 
 This project has continuous integration with GitHub Actions. The configuration file is located at the path `.github/workflows/robot.yml`. The pipeline is scheduled to run at 00:00 every monday. With each execution, an artifact is generated with the test results and saved in that execution, as well as the results are published on the gh-pages and are available for consultation on this [page](https://samska.github.io/robot-appium-tests/report.html).

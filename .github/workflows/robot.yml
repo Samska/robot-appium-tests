@@ -13,7 +13,7 @@ jobs:
     name: Setup the environment and run the tests
     runs-on: ubuntu-latest
     env:
-        SAUCELABS_REMOTE_URL: ${{ secrets.SAUCELABS_REMOTE_URL }}
+        SAUCELABS_REMOTE_URL: ${{ secrets.SAUCELABS_REMOTE_URL }} 
 
     steps:        
     - name: Project checkout

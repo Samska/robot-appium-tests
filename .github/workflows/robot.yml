@@ -31,4 +31,4 @@ jobs:
 
     - name: Run tests
       run: |
-        robot --outputdir results tests || true
+        robot --variable REMOTE_URL:$SAUCELABS_REMOTE_URL --outputdir results tests || true

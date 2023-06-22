@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1 (Python 3.8.17 on linux)" generated="20230622 01:41:44.433" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1 (Python 3.8.17 on linux)" generated="20230622 01:48:46.482" rpa="false" schemaversion="4">
 <suite id="s1" name="Tests" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests">
 <suite id="s1-s1" name="Android" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android">
 <suite id="s1-s1-s1" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/login.robot">
@@ -20,134 +20,38 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="PASS" starttime="20230622 01:41:44.647" endtime="20230622 01:42:15.476"/>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230622 01:48:52.750" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:48:52.749" endtime="20230622 01:48:52.751"/>
 </kw>
-<status status="PASS" starttime="20230622 01:41:44.647" endtime="20230622 01:42:15.476"/>
+<msg timestamp="20230622 01:48:52.753" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:48:52.754" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/8483ff3a728a4983b1f78c47cc7ea053
+</msg>
+<status status="FAIL" starttime="20230622 01:48:46.677" endtime="20230622 01:48:52.754"/>
 </kw>
-<kw name="Perform Login" library="login_keywords">
-<arg>test</arg>
-<arg>test</arg>
-<kw name="Open Menu" library="login_keywords">
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${HAMBURGUER_MENU}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${HAMBURGUER_MENU}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:42:15.479" level="INFO">Clicking element 'accessibility_id=open menu'.</msg>
-<status status="PASS" starttime="20230622 01:42:15.478" endtime="20230622 01:42:16.060"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:15.477" endtime="20230622 01:42:16.060"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:15.477" endtime="20230622 01:42:16.060"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Select Menu Option</arg>
-<arg>${LOGIN_MENU}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Select Menu Option" library="login_keywords">
-<arg>${LOGIN_MENU}</arg>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${menu_option}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${menu_option}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:42:16.065" level="INFO">Clicking element 'accessibility_id=menu item log in'.</msg>
-<status status="PASS" starttime="20230622 01:42:16.063" endtime="20230622 01:42:17.557"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:16.062" endtime="20230622 01:42:17.558"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:16.061" endtime="20230622 01:42:17.558"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:16.060" endtime="20230622 01:42:17.558"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Enter Credentials</arg>
-<arg>${username}</arg>
-<arg>${password}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Enter Credentials" library="login_keywords">
-<arg>${username}</arg>
-<arg>${password}</arg>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Input Text</arg>
-<arg>${USERNAME_FIELD}</arg>
-<arg>${username}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Input Text" library="AppiumLibrary">
-<arg>${USERNAME_FIELD}</arg>
-<arg>${username}</arg>
-<doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230622 01:42:17.561" level="INFO">Typing text 'test' into text field 'accessibility_id=Username input field'</msg>
-<status status="PASS" starttime="20230622 01:42:17.559" endtime="20230622 01:42:19.156"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:17.559" endtime="20230622 01:42:19.157"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Input Text</arg>
-<arg>${PASSWORD_FIELD}</arg>
-<arg>${password}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Input Text" library="AppiumLibrary">
-<arg>${PASSWORD_FIELD}</arg>
-<arg>${password}</arg>
-<doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230622 01:42:19.160" level="INFO">Typing text 'test' into text field 'accessibility_id=Password input field'</msg>
-<status status="PASS" starttime="20230622 01:42:19.157" endtime="20230622 01:42:19.839"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:19.157" endtime="20230622 01:42:19.839"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${LOGIN_BTN}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${LOGIN_BTN}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:42:19.842" level="INFO">Clicking element 'accessibility_id=Login button'.</msg>
-<status status="PASS" starttime="20230622 01:42:19.840" endtime="20230622 01:42:20.692"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:19.839" endtime="20230622 01:42:20.692"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:17.558" endtime="20230622 01:42:20.692"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:17.558" endtime="20230622 01:42:20.692"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:15.476" endtime="20230622 01:42:20.692"/>
-</kw>
-<kw name="Element Text Should Be" library="AppiumLibrary">
-<arg>${ERROR_MSG}</arg>
-<arg>Provided credentials do not match any user in this service.</arg>
-<doc>Verifies element identified by ``locator`` exactly contains text ``expected``.</doc>
-<msg timestamp="20230622 01:42:20.694" level="INFO">Verifying element '//android.view.ViewGroup[@content-desc="generic-error-message"]/android.widget.TextView' contains exactly text 'Provided credentials do not match any user in this service.'.</msg>
-<msg timestamp="20230622 01:42:21.518" level="INFO">xpath criteria: //android.view.ViewGroup[@content-desc="generic-error-message"]/android.widget.TextView</msg>
-<status status="PASS" starttime="20230622 01:42:20.692" endtime="20230622 01:42:21.518"/>
+<status status="FAIL" starttime="20230622 01:48:46.677" endtime="20230622 01:48:52.754"/>
 </kw>
 <kw name="After Tests" library="setup_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="PASS" starttime="20230622 01:42:21.519" endtime="20230622 01:42:21.756"/>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230622 01:48:52.756" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:48:52.755" endtime="20230622 01:48:52.756"/>
 </kw>
-<status status="PASS" starttime="20230622 01:42:21.519" endtime="20230622 01:42:21.756"/>
+<msg timestamp="20230622 01:48:52.758" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:48:52.758" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:48:52.755" endtime="20230622 01:48:52.758"/>
 </kw>
-<status status="PASS" starttime="20230622 01:41:44.646" endtime="20230622 01:42:21.756"/>
+<status status="FAIL" starttime="20230622 01:48:52.754" endtime="20230622 01:48:52.758">No application is open</status>
+</kw>
+<status status="FAIL" starttime="20230622 01:48:46.676" endtime="20230622 01:48:52.758">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/8483ff3a728a4983b1f78c47cc7ea053
+
+
+Also teardown failed:
+No application is open</status>
 </test>
 <test id="s1-s1-s1-t2" name="Scenario: Login successfully" line="15">
 <kw name="Before Tests" library="setup_keywords" type="SETUP">
@@ -166,126 +70,38 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="PASS" starttime="20230622 01:42:21.758" endtime="20230622 01:42:51.745"/>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230622 01:48:58.518" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:48:58.517" endtime="20230622 01:48:58.518"/>
 </kw>
-<status status="PASS" starttime="20230622 01:42:21.757" endtime="20230622 01:42:51.746"/>
+<msg timestamp="20230622 01:48:58.520" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:48:58.521" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/f971e581bbf24559ada0d89fc1f0b8e3
+</msg>
+<status status="FAIL" starttime="20230622 01:48:52.760" endtime="20230622 01:48:58.521"/>
 </kw>
-<kw name="Perform Login" library="login_keywords">
-<arg>bob@example.com</arg>
-<arg>10203040</arg>
-<kw name="Open Menu" library="login_keywords">
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${HAMBURGUER_MENU}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${HAMBURGUER_MENU}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:42:51.749" level="INFO">Clicking element 'accessibility_id=open menu'.</msg>
-<status status="PASS" starttime="20230622 01:42:51.747" endtime="20230622 01:42:52.863"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:51.747" endtime="20230622 01:42:52.863"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:51.746" endtime="20230622 01:42:52.864"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Select Menu Option</arg>
-<arg>${LOGIN_MENU}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Select Menu Option" library="login_keywords">
-<arg>${LOGIN_MENU}</arg>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${menu_option}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${menu_option}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:42:52.867" level="INFO">Clicking element 'accessibility_id=menu item log in'.</msg>
-<status status="PASS" starttime="20230622 01:42:52.865" endtime="20230622 01:42:54.885"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:52.865" endtime="20230622 01:42:54.886"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:52.864" endtime="20230622 01:42:54.886"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:52.864" endtime="20230622 01:42:54.886"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Enter Credentials</arg>
-<arg>${username}</arg>
-<arg>${password}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Enter Credentials" library="login_keywords">
-<arg>${username}</arg>
-<arg>${password}</arg>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Input Text</arg>
-<arg>${USERNAME_FIELD}</arg>
-<arg>${username}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Input Text" library="AppiumLibrary">
-<arg>${USERNAME_FIELD}</arg>
-<arg>${username}</arg>
-<doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230622 01:42:54.889" level="INFO">Typing text 'bob@example.com' into text field 'accessibility_id=Username input field'</msg>
-<status status="PASS" starttime="20230622 01:42:54.887" endtime="20230622 01:42:56.168"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:54.887" endtime="20230622 01:42:56.168"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Input Text</arg>
-<arg>${PASSWORD_FIELD}</arg>
-<arg>${password}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Input Text" library="AppiumLibrary">
-<arg>${PASSWORD_FIELD}</arg>
-<arg>${password}</arg>
-<doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230622 01:42:56.171" level="INFO">Typing text '10203040' into text field 'accessibility_id=Password input field'</msg>
-<status status="PASS" starttime="20230622 01:42:56.169" endtime="20230622 01:42:58.150"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:56.169" endtime="20230622 01:42:58.150"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${LOGIN_BTN}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${LOGIN_BTN}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:42:58.152" level="INFO">Clicking element 'accessibility_id=Login button'.</msg>
-<status status="PASS" starttime="20230622 01:42:58.150" endtime="20230622 01:42:58.997"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:58.150" endtime="20230622 01:42:58.997"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:54.886" endtime="20230622 01:42:58.997"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:54.886" endtime="20230622 01:42:58.997"/>
-</kw>
-<status status="PASS" starttime="20230622 01:42:51.746" endtime="20230622 01:42:58.997"/>
+<status status="FAIL" starttime="20230622 01:48:52.759" endtime="20230622 01:48:58.521"/>
 </kw>
 <kw name="After Tests" library="setup_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="PASS" starttime="20230622 01:42:58.998" endtime="20230622 01:42:59.510"/>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230622 01:48:58.522" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:48:58.522" endtime="20230622 01:48:58.523"/>
 </kw>
-<status status="PASS" starttime="20230622 01:42:58.998" endtime="20230622 01:42:59.510"/>
+<msg timestamp="20230622 01:48:58.525" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:48:58.525" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:48:58.522" endtime="20230622 01:48:58.525"/>
 </kw>
-<status status="PASS" starttime="20230622 01:42:21.757" endtime="20230622 01:42:59.510"/>
+<status status="FAIL" starttime="20230622 01:48:58.521" endtime="20230622 01:48:58.525">No application is open</status>
+</kw>
+<status status="FAIL" starttime="20230622 01:48:52.759" endtime="20230622 01:48:58.525">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/f971e581bbf24559ada0d89fc1f0b8e3
+
+
+Also teardown failed:
+No application is open</status>
 </test>
 <test id="s1-s1-s1-t3" name="Scenario: Logout successfully" line="18">
 <kw name="Before Tests" library="setup_keywords" type="SETUP">
@@ -304,227 +120,46 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="PASS" starttime="20230622 01:42:59.512" endtime="20230622 01:43:24.008"/>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230622 01:49:04.498" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:04.498" endtime="20230622 01:49:04.500"/>
 </kw>
-<status status="PASS" starttime="20230622 01:42:59.511" endtime="20230622 01:43:24.008"/>
+<msg timestamp="20230622 01:49:04.503" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:04.503" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/df660b9ac5e84b10aaab610eb3d72a44
+</msg>
+<status status="FAIL" starttime="20230622 01:48:58.527" endtime="20230622 01:49:04.504"/>
 </kw>
-<kw name="Perform Login" library="login_keywords">
-<arg>bob@example.com</arg>
-<arg>10203040</arg>
-<kw name="Open Menu" library="login_keywords">
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${HAMBURGUER_MENU}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${HAMBURGUER_MENU}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:43:24.013" level="INFO">Clicking element 'accessibility_id=open menu'.</msg>
-<status status="PASS" starttime="20230622 01:43:24.011" endtime="20230622 01:43:24.748"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:24.009" endtime="20230622 01:43:24.748"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:24.009" endtime="20230622 01:43:24.748"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Select Menu Option</arg>
-<arg>${LOGIN_MENU}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Select Menu Option" library="login_keywords">
-<arg>${LOGIN_MENU}</arg>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${menu_option}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${menu_option}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:43:24.752" level="INFO">Clicking element 'accessibility_id=menu item log in'.</msg>
-<status status="PASS" starttime="20230622 01:43:24.750" endtime="20230622 01:43:26.291"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:24.749" endtime="20230622 01:43:26.291"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:24.749" endtime="20230622 01:43:26.291"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:24.748" endtime="20230622 01:43:26.291"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Enter Credentials</arg>
-<arg>${username}</arg>
-<arg>${password}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Enter Credentials" library="login_keywords">
-<arg>${username}</arg>
-<arg>${password}</arg>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Input Text</arg>
-<arg>${USERNAME_FIELD}</arg>
-<arg>${username}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Input Text" library="AppiumLibrary">
-<arg>${USERNAME_FIELD}</arg>
-<arg>${username}</arg>
-<doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230622 01:43:26.296" level="INFO">Typing text 'bob@example.com' into text field 'accessibility_id=Username input field'</msg>
-<status status="PASS" starttime="20230622 01:43:26.293" endtime="20230622 01:43:28.317"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:26.293" endtime="20230622 01:43:28.317"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Input Text</arg>
-<arg>${PASSWORD_FIELD}</arg>
-<arg>${password}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Input Text" library="AppiumLibrary">
-<arg>${PASSWORD_FIELD}</arg>
-<arg>${password}</arg>
-<doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230622 01:43:28.320" level="INFO">Typing text '10203040' into text field 'accessibility_id=Password input field'</msg>
-<status status="PASS" starttime="20230622 01:43:28.317" endtime="20230622 01:43:29.165"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:28.317" endtime="20230622 01:43:29.165"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${LOGIN_BTN}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${LOGIN_BTN}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:43:29.168" level="INFO">Clicking element 'accessibility_id=Login button'.</msg>
-<status status="PASS" starttime="20230622 01:43:29.166" endtime="20230622 01:43:30.046"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:29.165" endtime="20230622 01:43:30.046"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:26.292" endtime="20230622 01:43:30.046"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:26.292" endtime="20230622 01:43:30.046"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:24.008" endtime="20230622 01:43:30.046"/>
-</kw>
-<kw name="Perform Logout" library="login_keywords">
-<kw name="Open Menu" library="login_keywords">
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${HAMBURGUER_MENU}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${HAMBURGUER_MENU}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:43:30.049" level="INFO">Clicking element 'accessibility_id=open menu'.</msg>
-<status status="PASS" starttime="20230622 01:43:30.047" endtime="20230622 01:43:31.835"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:30.047" endtime="20230622 01:43:31.835"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:30.047" endtime="20230622 01:43:31.835"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Select Menu Option</arg>
-<arg>${LOGOUT_MENU}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Select Menu Option" library="login_keywords">
-<arg>${LOGOUT_MENU}</arg>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${menu_option}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${menu_option}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:43:31.838" level="INFO">Clicking element 'accessibility_id=menu item log out'.</msg>
-<status status="PASS" starttime="20230622 01:43:31.836" endtime="20230622 01:43:33.255"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:31.836" endtime="20230622 01:43:33.255"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:31.835" endtime="20230622 01:43:33.255"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:31.835" endtime="20230622 01:43:33.256"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${LOGOUT_YES}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${LOGOUT_YES}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:43:33.258" level="INFO">Clicking element 'android:id/button1'.</msg>
-<msg timestamp="20230622 01:43:34.582" level="INFO">criteria is android:id/button1</msg>
-<status status="PASS" starttime="20230622 01:43:33.256" endtime="20230622 01:43:34.582"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:33.256" endtime="20230622 01:43:34.583"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Element Text Should Be</arg>
-<arg>${LOGOUT_MSG}</arg>
-<arg>You are successfully logged out.</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Element Text Should Be" library="AppiumLibrary">
-<arg>${LOGOUT_MSG}</arg>
-<arg>You are successfully logged out.</arg>
-<doc>Verifies element identified by ``locator`` exactly contains text ``expected``.</doc>
-<msg timestamp="20230622 01:43:34.585" level="INFO">Verifying element 'android:id/alertTitle' contains exactly text 'You are successfully logged out.'.</msg>
-<msg timestamp="20230622 01:43:35.320" level="INFO">criteria is android:id/alertTitle</msg>
-<status status="PASS" starttime="20230622 01:43:34.583" endtime="20230622 01:43:35.320"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:34.583" endtime="20230622 01:43:35.320"/>
-</kw>
-<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
-<arg>5x</arg>
-<arg>1s</arg>
-<arg>Click Element</arg>
-<arg>${LOGOUT_OK}</arg>
-<doc>Runs the specified keyword and retries if it fails.</doc>
-<kw name="Click Element" library="AppiumLibrary">
-<arg>${LOGOUT_OK}</arg>
-<doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230622 01:43:35.324" level="INFO">Clicking element 'android:id/button1'.</msg>
-<msg timestamp="20230622 01:43:35.763" level="INFO">criteria is android:id/button1</msg>
-<status status="PASS" starttime="20230622 01:43:35.321" endtime="20230622 01:43:35.763"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:35.320" endtime="20230622 01:43:35.763"/>
-</kw>
-<status status="PASS" starttime="20230622 01:43:30.046" endtime="20230622 01:43:35.763"/>
+<status status="FAIL" starttime="20230622 01:48:58.526" endtime="20230622 01:49:04.504"/>
 </kw>
 <kw name="After Tests" library="setup_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="PASS" starttime="20230622 01:43:35.764" endtime="20230622 01:43:36.098"/>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230622 01:49:04.505" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:04.505" endtime="20230622 01:49:04.506"/>
 </kw>
-<status status="PASS" starttime="20230622 01:43:35.763" endtime="20230622 01:43:36.098"/>
+<msg timestamp="20230622 01:49:04.508" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:04.508" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:04.505" endtime="20230622 01:49:04.508"/>
 </kw>
-<status status="PASS" starttime="20230622 01:42:59.511" endtime="20230622 01:43:36.098"/>
+<status status="FAIL" starttime="20230622 01:49:04.504" endtime="20230622 01:49:04.508">No application is open</status>
+</kw>
+<status status="FAIL" starttime="20230622 01:48:58.526" endtime="20230622 01:49:04.509">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/df660b9ac5e84b10aaab610eb3d72a44
+
+
+Also teardown failed:
+No application is open</status>
 </test>
-<status status="PASS" starttime="20230622 01:41:44.468" endtime="20230622 01:43:36.099"/>
+<status status="FAIL" starttime="20230622 01:48:46.513" endtime="20230622 01:49:04.510"/>
 </suite>
-<status status="PASS" starttime="20230622 01:41:44.465" endtime="20230622 01:43:36.101"/>
+<status status="FAIL" starttime="20230622 01:48:46.511" endtime="20230622 01:49:04.511"/>
 </suite>
 <suite id="s1-s2" name="Ios" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios">
-<suite id="s1-s2-s1" name="Test" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/test.robot">
-<test id="s1-s2-s1-t1" name="Scenario: Test Scenario" line="9">
+<suite id="s1-s2-s1" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/login.robot">
+<test id="s1-s2-s1-t1" name="Scenario: Login with wrong credentials" line="9">
 <kw name="Before Tests" library="setup_keywords" type="SETUP">
 <kw name="Open Application" library="AppiumLibrary">
 <arg>${REMOTE_URL}</arg>
@@ -543,34 +178,34 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:43:36.374" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:43:36.373" endtime="20230622 01:43:36.376"/>
+<msg timestamp="20230622 01:49:05.416" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:05.416" endtime="20230622 01:49:05.417"/>
 </kw>
-<msg timestamp="20230622 01:43:36.378" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:43:36.378" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
+<msg timestamp="20230622 01:49:05.418" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:05.419" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
 Driver info: driver.version: unknown
 </msg>
-<status status="FAIL" starttime="20230622 01:43:36.111" endtime="20230622 01:43:36.378"/>
+<status status="FAIL" starttime="20230622 01:49:04.522" endtime="20230622 01:49:05.419"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:43:36.111" endtime="20230622 01:43:36.378"/>
+<status status="FAIL" starttime="20230622 01:49:04.521" endtime="20230622 01:49:05.419"/>
 </kw>
 <kw name="After Tests" library="setup_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:43:36.380" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:43:36.379" endtime="20230622 01:43:36.380"/>
+<msg timestamp="20230622 01:49:05.421" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:05.420" endtime="20230622 01:49:05.421"/>
 </kw>
-<msg timestamp="20230622 01:43:36.381" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:43:36.382" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:43:36.379" endtime="20230622 01:43:36.382"/>
+<msg timestamp="20230622 01:49:05.423" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:05.423" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:05.420" endtime="20230622 01:49:05.423"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:43:36.379" endtime="20230622 01:43:36.382">No application is open</status>
+<status status="FAIL" starttime="20230622 01:49:05.420" endtime="20230622 01:49:05.423">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20230622 01:43:36.110" endtime="20230622 01:43:36.382">Setup failed:
+<status status="FAIL" starttime="20230622 01:49:04.521" endtime="20230622 01:49:05.424">Setup failed:
 SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
@@ -580,30 +215,152 @@ Driver info: driver.version: unknown
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" starttime="20230622 01:43:36.104" endtime="20230622 01:43:36.383"/>
+<test id="s1-s2-s1-t2" name="Scenario: Login successfully" line="12">
+<kw name="Before Tests" library="setup_keywords" type="SETUP">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>app=${APP}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>name=${JOB_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230622 01:49:05.673" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:05.672" endtime="20230622 01:49:05.673"/>
+</kw>
+<msg timestamp="20230622 01:49:05.675" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:05.675" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
+Driver info: driver.version: unknown
+</msg>
+<status status="FAIL" starttime="20230622 01:49:05.426" endtime="20230622 01:49:05.675"/>
+</kw>
+<status status="FAIL" starttime="20230622 01:49:05.425" endtime="20230622 01:49:05.676"/>
+</kw>
+<kw name="After Tests" library="setup_keywords" type="TEARDOWN">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230622 01:49:05.677" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:05.677" endtime="20230622 01:49:05.677"/>
+</kw>
+<msg timestamp="20230622 01:49:05.679" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:05.679" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:05.676" endtime="20230622 01:49:05.679"/>
+</kw>
+<status status="FAIL" starttime="20230622 01:49:05.676" endtime="20230622 01:49:05.680">No application is open</status>
+</kw>
+<status status="FAIL" starttime="20230622 01:49:05.425" endtime="20230622 01:49:05.680">Setup failed:
+SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
+Driver info: driver.version: unknown
+
+
+Also teardown failed:
+No application is open</status>
+</test>
+<test id="s1-s2-s1-t3" name="Scenario: Logout successfully" line="15">
+<kw name="Before Tests" library="setup_keywords" type="SETUP">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>app=${APP}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>name=${JOB_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230622 01:49:05.890" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:05.889" endtime="20230622 01:49:05.890"/>
+</kw>
+<msg timestamp="20230622 01:49:05.892" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:05.892" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
+Driver info: driver.version: unknown
+</msg>
+<status status="FAIL" starttime="20230622 01:49:05.681" endtime="20230622 01:49:05.893"/>
+</kw>
+<status status="FAIL" starttime="20230622 01:49:05.681" endtime="20230622 01:49:05.893"/>
+</kw>
+<kw name="After Tests" library="setup_keywords" type="TEARDOWN">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230622 01:49:05.895" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:05.895" endtime="20230622 01:49:05.895"/>
+</kw>
+<msg timestamp="20230622 01:49:05.897" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:05.897" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:49:05.894" endtime="20230622 01:49:05.897"/>
+</kw>
+<status status="FAIL" starttime="20230622 01:49:05.893" endtime="20230622 01:49:05.897">No application is open</status>
+</kw>
+<status status="FAIL" starttime="20230622 01:49:05.680" endtime="20230622 01:49:05.898">Setup failed:
+SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
+Driver info: driver.version: unknown
+
+
+Also teardown failed:
+No application is open</status>
+</test>
+<status status="FAIL" starttime="20230622 01:49:04.515" endtime="20230622 01:49:05.898"/>
 </suite>
-<status status="FAIL" starttime="20230622 01:43:36.102" endtime="20230622 01:43:36.385"/>
+<status status="FAIL" starttime="20230622 01:49:04.512" endtime="20230622 01:49:05.899"/>
 </suite>
-<status status="FAIL" starttime="20230622 01:41:44.435" endtime="20230622 01:43:36.386"/>
+<status status="FAIL" starttime="20230622 01:48:46.483" endtime="20230622 01:49:05.900"/>
 </suite>
 <statistics>
 <total>
-<stat pass="3" fail="1" skip="0">All Tests</stat>
+<stat pass="0" fail="6" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="3" fail="1" skip="0" id="s1" name="Tests">Tests</stat>
-<stat pass="3" fail="0" skip="0" id="s1-s1" name="Android">Tests.Android</stat>
-<stat pass="3" fail="0" skip="0" id="s1-s1-s1" name="Login">Tests.Android.Login</stat>
-<stat pass="0" fail="1" skip="0" id="s1-s2" name="Ios">Tests.Ios</stat>
-<stat pass="0" fail="1" skip="0" id="s1-s2-s1" name="Test">Tests.Ios.Test</stat>
+<stat pass="0" fail="6" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s1" name="Android">Tests.Android</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s1-s1" name="Login">Tests.Android.Login</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s2" name="Ios">Tests.Ios</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s2-s1" name="Login">Tests.Ios.Login</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20230622 01:41:44.639" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/variables/android_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist.</msg>
-<msg timestamp="20230622 01:43:36.108" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/ios/variables/ios_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist.</msg>
-<msg timestamp="20230622 01:43:36.378" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:43:36.381" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:48:46.669" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/variables/android_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist.</msg>
+<msg timestamp="20230622 01:48:52.753" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:48:52.758" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:48:58.520" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:48:58.525" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:04.503" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:04.508" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:04.518" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/ios/variables/ios_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist.</msg>
+<msg timestamp="20230622 01:49:05.418" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:05.423" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:05.675" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:05.679" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:05.892" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:49:05.897" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
 </errors>
 </robot>

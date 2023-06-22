@@ -8,7 +8,7 @@
   "robot": {
     "_attributes": {
       "generator": "Robot 6.1 (Python 3.8.17 on linux)",
-      "generated": "20230622 01:41:44.433",
+      "generated": "20230622 01:48:46.482",
       "rpa": "false",
       "schemaversion": "4"
     },
@@ -76,493 +76,58 @@
                       "doc": {
                         "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                       },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:52.750",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:48:52.749",
+                            "endtime": "20230622 01:48:52.751"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:52.753",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:52.754",
+                            "level": "FAIL"
+                          },
+                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/8483ff3a728a4983b1f78c47cc7ea053\n"
+                        }
+                      ],
                       "status": {
                         "_attributes": {
-                          "status": "PASS",
-                          "starttime": "20230622 01:41:44.647",
-                          "endtime": "20230622 01:42:15.476"
+                          "status": "FAIL",
+                          "starttime": "20230622 01:48:46.677",
+                          "endtime": "20230622 01:48:52.754"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
-                        "status": "PASS",
-                        "starttime": "20230622 01:41:44.647",
-                        "endtime": "20230622 01:42:15.476"
-                      }
-                    }
-                  },
-                  {
-                    "_attributes": {
-                      "name": "Perform Login",
-                      "library": "login_keywords"
-                    },
-                    "arg": [
-                      {
-                        "_text": "test"
-                      },
-                      {
-                        "_text": "test"
-                      }
-                    ],
-                    "kw": [
-                      {
-                        "_attributes": {
-                          "name": "Open Menu",
-                          "library": "login_keywords"
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Wait Until Keyword Succeeds",
-                            "library": "BuiltIn"
-                          },
-                          "arg": [
-                            {
-                              "_text": "5x"
-                            },
-                            {
-                              "_text": "1s"
-                            },
-                            {
-                              "_text": "Click Element"
-                            },
-                            {
-                              "_text": "${HAMBURGUER_MENU}"
-                            }
-                          ],
-                          "doc": {
-                            "_text": "Runs the specified keyword and retries if it fails."
-                          },
-                          "kw": {
-                            "_attributes": {
-                              "name": "Click Element",
-                              "library": "AppiumLibrary"
-                            },
-                            "arg": {
-                              "_text": "${HAMBURGUER_MENU}"
-                            },
-                            "doc": {
-                              "_text": "Click element identified by `locator`."
-                            },
-                            "msg": {
-                              "_attributes": {
-                                "timestamp": "20230622 01:42:15.479",
-                                "level": "INFO"
-                              },
-                              "_text": "Clicking element 'accessibility_id=open menu'."
-                            },
-                            "status": {
-                              "_attributes": {
-                                "status": "PASS",
-                                "starttime": "20230622 01:42:15.478",
-                                "endtime": "20230622 01:42:16.060"
-                              }
-                            }
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:42:15.477",
-                              "endtime": "20230622 01:42:16.060"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:42:15.477",
-                            "endtime": "20230622 01:42:16.060"
-                          }
-                        }
-                      },
-                      {
-                        "_attributes": {
-                          "name": "Wait Until Keyword Succeeds",
-                          "library": "BuiltIn"
-                        },
-                        "arg": [
-                          {
-                            "_text": "5x"
-                          },
-                          {
-                            "_text": "1s"
-                          },
-                          {
-                            "_text": "Select Menu Option"
-                          },
-                          {
-                            "_text": "${LOGIN_MENU}"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Runs the specified keyword and retries if it fails."
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Select Menu Option",
-                            "library": "login_keywords"
-                          },
-                          "arg": {
-                            "_text": "${LOGIN_MENU}"
-                          },
-                          "kw": {
-                            "_attributes": {
-                              "name": "Wait Until Keyword Succeeds",
-                              "library": "BuiltIn"
-                            },
-                            "arg": [
-                              {
-                                "_text": "5x"
-                              },
-                              {
-                                "_text": "1s"
-                              },
-                              {
-                                "_text": "Click Element"
-                              },
-                              {
-                                "_text": "${menu_option}"
-                              }
-                            ],
-                            "doc": {
-                              "_text": "Runs the specified keyword and retries if it fails."
-                            },
-                            "kw": {
-                              "_attributes": {
-                                "name": "Click Element",
-                                "library": "AppiumLibrary"
-                              },
-                              "arg": {
-                                "_text": "${menu_option}"
-                              },
-                              "doc": {
-                                "_text": "Click element identified by `locator`."
-                              },
-                              "msg": {
-                                "_attributes": {
-                                  "timestamp": "20230622 01:42:16.065",
-                                  "level": "INFO"
-                                },
-                                "_text": "Clicking element 'accessibility_id=menu item log in'."
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:42:16.063",
-                                  "endtime": "20230622 01:42:17.557"
-                                }
-                              }
-                            },
-                            "status": {
-                              "_attributes": {
-                                "status": "PASS",
-                                "starttime": "20230622 01:42:16.062",
-                                "endtime": "20230622 01:42:17.558"
-                              }
-                            }
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:42:16.061",
-                              "endtime": "20230622 01:42:17.558"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:42:16.060",
-                            "endtime": "20230622 01:42:17.558"
-                          }
-                        }
-                      },
-                      {
-                        "_attributes": {
-                          "name": "Wait Until Keyword Succeeds",
-                          "library": "BuiltIn"
-                        },
-                        "arg": [
-                          {
-                            "_text": "5x"
-                          },
-                          {
-                            "_text": "1s"
-                          },
-                          {
-                            "_text": "Enter Credentials"
-                          },
-                          {
-                            "_text": "${username}"
-                          },
-                          {
-                            "_text": "${password}"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Runs the specified keyword and retries if it fails."
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Enter Credentials",
-                            "library": "login_keywords"
-                          },
-                          "arg": [
-                            {
-                              "_text": "${username}"
-                            },
-                            {
-                              "_text": "${password}"
-                            }
-                          ],
-                          "kw": [
-                            {
-                              "_attributes": {
-                                "name": "Wait Until Keyword Succeeds",
-                                "library": "BuiltIn"
-                              },
-                              "arg": [
-                                {
-                                  "_text": "5x"
-                                },
-                                {
-                                  "_text": "1s"
-                                },
-                                {
-                                  "_text": "Input Text"
-                                },
-                                {
-                                  "_text": "${USERNAME_FIELD}"
-                                },
-                                {
-                                  "_text": "${username}"
-                                }
-                              ],
-                              "doc": {
-                                "_text": "Runs the specified keyword and retries if it fails."
-                              },
-                              "kw": {
-                                "_attributes": {
-                                  "name": "Input Text",
-                                  "library": "AppiumLibrary"
-                                },
-                                "arg": [
-                                  {
-                                    "_text": "${USERNAME_FIELD}"
-                                  },
-                                  {
-                                    "_text": "${username}"
-                                  }
-                                ],
-                                "doc": {
-                                  "_text": "Types the given `text` into text field identified by `locator`."
-                                },
-                                "msg": {
-                                  "_attributes": {
-                                    "timestamp": "20230622 01:42:17.561",
-                                    "level": "INFO"
-                                  },
-                                  "_text": "Typing text 'test' into text field 'accessibility_id=Username input field'"
-                                },
-                                "status": {
-                                  "_attributes": {
-                                    "status": "PASS",
-                                    "starttime": "20230622 01:42:17.559",
-                                    "endtime": "20230622 01:42:19.156"
-                                  }
-                                }
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:42:17.559",
-                                  "endtime": "20230622 01:42:19.157"
-                                }
-                              }
-                            },
-                            {
-                              "_attributes": {
-                                "name": "Wait Until Keyword Succeeds",
-                                "library": "BuiltIn"
-                              },
-                              "arg": [
-                                {
-                                  "_text": "5x"
-                                },
-                                {
-                                  "_text": "1s"
-                                },
-                                {
-                                  "_text": "Input Text"
-                                },
-                                {
-                                  "_text": "${PASSWORD_FIELD}"
-                                },
-                                {
-                                  "_text": "${password}"
-                                }
-                              ],
-                              "doc": {
-                                "_text": "Runs the specified keyword and retries if it fails."
-                              },
-                              "kw": {
-                                "_attributes": {
-                                  "name": "Input Text",
-                                  "library": "AppiumLibrary"
-                                },
-                                "arg": [
-                                  {
-                                    "_text": "${PASSWORD_FIELD}"
-                                  },
-                                  {
-                                    "_text": "${password}"
-                                  }
-                                ],
-                                "doc": {
-                                  "_text": "Types the given `text` into text field identified by `locator`."
-                                },
-                                "msg": {
-                                  "_attributes": {
-                                    "timestamp": "20230622 01:42:19.160",
-                                    "level": "INFO"
-                                  },
-                                  "_text": "Typing text 'test' into text field 'accessibility_id=Password input field'"
-                                },
-                                "status": {
-                                  "_attributes": {
-                                    "status": "PASS",
-                                    "starttime": "20230622 01:42:19.157",
-                                    "endtime": "20230622 01:42:19.839"
-                                  }
-                                }
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:42:19.157",
-                                  "endtime": "20230622 01:42:19.839"
-                                }
-                              }
-                            },
-                            {
-                              "_attributes": {
-                                "name": "Wait Until Keyword Succeeds",
-                                "library": "BuiltIn"
-                              },
-                              "arg": [
-                                {
-                                  "_text": "5x"
-                                },
-                                {
-                                  "_text": "1s"
-                                },
-                                {
-                                  "_text": "Click Element"
-                                },
-                                {
-                                  "_text": "${LOGIN_BTN}"
-                                }
-                              ],
-                              "doc": {
-                                "_text": "Runs the specified keyword and retries if it fails."
-                              },
-                              "kw": {
-                                "_attributes": {
-                                  "name": "Click Element",
-                                  "library": "AppiumLibrary"
-                                },
-                                "arg": {
-                                  "_text": "${LOGIN_BTN}"
-                                },
-                                "doc": {
-                                  "_text": "Click element identified by `locator`."
-                                },
-                                "msg": {
-                                  "_attributes": {
-                                    "timestamp": "20230622 01:42:19.842",
-                                    "level": "INFO"
-                                  },
-                                  "_text": "Clicking element 'accessibility_id=Login button'."
-                                },
-                                "status": {
-                                  "_attributes": {
-                                    "status": "PASS",
-                                    "starttime": "20230622 01:42:19.840",
-                                    "endtime": "20230622 01:42:20.692"
-                                  }
-                                }
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:42:19.839",
-                                  "endtime": "20230622 01:42:20.692"
-                                }
-                              }
-                            }
-                          ],
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:42:17.558",
-                              "endtime": "20230622 01:42:20.692"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:42:17.558",
-                            "endtime": "20230622 01:42:20.692"
-                          }
-                        }
-                      }
-                    ],
-                    "status": {
-                      "_attributes": {
-                        "status": "PASS",
-                        "starttime": "20230622 01:42:15.476",
-                        "endtime": "20230622 01:42:20.692"
-                      }
-                    }
-                  },
-                  {
-                    "_attributes": {
-                      "name": "Element Text Should Be",
-                      "library": "AppiumLibrary"
-                    },
-                    "arg": [
-                      {
-                        "_text": "${ERROR_MSG}"
-                      },
-                      {
-                        "_text": "Provided credentials do not match any user in this service."
-                      }
-                    ],
-                    "doc": {
-                      "_text": "Verifies element identified by ``locator`` exactly contains text ``expected``."
-                    },
-                    "msg": [
-                      {
-                        "_attributes": {
-                          "timestamp": "20230622 01:42:20.694",
-                          "level": "INFO"
-                        },
-                        "_text": "Verifying element '//android.view.ViewGroup[@content-desc=\"generic-error-message\"]/android.widget.TextView' contains exactly text 'Provided credentials do not match any user in this service.'."
-                      },
-                      {
-                        "_attributes": {
-                          "timestamp": "20230622 01:42:21.518",
-                          "level": "INFO"
-                        },
-                        "_text": "xpath criteria: //android.view.ViewGroup[@content-desc=\"generic-error-message\"]/android.widget.TextView"
-                      }
-                    ],
-                    "status": {
-                      "_attributes": {
-                        "status": "PASS",
-                        "starttime": "20230622 01:42:20.692",
-                        "endtime": "20230622 01:42:21.518"
+                        "status": "FAIL",
+                        "starttime": "20230622 01:48:46.677",
+                        "endtime": "20230622 01:48:52.754"
                       }
                     }
                   },
@@ -580,29 +145,70 @@
                       "doc": {
                         "_text": "Closes the current application and also close webdriver session."
                       },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:52.756",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:48:52.755",
+                            "endtime": "20230622 01:48:52.756"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:52.758",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:52.758",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        }
+                      ],
                       "status": {
                         "_attributes": {
-                          "status": "PASS",
-                          "starttime": "20230622 01:42:21.519",
-                          "endtime": "20230622 01:42:21.756"
+                          "status": "FAIL",
+                          "starttime": "20230622 01:48:52.755",
+                          "endtime": "20230622 01:48:52.758"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
-                        "status": "PASS",
-                        "starttime": "20230622 01:42:21.519",
-                        "endtime": "20230622 01:42:21.756"
-                      }
+                        "status": "FAIL",
+                        "starttime": "20230622 01:48:52.754",
+                        "endtime": "20230622 01:48:52.758"
+                      },
+                      "_text": "No application is open"
                     }
                   }
                 ],
                 "status": {
                   "_attributes": {
-                    "status": "PASS",
-                    "starttime": "20230622 01:41:44.646",
-                    "endtime": "20230622 01:42:21.756"
-                  }
+                    "status": "FAIL",
+                    "starttime": "20230622 01:48:46.676",
+                    "endtime": "20230622 01:48:52.758"
+                  },
+                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/8483ff3a728a4983b1f78c47cc7ea053\n\n\nAlso teardown failed:\nNo application is open"
                 }
               },
               {
@@ -649,453 +255,58 @@
                       "doc": {
                         "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                       },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:58.518",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:48:58.517",
+                            "endtime": "20230622 01:48:58.518"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:58.520",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:58.521",
+                            "level": "FAIL"
+                          },
+                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/f971e581bbf24559ada0d89fc1f0b8e3\n"
+                        }
+                      ],
                       "status": {
                         "_attributes": {
-                          "status": "PASS",
-                          "starttime": "20230622 01:42:21.758",
-                          "endtime": "20230622 01:42:51.745"
+                          "status": "FAIL",
+                          "starttime": "20230622 01:48:52.760",
+                          "endtime": "20230622 01:48:58.521"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
-                        "status": "PASS",
-                        "starttime": "20230622 01:42:21.757",
-                        "endtime": "20230622 01:42:51.746"
-                      }
-                    }
-                  },
-                  {
-                    "_attributes": {
-                      "name": "Perform Login",
-                      "library": "login_keywords"
-                    },
-                    "arg": [
-                      {
-                        "_text": "bob@example.com"
-                      },
-                      {
-                        "_text": "10203040"
-                      }
-                    ],
-                    "kw": [
-                      {
-                        "_attributes": {
-                          "name": "Open Menu",
-                          "library": "login_keywords"
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Wait Until Keyword Succeeds",
-                            "library": "BuiltIn"
-                          },
-                          "arg": [
-                            {
-                              "_text": "5x"
-                            },
-                            {
-                              "_text": "1s"
-                            },
-                            {
-                              "_text": "Click Element"
-                            },
-                            {
-                              "_text": "${HAMBURGUER_MENU}"
-                            }
-                          ],
-                          "doc": {
-                            "_text": "Runs the specified keyword and retries if it fails."
-                          },
-                          "kw": {
-                            "_attributes": {
-                              "name": "Click Element",
-                              "library": "AppiumLibrary"
-                            },
-                            "arg": {
-                              "_text": "${HAMBURGUER_MENU}"
-                            },
-                            "doc": {
-                              "_text": "Click element identified by `locator`."
-                            },
-                            "msg": {
-                              "_attributes": {
-                                "timestamp": "20230622 01:42:51.749",
-                                "level": "INFO"
-                              },
-                              "_text": "Clicking element 'accessibility_id=open menu'."
-                            },
-                            "status": {
-                              "_attributes": {
-                                "status": "PASS",
-                                "starttime": "20230622 01:42:51.747",
-                                "endtime": "20230622 01:42:52.863"
-                              }
-                            }
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:42:51.747",
-                              "endtime": "20230622 01:42:52.863"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:42:51.746",
-                            "endtime": "20230622 01:42:52.864"
-                          }
-                        }
-                      },
-                      {
-                        "_attributes": {
-                          "name": "Wait Until Keyword Succeeds",
-                          "library": "BuiltIn"
-                        },
-                        "arg": [
-                          {
-                            "_text": "5x"
-                          },
-                          {
-                            "_text": "1s"
-                          },
-                          {
-                            "_text": "Select Menu Option"
-                          },
-                          {
-                            "_text": "${LOGIN_MENU}"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Runs the specified keyword and retries if it fails."
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Select Menu Option",
-                            "library": "login_keywords"
-                          },
-                          "arg": {
-                            "_text": "${LOGIN_MENU}"
-                          },
-                          "kw": {
-                            "_attributes": {
-                              "name": "Wait Until Keyword Succeeds",
-                              "library": "BuiltIn"
-                            },
-                            "arg": [
-                              {
-                                "_text": "5x"
-                              },
-                              {
-                                "_text": "1s"
-                              },
-                              {
-                                "_text": "Click Element"
-                              },
-                              {
-                                "_text": "${menu_option}"
-                              }
-                            ],
-                            "doc": {
-                              "_text": "Runs the specified keyword and retries if it fails."
-                            },
-                            "kw": {
-                              "_attributes": {
-                                "name": "Click Element",
-                                "library": "AppiumLibrary"
-                              },
-                              "arg": {
-                                "_text": "${menu_option}"
-                              },
-                              "doc": {
-                                "_text": "Click element identified by `locator`."
-                              },
-                              "msg": {
-                                "_attributes": {
-                                  "timestamp": "20230622 01:42:52.867",
-                                  "level": "INFO"
-                                },
-                                "_text": "Clicking element 'accessibility_id=menu item log in'."
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:42:52.865",
-                                  "endtime": "20230622 01:42:54.885"
-                                }
-                              }
-                            },
-                            "status": {
-                              "_attributes": {
-                                "status": "PASS",
-                                "starttime": "20230622 01:42:52.865",
-                                "endtime": "20230622 01:42:54.886"
-                              }
-                            }
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:42:52.864",
-                              "endtime": "20230622 01:42:54.886"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:42:52.864",
-                            "endtime": "20230622 01:42:54.886"
-                          }
-                        }
-                      },
-                      {
-                        "_attributes": {
-                          "name": "Wait Until Keyword Succeeds",
-                          "library": "BuiltIn"
-                        },
-                        "arg": [
-                          {
-                            "_text": "5x"
-                          },
-                          {
-                            "_text": "1s"
-                          },
-                          {
-                            "_text": "Enter Credentials"
-                          },
-                          {
-                            "_text": "${username}"
-                          },
-                          {
-                            "_text": "${password}"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Runs the specified keyword and retries if it fails."
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Enter Credentials",
-                            "library": "login_keywords"
-                          },
-                          "arg": [
-                            {
-                              "_text": "${username}"
-                            },
-                            {
-                              "_text": "${password}"
-                            }
-                          ],
-                          "kw": [
-                            {
-                              "_attributes": {
-                                "name": "Wait Until Keyword Succeeds",
-                                "library": "BuiltIn"
-                              },
-                              "arg": [
-                                {
-                                  "_text": "5x"
-                                },
-                                {
-                                  "_text": "1s"
-                                },
-                                {
-                                  "_text": "Input Text"
-                                },
-                                {
-                                  "_text": "${USERNAME_FIELD}"
-                                },
-                                {
-                                  "_text": "${username}"
-                                }
-                              ],
-                              "doc": {
-                                "_text": "Runs the specified keyword and retries if it fails."
-                              },
-                              "kw": {
-                                "_attributes": {
-                                  "name": "Input Text",
-                                  "library": "AppiumLibrary"
-                                },
-                                "arg": [
-                                  {
-                                    "_text": "${USERNAME_FIELD}"
-                                  },
-                                  {
-                                    "_text": "${username}"
-                                  }
-                                ],
-                                "doc": {
-                                  "_text": "Types the given `text` into text field identified by `locator`."
-                                },
-                                "msg": {
-                                  "_attributes": {
-                                    "timestamp": "20230622 01:42:54.889",
-                                    "level": "INFO"
-                                  },
-                                  "_text": "Typing text 'bob@example.com' into text field 'accessibility_id=Username input field'"
-                                },
-                                "status": {
-                                  "_attributes": {
-                                    "status": "PASS",
-                                    "starttime": "20230622 01:42:54.887",
-                                    "endtime": "20230622 01:42:56.168"
-                                  }
-                                }
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:42:54.887",
-                                  "endtime": "20230622 01:42:56.168"
-                                }
-                              }
-                            },
-                            {
-                              "_attributes": {
-                                "name": "Wait Until Keyword Succeeds",
-                                "library": "BuiltIn"
-                              },
-                              "arg": [
-                                {
-                                  "_text": "5x"
-                                },
-                                {
-                                  "_text": "1s"
-                                },
-                                {
-                                  "_text": "Input Text"
-                                },
-                                {
-                                  "_text": "${PASSWORD_FIELD}"
-                                },
-                                {
-                                  "_text": "${password}"
-                                }
-                              ],
-                              "doc": {
-                                "_text": "Runs the specified keyword and retries if it fails."
-                              },
-                              "kw": {
-                                "_attributes": {
-                                  "name": "Input Text",
-                                  "library": "AppiumLibrary"
-                                },
-                                "arg": [
-                                  {
-                                    "_text": "${PASSWORD_FIELD}"
-                                  },
-                                  {
-                                    "_text": "${password}"
-                                  }
-                                ],
-                                "doc": {
-                                  "_text": "Types the given `text` into text field identified by `locator`."
-                                },
-                                "msg": {
-                                  "_attributes": {
-                                    "timestamp": "20230622 01:42:56.171",
-                                    "level": "INFO"
-                                  },
-                                  "_text": "Typing text '10203040' into text field 'accessibility_id=Password input field'"
-                                },
-                                "status": {
-                                  "_attributes": {
-                                    "status": "PASS",
-                                    "starttime": "20230622 01:42:56.169",
-                                    "endtime": "20230622 01:42:58.150"
-                                  }
-                                }
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:42:56.169",
-                                  "endtime": "20230622 01:42:58.150"
-                                }
-                              }
-                            },
-                            {
-                              "_attributes": {
-                                "name": "Wait Until Keyword Succeeds",
-                                "library": "BuiltIn"
-                              },
-                              "arg": [
-                                {
-                                  "_text": "5x"
-                                },
-                                {
-                                  "_text": "1s"
-                                },
-                                {
-                                  "_text": "Click Element"
-                                },
-                                {
-                                  "_text": "${LOGIN_BTN}"
-                                }
-                              ],
-                              "doc": {
-                                "_text": "Runs the specified keyword and retries if it fails."
-                              },
-                              "kw": {
-                                "_attributes": {
-                                  "name": "Click Element",
-                                  "library": "AppiumLibrary"
-                                },
-                                "arg": {
-                                  "_text": "${LOGIN_BTN}"
-                                },
-                                "doc": {
-                                  "_text": "Click element identified by `locator`."
-                                },
-                                "msg": {
-                                  "_attributes": {
-                                    "timestamp": "20230622 01:42:58.152",
-                                    "level": "INFO"
-                                  },
-                                  "_text": "Clicking element 'accessibility_id=Login button'."
-                                },
-                                "status": {
-                                  "_attributes": {
-                                    "status": "PASS",
-                                    "starttime": "20230622 01:42:58.150",
-                                    "endtime": "20230622 01:42:58.997"
-                                  }
-                                }
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:42:58.150",
-                                  "endtime": "20230622 01:42:58.997"
-                                }
-                              }
-                            }
-                          ],
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:42:54.886",
-                              "endtime": "20230622 01:42:58.997"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:42:54.886",
-                            "endtime": "20230622 01:42:58.997"
-                          }
-                        }
-                      }
-                    ],
-                    "status": {
-                      "_attributes": {
-                        "status": "PASS",
-                        "starttime": "20230622 01:42:51.746",
-                        "endtime": "20230622 01:42:58.997"
+                        "status": "FAIL",
+                        "starttime": "20230622 01:48:52.759",
+                        "endtime": "20230622 01:48:58.521"
                       }
                     }
                   },
@@ -1113,29 +324,70 @@
                       "doc": {
                         "_text": "Closes the current application and also close webdriver session."
                       },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:58.522",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:48:58.522",
+                            "endtime": "20230622 01:48:58.523"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:58.525",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:48:58.525",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        }
+                      ],
                       "status": {
                         "_attributes": {
-                          "status": "PASS",
-                          "starttime": "20230622 01:42:58.998",
-                          "endtime": "20230622 01:42:59.510"
+                          "status": "FAIL",
+                          "starttime": "20230622 01:48:58.522",
+                          "endtime": "20230622 01:48:58.525"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
-                        "status": "PASS",
-                        "starttime": "20230622 01:42:58.998",
-                        "endtime": "20230622 01:42:59.510"
-                      }
+                        "status": "FAIL",
+                        "starttime": "20230622 01:48:58.521",
+                        "endtime": "20230622 01:48:58.525"
+                      },
+                      "_text": "No application is open"
                     }
                   }
                 ],
                 "status": {
                   "_attributes": {
-                    "status": "PASS",
-                    "starttime": "20230622 01:42:21.757",
-                    "endtime": "20230622 01:42:59.510"
-                  }
+                    "status": "FAIL",
+                    "starttime": "20230622 01:48:52.759",
+                    "endtime": "20230622 01:48:58.525"
+                  },
+                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/f971e581bbf24559ada0d89fc1f0b8e3\n\n\nAlso teardown failed:\nNo application is open"
                 }
               },
               {
@@ -1182,842 +434,58 @@
                       "doc": {
                         "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                       },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:04.498",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:49:04.498",
+                            "endtime": "20230622 01:49:04.500"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:04.503",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:04.503",
+                            "level": "FAIL"
+                          },
+                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/df660b9ac5e84b10aaab610eb3d72a44\n"
+                        }
+                      ],
                       "status": {
                         "_attributes": {
-                          "status": "PASS",
-                          "starttime": "20230622 01:42:59.512",
-                          "endtime": "20230622 01:43:24.008"
+                          "status": "FAIL",
+                          "starttime": "20230622 01:48:58.527",
+                          "endtime": "20230622 01:49:04.504"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
-                        "status": "PASS",
-                        "starttime": "20230622 01:42:59.511",
-                        "endtime": "20230622 01:43:24.008"
-                      }
-                    }
-                  },
-                  {
-                    "_attributes": {
-                      "name": "Perform Login",
-                      "library": "login_keywords"
-                    },
-                    "arg": [
-                      {
-                        "_text": "bob@example.com"
-                      },
-                      {
-                        "_text": "10203040"
-                      }
-                    ],
-                    "kw": [
-                      {
-                        "_attributes": {
-                          "name": "Open Menu",
-                          "library": "login_keywords"
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Wait Until Keyword Succeeds",
-                            "library": "BuiltIn"
-                          },
-                          "arg": [
-                            {
-                              "_text": "5x"
-                            },
-                            {
-                              "_text": "1s"
-                            },
-                            {
-                              "_text": "Click Element"
-                            },
-                            {
-                              "_text": "${HAMBURGUER_MENU}"
-                            }
-                          ],
-                          "doc": {
-                            "_text": "Runs the specified keyword and retries if it fails."
-                          },
-                          "kw": {
-                            "_attributes": {
-                              "name": "Click Element",
-                              "library": "AppiumLibrary"
-                            },
-                            "arg": {
-                              "_text": "${HAMBURGUER_MENU}"
-                            },
-                            "doc": {
-                              "_text": "Click element identified by `locator`."
-                            },
-                            "msg": {
-                              "_attributes": {
-                                "timestamp": "20230622 01:43:24.013",
-                                "level": "INFO"
-                              },
-                              "_text": "Clicking element 'accessibility_id=open menu'."
-                            },
-                            "status": {
-                              "_attributes": {
-                                "status": "PASS",
-                                "starttime": "20230622 01:43:24.011",
-                                "endtime": "20230622 01:43:24.748"
-                              }
-                            }
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:43:24.009",
-                              "endtime": "20230622 01:43:24.748"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:43:24.009",
-                            "endtime": "20230622 01:43:24.748"
-                          }
-                        }
-                      },
-                      {
-                        "_attributes": {
-                          "name": "Wait Until Keyword Succeeds",
-                          "library": "BuiltIn"
-                        },
-                        "arg": [
-                          {
-                            "_text": "5x"
-                          },
-                          {
-                            "_text": "1s"
-                          },
-                          {
-                            "_text": "Select Menu Option"
-                          },
-                          {
-                            "_text": "${LOGIN_MENU}"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Runs the specified keyword and retries if it fails."
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Select Menu Option",
-                            "library": "login_keywords"
-                          },
-                          "arg": {
-                            "_text": "${LOGIN_MENU}"
-                          },
-                          "kw": {
-                            "_attributes": {
-                              "name": "Wait Until Keyword Succeeds",
-                              "library": "BuiltIn"
-                            },
-                            "arg": [
-                              {
-                                "_text": "5x"
-                              },
-                              {
-                                "_text": "1s"
-                              },
-                              {
-                                "_text": "Click Element"
-                              },
-                              {
-                                "_text": "${menu_option}"
-                              }
-                            ],
-                            "doc": {
-                              "_text": "Runs the specified keyword and retries if it fails."
-                            },
-                            "kw": {
-                              "_attributes": {
-                                "name": "Click Element",
-                                "library": "AppiumLibrary"
-                              },
-                              "arg": {
-                                "_text": "${menu_option}"
-                              },
-                              "doc": {
-                                "_text": "Click element identified by `locator`."
-                              },
-                              "msg": {
-                                "_attributes": {
-                                  "timestamp": "20230622 01:43:24.752",
-                                  "level": "INFO"
-                                },
-                                "_text": "Clicking element 'accessibility_id=menu item log in'."
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:43:24.750",
-                                  "endtime": "20230622 01:43:26.291"
-                                }
-                              }
-                            },
-                            "status": {
-                              "_attributes": {
-                                "status": "PASS",
-                                "starttime": "20230622 01:43:24.749",
-                                "endtime": "20230622 01:43:26.291"
-                              }
-                            }
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:43:24.749",
-                              "endtime": "20230622 01:43:26.291"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:43:24.748",
-                            "endtime": "20230622 01:43:26.291"
-                          }
-                        }
-                      },
-                      {
-                        "_attributes": {
-                          "name": "Wait Until Keyword Succeeds",
-                          "library": "BuiltIn"
-                        },
-                        "arg": [
-                          {
-                            "_text": "5x"
-                          },
-                          {
-                            "_text": "1s"
-                          },
-                          {
-                            "_text": "Enter Credentials"
-                          },
-                          {
-                            "_text": "${username}"
-                          },
-                          {
-                            "_text": "${password}"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Runs the specified keyword and retries if it fails."
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Enter Credentials",
-                            "library": "login_keywords"
-                          },
-                          "arg": [
-                            {
-                              "_text": "${username}"
-                            },
-                            {
-                              "_text": "${password}"
-                            }
-                          ],
-                          "kw": [
-                            {
-                              "_attributes": {
-                                "name": "Wait Until Keyword Succeeds",
-                                "library": "BuiltIn"
-                              },
-                              "arg": [
-                                {
-                                  "_text": "5x"
-                                },
-                                {
-                                  "_text": "1s"
-                                },
-                                {
-                                  "_text": "Input Text"
-                                },
-                                {
-                                  "_text": "${USERNAME_FIELD}"
-                                },
-                                {
-                                  "_text": "${username}"
-                                }
-                              ],
-                              "doc": {
-                                "_text": "Runs the specified keyword and retries if it fails."
-                              },
-                              "kw": {
-                                "_attributes": {
-                                  "name": "Input Text",
-                                  "library": "AppiumLibrary"
-                                },
-                                "arg": [
-                                  {
-                                    "_text": "${USERNAME_FIELD}"
-                                  },
-                                  {
-                                    "_text": "${username}"
-                                  }
-                                ],
-                                "doc": {
-                                  "_text": "Types the given `text` into text field identified by `locator`."
-                                },
-                                "msg": {
-                                  "_attributes": {
-                                    "timestamp": "20230622 01:43:26.296",
-                                    "level": "INFO"
-                                  },
-                                  "_text": "Typing text 'bob@example.com' into text field 'accessibility_id=Username input field'"
-                                },
-                                "status": {
-                                  "_attributes": {
-                                    "status": "PASS",
-                                    "starttime": "20230622 01:43:26.293",
-                                    "endtime": "20230622 01:43:28.317"
-                                  }
-                                }
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:43:26.293",
-                                  "endtime": "20230622 01:43:28.317"
-                                }
-                              }
-                            },
-                            {
-                              "_attributes": {
-                                "name": "Wait Until Keyword Succeeds",
-                                "library": "BuiltIn"
-                              },
-                              "arg": [
-                                {
-                                  "_text": "5x"
-                                },
-                                {
-                                  "_text": "1s"
-                                },
-                                {
-                                  "_text": "Input Text"
-                                },
-                                {
-                                  "_text": "${PASSWORD_FIELD}"
-                                },
-                                {
-                                  "_text": "${password}"
-                                }
-                              ],
-                              "doc": {
-                                "_text": "Runs the specified keyword and retries if it fails."
-                              },
-                              "kw": {
-                                "_attributes": {
-                                  "name": "Input Text",
-                                  "library": "AppiumLibrary"
-                                },
-                                "arg": [
-                                  {
-                                    "_text": "${PASSWORD_FIELD}"
-                                  },
-                                  {
-                                    "_text": "${password}"
-                                  }
-                                ],
-                                "doc": {
-                                  "_text": "Types the given `text` into text field identified by `locator`."
-                                },
-                                "msg": {
-                                  "_attributes": {
-                                    "timestamp": "20230622 01:43:28.320",
-                                    "level": "INFO"
-                                  },
-                                  "_text": "Typing text '10203040' into text field 'accessibility_id=Password input field'"
-                                },
-                                "status": {
-                                  "_attributes": {
-                                    "status": "PASS",
-                                    "starttime": "20230622 01:43:28.317",
-                                    "endtime": "20230622 01:43:29.165"
-                                  }
-                                }
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:43:28.317",
-                                  "endtime": "20230622 01:43:29.165"
-                                }
-                              }
-                            },
-                            {
-                              "_attributes": {
-                                "name": "Wait Until Keyword Succeeds",
-                                "library": "BuiltIn"
-                              },
-                              "arg": [
-                                {
-                                  "_text": "5x"
-                                },
-                                {
-                                  "_text": "1s"
-                                },
-                                {
-                                  "_text": "Click Element"
-                                },
-                                {
-                                  "_text": "${LOGIN_BTN}"
-                                }
-                              ],
-                              "doc": {
-                                "_text": "Runs the specified keyword and retries if it fails."
-                              },
-                              "kw": {
-                                "_attributes": {
-                                  "name": "Click Element",
-                                  "library": "AppiumLibrary"
-                                },
-                                "arg": {
-                                  "_text": "${LOGIN_BTN}"
-                                },
-                                "doc": {
-                                  "_text": "Click element identified by `locator`."
-                                },
-                                "msg": {
-                                  "_attributes": {
-                                    "timestamp": "20230622 01:43:29.168",
-                                    "level": "INFO"
-                                  },
-                                  "_text": "Clicking element 'accessibility_id=Login button'."
-                                },
-                                "status": {
-                                  "_attributes": {
-                                    "status": "PASS",
-                                    "starttime": "20230622 01:43:29.166",
-                                    "endtime": "20230622 01:43:30.046"
-                                  }
-                                }
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:43:29.165",
-                                  "endtime": "20230622 01:43:30.046"
-                                }
-                              }
-                            }
-                          ],
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:43:26.292",
-                              "endtime": "20230622 01:43:30.046"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:43:26.292",
-                            "endtime": "20230622 01:43:30.046"
-                          }
-                        }
-                      }
-                    ],
-                    "status": {
-                      "_attributes": {
-                        "status": "PASS",
-                        "starttime": "20230622 01:43:24.008",
-                        "endtime": "20230622 01:43:30.046"
-                      }
-                    }
-                  },
-                  {
-                    "_attributes": {
-                      "name": "Perform Logout",
-                      "library": "login_keywords"
-                    },
-                    "kw": [
-                      {
-                        "_attributes": {
-                          "name": "Open Menu",
-                          "library": "login_keywords"
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Wait Until Keyword Succeeds",
-                            "library": "BuiltIn"
-                          },
-                          "arg": [
-                            {
-                              "_text": "5x"
-                            },
-                            {
-                              "_text": "1s"
-                            },
-                            {
-                              "_text": "Click Element"
-                            },
-                            {
-                              "_text": "${HAMBURGUER_MENU}"
-                            }
-                          ],
-                          "doc": {
-                            "_text": "Runs the specified keyword and retries if it fails."
-                          },
-                          "kw": {
-                            "_attributes": {
-                              "name": "Click Element",
-                              "library": "AppiumLibrary"
-                            },
-                            "arg": {
-                              "_text": "${HAMBURGUER_MENU}"
-                            },
-                            "doc": {
-                              "_text": "Click element identified by `locator`."
-                            },
-                            "msg": {
-                              "_attributes": {
-                                "timestamp": "20230622 01:43:30.049",
-                                "level": "INFO"
-                              },
-                              "_text": "Clicking element 'accessibility_id=open menu'."
-                            },
-                            "status": {
-                              "_attributes": {
-                                "status": "PASS",
-                                "starttime": "20230622 01:43:30.047",
-                                "endtime": "20230622 01:43:31.835"
-                              }
-                            }
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:43:30.047",
-                              "endtime": "20230622 01:43:31.835"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:43:30.047",
-                            "endtime": "20230622 01:43:31.835"
-                          }
-                        }
-                      },
-                      {
-                        "_attributes": {
-                          "name": "Wait Until Keyword Succeeds",
-                          "library": "BuiltIn"
-                        },
-                        "arg": [
-                          {
-                            "_text": "5x"
-                          },
-                          {
-                            "_text": "1s"
-                          },
-                          {
-                            "_text": "Select Menu Option"
-                          },
-                          {
-                            "_text": "${LOGOUT_MENU}"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Runs the specified keyword and retries if it fails."
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Select Menu Option",
-                            "library": "login_keywords"
-                          },
-                          "arg": {
-                            "_text": "${LOGOUT_MENU}"
-                          },
-                          "kw": {
-                            "_attributes": {
-                              "name": "Wait Until Keyword Succeeds",
-                              "library": "BuiltIn"
-                            },
-                            "arg": [
-                              {
-                                "_text": "5x"
-                              },
-                              {
-                                "_text": "1s"
-                              },
-                              {
-                                "_text": "Click Element"
-                              },
-                              {
-                                "_text": "${menu_option}"
-                              }
-                            ],
-                            "doc": {
-                              "_text": "Runs the specified keyword and retries if it fails."
-                            },
-                            "kw": {
-                              "_attributes": {
-                                "name": "Click Element",
-                                "library": "AppiumLibrary"
-                              },
-                              "arg": {
-                                "_text": "${menu_option}"
-                              },
-                              "doc": {
-                                "_text": "Click element identified by `locator`."
-                              },
-                              "msg": {
-                                "_attributes": {
-                                  "timestamp": "20230622 01:43:31.838",
-                                  "level": "INFO"
-                                },
-                                "_text": "Clicking element 'accessibility_id=menu item log out'."
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "PASS",
-                                  "starttime": "20230622 01:43:31.836",
-                                  "endtime": "20230622 01:43:33.255"
-                                }
-                              }
-                            },
-                            "status": {
-                              "_attributes": {
-                                "status": "PASS",
-                                "starttime": "20230622 01:43:31.836",
-                                "endtime": "20230622 01:43:33.255"
-                              }
-                            }
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:43:31.835",
-                              "endtime": "20230622 01:43:33.255"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:43:31.835",
-                            "endtime": "20230622 01:43:33.256"
-                          }
-                        }
-                      },
-                      {
-                        "_attributes": {
-                          "name": "Wait Until Keyword Succeeds",
-                          "library": "BuiltIn"
-                        },
-                        "arg": [
-                          {
-                            "_text": "5x"
-                          },
-                          {
-                            "_text": "1s"
-                          },
-                          {
-                            "_text": "Click Element"
-                          },
-                          {
-                            "_text": "${LOGOUT_YES}"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Runs the specified keyword and retries if it fails."
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Click Element",
-                            "library": "AppiumLibrary"
-                          },
-                          "arg": {
-                            "_text": "${LOGOUT_YES}"
-                          },
-                          "doc": {
-                            "_text": "Click element identified by `locator`."
-                          },
-                          "msg": [
-                            {
-                              "_attributes": {
-                                "timestamp": "20230622 01:43:33.258",
-                                "level": "INFO"
-                              },
-                              "_text": "Clicking element 'android:id/button1'."
-                            },
-                            {
-                              "_attributes": {
-                                "timestamp": "20230622 01:43:34.582",
-                                "level": "INFO"
-                              },
-                              "_text": "criteria is android:id/button1"
-                            }
-                          ],
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:43:33.256",
-                              "endtime": "20230622 01:43:34.582"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:43:33.256",
-                            "endtime": "20230622 01:43:34.583"
-                          }
-                        }
-                      },
-                      {
-                        "_attributes": {
-                          "name": "Wait Until Keyword Succeeds",
-                          "library": "BuiltIn"
-                        },
-                        "arg": [
-                          {
-                            "_text": "5x"
-                          },
-                          {
-                            "_text": "1s"
-                          },
-                          {
-                            "_text": "Element Text Should Be"
-                          },
-                          {
-                            "_text": "${LOGOUT_MSG}"
-                          },
-                          {
-                            "_text": "You are successfully logged out."
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Runs the specified keyword and retries if it fails."
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Element Text Should Be",
-                            "library": "AppiumLibrary"
-                          },
-                          "arg": [
-                            {
-                              "_text": "${LOGOUT_MSG}"
-                            },
-                            {
-                              "_text": "You are successfully logged out."
-                            }
-                          ],
-                          "doc": {
-                            "_text": "Verifies element identified by ``locator`` exactly contains text ``expected``."
-                          },
-                          "msg": [
-                            {
-                              "_attributes": {
-                                "timestamp": "20230622 01:43:34.585",
-                                "level": "INFO"
-                              },
-                              "_text": "Verifying element 'android:id/alertTitle' contains exactly text 'You are successfully logged out.'."
-                            },
-                            {
-                              "_attributes": {
-                                "timestamp": "20230622 01:43:35.320",
-                                "level": "INFO"
-                              },
-                              "_text": "criteria is android:id/alertTitle"
-                            }
-                          ],
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:43:34.583",
-                              "endtime": "20230622 01:43:35.320"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:43:34.583",
-                            "endtime": "20230622 01:43:35.320"
-                          }
-                        }
-                      },
-                      {
-                        "_attributes": {
-                          "name": "Wait Until Keyword Succeeds",
-                          "library": "BuiltIn"
-                        },
-                        "arg": [
-                          {
-                            "_text": "5x"
-                          },
-                          {
-                            "_text": "1s"
-                          },
-                          {
-                            "_text": "Click Element"
-                          },
-                          {
-                            "_text": "${LOGOUT_OK}"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Runs the specified keyword and retries if it fails."
-                        },
-                        "kw": {
-                          "_attributes": {
-                            "name": "Click Element",
-                            "library": "AppiumLibrary"
-                          },
-                          "arg": {
-                            "_text": "${LOGOUT_OK}"
-                          },
-                          "doc": {
-                            "_text": "Click element identified by `locator`."
-                          },
-                          "msg": [
-                            {
-                              "_attributes": {
-                                "timestamp": "20230622 01:43:35.324",
-                                "level": "INFO"
-                              },
-                              "_text": "Clicking element 'android:id/button1'."
-                            },
-                            {
-                              "_attributes": {
-                                "timestamp": "20230622 01:43:35.763",
-                                "level": "INFO"
-                              },
-                              "_text": "criteria is android:id/button1"
-                            }
-                          ],
-                          "status": {
-                            "_attributes": {
-                              "status": "PASS",
-                              "starttime": "20230622 01:43:35.321",
-                              "endtime": "20230622 01:43:35.763"
-                            }
-                          }
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "PASS",
-                            "starttime": "20230622 01:43:35.320",
-                            "endtime": "20230622 01:43:35.763"
-                          }
-                        }
-                      }
-                    ],
-                    "status": {
-                      "_attributes": {
-                        "status": "PASS",
-                        "starttime": "20230622 01:43:30.046",
-                        "endtime": "20230622 01:43:35.763"
+                        "status": "FAIL",
+                        "starttime": "20230622 01:48:58.526",
+                        "endtime": "20230622 01:49:04.504"
                       }
                     }
                   },
@@ -2035,45 +503,86 @@
                       "doc": {
                         "_text": "Closes the current application and also close webdriver session."
                       },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:04.505",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:49:04.505",
+                            "endtime": "20230622 01:49:04.506"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:04.508",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:04.508",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        }
+                      ],
                       "status": {
                         "_attributes": {
-                          "status": "PASS",
-                          "starttime": "20230622 01:43:35.764",
-                          "endtime": "20230622 01:43:36.098"
+                          "status": "FAIL",
+                          "starttime": "20230622 01:49:04.505",
+                          "endtime": "20230622 01:49:04.508"
                         }
                       }
                     },
                     "status": {
                       "_attributes": {
-                        "status": "PASS",
-                        "starttime": "20230622 01:43:35.763",
-                        "endtime": "20230622 01:43:36.098"
-                      }
+                        "status": "FAIL",
+                        "starttime": "20230622 01:49:04.504",
+                        "endtime": "20230622 01:49:04.508"
+                      },
+                      "_text": "No application is open"
                     }
                   }
                 ],
                 "status": {
                   "_attributes": {
-                    "status": "PASS",
-                    "starttime": "20230622 01:42:59.511",
-                    "endtime": "20230622 01:43:36.098"
-                  }
+                    "status": "FAIL",
+                    "starttime": "20230622 01:48:58.526",
+                    "endtime": "20230622 01:49:04.509"
+                  },
+                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/df660b9ac5e84b10aaab610eb3d72a44\n\n\nAlso teardown failed:\nNo application is open"
                 }
               }
             ],
             "status": {
               "_attributes": {
-                "status": "PASS",
-                "starttime": "20230622 01:41:44.468",
-                "endtime": "20230622 01:43:36.099"
+                "status": "FAIL",
+                "starttime": "20230622 01:48:46.513",
+                "endtime": "20230622 01:49:04.510"
               }
             }
           },
           "status": {
             "_attributes": {
-              "status": "PASS",
-              "starttime": "20230622 01:41:44.465",
-              "endtime": "20230622 01:43:36.101"
+              "status": "FAIL",
+              "starttime": "20230622 01:48:46.511",
+              "endtime": "20230622 01:49:04.511"
             }
           }
         },
@@ -2086,201 +595,561 @@
           "suite": {
             "_attributes": {
               "id": "s1-s2-s1",
-              "name": "Test",
-              "source": "/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/test.robot"
+              "name": "Login",
+              "source": "/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/login.robot"
             },
-            "test": {
-              "_attributes": {
-                "id": "s1-s2-s1-t1",
-                "name": "Scenario: Test Scenario",
-                "line": "9"
-              },
-              "kw": [
-                {
-                  "_attributes": {
-                    "name": "Before Tests",
-                    "library": "setup_keywords",
-                    "type": "SETUP"
-                  },
-                  "kw": {
-                    "_attributes": {
-                      "name": "Open Application",
-                      "library": "AppiumLibrary"
-                    },
-                    "arg": [
-                      {
-                        "_text": "${REMOTE_URL}"
-                      },
-                      {
-                        "_text": "platformName=${PLATFORM_NAME}"
-                      },
-                      {
-                        "_text": "platformVersion=${PLATFORM_VERSION}"
-                      },
-                      {
-                        "_text": "deviceName=${DEVICE_NAME}"
-                      },
-                      {
-                        "_text": "app=${APP}"
-                      },
-                      {
-                        "_text": "automationName=${AUTOMATION_NAME}"
-                      },
-                      {
-                        "_text": "name=${JOB_NAME}"
-                      }
-                    ],
-                    "doc": {
-                      "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Capture Page Screenshot",
-                        "library": "AppiumLibrary"
-                      },
-                      "doc": {
-                        "_text": "Takes a screenshot of the current page and embeds it into the log."
-                      },
-                      "msg": {
-                        "_attributes": {
-                          "timestamp": "20230622 01:43:36.374",
-                          "level": "FAIL"
-                        },
-                        "_text": "No application is open"
-                      },
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 01:43:36.373",
-                          "endtime": "20230622 01:43:36.376"
-                        }
-                      }
-                    },
-                    "msg": [
-                      {
-                        "_attributes": {
-                          "timestamp": "20230622 01:43:36.378",
-                          "level": "WARN"
-                        },
-                        "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                      },
-                      {
-                        "_attributes": {
-                          "timestamp": "20230622 01:43:36.378",
-                          "level": "FAIL"
-                        },
-                        "_text": "SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n"
-                      }
-                    ],
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 01:43:36.111",
-                        "endtime": "20230622 01:43:36.378"
-                      }
-                    }
-                  },
-                  "status": {
-                    "_attributes": {
-                      "status": "FAIL",
-                      "starttime": "20230622 01:43:36.111",
-                      "endtime": "20230622 01:43:36.378"
-                    }
-                  }
-                },
-                {
-                  "_attributes": {
-                    "name": "After Tests",
-                    "library": "setup_keywords",
-                    "type": "TEARDOWN"
-                  },
-                  "kw": {
-                    "_attributes": {
-                      "name": "Close Application",
-                      "library": "AppiumLibrary"
-                    },
-                    "doc": {
-                      "_text": "Closes the current application and also close webdriver session."
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Capture Page Screenshot",
-                        "library": "AppiumLibrary"
-                      },
-                      "doc": {
-                        "_text": "Takes a screenshot of the current page and embeds it into the log."
-                      },
-                      "msg": {
-                        "_attributes": {
-                          "timestamp": "20230622 01:43:36.380",
-                          "level": "FAIL"
-                        },
-                        "_text": "No application is open"
-                      },
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 01:43:36.379",
-                          "endtime": "20230622 01:43:36.380"
-                        }
-                      }
-                    },
-                    "msg": [
-                      {
-                        "_attributes": {
-                          "timestamp": "20230622 01:43:36.381",
-                          "level": "WARN"
-                        },
-                        "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                      },
-                      {
-                        "_attributes": {
-                          "timestamp": "20230622 01:43:36.382",
-                          "level": "FAIL"
-                        },
-                        "_text": "No application is open"
-                      }
-                    ],
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 01:43:36.379",
-                        "endtime": "20230622 01:43:36.382"
-                      }
-                    }
-                  },
-                  "status": {
-                    "_attributes": {
-                      "status": "FAIL",
-                      "starttime": "20230622 01:43:36.379",
-                      "endtime": "20230622 01:43:36.382"
-                    },
-                    "_text": "No application is open"
-                  }
-                }
-              ],
-              "status": {
+            "test": [
+              {
                 "_attributes": {
-                  "status": "FAIL",
-                  "starttime": "20230622 01:43:36.110",
-                  "endtime": "20230622 01:43:36.382"
+                  "id": "s1-s2-s1-t1",
+                  "name": "Scenario: Login with wrong credentials",
+                  "line": "9"
                 },
-                "_text": "Setup failed:\nSessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
+                "kw": [
+                  {
+                    "_attributes": {
+                      "name": "Before Tests",
+                      "library": "setup_keywords",
+                      "type": "SETUP"
+                    },
+                    "kw": {
+                      "_attributes": {
+                        "name": "Open Application",
+                        "library": "AppiumLibrary"
+                      },
+                      "arg": [
+                        {
+                          "_text": "${REMOTE_URL}"
+                        },
+                        {
+                          "_text": "platformName=${PLATFORM_NAME}"
+                        },
+                        {
+                          "_text": "platformVersion=${PLATFORM_VERSION}"
+                        },
+                        {
+                          "_text": "deviceName=${DEVICE_NAME}"
+                        },
+                        {
+                          "_text": "app=${APP}"
+                        },
+                        {
+                          "_text": "automationName=${AUTOMATION_NAME}"
+                        },
+                        {
+                          "_text": "name=${JOB_NAME}"
+                        }
+                      ],
+                      "doc": {
+                        "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.416",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:49:05.416",
+                            "endtime": "20230622 01:49:05.417"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.418",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.419",
+                            "level": "FAIL"
+                          },
+                          "_text": "SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n"
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230622 01:49:04.522",
+                          "endtime": "20230622 01:49:05.419"
+                        }
+                      }
+                    },
+                    "status": {
+                      "_attributes": {
+                        "status": "FAIL",
+                        "starttime": "20230622 01:49:04.521",
+                        "endtime": "20230622 01:49:05.419"
+                      }
+                    }
+                  },
+                  {
+                    "_attributes": {
+                      "name": "After Tests",
+                      "library": "setup_keywords",
+                      "type": "TEARDOWN"
+                    },
+                    "kw": {
+                      "_attributes": {
+                        "name": "Close Application",
+                        "library": "AppiumLibrary"
+                      },
+                      "doc": {
+                        "_text": "Closes the current application and also close webdriver session."
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.421",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:49:05.420",
+                            "endtime": "20230622 01:49:05.421"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.423",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.423",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230622 01:49:05.420",
+                          "endtime": "20230622 01:49:05.423"
+                        }
+                      }
+                    },
+                    "status": {
+                      "_attributes": {
+                        "status": "FAIL",
+                        "starttime": "20230622 01:49:05.420",
+                        "endtime": "20230622 01:49:05.423"
+                      },
+                      "_text": "No application is open"
+                    }
+                  }
+                ],
+                "status": {
+                  "_attributes": {
+                    "status": "FAIL",
+                    "starttime": "20230622 01:49:04.521",
+                    "endtime": "20230622 01:49:05.424"
+                  },
+                  "_text": "Setup failed:\nSessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
+                }
+              },
+              {
+                "_attributes": {
+                  "id": "s1-s2-s1-t2",
+                  "name": "Scenario: Login successfully",
+                  "line": "12"
+                },
+                "kw": [
+                  {
+                    "_attributes": {
+                      "name": "Before Tests",
+                      "library": "setup_keywords",
+                      "type": "SETUP"
+                    },
+                    "kw": {
+                      "_attributes": {
+                        "name": "Open Application",
+                        "library": "AppiumLibrary"
+                      },
+                      "arg": [
+                        {
+                          "_text": "${REMOTE_URL}"
+                        },
+                        {
+                          "_text": "platformName=${PLATFORM_NAME}"
+                        },
+                        {
+                          "_text": "platformVersion=${PLATFORM_VERSION}"
+                        },
+                        {
+                          "_text": "deviceName=${DEVICE_NAME}"
+                        },
+                        {
+                          "_text": "app=${APP}"
+                        },
+                        {
+                          "_text": "automationName=${AUTOMATION_NAME}"
+                        },
+                        {
+                          "_text": "name=${JOB_NAME}"
+                        }
+                      ],
+                      "doc": {
+                        "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.673",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:49:05.672",
+                            "endtime": "20230622 01:49:05.673"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.675",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.675",
+                            "level": "FAIL"
+                          },
+                          "_text": "SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n"
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230622 01:49:05.426",
+                          "endtime": "20230622 01:49:05.675"
+                        }
+                      }
+                    },
+                    "status": {
+                      "_attributes": {
+                        "status": "FAIL",
+                        "starttime": "20230622 01:49:05.425",
+                        "endtime": "20230622 01:49:05.676"
+                      }
+                    }
+                  },
+                  {
+                    "_attributes": {
+                      "name": "After Tests",
+                      "library": "setup_keywords",
+                      "type": "TEARDOWN"
+                    },
+                    "kw": {
+                      "_attributes": {
+                        "name": "Close Application",
+                        "library": "AppiumLibrary"
+                      },
+                      "doc": {
+                        "_text": "Closes the current application and also close webdriver session."
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.677",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:49:05.677",
+                            "endtime": "20230622 01:49:05.677"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.679",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.679",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230622 01:49:05.676",
+                          "endtime": "20230622 01:49:05.679"
+                        }
+                      }
+                    },
+                    "status": {
+                      "_attributes": {
+                        "status": "FAIL",
+                        "starttime": "20230622 01:49:05.676",
+                        "endtime": "20230622 01:49:05.680"
+                      },
+                      "_text": "No application is open"
+                    }
+                  }
+                ],
+                "status": {
+                  "_attributes": {
+                    "status": "FAIL",
+                    "starttime": "20230622 01:49:05.425",
+                    "endtime": "20230622 01:49:05.680"
+                  },
+                  "_text": "Setup failed:\nSessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
+                }
+              },
+              {
+                "_attributes": {
+                  "id": "s1-s2-s1-t3",
+                  "name": "Scenario: Logout successfully",
+                  "line": "15"
+                },
+                "kw": [
+                  {
+                    "_attributes": {
+                      "name": "Before Tests",
+                      "library": "setup_keywords",
+                      "type": "SETUP"
+                    },
+                    "kw": {
+                      "_attributes": {
+                        "name": "Open Application",
+                        "library": "AppiumLibrary"
+                      },
+                      "arg": [
+                        {
+                          "_text": "${REMOTE_URL}"
+                        },
+                        {
+                          "_text": "platformName=${PLATFORM_NAME}"
+                        },
+                        {
+                          "_text": "platformVersion=${PLATFORM_VERSION}"
+                        },
+                        {
+                          "_text": "deviceName=${DEVICE_NAME}"
+                        },
+                        {
+                          "_text": "app=${APP}"
+                        },
+                        {
+                          "_text": "automationName=${AUTOMATION_NAME}"
+                        },
+                        {
+                          "_text": "name=${JOB_NAME}"
+                        }
+                      ],
+                      "doc": {
+                        "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.890",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:49:05.889",
+                            "endtime": "20230622 01:49:05.890"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.892",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.892",
+                            "level": "FAIL"
+                          },
+                          "_text": "SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n"
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230622 01:49:05.681",
+                          "endtime": "20230622 01:49:05.893"
+                        }
+                      }
+                    },
+                    "status": {
+                      "_attributes": {
+                        "status": "FAIL",
+                        "starttime": "20230622 01:49:05.681",
+                        "endtime": "20230622 01:49:05.893"
+                      }
+                    }
+                  },
+                  {
+                    "_attributes": {
+                      "name": "After Tests",
+                      "library": "setup_keywords",
+                      "type": "TEARDOWN"
+                    },
+                    "kw": {
+                      "_attributes": {
+                        "name": "Close Application",
+                        "library": "AppiumLibrary"
+                      },
+                      "doc": {
+                        "_text": "Closes the current application and also close webdriver session."
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Capture Page Screenshot",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        },
+                        "msg": {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.895",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        },
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230622 01:49:05.895",
+                            "endtime": "20230622 01:49:05.895"
+                          }
+                        }
+                      },
+                      "msg": [
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.897",
+                            "level": "WARN"
+                          },
+                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                        },
+                        {
+                          "_attributes": {
+                            "timestamp": "20230622 01:49:05.897",
+                            "level": "FAIL"
+                          },
+                          "_text": "No application is open"
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230622 01:49:05.894",
+                          "endtime": "20230622 01:49:05.897"
+                        }
+                      }
+                    },
+                    "status": {
+                      "_attributes": {
+                        "status": "FAIL",
+                        "starttime": "20230622 01:49:05.893",
+                        "endtime": "20230622 01:49:05.897"
+                      },
+                      "_text": "No application is open"
+                    }
+                  }
+                ],
+                "status": {
+                  "_attributes": {
+                    "status": "FAIL",
+                    "starttime": "20230622 01:49:05.680",
+                    "endtime": "20230622 01:49:05.898"
+                  },
+                  "_text": "Setup failed:\nSessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
+                }
               }
-            },
+            ],
             "status": {
               "_attributes": {
                 "status": "FAIL",
-                "starttime": "20230622 01:43:36.104",
-                "endtime": "20230622 01:43:36.383"
+                "starttime": "20230622 01:49:04.515",
+                "endtime": "20230622 01:49:05.898"
               }
             }
           },
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "starttime": "20230622 01:43:36.102",
-              "endtime": "20230622 01:43:36.385"
+              "starttime": "20230622 01:49:04.512",
+              "endtime": "20230622 01:49:05.899"
             }
           }
         }
@@ -2288,8 +1157,8 @@
       "status": {
         "_attributes": {
           "status": "FAIL",
-          "starttime": "20230622 01:41:44.435",
-          "endtime": "20230622 01:43:36.386"
+          "starttime": "20230622 01:48:46.483",
+          "endtime": "20230622 01:49:05.900"
         }
       }
     },
@@ -2297,8 +1166,8 @@
       "total": {
         "stat": {
           "_attributes": {
-            "pass": "3",
-            "fail": "1",
+            "pass": "0",
+            "fail": "6",
             "skip": "0"
           },
           "_text": "All Tests"
@@ -2309,8 +1178,8 @@
         "stat": [
           {
             "_attributes": {
-              "pass": "3",
-              "fail": "1",
+              "pass": "0",
+              "fail": "6",
               "skip": "0",
               "id": "s1",
               "name": "Tests"
@@ -2319,8 +1188,8 @@
           },
           {
             "_attributes": {
-              "pass": "3",
-              "fail": "0",
+              "pass": "0",
+              "fail": "3",
               "skip": "0",
               "id": "s1-s1",
               "name": "Android"
@@ -2329,8 +1198,8 @@
           },
           {
             "_attributes": {
-              "pass": "3",
-              "fail": "0",
+              "pass": "0",
+              "fail": "3",
               "skip": "0",
               "id": "s1-s1-s1",
               "name": "Login"
@@ -2340,7 +1209,7 @@
           {
             "_attributes": {
               "pass": "0",
-              "fail": "1",
+              "fail": "3",
               "skip": "0",
               "id": "s1-s2",
               "name": "Ios"
@@ -2350,12 +1219,12 @@
           {
             "_attributes": {
               "pass": "0",
-              "fail": "1",
+              "fail": "3",
               "skip": "0",
               "id": "s1-s2-s1",
-              "name": "Test"
+              "name": "Login"
             },
-            "_text": "Tests.Ios.Test"
+            "_text": "Tests.Ios.Login"
           }
         ]
       }
@@ -2364,28 +1233,98 @@
       "msg": [
         {
           "_attributes": {
-            "timestamp": "20230622 01:41:44.639",
+            "timestamp": "20230622 01:48:46.669",
             "level": "ERROR"
           },
           "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/variables/android_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist."
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:43:36.108",
-            "level": "ERROR"
-          },
-          "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/ios/variables/ios_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist."
-        },
-        {
-          "_attributes": {
-            "timestamp": "20230622 01:43:36.378",
+            "timestamp": "20230622 01:48:52.753",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 01:43:36.381",
+            "timestamp": "20230622 01:48:52.758",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230622 01:48:58.520",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230622 01:48:58.525",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230622 01:49:04.503",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230622 01:49:04.508",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230622 01:49:04.518",
+            "level": "ERROR"
+          },
+          "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/ios/variables/ios_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist."
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230622 01:49:05.418",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230622 01:49:05.423",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230622 01:49:05.675",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230622 01:49:05.679",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230622 01:49:05.892",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230622 01:49:05.897",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"

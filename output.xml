@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1 (Python 3.8.17 on linux)" generated="20230622 01:48:46.482" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1 (Python 3.8.17 on linux)" generated="20230622 01:53:12.136" rpa="false" schemaversion="4">
 <suite id="s1" name="Tests" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests">
 <suite id="s1-s1" name="Android" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android">
 <suite id="s1-s1-s1" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/login.robot">
@@ -22,32 +22,32 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:48:52.750" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:48:52.749" endtime="20230622 01:48:52.751"/>
+<msg timestamp="20230622 01:53:18.477" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:18.476" endtime="20230622 01:53:18.478"/>
 </kw>
-<msg timestamp="20230622 01:48:52.753" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:48:52.754" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/8483ff3a728a4983b1f78c47cc7ea053
+<msg timestamp="20230622 01:53:18.480" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:18.480" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c18744232d3c482c9d92968014919719
 </msg>
-<status status="FAIL" starttime="20230622 01:48:46.677" endtime="20230622 01:48:52.754"/>
+<status status="FAIL" starttime="20230622 01:53:12.332" endtime="20230622 01:53:18.480"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:48:46.677" endtime="20230622 01:48:52.754"/>
+<status status="FAIL" starttime="20230622 01:53:12.332" endtime="20230622 01:53:18.481"/>
 </kw>
 <kw name="After Tests" library="setup_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:48:52.756" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:48:52.755" endtime="20230622 01:48:52.756"/>
+<msg timestamp="20230622 01:53:18.482" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:18.482" endtime="20230622 01:53:18.482"/>
 </kw>
-<msg timestamp="20230622 01:48:52.758" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:48:52.758" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:48:52.755" endtime="20230622 01:48:52.758"/>
+<msg timestamp="20230622 01:53:18.484" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:18.484" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:18.481" endtime="20230622 01:53:18.484"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:48:52.754" endtime="20230622 01:48:52.758">No application is open</status>
+<status status="FAIL" starttime="20230622 01:53:18.481" endtime="20230622 01:53:18.484">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20230622 01:48:46.676" endtime="20230622 01:48:52.758">Setup failed:
-WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/8483ff3a728a4983b1f78c47cc7ea053
+<status status="FAIL" starttime="20230622 01:53:12.331" endtime="20230622 01:53:18.484">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c18744232d3c482c9d92968014919719
 
 
 Also teardown failed:
@@ -72,32 +72,32 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:48:58.518" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:48:58.517" endtime="20230622 01:48:58.518"/>
+<msg timestamp="20230622 01:53:23.839" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:23.838" endtime="20230622 01:53:23.839"/>
 </kw>
-<msg timestamp="20230622 01:48:58.520" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:48:58.521" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/f971e581bbf24559ada0d89fc1f0b8e3
+<msg timestamp="20230622 01:53:23.841" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:23.841" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/ccb5edf3dd4e48fdb8e1cf75535e0233
 </msg>
-<status status="FAIL" starttime="20230622 01:48:52.760" endtime="20230622 01:48:58.521"/>
+<status status="FAIL" starttime="20230622 01:53:18.485" endtime="20230622 01:53:23.841"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:48:52.759" endtime="20230622 01:48:58.521"/>
+<status status="FAIL" starttime="20230622 01:53:18.485" endtime="20230622 01:53:23.842"/>
 </kw>
 <kw name="After Tests" library="setup_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:48:58.522" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:48:58.522" endtime="20230622 01:48:58.523"/>
+<msg timestamp="20230622 01:53:23.843" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:23.842" endtime="20230622 01:53:23.843"/>
 </kw>
-<msg timestamp="20230622 01:48:58.525" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:48:58.525" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:48:58.522" endtime="20230622 01:48:58.525"/>
+<msg timestamp="20230622 01:53:23.845" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:23.845" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:23.842" endtime="20230622 01:53:23.845"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:48:58.521" endtime="20230622 01:48:58.525">No application is open</status>
+<status status="FAIL" starttime="20230622 01:53:23.842" endtime="20230622 01:53:23.845">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20230622 01:48:52.759" endtime="20230622 01:48:58.525">Setup failed:
-WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/f971e581bbf24559ada0d89fc1f0b8e3
+<status status="FAIL" starttime="20230622 01:53:18.485" endtime="20230622 01:53:23.845">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/ccb5edf3dd4e48fdb8e1cf75535e0233
 
 
 Also teardown failed:
@@ -122,40 +122,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:49:04.498" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:04.498" endtime="20230622 01:49:04.500"/>
+<msg timestamp="20230622 01:53:29.506" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:29.505" endtime="20230622 01:53:29.508"/>
 </kw>
-<msg timestamp="20230622 01:49:04.503" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:04.503" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/df660b9ac5e84b10aaab610eb3d72a44
+<msg timestamp="20230622 01:53:29.510" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.510" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/805953a28e9a45ca82989f76c9fbf911
 </msg>
-<status status="FAIL" starttime="20230622 01:48:58.527" endtime="20230622 01:49:04.504"/>
+<status status="FAIL" starttime="20230622 01:53:23.847" endtime="20230622 01:53:29.510"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:48:58.526" endtime="20230622 01:49:04.504"/>
+<status status="FAIL" starttime="20230622 01:53:23.846" endtime="20230622 01:53:29.511"/>
 </kw>
 <kw name="After Tests" library="setup_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:49:04.505" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:04.505" endtime="20230622 01:49:04.506"/>
+<msg timestamp="20230622 01:53:29.512" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:29.512" endtime="20230622 01:53:29.512"/>
 </kw>
-<msg timestamp="20230622 01:49:04.508" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:04.508" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:04.505" endtime="20230622 01:49:04.508"/>
+<msg timestamp="20230622 01:53:29.514" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.514" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:29.511" endtime="20230622 01:53:29.514"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:49:04.504" endtime="20230622 01:49:04.508">No application is open</status>
+<status status="FAIL" starttime="20230622 01:53:29.511" endtime="20230622 01:53:29.514">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20230622 01:48:58.526" endtime="20230622 01:49:04.509">Setup failed:
-WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/df660b9ac5e84b10aaab610eb3d72a44
+<status status="FAIL" starttime="20230622 01:53:23.846" endtime="20230622 01:53:29.514">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/805953a28e9a45ca82989f76c9fbf911
 
 
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" starttime="20230622 01:48:46.513" endtime="20230622 01:49:04.510"/>
+<status status="FAIL" starttime="20230622 01:53:12.159" endtime="20230622 01:53:29.515"/>
 </suite>
-<status status="FAIL" starttime="20230622 01:48:46.511" endtime="20230622 01:49:04.511"/>
+<status status="FAIL" starttime="20230622 01:53:12.157" endtime="20230622 01:53:29.516"/>
 </suite>
 <suite id="s1-s2" name="Ios" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios">
 <suite id="s1-s2-s1" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/login.robot">
@@ -178,34 +178,34 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:49:05.416" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:05.416" endtime="20230622 01:49:05.417"/>
+<msg timestamp="20230622 01:53:29.789" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:29.788" endtime="20230622 01:53:29.789"/>
 </kw>
-<msg timestamp="20230622 01:49:05.418" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:05.419" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
+<msg timestamp="20230622 01:53:29.790" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.791" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
 Driver info: driver.version: unknown
 </msg>
-<status status="FAIL" starttime="20230622 01:49:04.522" endtime="20230622 01:49:05.419"/>
+<status status="FAIL" starttime="20230622 01:53:29.524" endtime="20230622 01:53:29.791"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:49:04.521" endtime="20230622 01:49:05.419"/>
+<status status="FAIL" starttime="20230622 01:53:29.524" endtime="20230622 01:53:29.791"/>
 </kw>
 <kw name="After Tests" library="setup_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:49:05.421" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:05.420" endtime="20230622 01:49:05.421"/>
+<msg timestamp="20230622 01:53:29.792" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:29.792" endtime="20230622 01:53:29.792"/>
 </kw>
-<msg timestamp="20230622 01:49:05.423" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:05.423" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:05.420" endtime="20230622 01:49:05.423"/>
+<msg timestamp="20230622 01:53:29.794" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.794" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:29.792" endtime="20230622 01:53:29.794"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:49:05.420" endtime="20230622 01:49:05.423">No application is open</status>
+<status status="FAIL" starttime="20230622 01:53:29.791" endtime="20230622 01:53:29.794">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20230622 01:49:04.521" endtime="20230622 01:49:05.424">Setup failed:
+<status status="FAIL" starttime="20230622 01:53:29.523" endtime="20230622 01:53:29.794">Setup failed:
 SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
@@ -234,34 +234,34 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:49:05.673" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:05.672" endtime="20230622 01:49:05.673"/>
+<msg timestamp="20230622 01:53:29.991" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:29.990" endtime="20230622 01:53:29.991"/>
 </kw>
-<msg timestamp="20230622 01:49:05.675" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:05.675" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
+<msg timestamp="20230622 01:53:29.993" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.993" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
 Driver info: driver.version: unknown
 </msg>
-<status status="FAIL" starttime="20230622 01:49:05.426" endtime="20230622 01:49:05.675"/>
+<status status="FAIL" starttime="20230622 01:53:29.796" endtime="20230622 01:53:29.993"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:49:05.425" endtime="20230622 01:49:05.676"/>
+<status status="FAIL" starttime="20230622 01:53:29.795" endtime="20230622 01:53:29.993"/>
 </kw>
 <kw name="After Tests" library="setup_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:49:05.677" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:05.677" endtime="20230622 01:49:05.677"/>
+<msg timestamp="20230622 01:53:29.995" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:29.994" endtime="20230622 01:53:29.995"/>
 </kw>
-<msg timestamp="20230622 01:49:05.679" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:05.679" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:05.676" endtime="20230622 01:49:05.679"/>
+<msg timestamp="20230622 01:53:29.996" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.997" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:29.994" endtime="20230622 01:53:29.997"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:49:05.676" endtime="20230622 01:49:05.680">No application is open</status>
+<status status="FAIL" starttime="20230622 01:53:29.994" endtime="20230622 01:53:29.997">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20230622 01:49:05.425" endtime="20230622 01:49:05.680">Setup failed:
+<status status="FAIL" starttime="20230622 01:53:29.795" endtime="20230622 01:53:29.997">Setup failed:
 SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
@@ -290,34 +290,34 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:49:05.890" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:05.889" endtime="20230622 01:49:05.890"/>
+<msg timestamp="20230622 01:53:30.181" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:30.181" endtime="20230622 01:53:30.182"/>
 </kw>
-<msg timestamp="20230622 01:49:05.892" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:05.892" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
+<msg timestamp="20230622 01:53:30.183" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:30.183" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
 Driver info: driver.version: unknown
 </msg>
-<status status="FAIL" starttime="20230622 01:49:05.681" endtime="20230622 01:49:05.893"/>
+<status status="FAIL" starttime="20230622 01:53:29.998" endtime="20230622 01:53:30.184"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:49:05.681" endtime="20230622 01:49:05.893"/>
+<status status="FAIL" starttime="20230622 01:53:29.998" endtime="20230622 01:53:30.184"/>
 </kw>
 <kw name="After Tests" library="setup_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 01:49:05.895" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:05.895" endtime="20230622 01:49:05.895"/>
+<msg timestamp="20230622 01:53:30.185" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:30.185" endtime="20230622 01:53:30.185"/>
 </kw>
-<msg timestamp="20230622 01:49:05.897" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:05.897" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 01:49:05.894" endtime="20230622 01:49:05.897"/>
+<msg timestamp="20230622 01:53:30.186" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:30.186" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230622 01:53:30.184" endtime="20230622 01:53:30.187"/>
 </kw>
-<status status="FAIL" starttime="20230622 01:49:05.893" endtime="20230622 01:49:05.897">No application is open</status>
+<status status="FAIL" starttime="20230622 01:53:30.184" endtime="20230622 01:53:30.187">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20230622 01:49:05.680" endtime="20230622 01:49:05.898">Setup failed:
+<status status="FAIL" starttime="20230622 01:53:29.997" endtime="20230622 01:53:30.187">Setup failed:
 SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
@@ -327,11 +327,11 @@ Driver info: driver.version: unknown
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" starttime="20230622 01:49:04.515" endtime="20230622 01:49:05.898"/>
+<status status="FAIL" starttime="20230622 01:53:29.519" endtime="20230622 01:53:30.187"/>
 </suite>
-<status status="FAIL" starttime="20230622 01:49:04.512" endtime="20230622 01:49:05.899"/>
+<status status="FAIL" starttime="20230622 01:53:29.517" endtime="20230622 01:53:30.189"/>
 </suite>
-<status status="FAIL" starttime="20230622 01:48:46.483" endtime="20230622 01:49:05.900"/>
+<status status="FAIL" starttime="20230622 01:53:12.137" endtime="20230622 01:53:30.190"/>
 </suite>
 <statistics>
 <total>
@@ -348,19 +348,19 @@ No application is open</status>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20230622 01:48:46.669" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/variables/android_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist.</msg>
-<msg timestamp="20230622 01:48:52.753" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:48:52.758" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:48:58.520" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:48:58.525" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:04.503" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:04.508" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:04.518" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/ios/variables/ios_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist.</msg>
-<msg timestamp="20230622 01:49:05.418" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:05.423" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:05.675" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:05.679" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:05.892" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 01:49:05.897" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:12.326" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/variables/android_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist.</msg>
+<msg timestamp="20230622 01:53:18.480" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:18.484" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:23.841" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:23.845" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.510" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.514" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.522" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/ios/variables/ios_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist.</msg>
+<msg timestamp="20230622 01:53:29.790" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.794" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.993" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:29.996" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:30.183" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230622 01:53:30.186" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
 </errors>
 </robot>

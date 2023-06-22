@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your Sau
 ## Running the tests via SauceLabs
 
 1. Upload the app used in the tests of this project located at `app/android/demo-saucelabs.apk` and `app/ios/demo-saucelabs.ipa` to your SauceLabs account on `https://app.saucelabs.com/app-management`.
-2. Change the value of the `${SAUCELABS_REMOTE_URL}` variable in the `android/variables/base_variables.robot` and `ios/variables/base_variables.robot` files to your [Ondemand URL](https://app.saucelabs.com/user-settings).
+2. Change the value of the `${SAUCELABS_REMOTE_URL}` variable in the `resources/android/variables/base_variables.robot` and `resources/ios/variables/base_variables.robot` files to your [Ondemand URL](https://app.saucelabs.com/user-settings).
 3. Run the tests through the command `robot --outputdir results tests`
 
 ## Capabilities

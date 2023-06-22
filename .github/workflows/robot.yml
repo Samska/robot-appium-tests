@@ -42,8 +42,8 @@ jobs:
 
     - name: Read output.json and set test results into env variables
       run: |
-        passedTests=$(jq -r '.robot.statistics.total.stat._attributes.pass' ./test-reports/output.json)
-        failedTests=$(jq -r '.robot.statistics.total.stat._attributes.fail' ./test-reports/output.json)
+        passedTests=$(jq -r '.robot.statistics.total.stat._attributes.pass' ./results/output.json)
+        failedTests=$(jq -r '.robot.statistics.total.stat._attributes.fail' ./results/output.json)
         totalTests=$(expr $passedTests + $failedTests)
         echo "PASSED_TESTS=$passedTests" >> $GITHUB_ENV
         echo "FAILED_TESTS=$failedTests" >> $GITHUB_ENV

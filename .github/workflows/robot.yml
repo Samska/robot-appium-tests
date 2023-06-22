@@ -3,7 +3,7 @@ name: Robot Framework and Appium Tests
 on: 
     push: 
       branches:
-        - master 
+        - main 
     schedule:
       - cron: '0 0 * * 1'
     workflow_dispatch: # Enable the run worklfow button on the Action
@@ -24,14 +24,33 @@ jobs:
       with:
         python-version: 3.8
 
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r config/requirements.txt
+        npm install xml-js
 
     - name: Run tests
       run: |
         robot --variable REMOTE_URL:$SAUCELABS_REMOTE_URL --outputdir results tests || true
+
+    - name: Convert XML Results to JSON
+      run: |        
+        node -e "const fs = require('fs'); const xml2js = require('xml-js'); const xmlData = fs.readFileSync('./results/output.xml', 'utf8'); const jsonData = xml2js.xml2json(xmlData, { compact: true, spaces: 2 }); fs.writeFileSync('./results/output.json', jsonData);"
+
+    - name: Read output.json and set test results into env variables
+      run: |
+        passedTests=$(jq -r '.robot.statistics.total.stat._attributes.pass' ./test-reports/output.json)
+        failedTests=$(jq -r '.robot.statistics.total.stat._attributes.fail' ./test-reports/output.json)
+        totalTests=$(expr $passedTests + $failedTests)
+        echo "PASSED_TESTS=$passedTests" >> $GITHUB_ENV
+        echo "FAILED_TESTS=$failedTests" >> $GITHUB_ENV
+        echo "TOTAL_TESTS=$totalTests" >> $GITHUB_ENV
 
     - name: Upload Test Results
       id: upload_results
@@ -47,3 +66,29 @@ jobs:
         publish_dir: ./results/
         publish_branch: gh-pages
         commit_message: Update the test report
+
+    - name: Display Test Report URL
+      run: |
+        echo "Test report: https://${{ github.actor }}.github.io/robot-appium-tests/report.html"
+
+        - name: Send Slack Notification
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
+        run: |
+          if [[ ${{ env.FAILED_TESTS }} -gt 0 ]]; then
+            color="#FF0000"
+          else
+            color="#00FF00"
+          fi
+  
+          curl -X POST -H 'Content-type: application/json' --data '{
+            "channel": "'"${SLACK_CHANNEL}"'",
+            "attachments": [
+              {
+                "title": "Test Results",
+                "text": ":page_with_curl: *Total Tests:* ${{ env.TOTAL_TESTS }}\n:white_check_mark: *Passed Tests:* ${{ env.PASSED_TESTS }}\n:x: *Failed Tests:* ${{ env.FAILED_TESTS }}\n\n<https://${{ github.actor }}.github.io/robot-appium-tests/report.html|Click here to see the last test run in details>",
+                "color": "'"${color}"'"
+              }
+            ]
+          }' "${SLACK_WEBHOOK_URL}"

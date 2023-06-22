@@ -30,7 +30,7 @@ These instructions will get you a copy of the project up and running on your Sau
 
 Capabilities is the name used to define the parameters used to start an Appium Session. If you want to change some of them, here is the Capabilities I used for the tests, both Android and iOS have their own `base_variables.robot` with their own properties.
 
-`${REMOTE_URL}` - Used for continuous integration with SauceLabs, you can get your own at `https://app.saucelabs.com/user-settings`
+`${REMOTE_URL}` - Used for continuous integration with SauceLabs, you can get your own at [SauceLabs User Settings](https://app.saucelabs.com/user-settings)
 
 `${PLATFORM_NAME}` - The type of platform hosting the app or browser,  e.g., `Android` or `iOS`
 

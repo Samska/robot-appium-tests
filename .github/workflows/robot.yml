@@ -15,10 +15,9 @@ jobs:
     env:
         SAUCELABS_REMOTE_URL: ${{ secrets.SAUCELABS_REMOTE_URL }}
 
-    steps:
-        
-    - name: Checkout repository
-    - uses: actions/checkout@v2
+    steps:        
+    - name: Project checkout
+      uses: actions/checkout@v2 
 
     - name: Set up Python 3.8
       uses: actions/setup-python@v2

@@ -34,16 +34,16 @@ jobs:
 
       - name: Run tests
         run: |
-          robot --variable REMOTE_URL:$SAUCELABS_REMOTE_URL --outputdir results tests || true
+          robot --variable REMOTE_URL:$SAUCELABS_REMOTE_URL --outputdir test-reports tests || true
 
       - name: Convert XML Results to JSON
         run: |
-          node -e "const fs = require('fs'); const xml2js = require('xml-js'); const xmlData = fs.readFileSync('./results/output.xml', 'utf8'); const jsonData = xml2js.xml2json(xmlData, { compact: true, spaces: 2 }); fs.writeFileSync('./results/output.json', jsonData);"
+          node -e "const fs = require('fs'); const xml2js = require('xml-js'); const xmlData = fs.readFileSync('./test-reports/output.xml', 'utf8'); const jsonData = xml2js.xml2json(xmlData, { compact: true, spaces: 2 }); fs.writeFileSync('./test-reports/output.json', jsonData);"
 
       - name: Read output.json and set test results into env variables
         run: |
-          passedTests=$(jq -r '.robot.statistics.total.stat._attributes.pass' ./results/output.json)
-          failedTests=$(jq -r '.robot.statistics.total.stat._attributes.fail' ./results/output.json)
+          passedTests=$(jq -r '.robot.statistics.total.stat._attributes.pass' ./test-reports/output.json)
+          failedTests=$(jq -r '.robot.statistics.total.stat._attributes.fail' ./test-reports/output.json)
           totalTests=$(expr $passedTests + $failedTests)
           echo "PASSED_TESTS=$passedTests" >> $GITHUB_ENV
           echo "FAILED_TESTS=$failedTests" >> $GITHUB_ENV
@@ -53,15 +53,15 @@ jobs:
         id: upload_results
         uses: actions/upload-artifact@v2
         with:
-          name: reports
-          path: results
+          name: test-results
+          path: test-reports
 
       - name: Publish Test Report
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./results/
-          cname: ${{ env.CNAME }}
+          publish_dir: ./test-reports/
+          publish_branch: gh-pages
           commit_message: Update the test report
 
       - name: Display Test Report URL

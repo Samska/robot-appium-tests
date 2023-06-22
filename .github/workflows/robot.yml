@@ -59,9 +59,9 @@ jobs:
       - name: Publish Test Report
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./results/
-          publish_branch: gh-pages
+          cname: ${{ env.CNAME }}
           commit_message: Update the test report
 
       - name: Display Test Report URL

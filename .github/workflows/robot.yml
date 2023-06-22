@@ -32,3 +32,18 @@ jobs:
     - name: Run tests
       run: |
         robot --variable REMOTE_URL:$SAUCELABS_REMOTE_URL --outputdir results tests || true
+
+    - name: Upload Test Results
+      id: upload_results
+      uses: actions/upload-artifact@v2
+      with:
+        name: reports
+        path: results
+
+    - name: Publish Test Report
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: '${{ secrets.GITHUB_TOKEN }}'
+        publish_dir: ./results/
+        publish_branch: gh-pages
+        commit_message: Update the test report

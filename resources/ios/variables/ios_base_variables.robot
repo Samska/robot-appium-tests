@@ -1,6 +1,3 @@
-*** Settings ***
-Resource            ../../../config/env.robot
-
 *** Variables ***
 ${REMOTE_URL}    ${SAUCELABS_REMOTE_URL} 
 ${PLATFORM_NAME}    iOS

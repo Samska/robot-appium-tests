@@ -84,7 +84,7 @@ jobs:
             "attachments": [
               {
                 "title": "Test Results",
-                "text": ":page_with_curl: *Total Tests:* ${{ env.TOTAL_TESTS }}\n:white_check_mark: *Passed Tests:* ${{ env.PASSED_TESTS }}\n:x: *Failed Tests:* ${{ env.FAILED_TESTS }}\n\n<https://${{ github.actor }}.github.io/gen-ai-robot-test/report.html|Click here to see the last test run in details>",
+                "text": ":page_with_curl: *Total Tests:* ${{ env.TOTAL_TESTS }}\n:white_check_mark: *Passed Tests:* ${{ env.PASSED_TESTS }}\n:x: *Failed Tests:* ${{ env.FAILED_TESTS }}\n\n<https://${{ github.actor }}.github.io/robot-appium-tests/report.html|Click here to see the last test run in details>",
                 "color": "'"${color}"'"
               }
             ]

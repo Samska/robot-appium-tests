@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1 (Python 3.8.17 on linux)" generated="20230622 02:01:04.598" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1 (Python 3.8.17 on linux)" generated="20230626 01:12:25.176" rpa="false" schemaversion="4">
 <suite id="s1" name="Tests" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests">
 <suite id="s1-s1" name="Android" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android">
-<suite id="s1-s1-s1" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/login.robot">
-<test id="s1-s1-s1-t1" name="Scenario: Login with wrong credentials" line="11">
-<kw name="Before Tests" library="setup_keywords" type="SETUP">
+<suite id="s1-s1-s1" name="Catalog" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/catalog.robot">
+<test id="s1-s1-s1-t1" name="Scenario: Open product from the catalog" line="11">
+<kw name="Before Tests" library="base_keywords" type="SETUP">
+<kw name="Open App" library="base_keywords">
 <kw name="Open Application" library="AppiumLibrary">
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
@@ -22,39 +23,48 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:10.710" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:10.709" endtime="20230622 02:01:10.711"/>
+<msg timestamp="20230626 01:12:30.969" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:30.968" endtime="20230626 01:12:30.970"/>
 </kw>
-<msg timestamp="20230622 02:01:10.713" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:10.714" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/2c9ece31c94c406eb7d08ad8abb70e91
+<msg timestamp="20230626 01:12:30.972" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:30.973" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/777c4737412040599ed9b0a54a614642
 </msg>
-<status status="FAIL" starttime="20230622 02:01:04.842" endtime="20230622 02:01:10.714"/>
+<status status="FAIL" starttime="20230626 01:12:25.395" endtime="20230626 01:12:30.973"/>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:04.842" endtime="20230622 02:01:10.714"/>
+<status status="FAIL" starttime="20230626 01:12:25.395" endtime="20230626 01:12:30.973"/>
 </kw>
-<kw name="After Tests" library="setup_keywords" type="TEARDOWN">
+<kw name="Perform Login" library="login_keywords">
+<arg>bob@example.com</arg>
+<arg>10203040</arg>
+<status status="NOT RUN" starttime="20230626 01:12:30.973" endtime="20230626 01:12:30.973"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:25.395" endtime="20230626 01:12:30.973"/>
+</kw>
+<kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:10.715" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:10.715" endtime="20230622 02:01:10.715"/>
+<msg timestamp="20230626 01:12:30.975" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:30.974" endtime="20230626 01:12:30.975"/>
 </kw>
-<msg timestamp="20230622 02:01:10.717" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:10.717" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:10.715" endtime="20230622 02:01:10.717"/>
+<msg timestamp="20230626 01:12:30.977" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:30.977" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:30.974" endtime="20230626 01:12:30.977"/>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:10.714" endtime="20230622 02:01:10.718">No application is open</status>
+<status status="FAIL" starttime="20230626 01:12:30.974" endtime="20230626 01:12:30.977">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:04.842" endtime="20230622 02:01:10.718">Setup failed:
-WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/2c9ece31c94c406eb7d08ad8abb70e91
+<tag>open_product</tag>
+<status status="FAIL" starttime="20230626 01:12:25.394" endtime="20230626 01:12:30.977">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/777c4737412040599ed9b0a54a614642
 
 
 Also teardown failed:
 No application is open</status>
 </test>
-<test id="s1-s1-s1-t2" name="Scenario: Login successfully" line="15">
-<kw name="Before Tests" library="setup_keywords" type="SETUP">
+<test id="s1-s1-s1-t2" name="Scenario: Rate product from catalog" line="16">
+<kw name="Before Tests" library="base_keywords" type="SETUP">
+<kw name="Open App" library="base_keywords">
 <kw name="Open Application" library="AppiumLibrary">
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
@@ -72,39 +82,48 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:16.567" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:16.566" endtime="20230622 02:01:16.567"/>
+<msg timestamp="20230626 01:12:37.019" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:37.018" endtime="20230626 01:12:37.021"/>
 </kw>
-<msg timestamp="20230622 02:01:16.569" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:16.569" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/d86e32df4c40468f98ce08e3ee04f43f
+<msg timestamp="20230626 01:12:37.023" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:37.023" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/254986e1a02f4c66942222a4e4587e2b
 </msg>
-<status status="FAIL" starttime="20230622 02:01:10.719" endtime="20230622 02:01:16.570"/>
+<status status="FAIL" starttime="20230626 01:12:30.979" endtime="20230626 01:12:37.023"/>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:10.718" endtime="20230622 02:01:16.570"/>
+<status status="FAIL" starttime="20230626 01:12:30.978" endtime="20230626 01:12:37.023"/>
 </kw>
-<kw name="After Tests" library="setup_keywords" type="TEARDOWN">
+<kw name="Perform Login" library="login_keywords">
+<arg>bob@example.com</arg>
+<arg>10203040</arg>
+<status status="NOT RUN" starttime="20230626 01:12:37.023" endtime="20230626 01:12:37.023"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:30.978" endtime="20230626 01:12:37.024"/>
+</kw>
+<kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:16.571" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:16.571" endtime="20230622 02:01:16.571"/>
+<msg timestamp="20230626 01:12:37.025" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:37.024" endtime="20230626 01:12:37.025"/>
 </kw>
-<msg timestamp="20230622 02:01:16.573" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:16.573" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:16.571" endtime="20230622 02:01:16.574"/>
+<msg timestamp="20230626 01:12:37.028" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:37.028" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:37.024" endtime="20230626 01:12:37.028"/>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:16.570" endtime="20230622 02:01:16.574">No application is open</status>
+<status status="FAIL" starttime="20230626 01:12:37.024" endtime="20230626 01:12:37.028">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:10.718" endtime="20230622 02:01:16.574">Setup failed:
-WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/d86e32df4c40468f98ce08e3ee04f43f
+<tag>rate_product</tag>
+<status status="FAIL" starttime="20230626 01:12:30.978" endtime="20230626 01:12:37.028">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/254986e1a02f4c66942222a4e4587e2b
 
 
 Also teardown failed:
 No application is open</status>
 </test>
-<test id="s1-s1-s1-t3" name="Scenario: Logout successfully" line="18">
-<kw name="Before Tests" library="setup_keywords" type="SETUP">
+<test id="s1-s1-s1-t3" name="Scenario: Sort products by Name - Ascending" line="20">
+<kw name="Before Tests" library="base_keywords" type="SETUP">
+<kw name="Open App" library="base_keywords">
 <kw name="Open Application" library="AppiumLibrary">
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
@@ -122,45 +141,292 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:22.449" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:22.448" endtime="20230622 02:01:22.451"/>
+<msg timestamp="20230626 01:12:42.646" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:42.645" endtime="20230626 01:12:42.646"/>
 </kw>
-<msg timestamp="20230622 02:01:22.453" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:22.453" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/6ff943094e3f4dfd9579edf9f6495120
+<msg timestamp="20230626 01:12:42.648" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:42.648" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/1a51c64036684768808d952da1334e18
 </msg>
-<status status="FAIL" starttime="20230622 02:01:16.575" endtime="20230622 02:01:22.453"/>
+<status status="FAIL" starttime="20230626 01:12:37.030" endtime="20230626 01:12:42.649"/>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:16.575" endtime="20230622 02:01:22.453"/>
+<status status="FAIL" starttime="20230626 01:12:37.029" endtime="20230626 01:12:42.649"/>
 </kw>
-<kw name="After Tests" library="setup_keywords" type="TEARDOWN">
+<kw name="Perform Login" library="login_keywords">
+<arg>bob@example.com</arg>
+<arg>10203040</arg>
+<status status="NOT RUN" starttime="20230626 01:12:42.649" endtime="20230626 01:12:42.649"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:37.029" endtime="20230626 01:12:42.649"/>
+</kw>
+<kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:22.454" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:22.454" endtime="20230622 02:01:22.454"/>
+<msg timestamp="20230626 01:12:42.650" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:42.650" endtime="20230626 01:12:42.651"/>
 </kw>
-<msg timestamp="20230622 02:01:22.456" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:22.456" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:22.454" endtime="20230622 02:01:22.457"/>
+<msg timestamp="20230626 01:12:42.652" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:42.653" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:42.650" endtime="20230626 01:12:42.653"/>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:22.454" endtime="20230622 02:01:22.457">No application is open</status>
+<status status="FAIL" starttime="20230626 01:12:42.649" endtime="20230626 01:12:42.653">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:16.574" endtime="20230622 02:01:22.457">Setup failed:
-WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/6ff943094e3f4dfd9579edf9f6495120
+<tag>sort_by</tag>
+<status status="FAIL" starttime="20230626 01:12:37.028" endtime="20230626 01:12:42.653">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/1a51c64036684768808d952da1334e18
 
 
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" starttime="20230622 02:01:04.622" endtime="20230622 02:01:22.457"/>
+<test id="s1-s1-s1-t4" name="Scenario: Add product from catalog to cart" line="24">
+<kw name="Before Tests" library="base_keywords" type="SETUP">
+<kw name="Open App" library="base_keywords">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>app=${APP}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>name=${JOB_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230626 01:12:48.347" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:48.346" endtime="20230626 01:12:48.347"/>
+</kw>
+<msg timestamp="20230626 01:12:48.349" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:48.350" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/6b54624f8b7f408891319c8031bdae59
+</msg>
+<status status="FAIL" starttime="20230626 01:12:42.655" endtime="20230626 01:12:48.350"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:42.655" endtime="20230626 01:12:48.350"/>
+</kw>
+<kw name="Perform Login" library="login_keywords">
+<arg>bob@example.com</arg>
+<arg>10203040</arg>
+<status status="NOT RUN" starttime="20230626 01:12:48.350" endtime="20230626 01:12:48.350"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:42.654" endtime="20230626 01:12:48.350"/>
+</kw>
+<kw name="After Tests" library="base_keywords" type="TEARDOWN">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230626 01:12:48.352" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:48.351" endtime="20230626 01:12:48.352"/>
+</kw>
+<msg timestamp="20230626 01:12:48.355" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:48.355" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:48.351" endtime="20230626 01:12:48.355"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:48.351" endtime="20230626 01:12:48.356">No application is open</status>
+</kw>
+<tag>add_cart</tag>
+<status status="FAIL" starttime="20230626 01:12:42.654" endtime="20230626 01:12:48.356">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/6b54624f8b7f408891319c8031bdae59
+
+
+Also teardown failed:
+No application is open</status>
+</test>
+<status status="FAIL" starttime="20230626 01:12:25.202" endtime="20230626 01:12:48.357"/>
 </suite>
-<status status="FAIL" starttime="20230622 02:01:04.620" endtime="20230622 02:01:22.458"/>
+<suite id="s1-s1-s2" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/login.robot">
+<test id="s1-s1-s2-t1" name="Scenario: Login with wrong credentials" line="11">
+<kw name="Before Tests" library="base_keywords" type="SETUP">
+<kw name="Open App" library="base_keywords">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>app=${APP}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>name=${JOB_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230626 01:12:53.977" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:53.976" endtime="20230626 01:12:53.977"/>
+</kw>
+<msg timestamp="20230626 01:12:53.979" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:53.979" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/2cb64bc177dd4df1a974d86c35a327a5
+</msg>
+<status status="FAIL" starttime="20230626 01:12:48.365" endtime="20230626 01:12:53.979"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:48.364" endtime="20230626 01:12:53.980"/>
+</kw>
+<kw name="Perform Login" library="login_keywords">
+<arg>bob@example.com</arg>
+<arg>10203040</arg>
+<status status="NOT RUN" starttime="20230626 01:12:53.980" endtime="20230626 01:12:53.980"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:48.364" endtime="20230626 01:12:53.980"/>
+</kw>
+<kw name="After Tests" library="base_keywords" type="TEARDOWN">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230626 01:12:53.982" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:53.981" endtime="20230626 01:12:53.982"/>
+</kw>
+<msg timestamp="20230626 01:12:53.984" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:53.984" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:53.981" endtime="20230626 01:12:53.984"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:53.981" endtime="20230626 01:12:53.984">No application is open</status>
+</kw>
+<tag>wrong_login</tag>
+<status status="FAIL" starttime="20230626 01:12:48.364" endtime="20230626 01:12:53.984">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/2cb64bc177dd4df1a974d86c35a327a5
+
+
+Also teardown failed:
+No application is open</status>
+</test>
+<test id="s1-s1-s2-t2" name="Scenario: Login successfully" line="17">
+<kw name="Before Tests" library="base_keywords" type="SETUP">
+<kw name="Open App" library="base_keywords">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>app=${APP}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>name=${JOB_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230626 01:12:59.625" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:59.624" endtime="20230626 01:12:59.625"/>
+</kw>
+<msg timestamp="20230626 01:12:59.627" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:59.627" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c626a6e757d54d15bd8cd62c729a01e2
+</msg>
+<status status="FAIL" starttime="20230626 01:12:53.986" endtime="20230626 01:12:59.627"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:53.986" endtime="20230626 01:12:59.627"/>
+</kw>
+<kw name="Perform Login" library="login_keywords">
+<arg>bob@example.com</arg>
+<arg>10203040</arg>
+<status status="NOT RUN" starttime="20230626 01:12:59.627" endtime="20230626 01:12:59.627"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:53.985" endtime="20230626 01:12:59.627"/>
+</kw>
+<kw name="After Tests" library="base_keywords" type="TEARDOWN">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230626 01:12:59.629" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:59.628" endtime="20230626 01:12:59.629"/>
+</kw>
+<msg timestamp="20230626 01:12:59.631" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:59.631" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:12:59.628" endtime="20230626 01:12:59.631"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:59.628" endtime="20230626 01:12:59.631">No application is open</status>
+</kw>
+<tag>login_success</tag>
+<status status="FAIL" starttime="20230626 01:12:53.985" endtime="20230626 01:12:59.631">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c626a6e757d54d15bd8cd62c729a01e2
+
+
+Also teardown failed:
+No application is open</status>
+</test>
+<test id="s1-s1-s2-t3" name="Scenario: Logout successfully" line="22">
+<kw name="Before Tests" library="base_keywords" type="SETUP">
+<kw name="Open App" library="base_keywords">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>app=${APP}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>name=${JOB_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230626 01:13:05.858" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:13:05.858" endtime="20230626 01:13:05.859"/>
+</kw>
+<msg timestamp="20230626 01:13:05.861" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:13:05.861" level="FAIL">WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c993e8705678439b9255ed0bd51c1e8c
+</msg>
+<status status="FAIL" starttime="20230626 01:12:59.632" endtime="20230626 01:13:05.861"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:59.632" endtime="20230626 01:13:05.861"/>
+</kw>
+<kw name="Perform Login" library="login_keywords">
+<arg>bob@example.com</arg>
+<arg>10203040</arg>
+<status status="NOT RUN" starttime="20230626 01:13:05.861" endtime="20230626 01:13:05.861"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:12:59.632" endtime="20230626 01:13:05.861"/>
+</kw>
+<kw name="After Tests" library="base_keywords" type="TEARDOWN">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230626 01:13:05.863" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:13:05.862" endtime="20230626 01:13:05.863"/>
+</kw>
+<msg timestamp="20230626 01:13:05.864" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:13:05.865" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:13:05.862" endtime="20230626 01:13:05.865"/>
+</kw>
+<status status="FAIL" starttime="20230626 01:13:05.862" endtime="20230626 01:13:05.865">No application is open</status>
+</kw>
+<tag>logout_success</tag>
+<status status="FAIL" starttime="20230626 01:12:59.631" endtime="20230626 01:13:05.865">Setup failed:
+WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c993e8705678439b9255ed0bd51c1e8c
+
+
+Also teardown failed:
+No application is open</status>
+</test>
+<status status="FAIL" starttime="20230626 01:12:48.358" endtime="20230626 01:13:05.865"/>
+</suite>
+<status status="FAIL" starttime="20230626 01:12:25.200" endtime="20230626 01:13:05.867"/>
 </suite>
 <suite id="s1-s2" name="Ios" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios">
-<suite id="s1-s2-s1" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/login.robot">
-<test id="s1-s2-s1-t1" name="Scenario: Login with wrong credentials" line="9">
-<kw name="Before Tests" library="setup_keywords" type="SETUP">
+<suite id="s1-s2-s1" name="Test" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/test.robot">
+<test id="s1-s2-s1-t1" name="Scenario: Take screenshot" line="9">
+<kw name="Before Tests" library="base_keywords" type="SETUP">
 <kw name="Open Application" library="AppiumLibrary">
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
@@ -178,34 +444,34 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:22.980" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:22.980" endtime="20230622 02:01:22.980"/>
+<msg timestamp="20230626 01:13:08.539" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:13:08.538" endtime="20230626 01:13:08.539"/>
 </kw>
-<msg timestamp="20230622 02:01:22.982" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:22.982" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
+<msg timestamp="20230626 01:13:08.541" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:13:08.541" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
 Driver info: driver.version: unknown
 </msg>
-<status status="FAIL" starttime="20230622 02:01:22.466" endtime="20230622 02:01:22.982"/>
+<status status="FAIL" starttime="20230626 01:13:05.876" endtime="20230626 01:13:08.541"/>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:22.466" endtime="20230622 02:01:22.983"/>
+<status status="FAIL" starttime="20230626 01:13:05.876" endtime="20230626 01:13:08.541"/>
 </kw>
-<kw name="After Tests" library="setup_keywords" type="TEARDOWN">
+<kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:22.984" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:22.983" endtime="20230622 02:01:22.984"/>
+<msg timestamp="20230626 01:13:08.544" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:13:08.542" endtime="20230626 01:13:08.544"/>
 </kw>
-<msg timestamp="20230622 02:01:22.985" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:22.985" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:22.983" endtime="20230622 02:01:22.986"/>
+<msg timestamp="20230626 01:13:08.545" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:13:08.546" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230626 01:13:08.542" endtime="20230626 01:13:08.546"/>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:22.983" endtime="20230622 02:01:22.986">No application is open</status>
+<status status="FAIL" starttime="20230626 01:13:08.542" endtime="20230626 01:13:08.546">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20230622 02:01:22.466" endtime="20230622 02:01:22.986">Setup failed:
+<status status="FAIL" starttime="20230626 01:13:05.875" endtime="20230626 01:13:08.546">Setup failed:
 SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
@@ -215,152 +481,50 @@ Driver info: driver.version: unknown
 Also teardown failed:
 No application is open</status>
 </test>
-<test id="s1-s2-s1-t2" name="Scenario: Login successfully" line="12">
-<kw name="Before Tests" library="setup_keywords" type="SETUP">
-<kw name="Open Application" library="AppiumLibrary">
-<arg>${REMOTE_URL}</arg>
-<arg>platformName=${PLATFORM_NAME}</arg>
-<arg>platformVersion=${PLATFORM_VERSION}</arg>
-<arg>deviceName=${DEVICE_NAME}</arg>
-<arg>app=${APP}</arg>
-<arg>automationName=${AUTOMATION_NAME}</arg>
-<arg>name=${JOB_NAME}</arg>
-<doc>Opens a new application to given Appium server.
-Capabilities of appium server, Android and iOS,
-Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
-| *Option*            | *Man.* | *Description*     |
-| remote_url          | Yes    | Appium server url |
-| alias               | no     | alias             |
-| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<kw name="Capture Page Screenshot" library="AppiumLibrary">
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:25.007" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:25.006" endtime="20230622 02:01:25.008"/>
-</kw>
-<msg timestamp="20230622 02:01:25.009" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:25.010" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
-Driver info: driver.version: unknown
-</msg>
-<status status="FAIL" starttime="20230622 02:01:22.987" endtime="20230622 02:01:25.010"/>
-</kw>
-<status status="FAIL" starttime="20230622 02:01:22.986" endtime="20230622 02:01:25.010"/>
-</kw>
-<kw name="After Tests" library="setup_keywords" type="TEARDOWN">
-<kw name="Close Application" library="AppiumLibrary">
-<doc>Closes the current application and also close webdriver session.</doc>
-<kw name="Capture Page Screenshot" library="AppiumLibrary">
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:25.011" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:25.011" endtime="20230622 02:01:25.011"/>
-</kw>
-<msg timestamp="20230622 02:01:25.013" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:25.013" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:25.011" endtime="20230622 02:01:25.013"/>
-</kw>
-<status status="FAIL" starttime="20230622 02:01:25.010" endtime="20230622 02:01:25.013">No application is open</status>
-</kw>
-<status status="FAIL" starttime="20230622 02:01:22.986" endtime="20230622 02:01:25.014">Setup failed:
-SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
-Driver info: driver.version: unknown
-
-
-Also teardown failed:
-No application is open</status>
-</test>
-<test id="s1-s2-s1-t3" name="Scenario: Logout successfully" line="15">
-<kw name="Before Tests" library="setup_keywords" type="SETUP">
-<kw name="Open Application" library="AppiumLibrary">
-<arg>${REMOTE_URL}</arg>
-<arg>platformName=${PLATFORM_NAME}</arg>
-<arg>platformVersion=${PLATFORM_VERSION}</arg>
-<arg>deviceName=${DEVICE_NAME}</arg>
-<arg>app=${APP}</arg>
-<arg>automationName=${AUTOMATION_NAME}</arg>
-<arg>name=${JOB_NAME}</arg>
-<doc>Opens a new application to given Appium server.
-Capabilities of appium server, Android and iOS,
-Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
-| *Option*            | *Man.* | *Description*     |
-| remote_url          | Yes    | Appium server url |
-| alias               | no     | alias             |
-| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<kw name="Capture Page Screenshot" library="AppiumLibrary">
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:26.087" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:26.087" endtime="20230622 02:01:26.087"/>
-</kw>
-<msg timestamp="20230622 02:01:26.089" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:26.090" level="FAIL">SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
-Driver info: driver.version: unknown
-</msg>
-<status status="FAIL" starttime="20230622 02:01:25.015" endtime="20230622 02:01:26.090"/>
-</kw>
-<status status="FAIL" starttime="20230622 02:01:25.015" endtime="20230622 02:01:26.090"/>
-</kw>
-<kw name="After Tests" library="setup_keywords" type="TEARDOWN">
-<kw name="Close Application" library="AppiumLibrary">
-<doc>Closes the current application and also close webdriver session.</doc>
-<kw name="Capture Page Screenshot" library="AppiumLibrary">
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20230622 02:01:26.091" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:26.091" endtime="20230622 02:01:26.091"/>
-</kw>
-<msg timestamp="20230622 02:01:26.093" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:26.094" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20230622 02:01:26.091" endtime="20230622 02:01:26.094"/>
-</kw>
-<status status="FAIL" starttime="20230622 02:01:26.090" endtime="20230622 02:01:26.094">No application is open</status>
-</kw>
-<status status="FAIL" starttime="20230622 02:01:25.015" endtime="20230622 02:01:26.094">Setup failed:
-SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {"capabilities":{"firstMatch":[{"appium:name":"Robot Framework Appium iOS Tests","platformName":"iOS","appium:deviceName":"iPhone XR","appium:automationName":"XCUITest","appium:platformVersion":"16.4.1","appium:app":"storage:filename\u003ddemo-saucelabs.ipa"}]}}
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'
-Driver info: driver.version: unknown
-
-
-Also teardown failed:
-No application is open</status>
-</test>
-<status status="FAIL" starttime="20230622 02:01:22.461" endtime="20230622 02:01:26.096"/>
+<status status="FAIL" starttime="20230626 01:13:05.870" endtime="20230626 01:13:08.546"/>
 </suite>
-<status status="FAIL" starttime="20230622 02:01:22.459" endtime="20230622 02:01:26.098"/>
+<status status="FAIL" starttime="20230626 01:13:05.868" endtime="20230626 01:13:08.547"/>
 </suite>
-<status status="FAIL" starttime="20230622 02:01:04.599" endtime="20230622 02:01:26.099"/>
+<status status="FAIL" starttime="20230626 01:12:25.177" endtime="20230626 01:13:08.548"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="6" skip="0">All Tests</stat>
+<stat pass="0" fail="8" skip="0">All Tests</stat>
 </total>
 <tag>
+<stat pass="0" fail="1" skip="0">add_cart</stat>
+<stat pass="0" fail="1" skip="0">login_success</stat>
+<stat pass="0" fail="1" skip="0">logout_success</stat>
+<stat pass="0" fail="1" skip="0">open_product</stat>
+<stat pass="0" fail="1" skip="0">rate_product</stat>
+<stat pass="0" fail="1" skip="0">sort_by</stat>
+<stat pass="0" fail="1" skip="0">wrong_login</stat>
 </tag>
 <suite>
-<stat pass="0" fail="6" skip="0" id="s1" name="Tests">Tests</stat>
-<stat pass="0" fail="3" skip="0" id="s1-s1" name="Android">Tests.Android</stat>
-<stat pass="0" fail="3" skip="0" id="s1-s1-s1" name="Login">Tests.Android.Login</stat>
-<stat pass="0" fail="3" skip="0" id="s1-s2" name="Ios">Tests.Ios</stat>
-<stat pass="0" fail="3" skip="0" id="s1-s2-s1" name="Login">Tests.Ios.Login</stat>
+<stat pass="0" fail="8" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="7" skip="0" id="s1-s1" name="Android">Tests.Android</stat>
+<stat pass="0" fail="4" skip="0" id="s1-s1-s1" name="Catalog">Tests.Android.Catalog</stat>
+<stat pass="0" fail="3" skip="0" id="s1-s1-s2" name="Login">Tests.Android.Login</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s2" name="Ios">Tests.Ios</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s2-s1" name="Test">Tests.Ios.Test</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20230622 02:01:04.836" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/variables/android_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist.</msg>
-<msg timestamp="20230622 02:01:10.713" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:10.717" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:16.569" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:16.573" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:22.453" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:22.456" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:22.464" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/ios/variables/ios_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist.</msg>
-<msg timestamp="20230622 02:01:22.982" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:22.985" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:25.009" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:25.013" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:26.089" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20230622 02:01:26.093" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:30.972" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:30.977" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:37.023" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:37.028" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:42.648" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:42.652" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:48.349" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:48.355" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:53.979" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:53.984" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:59.627" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:12:59.631" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:13:05.861" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:13:05.864" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:13:08.541" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230626 01:13:08.545" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
 </errors>
 </robot>

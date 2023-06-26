@@ -8,7 +8,7 @@
   "robot": {
     "_attributes": {
       "generator": "Robot 6.1 (Python 3.8.17 on linux)",
-      "generated": "20230622 02:01:04.598",
+      "generated": "20230626 01:12:25.176",
       "rpa": "false",
       "schemaversion": "4"
     },
@@ -25,564 +25,1571 @@
             "name": "Android",
             "source": "/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android"
           },
-          "suite": {
-            "_attributes": {
-              "id": "s1-s1-s1",
-              "name": "Login",
-              "source": "/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/login.robot"
-            },
-            "test": [
-              {
-                "_attributes": {
-                  "id": "s1-s1-s1-t1",
-                  "name": "Scenario: Login with wrong credentials",
-                  "line": "11"
-                },
-                "kw": [
-                  {
-                    "_attributes": {
-                      "name": "Before Tests",
-                      "library": "setup_keywords",
-                      "type": "SETUP"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Open Application",
-                        "library": "AppiumLibrary"
-                      },
-                      "arg": [
-                        {
-                          "_text": "${REMOTE_URL}"
-                        },
-                        {
-                          "_text": "platformName=${PLATFORM_NAME}"
-                        },
-                        {
-                          "_text": "platformVersion=${PLATFORM_VERSION}"
-                        },
-                        {
-                          "_text": "deviceName=${DEVICE_NAME}"
-                        },
-                        {
-                          "_text": "app=${APP}"
-                        },
-                        {
-                          "_text": "automationName=${AUTOMATION_NAME}"
-                        },
-                        {
-                          "_text": "name=${JOB_NAME}"
-                        }
-                      ],
-                      "doc": {
-                        "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                      },
-                      "kw": {
-                        "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:10.710",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:10.709",
-                            "endtime": "20230622 02:01:10.711"
-                          }
-                        }
-                      },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:10.713",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:10.714",
-                            "level": "FAIL"
-                          },
-                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/2c9ece31c94c406eb7d08ad8abb70e91\n"
-                        }
-                      ],
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 02:01:04.842",
-                          "endtime": "20230622 02:01:10.714"
-                        }
-                      }
-                    },
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 02:01:04.842",
-                        "endtime": "20230622 02:01:10.714"
-                      }
-                    }
-                  },
-                  {
-                    "_attributes": {
-                      "name": "After Tests",
-                      "library": "setup_keywords",
-                      "type": "TEARDOWN"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Close Application",
-                        "library": "AppiumLibrary"
-                      },
-                      "doc": {
-                        "_text": "Closes the current application and also close webdriver session."
-                      },
-                      "kw": {
-                        "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:10.715",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:10.715",
-                            "endtime": "20230622 02:01:10.715"
-                          }
-                        }
-                      },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:10.717",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:10.717",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        }
-                      ],
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 02:01:10.715",
-                          "endtime": "20230622 02:01:10.717"
-                        }
-                      }
-                    },
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 02:01:10.714",
-                        "endtime": "20230622 02:01:10.718"
-                      },
-                      "_text": "No application is open"
-                    }
-                  }
-                ],
-                "status": {
-                  "_attributes": {
-                    "status": "FAIL",
-                    "starttime": "20230622 02:01:04.842",
-                    "endtime": "20230622 02:01:10.718"
-                  },
-                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/2c9ece31c94c406eb7d08ad8abb70e91\n\n\nAlso teardown failed:\nNo application is open"
-                }
+          "suite": [
+            {
+              "_attributes": {
+                "id": "s1-s1-s1",
+                "name": "Catalog",
+                "source": "/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/catalog.robot"
               },
-              {
-                "_attributes": {
-                  "id": "s1-s1-s1-t2",
-                  "name": "Scenario: Login successfully",
-                  "line": "15"
-                },
-                "kw": [
-                  {
-                    "_attributes": {
-                      "name": "Before Tests",
-                      "library": "setup_keywords",
-                      "type": "SETUP"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Open Application",
-                        "library": "AppiumLibrary"
-                      },
-                      "arg": [
-                        {
-                          "_text": "${REMOTE_URL}"
-                        },
-                        {
-                          "_text": "platformName=${PLATFORM_NAME}"
-                        },
-                        {
-                          "_text": "platformVersion=${PLATFORM_VERSION}"
-                        },
-                        {
-                          "_text": "deviceName=${DEVICE_NAME}"
-                        },
-                        {
-                          "_text": "app=${APP}"
-                        },
-                        {
-                          "_text": "automationName=${AUTOMATION_NAME}"
-                        },
-                        {
-                          "_text": "name=${JOB_NAME}"
-                        }
-                      ],
-                      "doc": {
-                        "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                      },
-                      "kw": {
-                        "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:16.567",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:16.566",
-                            "endtime": "20230622 02:01:16.567"
-                          }
-                        }
-                      },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:16.569",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:16.569",
-                            "level": "FAIL"
-                          },
-                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/d86e32df4c40468f98ce08e3ee04f43f\n"
-                        }
-                      ],
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 02:01:10.719",
-                          "endtime": "20230622 02:01:16.570"
-                        }
-                      }
-                    },
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 02:01:10.718",
-                        "endtime": "20230622 02:01:16.570"
-                      }
-                    }
-                  },
-                  {
-                    "_attributes": {
-                      "name": "After Tests",
-                      "library": "setup_keywords",
-                      "type": "TEARDOWN"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Close Application",
-                        "library": "AppiumLibrary"
-                      },
-                      "doc": {
-                        "_text": "Closes the current application and also close webdriver session."
-                      },
-                      "kw": {
-                        "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:16.571",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:16.571",
-                            "endtime": "20230622 02:01:16.571"
-                          }
-                        }
-                      },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:16.573",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:16.573",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        }
-                      ],
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 02:01:16.571",
-                          "endtime": "20230622 02:01:16.574"
-                        }
-                      }
-                    },
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 02:01:16.570",
-                        "endtime": "20230622 02:01:16.574"
-                      },
-                      "_text": "No application is open"
-                    }
-                  }
-                ],
-                "status": {
+              "test": [
+                {
                   "_attributes": {
-                    "status": "FAIL",
-                    "starttime": "20230622 02:01:10.718",
-                    "endtime": "20230622 02:01:16.574"
+                    "id": "s1-s1-s1-t1",
+                    "name": "Scenario: Open product from the catalog",
+                    "line": "11"
                   },
-                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/d86e32df4c40468f98ce08e3ee04f43f\n\n\nAlso teardown failed:\nNo application is open"
+                  "kw": [
+                    {
+                      "_attributes": {
+                        "name": "Before Tests",
+                        "library": "base_keywords",
+                        "type": "SETUP"
+                      },
+                      "kw": [
+                        {
+                          "_attributes": {
+                            "name": "Open App",
+                            "library": "base_keywords"
+                          },
+                          "kw": {
+                            "_attributes": {
+                              "name": "Open Application",
+                              "library": "AppiumLibrary"
+                            },
+                            "arg": [
+                              {
+                                "_text": "${REMOTE_URL}"
+                              },
+                              {
+                                "_text": "platformName=${PLATFORM_NAME}"
+                              },
+                              {
+                                "_text": "platformVersion=${PLATFORM_VERSION}"
+                              },
+                              {
+                                "_text": "deviceName=${DEVICE_NAME}"
+                              },
+                              {
+                                "_text": "app=${APP}"
+                              },
+                              {
+                                "_text": "automationName=${AUTOMATION_NAME}"
+                              },
+                              {
+                                "_text": "name=${JOB_NAME}"
+                              }
+                            ],
+                            "doc": {
+                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
+                            },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "library": "AppiumLibrary"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:30.969",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "starttime": "20230626 01:12:30.968",
+                                  "endtime": "20230626 01:12:30.970"
+                                }
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:30.972",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:30.973",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/777c4737412040599ed9b0a54a614642\n"
+                              }
+                            ],
+                            "status": {
+                              "_attributes": {
+                                "status": "FAIL",
+                                "starttime": "20230626 01:12:25.395",
+                                "endtime": "20230626 01:12:30.973"
+                              }
+                            }
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:25.395",
+                              "endtime": "20230626 01:12:30.973"
+                            }
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "name": "Perform Login",
+                            "library": "login_keywords"
+                          },
+                          "arg": [
+                            {
+                              "_text": "bob@example.com"
+                            },
+                            {
+                              "_text": "10203040"
+                            }
+                          ],
+                          "status": {
+                            "_attributes": {
+                              "status": "NOT RUN",
+                              "starttime": "20230626 01:12:30.973",
+                              "endtime": "20230626 01:12:30.973"
+                            }
+                          }
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:25.395",
+                          "endtime": "20230626 01:12:30.973"
+                        }
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "name": "After Tests",
+                        "library": "base_keywords",
+                        "type": "TEARDOWN"
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Close Application",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
+                        "kw": {
+                          "_attributes": {
+                            "name": "Capture Page Screenshot",
+                            "library": "AppiumLibrary"
+                          },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
+                          "msg": {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:30.975",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:30.974",
+                              "endtime": "20230626 01:12:30.975"
+                            }
+                          }
+                        },
+                        "msg": [
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:30.977",
+                              "level": "WARN"
+                            },
+                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                          },
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:30.977",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          }
+                        ],
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230626 01:12:30.974",
+                            "endtime": "20230626 01:12:30.977"
+                          }
+                        }
+                      },
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:30.974",
+                          "endtime": "20230626 01:12:30.977"
+                        },
+                        "_text": "No application is open"
+                      }
+                    }
+                  ],
+                  "tag": {
+                    "_text": "open_product"
+                  },
+                  "status": {
+                    "_attributes": {
+                      "status": "FAIL",
+                      "starttime": "20230626 01:12:25.394",
+                      "endtime": "20230626 01:12:30.977"
+                    },
+                    "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/777c4737412040599ed9b0a54a614642\n\n\nAlso teardown failed:\nNo application is open"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "id": "s1-s1-s1-t2",
+                    "name": "Scenario: Rate product from catalog",
+                    "line": "16"
+                  },
+                  "kw": [
+                    {
+                      "_attributes": {
+                        "name": "Before Tests",
+                        "library": "base_keywords",
+                        "type": "SETUP"
+                      },
+                      "kw": [
+                        {
+                          "_attributes": {
+                            "name": "Open App",
+                            "library": "base_keywords"
+                          },
+                          "kw": {
+                            "_attributes": {
+                              "name": "Open Application",
+                              "library": "AppiumLibrary"
+                            },
+                            "arg": [
+                              {
+                                "_text": "${REMOTE_URL}"
+                              },
+                              {
+                                "_text": "platformName=${PLATFORM_NAME}"
+                              },
+                              {
+                                "_text": "platformVersion=${PLATFORM_VERSION}"
+                              },
+                              {
+                                "_text": "deviceName=${DEVICE_NAME}"
+                              },
+                              {
+                                "_text": "app=${APP}"
+                              },
+                              {
+                                "_text": "automationName=${AUTOMATION_NAME}"
+                              },
+                              {
+                                "_text": "name=${JOB_NAME}"
+                              }
+                            ],
+                            "doc": {
+                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
+                            },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "library": "AppiumLibrary"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:37.019",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "starttime": "20230626 01:12:37.018",
+                                  "endtime": "20230626 01:12:37.021"
+                                }
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:37.023",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:37.023",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/254986e1a02f4c66942222a4e4587e2b\n"
+                              }
+                            ],
+                            "status": {
+                              "_attributes": {
+                                "status": "FAIL",
+                                "starttime": "20230626 01:12:30.979",
+                                "endtime": "20230626 01:12:37.023"
+                              }
+                            }
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:30.978",
+                              "endtime": "20230626 01:12:37.023"
+                            }
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "name": "Perform Login",
+                            "library": "login_keywords"
+                          },
+                          "arg": [
+                            {
+                              "_text": "bob@example.com"
+                            },
+                            {
+                              "_text": "10203040"
+                            }
+                          ],
+                          "status": {
+                            "_attributes": {
+                              "status": "NOT RUN",
+                              "starttime": "20230626 01:12:37.023",
+                              "endtime": "20230626 01:12:37.023"
+                            }
+                          }
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:30.978",
+                          "endtime": "20230626 01:12:37.024"
+                        }
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "name": "After Tests",
+                        "library": "base_keywords",
+                        "type": "TEARDOWN"
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Close Application",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
+                        "kw": {
+                          "_attributes": {
+                            "name": "Capture Page Screenshot",
+                            "library": "AppiumLibrary"
+                          },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
+                          "msg": {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:37.025",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:37.024",
+                              "endtime": "20230626 01:12:37.025"
+                            }
+                          }
+                        },
+                        "msg": [
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:37.028",
+                              "level": "WARN"
+                            },
+                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                          },
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:37.028",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          }
+                        ],
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230626 01:12:37.024",
+                            "endtime": "20230626 01:12:37.028"
+                          }
+                        }
+                      },
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:37.024",
+                          "endtime": "20230626 01:12:37.028"
+                        },
+                        "_text": "No application is open"
+                      }
+                    }
+                  ],
+                  "tag": {
+                    "_text": "rate_product"
+                  },
+                  "status": {
+                    "_attributes": {
+                      "status": "FAIL",
+                      "starttime": "20230626 01:12:30.978",
+                      "endtime": "20230626 01:12:37.028"
+                    },
+                    "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/254986e1a02f4c66942222a4e4587e2b\n\n\nAlso teardown failed:\nNo application is open"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "id": "s1-s1-s1-t3",
+                    "name": "Scenario: Sort products by Name - Ascending",
+                    "line": "20"
+                  },
+                  "kw": [
+                    {
+                      "_attributes": {
+                        "name": "Before Tests",
+                        "library": "base_keywords",
+                        "type": "SETUP"
+                      },
+                      "kw": [
+                        {
+                          "_attributes": {
+                            "name": "Open App",
+                            "library": "base_keywords"
+                          },
+                          "kw": {
+                            "_attributes": {
+                              "name": "Open Application",
+                              "library": "AppiumLibrary"
+                            },
+                            "arg": [
+                              {
+                                "_text": "${REMOTE_URL}"
+                              },
+                              {
+                                "_text": "platformName=${PLATFORM_NAME}"
+                              },
+                              {
+                                "_text": "platformVersion=${PLATFORM_VERSION}"
+                              },
+                              {
+                                "_text": "deviceName=${DEVICE_NAME}"
+                              },
+                              {
+                                "_text": "app=${APP}"
+                              },
+                              {
+                                "_text": "automationName=${AUTOMATION_NAME}"
+                              },
+                              {
+                                "_text": "name=${JOB_NAME}"
+                              }
+                            ],
+                            "doc": {
+                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
+                            },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "library": "AppiumLibrary"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:42.646",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "starttime": "20230626 01:12:42.645",
+                                  "endtime": "20230626 01:12:42.646"
+                                }
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:42.648",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:42.648",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/1a51c64036684768808d952da1334e18\n"
+                              }
+                            ],
+                            "status": {
+                              "_attributes": {
+                                "status": "FAIL",
+                                "starttime": "20230626 01:12:37.030",
+                                "endtime": "20230626 01:12:42.649"
+                              }
+                            }
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:37.029",
+                              "endtime": "20230626 01:12:42.649"
+                            }
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "name": "Perform Login",
+                            "library": "login_keywords"
+                          },
+                          "arg": [
+                            {
+                              "_text": "bob@example.com"
+                            },
+                            {
+                              "_text": "10203040"
+                            }
+                          ],
+                          "status": {
+                            "_attributes": {
+                              "status": "NOT RUN",
+                              "starttime": "20230626 01:12:42.649",
+                              "endtime": "20230626 01:12:42.649"
+                            }
+                          }
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:37.029",
+                          "endtime": "20230626 01:12:42.649"
+                        }
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "name": "After Tests",
+                        "library": "base_keywords",
+                        "type": "TEARDOWN"
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Close Application",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
+                        "kw": {
+                          "_attributes": {
+                            "name": "Capture Page Screenshot",
+                            "library": "AppiumLibrary"
+                          },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
+                          "msg": {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:42.650",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:42.650",
+                              "endtime": "20230626 01:12:42.651"
+                            }
+                          }
+                        },
+                        "msg": [
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:42.652",
+                              "level": "WARN"
+                            },
+                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                          },
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:42.653",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          }
+                        ],
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230626 01:12:42.650",
+                            "endtime": "20230626 01:12:42.653"
+                          }
+                        }
+                      },
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:42.649",
+                          "endtime": "20230626 01:12:42.653"
+                        },
+                        "_text": "No application is open"
+                      }
+                    }
+                  ],
+                  "tag": {
+                    "_text": "sort_by"
+                  },
+                  "status": {
+                    "_attributes": {
+                      "status": "FAIL",
+                      "starttime": "20230626 01:12:37.028",
+                      "endtime": "20230626 01:12:42.653"
+                    },
+                    "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/1a51c64036684768808d952da1334e18\n\n\nAlso teardown failed:\nNo application is open"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "id": "s1-s1-s1-t4",
+                    "name": "Scenario: Add product from catalog to cart",
+                    "line": "24"
+                  },
+                  "kw": [
+                    {
+                      "_attributes": {
+                        "name": "Before Tests",
+                        "library": "base_keywords",
+                        "type": "SETUP"
+                      },
+                      "kw": [
+                        {
+                          "_attributes": {
+                            "name": "Open App",
+                            "library": "base_keywords"
+                          },
+                          "kw": {
+                            "_attributes": {
+                              "name": "Open Application",
+                              "library": "AppiumLibrary"
+                            },
+                            "arg": [
+                              {
+                                "_text": "${REMOTE_URL}"
+                              },
+                              {
+                                "_text": "platformName=${PLATFORM_NAME}"
+                              },
+                              {
+                                "_text": "platformVersion=${PLATFORM_VERSION}"
+                              },
+                              {
+                                "_text": "deviceName=${DEVICE_NAME}"
+                              },
+                              {
+                                "_text": "app=${APP}"
+                              },
+                              {
+                                "_text": "automationName=${AUTOMATION_NAME}"
+                              },
+                              {
+                                "_text": "name=${JOB_NAME}"
+                              }
+                            ],
+                            "doc": {
+                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
+                            },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "library": "AppiumLibrary"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:48.347",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "starttime": "20230626 01:12:48.346",
+                                  "endtime": "20230626 01:12:48.347"
+                                }
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:48.349",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:48.350",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/6b54624f8b7f408891319c8031bdae59\n"
+                              }
+                            ],
+                            "status": {
+                              "_attributes": {
+                                "status": "FAIL",
+                                "starttime": "20230626 01:12:42.655",
+                                "endtime": "20230626 01:12:48.350"
+                              }
+                            }
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:42.655",
+                              "endtime": "20230626 01:12:48.350"
+                            }
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "name": "Perform Login",
+                            "library": "login_keywords"
+                          },
+                          "arg": [
+                            {
+                              "_text": "bob@example.com"
+                            },
+                            {
+                              "_text": "10203040"
+                            }
+                          ],
+                          "status": {
+                            "_attributes": {
+                              "status": "NOT RUN",
+                              "starttime": "20230626 01:12:48.350",
+                              "endtime": "20230626 01:12:48.350"
+                            }
+                          }
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:42.654",
+                          "endtime": "20230626 01:12:48.350"
+                        }
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "name": "After Tests",
+                        "library": "base_keywords",
+                        "type": "TEARDOWN"
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Close Application",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
+                        "kw": {
+                          "_attributes": {
+                            "name": "Capture Page Screenshot",
+                            "library": "AppiumLibrary"
+                          },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
+                          "msg": {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:48.352",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:48.351",
+                              "endtime": "20230626 01:12:48.352"
+                            }
+                          }
+                        },
+                        "msg": [
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:48.355",
+                              "level": "WARN"
+                            },
+                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                          },
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:48.355",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          }
+                        ],
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230626 01:12:48.351",
+                            "endtime": "20230626 01:12:48.355"
+                          }
+                        }
+                      },
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:48.351",
+                          "endtime": "20230626 01:12:48.356"
+                        },
+                        "_text": "No application is open"
+                      }
+                    }
+                  ],
+                  "tag": {
+                    "_text": "add_cart"
+                  },
+                  "status": {
+                    "_attributes": {
+                      "status": "FAIL",
+                      "starttime": "20230626 01:12:42.654",
+                      "endtime": "20230626 01:12:48.356"
+                    },
+                    "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/6b54624f8b7f408891319c8031bdae59\n\n\nAlso teardown failed:\nNo application is open"
+                  }
                 }
-              },
-              {
+              ],
+              "status": {
                 "_attributes": {
-                  "id": "s1-s1-s1-t3",
-                  "name": "Scenario: Logout successfully",
-                  "line": "18"
-                },
-                "kw": [
-                  {
-                    "_attributes": {
-                      "name": "Before Tests",
-                      "library": "setup_keywords",
-                      "type": "SETUP"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Open Application",
-                        "library": "AppiumLibrary"
-                      },
-                      "arg": [
-                        {
-                          "_text": "${REMOTE_URL}"
-                        },
-                        {
-                          "_text": "platformName=${PLATFORM_NAME}"
-                        },
-                        {
-                          "_text": "platformVersion=${PLATFORM_VERSION}"
-                        },
-                        {
-                          "_text": "deviceName=${DEVICE_NAME}"
-                        },
-                        {
-                          "_text": "app=${APP}"
-                        },
-                        {
-                          "_text": "automationName=${AUTOMATION_NAME}"
-                        },
-                        {
-                          "_text": "name=${JOB_NAME}"
-                        }
-                      ],
-                      "doc": {
-                        "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                      },
-                      "kw": {
-                        "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.449",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:22.448",
-                            "endtime": "20230622 02:01:22.451"
-                          }
-                        }
-                      },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.453",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.453",
-                            "level": "FAIL"
-                          },
-                          "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/6ff943094e3f4dfd9579edf9f6495120\n"
-                        }
-                      ],
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 02:01:16.575",
-                          "endtime": "20230622 02:01:22.453"
-                        }
-                      }
-                    },
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 02:01:16.575",
-                        "endtime": "20230622 02:01:22.453"
-                      }
-                    }
-                  },
-                  {
-                    "_attributes": {
-                      "name": "After Tests",
-                      "library": "setup_keywords",
-                      "type": "TEARDOWN"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Close Application",
-                        "library": "AppiumLibrary"
-                      },
-                      "doc": {
-                        "_text": "Closes the current application and also close webdriver session."
-                      },
-                      "kw": {
-                        "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.454",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:22.454",
-                            "endtime": "20230622 02:01:22.454"
-                          }
-                        }
-                      },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.456",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.456",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        }
-                      ],
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 02:01:22.454",
-                          "endtime": "20230622 02:01:22.457"
-                        }
-                      }
-                    },
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 02:01:22.454",
-                        "endtime": "20230622 02:01:22.457"
-                      },
-                      "_text": "No application is open"
-                    }
-                  }
-                ],
-                "status": {
-                  "_attributes": {
-                    "status": "FAIL",
-                    "starttime": "20230622 02:01:16.574",
-                    "endtime": "20230622 02:01:22.457"
-                  },
-                  "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/6ff943094e3f4dfd9579edf9f6495120\n\n\nAlso teardown failed:\nNo application is open"
+                  "status": "FAIL",
+                  "starttime": "20230626 01:12:25.202",
+                  "endtime": "20230626 01:12:48.357"
                 }
               }
-            ],
-            "status": {
+            },
+            {
               "_attributes": {
-                "status": "FAIL",
-                "starttime": "20230622 02:01:04.622",
-                "endtime": "20230622 02:01:22.457"
+                "id": "s1-s1-s2",
+                "name": "Login",
+                "source": "/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/login.robot"
+              },
+              "test": [
+                {
+                  "_attributes": {
+                    "id": "s1-s1-s2-t1",
+                    "name": "Scenario: Login with wrong credentials",
+                    "line": "11"
+                  },
+                  "kw": [
+                    {
+                      "_attributes": {
+                        "name": "Before Tests",
+                        "library": "base_keywords",
+                        "type": "SETUP"
+                      },
+                      "kw": [
+                        {
+                          "_attributes": {
+                            "name": "Open App",
+                            "library": "base_keywords"
+                          },
+                          "kw": {
+                            "_attributes": {
+                              "name": "Open Application",
+                              "library": "AppiumLibrary"
+                            },
+                            "arg": [
+                              {
+                                "_text": "${REMOTE_URL}"
+                              },
+                              {
+                                "_text": "platformName=${PLATFORM_NAME}"
+                              },
+                              {
+                                "_text": "platformVersion=${PLATFORM_VERSION}"
+                              },
+                              {
+                                "_text": "deviceName=${DEVICE_NAME}"
+                              },
+                              {
+                                "_text": "app=${APP}"
+                              },
+                              {
+                                "_text": "automationName=${AUTOMATION_NAME}"
+                              },
+                              {
+                                "_text": "name=${JOB_NAME}"
+                              }
+                            ],
+                            "doc": {
+                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
+                            },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "library": "AppiumLibrary"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:53.977",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "starttime": "20230626 01:12:53.976",
+                                  "endtime": "20230626 01:12:53.977"
+                                }
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:53.979",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:53.979",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/2cb64bc177dd4df1a974d86c35a327a5\n"
+                              }
+                            ],
+                            "status": {
+                              "_attributes": {
+                                "status": "FAIL",
+                                "starttime": "20230626 01:12:48.365",
+                                "endtime": "20230626 01:12:53.979"
+                              }
+                            }
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:48.364",
+                              "endtime": "20230626 01:12:53.980"
+                            }
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "name": "Perform Login",
+                            "library": "login_keywords"
+                          },
+                          "arg": [
+                            {
+                              "_text": "bob@example.com"
+                            },
+                            {
+                              "_text": "10203040"
+                            }
+                          ],
+                          "status": {
+                            "_attributes": {
+                              "status": "NOT RUN",
+                              "starttime": "20230626 01:12:53.980",
+                              "endtime": "20230626 01:12:53.980"
+                            }
+                          }
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:48.364",
+                          "endtime": "20230626 01:12:53.980"
+                        }
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "name": "After Tests",
+                        "library": "base_keywords",
+                        "type": "TEARDOWN"
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Close Application",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
+                        "kw": {
+                          "_attributes": {
+                            "name": "Capture Page Screenshot",
+                            "library": "AppiumLibrary"
+                          },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
+                          "msg": {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:53.982",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:53.981",
+                              "endtime": "20230626 01:12:53.982"
+                            }
+                          }
+                        },
+                        "msg": [
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:53.984",
+                              "level": "WARN"
+                            },
+                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                          },
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:53.984",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          }
+                        ],
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230626 01:12:53.981",
+                            "endtime": "20230626 01:12:53.984"
+                          }
+                        }
+                      },
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:53.981",
+                          "endtime": "20230626 01:12:53.984"
+                        },
+                        "_text": "No application is open"
+                      }
+                    }
+                  ],
+                  "tag": {
+                    "_text": "wrong_login"
+                  },
+                  "status": {
+                    "_attributes": {
+                      "status": "FAIL",
+                      "starttime": "20230626 01:12:48.364",
+                      "endtime": "20230626 01:12:53.984"
+                    },
+                    "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/2cb64bc177dd4df1a974d86c35a327a5\n\n\nAlso teardown failed:\nNo application is open"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "id": "s1-s1-s2-t2",
+                    "name": "Scenario: Login successfully",
+                    "line": "17"
+                  },
+                  "kw": [
+                    {
+                      "_attributes": {
+                        "name": "Before Tests",
+                        "library": "base_keywords",
+                        "type": "SETUP"
+                      },
+                      "kw": [
+                        {
+                          "_attributes": {
+                            "name": "Open App",
+                            "library": "base_keywords"
+                          },
+                          "kw": {
+                            "_attributes": {
+                              "name": "Open Application",
+                              "library": "AppiumLibrary"
+                            },
+                            "arg": [
+                              {
+                                "_text": "${REMOTE_URL}"
+                              },
+                              {
+                                "_text": "platformName=${PLATFORM_NAME}"
+                              },
+                              {
+                                "_text": "platformVersion=${PLATFORM_VERSION}"
+                              },
+                              {
+                                "_text": "deviceName=${DEVICE_NAME}"
+                              },
+                              {
+                                "_text": "app=${APP}"
+                              },
+                              {
+                                "_text": "automationName=${AUTOMATION_NAME}"
+                              },
+                              {
+                                "_text": "name=${JOB_NAME}"
+                              }
+                            ],
+                            "doc": {
+                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
+                            },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "library": "AppiumLibrary"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:59.625",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "starttime": "20230626 01:12:59.624",
+                                  "endtime": "20230626 01:12:59.625"
+                                }
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:59.627",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:12:59.627",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c626a6e757d54d15bd8cd62c729a01e2\n"
+                              }
+                            ],
+                            "status": {
+                              "_attributes": {
+                                "status": "FAIL",
+                                "starttime": "20230626 01:12:53.986",
+                                "endtime": "20230626 01:12:59.627"
+                              }
+                            }
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:53.986",
+                              "endtime": "20230626 01:12:59.627"
+                            }
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "name": "Perform Login",
+                            "library": "login_keywords"
+                          },
+                          "arg": [
+                            {
+                              "_text": "bob@example.com"
+                            },
+                            {
+                              "_text": "10203040"
+                            }
+                          ],
+                          "status": {
+                            "_attributes": {
+                              "status": "NOT RUN",
+                              "starttime": "20230626 01:12:59.627",
+                              "endtime": "20230626 01:12:59.627"
+                            }
+                          }
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:53.985",
+                          "endtime": "20230626 01:12:59.627"
+                        }
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "name": "After Tests",
+                        "library": "base_keywords",
+                        "type": "TEARDOWN"
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Close Application",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
+                        "kw": {
+                          "_attributes": {
+                            "name": "Capture Page Screenshot",
+                            "library": "AppiumLibrary"
+                          },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
+                          "msg": {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:59.629",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:59.628",
+                              "endtime": "20230626 01:12:59.629"
+                            }
+                          }
+                        },
+                        "msg": [
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:59.631",
+                              "level": "WARN"
+                            },
+                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                          },
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:12:59.631",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          }
+                        ],
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230626 01:12:59.628",
+                            "endtime": "20230626 01:12:59.631"
+                          }
+                        }
+                      },
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:59.628",
+                          "endtime": "20230626 01:12:59.631"
+                        },
+                        "_text": "No application is open"
+                      }
+                    }
+                  ],
+                  "tag": {
+                    "_text": "login_success"
+                  },
+                  "status": {
+                    "_attributes": {
+                      "status": "FAIL",
+                      "starttime": "20230626 01:12:53.985",
+                      "endtime": "20230626 01:12:59.631"
+                    },
+                    "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c626a6e757d54d15bd8cd62c729a01e2\n\n\nAlso teardown failed:\nNo application is open"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "id": "s1-s1-s2-t3",
+                    "name": "Scenario: Logout successfully",
+                    "line": "22"
+                  },
+                  "kw": [
+                    {
+                      "_attributes": {
+                        "name": "Before Tests",
+                        "library": "base_keywords",
+                        "type": "SETUP"
+                      },
+                      "kw": [
+                        {
+                          "_attributes": {
+                            "name": "Open App",
+                            "library": "base_keywords"
+                          },
+                          "kw": {
+                            "_attributes": {
+                              "name": "Open Application",
+                              "library": "AppiumLibrary"
+                            },
+                            "arg": [
+                              {
+                                "_text": "${REMOTE_URL}"
+                              },
+                              {
+                                "_text": "platformName=${PLATFORM_NAME}"
+                              },
+                              {
+                                "_text": "platformVersion=${PLATFORM_VERSION}"
+                              },
+                              {
+                                "_text": "deviceName=${DEVICE_NAME}"
+                              },
+                              {
+                                "_text": "app=${APP}"
+                              },
+                              {
+                                "_text": "automationName=${AUTOMATION_NAME}"
+                              },
+                              {
+                                "_text": "name=${JOB_NAME}"
+                              }
+                            ],
+                            "doc": {
+                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
+                            },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "library": "AppiumLibrary"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:13:05.858",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "starttime": "20230626 01:13:05.858",
+                                  "endtime": "20230626 01:13:05.859"
+                                }
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:13:05.861",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "timestamp": "20230626 01:13:05.861",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c993e8705678439b9255ed0bd51c1e8c\n"
+                              }
+                            ],
+                            "status": {
+                              "_attributes": {
+                                "status": "FAIL",
+                                "starttime": "20230626 01:12:59.632",
+                                "endtime": "20230626 01:13:05.861"
+                              }
+                            }
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:12:59.632",
+                              "endtime": "20230626 01:13:05.861"
+                            }
+                          }
+                        },
+                        {
+                          "_attributes": {
+                            "name": "Perform Login",
+                            "library": "login_keywords"
+                          },
+                          "arg": [
+                            {
+                              "_text": "bob@example.com"
+                            },
+                            {
+                              "_text": "10203040"
+                            }
+                          ],
+                          "status": {
+                            "_attributes": {
+                              "status": "NOT RUN",
+                              "starttime": "20230626 01:13:05.861",
+                              "endtime": "20230626 01:13:05.861"
+                            }
+                          }
+                        }
+                      ],
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:12:59.632",
+                          "endtime": "20230626 01:13:05.861"
+                        }
+                      }
+                    },
+                    {
+                      "_attributes": {
+                        "name": "After Tests",
+                        "library": "base_keywords",
+                        "type": "TEARDOWN"
+                      },
+                      "kw": {
+                        "_attributes": {
+                          "name": "Close Application",
+                          "library": "AppiumLibrary"
+                        },
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
+                        "kw": {
+                          "_attributes": {
+                            "name": "Capture Page Screenshot",
+                            "library": "AppiumLibrary"
+                          },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
+                          "msg": {
+                            "_attributes": {
+                              "timestamp": "20230626 01:13:05.863",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          },
+                          "status": {
+                            "_attributes": {
+                              "status": "FAIL",
+                              "starttime": "20230626 01:13:05.862",
+                              "endtime": "20230626 01:13:05.863"
+                            }
+                          }
+                        },
+                        "msg": [
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:13:05.864",
+                              "level": "WARN"
+                            },
+                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                          },
+                          {
+                            "_attributes": {
+                              "timestamp": "20230626 01:13:05.865",
+                              "level": "FAIL"
+                            },
+                            "_text": "No application is open"
+                          }
+                        ],
+                        "status": {
+                          "_attributes": {
+                            "status": "FAIL",
+                            "starttime": "20230626 01:13:05.862",
+                            "endtime": "20230626 01:13:05.865"
+                          }
+                        }
+                      },
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:13:05.862",
+                          "endtime": "20230626 01:13:05.865"
+                        },
+                        "_text": "No application is open"
+                      }
+                    }
+                  ],
+                  "tag": {
+                    "_text": "logout_success"
+                  },
+                  "status": {
+                    "_attributes": {
+                      "status": "FAIL",
+                      "starttime": "20230626 01:12:59.631",
+                      "endtime": "20230626 01:13:05.865"
+                    },
+                    "_text": "Setup failed:\nWebDriverException: Message: Sauce could not start your job. For more information on what happened, please visit https://app.saucelabs.com/tests/c993e8705678439b9255ed0bd51c1e8c\n\n\nAlso teardown failed:\nNo application is open"
+                  }
+                }
+              ],
+              "status": {
+                "_attributes": {
+                  "status": "FAIL",
+                  "starttime": "20230626 01:12:48.358",
+                  "endtime": "20230626 01:13:05.865"
+                }
               }
             }
-          },
+          ],
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "starttime": "20230622 02:01:04.620",
-              "endtime": "20230622 02:01:22.458"
+              "starttime": "20230626 01:12:25.200",
+              "endtime": "20230626 01:13:05.867"
             }
           }
         },
@@ -595,561 +1602,201 @@
           "suite": {
             "_attributes": {
               "id": "s1-s2-s1",
-              "name": "Login",
-              "source": "/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/login.robot"
+              "name": "Test",
+              "source": "/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/test.robot"
             },
-            "test": [
-              {
-                "_attributes": {
-                  "id": "s1-s2-s1-t1",
-                  "name": "Scenario: Login with wrong credentials",
-                  "line": "9"
-                },
-                "kw": [
-                  {
-                    "_attributes": {
-                      "name": "Before Tests",
-                      "library": "setup_keywords",
-                      "type": "SETUP"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Open Application",
-                        "library": "AppiumLibrary"
-                      },
-                      "arg": [
-                        {
-                          "_text": "${REMOTE_URL}"
-                        },
-                        {
-                          "_text": "platformName=${PLATFORM_NAME}"
-                        },
-                        {
-                          "_text": "platformVersion=${PLATFORM_VERSION}"
-                        },
-                        {
-                          "_text": "deviceName=${DEVICE_NAME}"
-                        },
-                        {
-                          "_text": "app=${APP}"
-                        },
-                        {
-                          "_text": "automationName=${AUTOMATION_NAME}"
-                        },
-                        {
-                          "_text": "name=${JOB_NAME}"
-                        }
-                      ],
-                      "doc": {
-                        "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                      },
-                      "kw": {
-                        "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.980",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:22.980",
-                            "endtime": "20230622 02:01:22.980"
-                          }
-                        }
-                      },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.982",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.982",
-                            "level": "FAIL"
-                          },
-                          "_text": "SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n"
-                        }
-                      ],
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 02:01:22.466",
-                          "endtime": "20230622 02:01:22.982"
-                        }
-                      }
-                    },
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 02:01:22.466",
-                        "endtime": "20230622 02:01:22.983"
-                      }
-                    }
-                  },
-                  {
-                    "_attributes": {
-                      "name": "After Tests",
-                      "library": "setup_keywords",
-                      "type": "TEARDOWN"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Close Application",
-                        "library": "AppiumLibrary"
-                      },
-                      "doc": {
-                        "_text": "Closes the current application and also close webdriver session."
-                      },
-                      "kw": {
-                        "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.984",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:22.983",
-                            "endtime": "20230622 02:01:22.984"
-                          }
-                        }
-                      },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.985",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:22.985",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        }
-                      ],
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 02:01:22.983",
-                          "endtime": "20230622 02:01:22.986"
-                        }
-                      }
-                    },
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 02:01:22.983",
-                        "endtime": "20230622 02:01:22.986"
-                      },
-                      "_text": "No application is open"
-                    }
-                  }
-                ],
-                "status": {
-                  "_attributes": {
-                    "status": "FAIL",
-                    "starttime": "20230622 02:01:22.466",
-                    "endtime": "20230622 02:01:22.986"
-                  },
-                  "_text": "Setup failed:\nSessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
-                }
+            "test": {
+              "_attributes": {
+                "id": "s1-s2-s1-t1",
+                "name": "Scenario: Take screenshot",
+                "line": "9"
               },
-              {
-                "_attributes": {
-                  "id": "s1-s2-s1-t2",
-                  "name": "Scenario: Login successfully",
-                  "line": "12"
-                },
-                "kw": [
-                  {
+              "kw": [
+                {
+                  "_attributes": {
+                    "name": "Before Tests",
+                    "library": "base_keywords",
+                    "type": "SETUP"
+                  },
+                  "kw": {
                     "_attributes": {
-                      "name": "Before Tests",
-                      "library": "setup_keywords",
-                      "type": "SETUP"
+                      "name": "Open Application",
+                      "library": "AppiumLibrary"
+                    },
+                    "arg": [
+                      {
+                        "_text": "${REMOTE_URL}"
+                      },
+                      {
+                        "_text": "platformName=${PLATFORM_NAME}"
+                      },
+                      {
+                        "_text": "platformVersion=${PLATFORM_VERSION}"
+                      },
+                      {
+                        "_text": "deviceName=${DEVICE_NAME}"
+                      },
+                      {
+                        "_text": "app=${APP}"
+                      },
+                      {
+                        "_text": "automationName=${AUTOMATION_NAME}"
+                      },
+                      {
+                        "_text": "name=${JOB_NAME}"
+                      }
+                    ],
+                    "doc": {
+                      "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                     },
                     "kw": {
                       "_attributes": {
-                        "name": "Open Application",
+                        "name": "Capture Page Screenshot",
                         "library": "AppiumLibrary"
                       },
-                      "arg": [
-                        {
-                          "_text": "${REMOTE_URL}"
-                        },
-                        {
-                          "_text": "platformName=${PLATFORM_NAME}"
-                        },
-                        {
-                          "_text": "platformVersion=${PLATFORM_VERSION}"
-                        },
-                        {
-                          "_text": "deviceName=${DEVICE_NAME}"
-                        },
-                        {
-                          "_text": "app=${APP}"
-                        },
-                        {
-                          "_text": "automationName=${AUTOMATION_NAME}"
-                        },
-                        {
-                          "_text": "name=${JOB_NAME}"
-                        }
-                      ],
                       "doc": {
-                        "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
+                        "_text": "Takes a screenshot of the current page and embeds it into the log."
                       },
-                      "kw": {
+                      "msg": {
                         "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
+                          "timestamp": "20230626 01:13:08.539",
+                          "level": "FAIL"
                         },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:25.007",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:25.006",
-                            "endtime": "20230622 02:01:25.008"
-                          }
-                        }
+                        "_text": "No application is open"
                       },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:25.009",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:25.010",
-                            "level": "FAIL"
-                          },
-                          "_text": "SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n"
-                        }
-                      ],
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20230622 02:01:22.987",
-                          "endtime": "20230622 02:01:25.010"
+                          "starttime": "20230626 01:13:08.538",
+                          "endtime": "20230626 01:13:08.539"
                         }
                       }
                     },
+                    "msg": [
+                      {
+                        "_attributes": {
+                          "timestamp": "20230626 01:13:08.541",
+                          "level": "WARN"
+                        },
+                        "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                      },
+                      {
+                        "_attributes": {
+                          "timestamp": "20230626 01:13:08.541",
+                          "level": "FAIL"
+                        },
+                        "_text": "SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n"
+                      }
+                    ],
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20230622 02:01:22.986",
-                        "endtime": "20230622 02:01:25.010"
+                        "starttime": "20230626 01:13:05.876",
+                        "endtime": "20230626 01:13:08.541"
                       }
                     }
                   },
-                  {
+                  "status": {
                     "_attributes": {
-                      "name": "After Tests",
-                      "library": "setup_keywords",
-                      "type": "TEARDOWN"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Close Application",
-                        "library": "AppiumLibrary"
-                      },
-                      "doc": {
-                        "_text": "Closes the current application and also close webdriver session."
-                      },
-                      "kw": {
-                        "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:25.011",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:25.011",
-                            "endtime": "20230622 02:01:25.011"
-                          }
-                        }
-                      },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:25.013",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:25.013",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        }
-                      ],
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 02:01:25.011",
-                          "endtime": "20230622 02:01:25.013"
-                        }
-                      }
-                    },
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 02:01:25.010",
-                        "endtime": "20230622 02:01:25.013"
-                      },
-                      "_text": "No application is open"
+                      "status": "FAIL",
+                      "starttime": "20230626 01:13:05.876",
+                      "endtime": "20230626 01:13:08.541"
                     }
                   }
-                ],
-                "status": {
-                  "_attributes": {
-                    "status": "FAIL",
-                    "starttime": "20230622 02:01:22.986",
-                    "endtime": "20230622 02:01:25.014"
-                  },
-                  "_text": "Setup failed:\nSessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
-                }
-              },
-              {
-                "_attributes": {
-                  "id": "s1-s2-s1-t3",
-                  "name": "Scenario: Logout successfully",
-                  "line": "15"
                 },
-                "kw": [
-                  {
-                    "_attributes": {
-                      "name": "Before Tests",
-                      "library": "setup_keywords",
-                      "type": "SETUP"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Open Application",
-                        "library": "AppiumLibrary"
-                      },
-                      "arg": [
-                        {
-                          "_text": "${REMOTE_URL}"
-                        },
-                        {
-                          "_text": "platformName=${PLATFORM_NAME}"
-                        },
-                        {
-                          "_text": "platformVersion=${PLATFORM_VERSION}"
-                        },
-                        {
-                          "_text": "deviceName=${DEVICE_NAME}"
-                        },
-                        {
-                          "_text": "app=${APP}"
-                        },
-                        {
-                          "_text": "automationName=${AUTOMATION_NAME}"
-                        },
-                        {
-                          "_text": "name=${JOB_NAME}"
-                        }
-                      ],
-                      "doc": {
-                        "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                      },
-                      "kw": {
-                        "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:26.087",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:26.087",
-                            "endtime": "20230622 02:01:26.087"
-                          }
-                        }
-                      },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:26.089",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:26.090",
-                            "level": "FAIL"
-                          },
-                          "_text": "SessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n"
-                        }
-                      ],
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 02:01:25.015",
-                          "endtime": "20230622 02:01:26.090"
-                        }
-                      }
-                    },
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 02:01:25.015",
-                        "endtime": "20230622 02:01:26.090"
-                      }
-                    }
-                  },
-                  {
-                    "_attributes": {
-                      "name": "After Tests",
-                      "library": "setup_keywords",
-                      "type": "TEARDOWN"
-                    },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Close Application",
-                        "library": "AppiumLibrary"
-                      },
-                      "doc": {
-                        "_text": "Closes the current application and also close webdriver session."
-                      },
-                      "kw": {
-                        "_attributes": {
-                          "name": "Capture Page Screenshot",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Takes a screenshot of the current page and embeds it into the log."
-                        },
-                        "msg": {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:26.091",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        },
-                        "status": {
-                          "_attributes": {
-                            "status": "FAIL",
-                            "starttime": "20230622 02:01:26.091",
-                            "endtime": "20230622 02:01:26.091"
-                          }
-                        }
-                      },
-                      "msg": [
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:26.093",
-                            "level": "WARN"
-                          },
-                          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                        },
-                        {
-                          "_attributes": {
-                            "timestamp": "20230622 02:01:26.094",
-                            "level": "FAIL"
-                          },
-                          "_text": "No application is open"
-                        }
-                      ],
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20230622 02:01:26.091",
-                          "endtime": "20230622 02:01:26.094"
-                        }
-                      }
-                    },
-                    "status": {
-                      "_attributes": {
-                        "status": "FAIL",
-                        "starttime": "20230622 02:01:26.090",
-                        "endtime": "20230622 02:01:26.094"
-                      },
-                      "_text": "No application is open"
-                    }
-                  }
-                ],
-                "status": {
+                {
                   "_attributes": {
-                    "status": "FAIL",
-                    "starttime": "20230622 02:01:25.015",
-                    "endtime": "20230622 02:01:26.094"
+                    "name": "After Tests",
+                    "library": "base_keywords",
+                    "type": "TEARDOWN"
                   },
-                  "_text": "Setup failed:\nSessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
+                  "kw": {
+                    "_attributes": {
+                      "name": "Close Application",
+                      "library": "AppiumLibrary"
+                    },
+                    "doc": {
+                      "_text": "Closes the current application and also close webdriver session."
+                    },
+                    "kw": {
+                      "_attributes": {
+                        "name": "Capture Page Screenshot",
+                        "library": "AppiumLibrary"
+                      },
+                      "doc": {
+                        "_text": "Takes a screenshot of the current page and embeds it into the log."
+                      },
+                      "msg": {
+                        "_attributes": {
+                          "timestamp": "20230626 01:13:08.544",
+                          "level": "FAIL"
+                        },
+                        "_text": "No application is open"
+                      },
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "starttime": "20230626 01:13:08.542",
+                          "endtime": "20230626 01:13:08.544"
+                        }
+                      }
+                    },
+                    "msg": [
+                      {
+                        "_attributes": {
+                          "timestamp": "20230626 01:13:08.545",
+                          "level": "WARN"
+                        },
+                        "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                      },
+                      {
+                        "_attributes": {
+                          "timestamp": "20230626 01:13:08.546",
+                          "level": "FAIL"
+                        },
+                        "_text": "No application is open"
+                      }
+                    ],
+                    "status": {
+                      "_attributes": {
+                        "status": "FAIL",
+                        "starttime": "20230626 01:13:08.542",
+                        "endtime": "20230626 01:13:08.546"
+                      }
+                    }
+                  },
+                  "status": {
+                    "_attributes": {
+                      "status": "FAIL",
+                      "starttime": "20230626 01:13:08.542",
+                      "endtime": "20230626 01:13:08.546"
+                    },
+                    "_text": "No application is open"
+                  }
                 }
+              ],
+              "status": {
+                "_attributes": {
+                  "status": "FAIL",
+                  "starttime": "20230626 01:13:05.875",
+                  "endtime": "20230626 01:13:08.546"
+                },
+                "_text": "Setup failed:\nSessionNotCreatedException: Message: There is no device that matches your criteria. DesiredCapabilities: {\"capabilities\":{\"firstMatch\":[{\"appium:name\":\"Robot Framework Appium iOS Tests\",\"platformName\":\"iOS\",\"appium:deviceName\":\"iPhone XR\",\"appium:automationName\":\"XCUITest\",\"appium:platformVersion\":\"16.4.1\",\"appium:app\":\"storage:filename\\u003ddemo-saucelabs.ipa\"}]}}\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.162+', java.version: '11.0.19'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
               }
-            ],
+            },
             "status": {
               "_attributes": {
                 "status": "FAIL",
-                "starttime": "20230622 02:01:22.461",
-                "endtime": "20230622 02:01:26.096"
+                "starttime": "20230626 01:13:05.870",
+                "endtime": "20230626 01:13:08.546"
               }
             }
           },
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "starttime": "20230622 02:01:22.459",
-              "endtime": "20230622 02:01:26.098"
+              "starttime": "20230626 01:13:05.868",
+              "endtime": "20230626 01:13:08.547"
             }
           }
         }
@@ -1157,8 +1804,8 @@
       "status": {
         "_attributes": {
           "status": "FAIL",
-          "starttime": "20230622 02:01:04.599",
-          "endtime": "20230622 02:01:26.099"
+          "starttime": "20230626 01:12:25.177",
+          "endtime": "20230626 01:13:08.548"
         }
       }
     },
@@ -1167,19 +1814,78 @@
         "stat": {
           "_attributes": {
             "pass": "0",
-            "fail": "6",
+            "fail": "8",
             "skip": "0"
           },
           "_text": "All Tests"
         }
       },
-      "tag": {},
+      "tag": {
+        "stat": [
+          {
+            "_attributes": {
+              "pass": "0",
+              "fail": "1",
+              "skip": "0"
+            },
+            "_text": "add_cart"
+          },
+          {
+            "_attributes": {
+              "pass": "0",
+              "fail": "1",
+              "skip": "0"
+            },
+            "_text": "login_success"
+          },
+          {
+            "_attributes": {
+              "pass": "0",
+              "fail": "1",
+              "skip": "0"
+            },
+            "_text": "logout_success"
+          },
+          {
+            "_attributes": {
+              "pass": "0",
+              "fail": "1",
+              "skip": "0"
+            },
+            "_text": "open_product"
+          },
+          {
+            "_attributes": {
+              "pass": "0",
+              "fail": "1",
+              "skip": "0"
+            },
+            "_text": "rate_product"
+          },
+          {
+            "_attributes": {
+              "pass": "0",
+              "fail": "1",
+              "skip": "0"
+            },
+            "_text": "sort_by"
+          },
+          {
+            "_attributes": {
+              "pass": "0",
+              "fail": "1",
+              "skip": "0"
+            },
+            "_text": "wrong_login"
+          }
+        ]
+      },
       "suite": {
         "stat": [
           {
             "_attributes": {
               "pass": "0",
-              "fail": "6",
+              "fail": "8",
               "skip": "0",
               "id": "s1",
               "name": "Tests"
@@ -1189,7 +1895,7 @@
           {
             "_attributes": {
               "pass": "0",
-              "fail": "3",
+              "fail": "7",
               "skip": "0",
               "id": "s1-s1",
               "name": "Android"
@@ -1199,9 +1905,19 @@
           {
             "_attributes": {
               "pass": "0",
-              "fail": "3",
+              "fail": "4",
               "skip": "0",
               "id": "s1-s1-s1",
+              "name": "Catalog"
+            },
+            "_text": "Tests.Android.Catalog"
+          },
+          {
+            "_attributes": {
+              "pass": "0",
+              "fail": "3",
+              "skip": "0",
+              "id": "s1-s1-s2",
               "name": "Login"
             },
             "_text": "Tests.Android.Login"
@@ -1209,7 +1925,7 @@
           {
             "_attributes": {
               "pass": "0",
-              "fail": "3",
+              "fail": "1",
               "skip": "0",
               "id": "s1-s2",
               "name": "Ios"
@@ -1219,12 +1935,12 @@
           {
             "_attributes": {
               "pass": "0",
-              "fail": "3",
+              "fail": "1",
               "skip": "0",
               "id": "s1-s2-s1",
-              "name": "Login"
+              "name": "Test"
             },
-            "_text": "Tests.Ios.Login"
+            "_text": "Tests.Ios.Test"
           }
         ]
       }
@@ -1233,98 +1949,112 @@
       "msg": [
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:04.836",
-            "level": "ERROR"
-          },
-          "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/variables/android_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist."
-        },
-        {
-          "_attributes": {
-            "timestamp": "20230622 02:01:10.713",
+            "timestamp": "20230626 01:12:30.972",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:10.717",
+            "timestamp": "20230626 01:12:30.977",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:16.569",
+            "timestamp": "20230626 01:12:37.023",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:16.573",
+            "timestamp": "20230626 01:12:37.028",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:22.453",
+            "timestamp": "20230626 01:12:42.648",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:22.456",
+            "timestamp": "20230626 01:12:42.652",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:22.464",
-            "level": "ERROR"
-          },
-          "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/ios/variables/ios_base_variables.robot' on line 2: Resource file '../../../config/env.robot' does not exist."
-        },
-        {
-          "_attributes": {
-            "timestamp": "20230622 02:01:22.982",
+            "timestamp": "20230626 01:12:48.349",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:22.985",
+            "timestamp": "20230626 01:12:48.355",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:25.009",
+            "timestamp": "20230626 01:12:53.979",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:25.013",
+            "timestamp": "20230626 01:12:53.984",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:26.089",
+            "timestamp": "20230626 01:12:59.627",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20230622 02:01:26.093",
+            "timestamp": "20230626 01:12:59.631",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230626 01:13:05.861",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230626 01:13:05.864",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230626 01:13:08.541",
+            "level": "WARN"
+          },
+          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+        },
+        {
+          "_attributes": {
+            "timestamp": "20230626 01:13:08.545",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"

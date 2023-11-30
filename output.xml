@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.8.18 on linux)" generated="20231123 00:07:55.654" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.8.18 on linux)" generated="20231130 00:07:57.789" rpa="false" schemaversion="4">
 <suite id="s1" name="Tests" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests">
 <suite id="s1-s1" name="Android" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android">
 <suite id="s1-s1-s1" name="Catalog" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/catalog.robot">
@@ -23,40 +23,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:07:56.317" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:56.317" endtime="20231123 00:07:56.318"/>
+<msg timestamp="20231130 00:07:58.456" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:07:58.456" endtime="20231130 00:07:58.457"/>
 </kw>
-<msg timestamp="20231123 00:07:56.320" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:56.320" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX15ffb11a]
+<msg timestamp="20231130 00:07:58.459" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:58.459" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX6eb21201]
 </msg>
-<status status="FAIL" starttime="20231123 00:07:55.783" endtime="20231123 00:07:56.320"/>
+<status status="FAIL" starttime="20231130 00:07:57.963" endtime="20231130 00:07:58.459"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:55.783" endtime="20231123 00:07:56.320"/>
+<status status="FAIL" starttime="20231130 00:07:57.963" endtime="20231130 00:07:58.459"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231123 00:07:56.321" endtime="20231123 00:07:56.321"/>
+<status status="NOT RUN" starttime="20231130 00:07:58.459" endtime="20231130 00:07:58.459"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:55.783" endtime="20231123 00:07:56.321"/>
+<status status="FAIL" starttime="20231130 00:07:57.962" endtime="20231130 00:07:58.459"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:07:56.323" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:56.321" endtime="20231123 00:07:56.323"/>
+<msg timestamp="20231130 00:07:58.461" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:07:58.460" endtime="20231130 00:07:58.461"/>
 </kw>
-<msg timestamp="20231123 00:07:56.324" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:56.324" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:56.321" endtime="20231123 00:07:56.325"/>
+<msg timestamp="20231130 00:07:58.463" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:58.463" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:07:58.460" endtime="20231130 00:07:58.463"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:56.321" endtime="20231123 00:07:56.325">No application is open</status>
+<status status="FAIL" starttime="20231130 00:07:58.459" endtime="20231130 00:07:58.463">No application is open</status>
 </kw>
 <tag>open_product</tag>
-<status status="FAIL" starttime="20231123 00:07:55.782" endtime="20231123 00:07:56.325">Setup failed:
-WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX15ffb11a]
+<status status="FAIL" starttime="20231130 00:07:57.962" endtime="20231130 00:07:58.463">Setup failed:
+WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX6eb21201]
 
 
 Also teardown failed:
@@ -82,40 +82,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:07:56.970" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:56.970" endtime="20231123 00:07:56.970"/>
+<msg timestamp="20231130 00:07:58.991" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:07:58.991" endtime="20231130 00:07:58.992"/>
 </kw>
-<msg timestamp="20231123 00:07:56.972" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:56.972" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXa513f04b]
+<msg timestamp="20231130 00:07:58.993" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:58.994" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX18460331]
 </msg>
-<status status="FAIL" starttime="20231123 00:07:56.326" endtime="20231123 00:07:56.972"/>
+<status status="FAIL" starttime="20231130 00:07:58.465" endtime="20231130 00:07:58.994"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:56.326" endtime="20231123 00:07:56.972"/>
+<status status="FAIL" starttime="20231130 00:07:58.464" endtime="20231130 00:07:58.994"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231123 00:07:56.972" endtime="20231123 00:07:56.972"/>
+<status status="NOT RUN" starttime="20231130 00:07:58.994" endtime="20231130 00:07:58.994"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:56.326" endtime="20231123 00:07:56.973"/>
+<status status="FAIL" starttime="20231130 00:07:58.464" endtime="20231130 00:07:58.994"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:07:56.973" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:56.973" endtime="20231123 00:07:56.973"/>
+<msg timestamp="20231130 00:07:58.995" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:07:58.995" endtime="20231130 00:07:58.995"/>
 </kw>
-<msg timestamp="20231123 00:07:56.975" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:56.975" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:56.973" endtime="20231123 00:07:56.975"/>
+<msg timestamp="20231130 00:07:58.997" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:58.997" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:07:58.994" endtime="20231130 00:07:58.997"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:56.973" endtime="20231123 00:07:56.975">No application is open</status>
+<status status="FAIL" starttime="20231130 00:07:58.994" endtime="20231130 00:07:58.997">No application is open</status>
 </kw>
 <tag>rate_product</tag>
-<status status="FAIL" starttime="20231123 00:07:56.325" endtime="20231123 00:07:56.976">Setup failed:
-WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXa513f04b]
+<status status="FAIL" starttime="20231130 00:07:58.464" endtime="20231130 00:07:58.997">Setup failed:
+WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX18460331]
 
 
 Also teardown failed:
@@ -141,40 +141,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:07:57.604" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:57.604" endtime="20231123 00:07:57.605"/>
+<msg timestamp="20231130 00:07:59.992" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:07:59.992" endtime="20231130 00:07:59.993"/>
 </kw>
-<msg timestamp="20231123 00:07:57.606" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:57.606" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX1f8050d9]
+<msg timestamp="20231130 00:07:59.995" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:59.995" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX29db3fe1]
 </msg>
-<status status="FAIL" starttime="20231123 00:07:56.977" endtime="20231123 00:07:57.607"/>
+<status status="FAIL" starttime="20231130 00:07:58.998" endtime="20231130 00:07:59.995"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:56.977" endtime="20231123 00:07:57.607"/>
+<status status="FAIL" starttime="20231130 00:07:58.998" endtime="20231130 00:07:59.996"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231123 00:07:57.607" endtime="20231123 00:07:57.607"/>
+<status status="NOT RUN" starttime="20231130 00:07:59.996" endtime="20231130 00:07:59.996"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:56.976" endtime="20231123 00:07:57.607"/>
+<status status="FAIL" starttime="20231130 00:07:58.998" endtime="20231130 00:07:59.996"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:07:57.608" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:57.608" endtime="20231123 00:07:57.608"/>
+<msg timestamp="20231130 00:07:59.997" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:07:59.997" endtime="20231130 00:07:59.997"/>
 </kw>
-<msg timestamp="20231123 00:07:57.609" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:57.610" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:57.607" endtime="20231123 00:07:57.610"/>
+<msg timestamp="20231130 00:07:59.999" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:59.999" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:07:59.997" endtime="20231130 00:07:59.999"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:57.607" endtime="20231123 00:07:57.610">No application is open</status>
+<status status="FAIL" starttime="20231130 00:07:59.996" endtime="20231130 00:07:59.999">No application is open</status>
 </kw>
 <tag>sort_by</tag>
-<status status="FAIL" starttime="20231123 00:07:56.976" endtime="20231123 00:07:57.610">Setup failed:
-WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX1f8050d9]
+<status status="FAIL" starttime="20231130 00:07:58.997" endtime="20231130 00:07:59.999">Setup failed:
+WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX29db3fe1]
 
 
 Also teardown failed:
@@ -200,46 +200,46 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:07:58.149" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:58.149" endtime="20231123 00:07:58.149"/>
+<msg timestamp="20231130 00:08:00.517" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:00.516" endtime="20231130 00:08:00.517"/>
 </kw>
-<msg timestamp="20231123 00:07:58.151" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:58.151" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX857fafe9]
+<msg timestamp="20231130 00:08:00.519" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:00.519" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXd3b45ea5]
 </msg>
-<status status="FAIL" starttime="20231123 00:07:57.611" endtime="20231123 00:07:58.152"/>
+<status status="FAIL" starttime="20231130 00:08:00.000" endtime="20231130 00:08:00.519"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:57.611" endtime="20231123 00:07:58.152"/>
+<status status="FAIL" starttime="20231130 00:08:00.000" endtime="20231130 00:08:00.519"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231123 00:07:58.152" endtime="20231123 00:07:58.152"/>
+<status status="NOT RUN" starttime="20231130 00:08:00.519" endtime="20231130 00:08:00.519"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:57.611" endtime="20231123 00:07:58.152"/>
+<status status="FAIL" starttime="20231130 00:08:00.000" endtime="20231130 00:08:00.519"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:07:58.153" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:58.152" endtime="20231123 00:07:58.153"/>
+<msg timestamp="20231130 00:08:00.520" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:00.520" endtime="20231130 00:08:00.520"/>
 </kw>
-<msg timestamp="20231123 00:07:58.154" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:58.154" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:58.152" endtime="20231123 00:07:58.155"/>
+<msg timestamp="20231130 00:08:00.522" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:00.522" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:00.520" endtime="20231130 00:08:00.522"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:58.152" endtime="20231123 00:07:58.155">No application is open</status>
+<status status="FAIL" starttime="20231130 00:08:00.520" endtime="20231130 00:08:00.522">No application is open</status>
 </kw>
 <tag>add_cart</tag>
-<status status="FAIL" starttime="20231123 00:07:57.610" endtime="20231123 00:07:58.155">Setup failed:
-WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX857fafe9]
+<status status="FAIL" starttime="20231130 00:07:59.999" endtime="20231130 00:08:00.522">Setup failed:
+WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXd3b45ea5]
 
 
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" starttime="20231123 00:07:55.673" endtime="20231123 00:07:58.156"/>
+<status status="FAIL" starttime="20231130 00:07:57.808" endtime="20231130 00:08:00.523"/>
 </suite>
 <suite id="s1-s1-s2" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/login.robot">
 <test id="s1-s1-s2-t1" name="Scenario: Login with wrong credentials" line="11">
@@ -262,40 +262,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:07:58.624" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:58.624" endtime="20231123 00:07:58.625"/>
+<msg timestamp="20231130 00:08:01.041" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:01.041" endtime="20231130 00:08:01.041"/>
 </kw>
-<msg timestamp="20231123 00:07:58.626" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:58.626" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX51439f37]
+<msg timestamp="20231130 00:08:01.043" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:01.043" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX1c78aa0a]
 </msg>
-<status status="FAIL" starttime="20231123 00:07:58.161" endtime="20231123 00:07:58.626"/>
+<status status="FAIL" starttime="20231130 00:08:00.529" endtime="20231130 00:08:01.043"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:58.161" endtime="20231123 00:07:58.627"/>
+<status status="FAIL" starttime="20231130 00:08:00.528" endtime="20231130 00:08:01.043"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231123 00:07:58.627" endtime="20231123 00:07:58.627"/>
+<status status="NOT RUN" starttime="20231130 00:08:01.043" endtime="20231130 00:08:01.043"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:58.161" endtime="20231123 00:07:58.627"/>
+<status status="FAIL" starttime="20231130 00:08:00.528" endtime="20231130 00:08:01.043"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:07:58.628" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:58.627" endtime="20231123 00:07:58.628"/>
+<msg timestamp="20231130 00:08:01.044" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:01.044" endtime="20231130 00:08:01.044"/>
 </kw>
-<msg timestamp="20231123 00:07:58.629" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:58.629" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:07:58.627" endtime="20231123 00:07:58.629"/>
+<msg timestamp="20231130 00:08:01.046" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:01.046" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:01.044" endtime="20231130 00:08:01.046"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:58.627" endtime="20231123 00:07:58.630">No application is open</status>
+<status status="FAIL" starttime="20231130 00:08:01.043" endtime="20231130 00:08:01.046">No application is open</status>
 </kw>
 <tag>wrong_login</tag>
-<status status="FAIL" starttime="20231123 00:07:58.160" endtime="20231123 00:07:58.630">Setup failed:
-WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX51439f37]
+<status status="FAIL" starttime="20231130 00:08:00.528" endtime="20231130 00:08:01.046">Setup failed:
+WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX1c78aa0a]
 
 
 Also teardown failed:
@@ -321,40 +321,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:08:00.114" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:08:00.114" endtime="20231123 00:08:00.115"/>
+<msg timestamp="20231130 00:08:02.219" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:02.219" endtime="20231130 00:08:02.219"/>
 </kw>
-<msg timestamp="20231123 00:08:00.116" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.116" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXc7ef01e3]
+<msg timestamp="20231130 00:08:02.221" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:02.221" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2d51fb59]
 </msg>
-<status status="FAIL" starttime="20231123 00:07:58.631" endtime="20231123 00:08:00.116"/>
+<status status="FAIL" starttime="20231130 00:08:01.047" endtime="20231130 00:08:02.221"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:58.631" endtime="20231123 00:08:00.116"/>
+<status status="FAIL" starttime="20231130 00:08:01.047" endtime="20231130 00:08:02.221"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231123 00:08:00.117" endtime="20231123 00:08:00.117"/>
+<status status="NOT RUN" starttime="20231130 00:08:02.221" endtime="20231130 00:08:02.221"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:07:58.630" endtime="20231123 00:08:00.117"/>
+<status status="FAIL" starttime="20231130 00:08:01.047" endtime="20231130 00:08:02.221"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:08:00.117" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:08:00.117" endtime="20231123 00:08:00.118"/>
+<msg timestamp="20231130 00:08:02.222" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:02.222" endtime="20231130 00:08:02.222"/>
 </kw>
-<msg timestamp="20231123 00:08:00.119" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.119" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:08:00.117" endtime="20231123 00:08:00.119"/>
+<msg timestamp="20231130 00:08:02.223" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:02.224" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:02.222" endtime="20231130 00:08:02.224"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:08:00.117" endtime="20231123 00:08:00.119">No application is open</status>
+<status status="FAIL" starttime="20231130 00:08:02.221" endtime="20231130 00:08:02.224">No application is open</status>
 </kw>
 <tag>login_success</tag>
-<status status="FAIL" starttime="20231123 00:07:58.630" endtime="20231123 00:08:00.119">Setup failed:
-WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXc7ef01e3]
+<status status="FAIL" starttime="20231130 00:08:01.046" endtime="20231130 00:08:02.224">Setup failed:
+WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX2d51fb59]
 
 
 Also teardown failed:
@@ -380,48 +380,48 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:08:00.524" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:08:00.523" endtime="20231123 00:08:00.524"/>
+<msg timestamp="20231130 00:08:02.805" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:02.805" endtime="20231130 00:08:02.806"/>
 </kw>
-<msg timestamp="20231123 00:08:00.525" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.525" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXd20c82f9]
+<msg timestamp="20231130 00:08:02.807" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:02.807" level="FAIL">WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX53032e63]
 </msg>
-<status status="FAIL" starttime="20231123 00:08:00.120" endtime="20231123 00:08:00.526"/>
+<status status="FAIL" starttime="20231130 00:08:02.225" endtime="20231130 00:08:02.807"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:08:00.120" endtime="20231123 00:08:00.526"/>
+<status status="FAIL" starttime="20231130 00:08:02.225" endtime="20231130 00:08:02.807"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231123 00:08:00.526" endtime="20231123 00:08:00.526"/>
+<status status="NOT RUN" starttime="20231130 00:08:02.807" endtime="20231130 00:08:02.807"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:08:00.120" endtime="20231123 00:08:00.526"/>
+<status status="FAIL" starttime="20231130 00:08:02.225" endtime="20231130 00:08:02.807"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:08:00.527" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:08:00.527" endtime="20231123 00:08:00.527"/>
+<msg timestamp="20231130 00:08:02.808" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:02.808" endtime="20231130 00:08:02.809"/>
 </kw>
-<msg timestamp="20231123 00:08:00.529" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.529" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:08:00.526" endtime="20231123 00:08:00.529"/>
+<msg timestamp="20231130 00:08:02.810" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:02.810" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:02.808" endtime="20231130 00:08:02.810"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:08:00.526" endtime="20231123 00:08:00.529">No application is open</status>
+<status status="FAIL" starttime="20231130 00:08:02.808" endtime="20231130 00:08:02.810">No application is open</status>
 </kw>
 <tag>logout_success</tag>
-<status status="FAIL" starttime="20231123 00:08:00.120" endtime="20231123 00:08:00.529">Setup failed:
-WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXd20c82f9]
+<status status="FAIL" starttime="20231130 00:08:02.224" endtime="20231130 00:08:02.810">Setup failed:
+WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX53032e63]
 
 
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" starttime="20231123 00:07:58.157" endtime="20231123 00:08:00.529"/>
+<status status="FAIL" starttime="20231130 00:08:00.524" endtime="20231130 00:08:02.811"/>
 </suite>
-<status status="FAIL" starttime="20231123 00:07:55.672" endtime="20231123 00:08:00.530"/>
+<status status="FAIL" starttime="20231130 00:07:57.807" endtime="20231130 00:08:02.812"/>
 </suite>
 <suite id="s1-s2" name="Ios" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios">
 <suite id="s1-s2-s1" name="Test" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/test.robot">
@@ -444,11 +444,11 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:08:00.936" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:08:00.936" endtime="20231123 00:08:00.937"/>
+<msg timestamp="20231130 00:08:03.394" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:03.394" endtime="20231130 00:08:03.395"/>
 </kw>
-<msg timestamp="20231123 00:08:00.938" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.938" level="FAIL">SessionNotCreatedException: Message: 
+<msg timestamp="20231130 00:08:03.396" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:03.396" level="FAIL">SessionNotCreatedException: Message: 
 
 Unable to find file 'demo-saucelabs.ipa' in app storage
 
@@ -456,25 +456,25 @@ Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
 Driver info: driver.version: unknown
 </msg>
-<status status="FAIL" starttime="20231123 00:08:00.537" endtime="20231123 00:08:00.938"/>
+<status status="FAIL" starttime="20231130 00:08:02.819" endtime="20231130 00:08:03.396"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:08:00.537" endtime="20231123 00:08:00.938"/>
+<status status="FAIL" starttime="20231130 00:08:02.819" endtime="20231130 00:08:03.396"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231123 00:08:00.939" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:08:00.939" endtime="20231123 00:08:00.939"/>
+<msg timestamp="20231130 00:08:03.397" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:03.397" endtime="20231130 00:08:03.397"/>
 </kw>
-<msg timestamp="20231123 00:08:00.940" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.940" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231123 00:08:00.939" endtime="20231123 00:08:00.941"/>
+<msg timestamp="20231130 00:08:03.398" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:03.398" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20231130 00:08:03.397" endtime="20231130 00:08:03.399"/>
 </kw>
-<status status="FAIL" starttime="20231123 00:08:00.938" endtime="20231123 00:08:00.941">No application is open</status>
+<status status="FAIL" starttime="20231130 00:08:03.396" endtime="20231130 00:08:03.399">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20231123 00:08:00.537" endtime="20231123 00:08:00.941">Setup failed:
+<status status="FAIL" starttime="20231130 00:08:02.818" endtime="20231130 00:08:03.399">Setup failed:
 SessionNotCreatedException: Message: 
 
 Unable to find file 'demo-saucelabs.ipa' in app storage
@@ -487,11 +487,11 @@ Driver info: driver.version: unknown
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" starttime="20231123 00:08:00.533" endtime="20231123 00:08:00.941"/>
+<status status="FAIL" starttime="20231130 00:08:02.814" endtime="20231130 00:08:03.399"/>
 </suite>
-<status status="FAIL" starttime="20231123 00:08:00.531" endtime="20231123 00:08:00.942"/>
+<status status="FAIL" starttime="20231130 00:08:02.813" endtime="20231130 00:08:03.400"/>
 </suite>
-<status status="FAIL" starttime="20231123 00:07:55.655" endtime="20231123 00:08:00.943"/>
+<status status="FAIL" starttime="20231130 00:07:57.790" endtime="20231130 00:08:03.401"/>
 </suite>
 <statistics>
 <total>
@@ -516,21 +516,21 @@ No application is open</status>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20231123 00:07:56.320" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:56.324" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:56.972" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:56.975" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:57.606" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:57.609" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:58.151" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:58.154" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:58.626" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:07:58.629" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.116" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.119" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.525" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.529" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.938" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231123 00:08:00.940" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:58.459" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:58.463" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:58.993" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:58.997" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:59.995" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:07:59.999" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:00.519" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:00.522" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:01.043" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:01.046" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:02.221" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:02.223" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:02.807" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:02.810" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:03.396" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20231130 00:08:03.398" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
 </errors>
 </robot>

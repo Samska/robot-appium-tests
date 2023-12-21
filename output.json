@@ -8,7 +8,7 @@
   "robot": {
     "_attributes": {
       "generator": "Robot 6.1.1 (Python 3.8.18 on linux)",
-      "generated": "20231214 00:08:18.691",
+      "generated": "20231221 00:08:26.030",
       "rpa": "false",
       "schemaversion": "4"
     },
@@ -93,7 +93,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:19.363",
+                                  "timestamp": "20231221 00:08:26.464",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -101,40 +101,40 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "starttime": "20231214 00:08:19.362",
-                                  "endtime": "20231214 00:08:19.364"
+                                  "starttime": "20231221 00:08:26.464",
+                                  "endtime": "20231221 00:08:26.465"
                                 }
                               }
                             },
                             "msg": [
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:19.365",
+                                  "timestamp": "20231221 00:08:26.467",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:19.365",
+                                  "timestamp": "20231221 00:08:26.467",
                                   "level": "FAIL"
                                 },
-                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX3143b027]\n"
+                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX887c3239]\n"
                               }
                             ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20231214 00:08:18.824",
-                                "endtime": "20231214 00:08:19.366"
+                                "starttime": "20231221 00:08:26.205",
+                                "endtime": "20231221 00:08:26.467"
                               }
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:18.824",
-                              "endtime": "20231214 00:08:19.366"
+                              "starttime": "20231221 00:08:26.205",
+                              "endtime": "20231221 00:08:26.467"
                             }
                           }
                         },
@@ -154,8 +154,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20231214 00:08:19.366",
-                              "endtime": "20231214 00:08:19.366"
+                              "starttime": "20231221 00:08:26.467",
+                              "endtime": "20231221 00:08:26.467"
                             }
                           }
                         }
@@ -163,8 +163,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:18.824",
-                          "endtime": "20231214 00:08:19.366"
+                          "starttime": "20231221 00:08:26.205",
+                          "endtime": "20231221 00:08:26.467"
                         }
                       }
                     },
@@ -192,7 +192,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:19.368",
+                              "timestamp": "20231221 00:08:26.469",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -200,22 +200,22 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:19.368",
-                              "endtime": "20231214 00:08:19.368"
+                              "starttime": "20231221 00:08:26.469",
+                              "endtime": "20231221 00:08:26.469"
                             }
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:19.370",
+                              "timestamp": "20231221 00:08:26.471",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:19.370",
+                              "timestamp": "20231221 00:08:26.471",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -224,16 +224,16 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20231214 00:08:19.366",
-                            "endtime": "20231214 00:08:19.370"
+                            "starttime": "20231221 00:08:26.468",
+                            "endtime": "20231221 00:08:26.471"
                           }
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:19.366",
-                          "endtime": "20231214 00:08:19.370"
+                          "starttime": "20231221 00:08:26.468",
+                          "endtime": "20231221 00:08:26.471"
                         },
                         "_text": "No application is open"
                       }
@@ -245,10 +245,10 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20231214 00:08:18.823",
-                      "endtime": "20231214 00:08:19.370"
+                      "starttime": "20231221 00:08:26.204",
+                      "endtime": "20231221 00:08:26.471"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX3143b027]\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX887c3239]\n\n\nAlso teardown failed:\nNo application is open"
                   }
                 },
                 {
@@ -311,7 +311,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:19.844",
+                                  "timestamp": "20231221 00:08:27.030",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -319,40 +319,40 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "starttime": "20231214 00:08:19.844",
-                                  "endtime": "20231214 00:08:19.844"
+                                  "starttime": "20231221 00:08:27.029",
+                                  "endtime": "20231221 00:08:27.030"
                                 }
                               }
                             },
                             "msg": [
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:19.846",
+                                  "timestamp": "20231221 00:08:27.032",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:19.846",
+                                  "timestamp": "20231221 00:08:27.032",
                                   "level": "FAIL"
                                 },
-                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXddc879ac]\n"
+                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX4dea08a8]\n"
                               }
                             ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20231214 00:08:19.372",
-                                "endtime": "20231214 00:08:19.846"
+                                "starttime": "20231221 00:08:26.472",
+                                "endtime": "20231221 00:08:27.032"
                               }
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:19.371",
-                              "endtime": "20231214 00:08:19.846"
+                              "starttime": "20231221 00:08:26.472",
+                              "endtime": "20231221 00:08:27.032"
                             }
                           }
                         },
@@ -372,8 +372,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20231214 00:08:19.846",
-                              "endtime": "20231214 00:08:19.846"
+                              "starttime": "20231221 00:08:27.032",
+                              "endtime": "20231221 00:08:27.032"
                             }
                           }
                         }
@@ -381,8 +381,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:19.371",
-                          "endtime": "20231214 00:08:19.847"
+                          "starttime": "20231221 00:08:26.472",
+                          "endtime": "20231221 00:08:27.032"
                         }
                       }
                     },
@@ -410,7 +410,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:19.847",
+                              "timestamp": "20231221 00:08:27.033",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -418,22 +418,22 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:19.847",
-                              "endtime": "20231214 00:08:19.848"
+                              "starttime": "20231221 00:08:27.033",
+                              "endtime": "20231221 00:08:27.033"
                             }
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:19.849",
+                              "timestamp": "20231221 00:08:27.035",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:19.849",
+                              "timestamp": "20231221 00:08:27.035",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -442,16 +442,16 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20231214 00:08:19.847",
-                            "endtime": "20231214 00:08:19.849"
+                            "starttime": "20231221 00:08:27.033",
+                            "endtime": "20231221 00:08:27.035"
                           }
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:19.847",
-                          "endtime": "20231214 00:08:19.850"
+                          "starttime": "20231221 00:08:27.032",
+                          "endtime": "20231221 00:08:27.035"
                         },
                         "_text": "No application is open"
                       }
@@ -463,10 +463,10 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20231214 00:08:19.370",
-                      "endtime": "20231214 00:08:19.850"
+                      "starttime": "20231221 00:08:26.471",
+                      "endtime": "20231221 00:08:27.035"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXddc879ac]\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX4dea08a8]\n\n\nAlso teardown failed:\nNo application is open"
                   }
                 },
                 {
@@ -529,7 +529,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:20.337",
+                                  "timestamp": "20231221 00:08:27.295",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -537,40 +537,40 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "starttime": "20231214 00:08:20.336",
-                                  "endtime": "20231214 00:08:20.337"
+                                  "starttime": "20231221 00:08:27.294",
+                                  "endtime": "20231221 00:08:27.295"
                                 }
                               }
                             },
                             "msg": [
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:20.339",
+                                  "timestamp": "20231221 00:08:27.297",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:20.339",
+                                  "timestamp": "20231221 00:08:27.297",
                                   "level": "FAIL"
                                 },
-                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX1480e469]\n"
+                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX42eb64ae]\n"
                               }
                             ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20231214 00:08:19.851",
-                                "endtime": "20231214 00:08:20.339"
+                                "starttime": "20231221 00:08:27.037",
+                                "endtime": "20231221 00:08:27.297"
                               }
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:19.851",
-                              "endtime": "20231214 00:08:20.339"
+                              "starttime": "20231221 00:08:27.036",
+                              "endtime": "20231221 00:08:27.297"
                             }
                           }
                         },
@@ -590,8 +590,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20231214 00:08:20.339",
-                              "endtime": "20231214 00:08:20.339"
+                              "starttime": "20231221 00:08:27.297",
+                              "endtime": "20231221 00:08:27.297"
                             }
                           }
                         }
@@ -599,8 +599,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:19.850",
-                          "endtime": "20231214 00:08:20.339"
+                          "starttime": "20231221 00:08:27.036",
+                          "endtime": "20231221 00:08:27.297"
                         }
                       }
                     },
@@ -628,7 +628,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:20.340",
+                              "timestamp": "20231221 00:08:27.298",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -636,22 +636,22 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:20.340",
-                              "endtime": "20231214 00:08:20.340"
+                              "starttime": "20231221 00:08:27.298",
+                              "endtime": "20231221 00:08:27.298"
                             }
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:20.342",
+                              "timestamp": "20231221 00:08:27.300",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:20.342",
+                              "timestamp": "20231221 00:08:27.300",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -660,16 +660,16 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20231214 00:08:20.340",
-                            "endtime": "20231214 00:08:20.342"
+                            "starttime": "20231221 00:08:27.298",
+                            "endtime": "20231221 00:08:27.300"
                           }
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:20.339",
-                          "endtime": "20231214 00:08:20.342"
+                          "starttime": "20231221 00:08:27.297",
+                          "endtime": "20231221 00:08:27.300"
                         },
                         "_text": "No application is open"
                       }
@@ -681,10 +681,10 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20231214 00:08:19.850",
-                      "endtime": "20231214 00:08:20.342"
+                      "starttime": "20231221 00:08:27.036",
+                      "endtime": "20231221 00:08:27.300"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX1480e469]\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX42eb64ae]\n\n\nAlso teardown failed:\nNo application is open"
                   }
                 },
                 {
@@ -747,7 +747,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:20.796",
+                                  "timestamp": "20231221 00:08:27.986",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -755,40 +755,40 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "starttime": "20231214 00:08:20.795",
-                                  "endtime": "20231214 00:08:20.796"
+                                  "starttime": "20231221 00:08:27.985",
+                                  "endtime": "20231221 00:08:27.986"
                                 }
                               }
                             },
                             "msg": [
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:20.798",
+                                  "timestamp": "20231221 00:08:27.988",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:20.798",
+                                  "timestamp": "20231221 00:08:27.988",
                                   "level": "FAIL"
                                 },
-                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX7e6cbb5d]\n"
+                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX84dcb88c]\n"
                               }
                             ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20231214 00:08:20.343",
-                                "endtime": "20231214 00:08:20.798"
+                                "starttime": "20231221 00:08:27.301",
+                                "endtime": "20231221 00:08:27.988"
                               }
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:20.343",
-                              "endtime": "20231214 00:08:20.798"
+                              "starttime": "20231221 00:08:27.301",
+                              "endtime": "20231221 00:08:27.988"
                             }
                           }
                         },
@@ -808,8 +808,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20231214 00:08:20.798",
-                              "endtime": "20231214 00:08:20.798"
+                              "starttime": "20231221 00:08:27.988",
+                              "endtime": "20231221 00:08:27.989"
                             }
                           }
                         }
@@ -817,8 +817,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:20.343",
-                          "endtime": "20231214 00:08:20.798"
+                          "starttime": "20231221 00:08:27.301",
+                          "endtime": "20231221 00:08:27.989"
                         }
                       }
                     },
@@ -846,7 +846,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:20.799",
+                              "timestamp": "20231221 00:08:27.989",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -854,22 +854,22 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:20.799",
-                              "endtime": "20231214 00:08:20.800"
+                              "starttime": "20231221 00:08:27.989",
+                              "endtime": "20231221 00:08:27.989"
                             }
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:20.801",
+                              "timestamp": "20231221 00:08:27.991",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:20.801",
+                              "timestamp": "20231221 00:08:27.991",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -878,16 +878,16 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20231214 00:08:20.799",
-                            "endtime": "20231214 00:08:20.801"
+                            "starttime": "20231221 00:08:27.989",
+                            "endtime": "20231221 00:08:27.991"
                           }
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:20.799",
-                          "endtime": "20231214 00:08:20.802"
+                          "starttime": "20231221 00:08:27.989",
+                          "endtime": "20231221 00:08:27.992"
                         },
                         "_text": "No application is open"
                       }
@@ -899,18 +899,18 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20231214 00:08:20.343",
-                      "endtime": "20231214 00:08:20.802"
+                      "starttime": "20231221 00:08:27.301",
+                      "endtime": "20231221 00:08:27.992"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX7e6cbb5d]\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX84dcb88c]\n\n\nAlso teardown failed:\nNo application is open"
                   }
                 }
               ],
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "starttime": "20231214 00:08:18.710",
-                  "endtime": "20231214 00:08:20.802"
+                  "starttime": "20231221 00:08:26.048",
+                  "endtime": "20231221 00:08:27.992"
                 }
               }
             },
@@ -981,7 +981,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:21.225",
+                                  "timestamp": "20231221 00:08:28.255",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -989,40 +989,40 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "starttime": "20231214 00:08:21.225",
-                                  "endtime": "20231214 00:08:21.225"
+                                  "starttime": "20231221 00:08:28.254",
+                                  "endtime": "20231221 00:08:28.255"
                                 }
                               }
                             },
                             "msg": [
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:21.227",
+                                  "timestamp": "20231221 00:08:28.257",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:21.227",
+                                  "timestamp": "20231221 00:08:28.257",
                                   "level": "FAIL"
                                 },
-                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX4c61843c]\n"
+                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXea84b010]\n"
                               }
                             ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20231214 00:08:20.808",
-                                "endtime": "20231214 00:08:21.227"
+                                "starttime": "20231221 00:08:27.998",
+                                "endtime": "20231221 00:08:28.257"
                               }
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:20.808",
-                              "endtime": "20231214 00:08:21.227"
+                              "starttime": "20231221 00:08:27.998",
+                              "endtime": "20231221 00:08:28.257"
                             }
                           }
                         },
@@ -1042,8 +1042,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20231214 00:08:21.227",
-                              "endtime": "20231214 00:08:21.227"
+                              "starttime": "20231221 00:08:28.257",
+                              "endtime": "20231221 00:08:28.257"
                             }
                           }
                         }
@@ -1051,8 +1051,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:20.807",
-                          "endtime": "20231214 00:08:21.228"
+                          "starttime": "20231221 00:08:27.997",
+                          "endtime": "20231221 00:08:28.257"
                         }
                       }
                     },
@@ -1080,7 +1080,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:21.229",
+                              "timestamp": "20231221 00:08:28.258",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1088,22 +1088,22 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:21.228",
-                              "endtime": "20231214 00:08:21.229"
+                              "starttime": "20231221 00:08:28.258",
+                              "endtime": "20231221 00:08:28.258"
                             }
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:21.230",
+                              "timestamp": "20231221 00:08:28.260",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:21.230",
+                              "timestamp": "20231221 00:08:28.260",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1112,16 +1112,16 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20231214 00:08:21.228",
-                            "endtime": "20231214 00:08:21.230"
+                            "starttime": "20231221 00:08:28.258",
+                            "endtime": "20231221 00:08:28.260"
                           }
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:21.228",
-                          "endtime": "20231214 00:08:21.231"
+                          "starttime": "20231221 00:08:28.257",
+                          "endtime": "20231221 00:08:28.260"
                         },
                         "_text": "No application is open"
                       }
@@ -1133,10 +1133,10 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20231214 00:08:20.807",
-                      "endtime": "20231214 00:08:21.231"
+                      "starttime": "20231221 00:08:27.997",
+                      "endtime": "20231221 00:08:28.260"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX4c61843c]\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXea84b010]\n\n\nAlso teardown failed:\nNo application is open"
                   }
                 },
                 {
@@ -1199,7 +1199,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:21.701",
+                                  "timestamp": "20231221 00:08:28.511",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -1207,40 +1207,40 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "starttime": "20231214 00:08:21.701",
-                                  "endtime": "20231214 00:08:21.701"
+                                  "starttime": "20231221 00:08:28.511",
+                                  "endtime": "20231221 00:08:28.511"
                                 }
                               }
                             },
                             "msg": [
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:21.702",
+                                  "timestamp": "20231221 00:08:28.513",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:21.703",
+                                  "timestamp": "20231221 00:08:28.513",
                                   "level": "FAIL"
                                 },
-                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXe10e2fab]\n"
+                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX8fb60065]\n"
                               }
                             ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20231214 00:08:21.232",
-                                "endtime": "20231214 00:08:21.703"
+                                "starttime": "20231221 00:08:28.261",
+                                "endtime": "20231221 00:08:28.513"
                               }
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:21.232",
-                              "endtime": "20231214 00:08:21.703"
+                              "starttime": "20231221 00:08:28.261",
+                              "endtime": "20231221 00:08:28.513"
                             }
                           }
                         },
@@ -1260,8 +1260,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20231214 00:08:21.703",
-                              "endtime": "20231214 00:08:21.703"
+                              "starttime": "20231221 00:08:28.513",
+                              "endtime": "20231221 00:08:28.513"
                             }
                           }
                         }
@@ -1269,8 +1269,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:21.231",
-                          "endtime": "20231214 00:08:21.703"
+                          "starttime": "20231221 00:08:28.260",
+                          "endtime": "20231221 00:08:28.513"
                         }
                       }
                     },
@@ -1298,7 +1298,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:21.704",
+                              "timestamp": "20231221 00:08:28.514",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1306,22 +1306,22 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:21.704",
-                              "endtime": "20231214 00:08:21.704"
+                              "starttime": "20231221 00:08:28.514",
+                              "endtime": "20231221 00:08:28.514"
                             }
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:21.705",
+                              "timestamp": "20231221 00:08:28.515",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:21.706",
+                              "timestamp": "20231221 00:08:28.516",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1330,16 +1330,16 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20231214 00:08:21.704",
-                            "endtime": "20231214 00:08:21.706"
+                            "starttime": "20231221 00:08:28.514",
+                            "endtime": "20231221 00:08:28.516"
                           }
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:21.703",
-                          "endtime": "20231214 00:08:21.706"
+                          "starttime": "20231221 00:08:28.513",
+                          "endtime": "20231221 00:08:28.516"
                         },
                         "_text": "No application is open"
                       }
@@ -1351,10 +1351,10 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20231214 00:08:21.231",
-                      "endtime": "20231214 00:08:21.706"
+                      "starttime": "20231221 00:08:28.260",
+                      "endtime": "20231221 00:08:28.516"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXe10e2fab]\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXX8fb60065]\n\n\nAlso teardown failed:\nNo application is open"
                   }
                 },
                 {
@@ -1417,7 +1417,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:22.198",
+                                  "timestamp": "20231221 00:08:29.381",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -1425,40 +1425,40 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "starttime": "20231214 00:08:22.198",
-                                  "endtime": "20231214 00:08:22.198"
+                                  "starttime": "20231221 00:08:29.381",
+                                  "endtime": "20231221 00:08:29.382"
                                 }
                               }
                             },
                             "msg": [
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:22.199",
+                                  "timestamp": "20231221 00:08:29.383",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "timestamp": "20231214 00:08:22.200",
+                                  "timestamp": "20231221 00:08:29.383",
                                   "level": "FAIL"
                                 },
-                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXb93366f0]\n"
+                                "_text": "WebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf00d7c6a]\n"
                               }
                             ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20231214 00:08:21.707",
-                                "endtime": "20231214 00:08:22.200"
+                                "starttime": "20231221 00:08:28.517",
+                                "endtime": "20231221 00:08:29.383"
                               }
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:21.707",
-                              "endtime": "20231214 00:08:22.200"
+                              "starttime": "20231221 00:08:28.517",
+                              "endtime": "20231221 00:08:29.383"
                             }
                           }
                         },
@@ -1478,8 +1478,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20231214 00:08:22.200",
-                              "endtime": "20231214 00:08:22.200"
+                              "starttime": "20231221 00:08:29.384",
+                              "endtime": "20231221 00:08:29.384"
                             }
                           }
                         }
@@ -1487,8 +1487,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:21.706",
-                          "endtime": "20231214 00:08:22.200"
+                          "starttime": "20231221 00:08:28.516",
+                          "endtime": "20231221 00:08:29.384"
                         }
                       }
                     },
@@ -1516,7 +1516,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:22.201",
+                              "timestamp": "20231221 00:08:29.385",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1524,22 +1524,22 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20231214 00:08:22.201",
-                              "endtime": "20231214 00:08:22.201"
+                              "starttime": "20231221 00:08:29.384",
+                              "endtime": "20231221 00:08:29.385"
                             }
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:22.203",
+                              "timestamp": "20231221 00:08:29.386",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20231214 00:08:22.203",
+                              "timestamp": "20231221 00:08:29.386",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1548,16 +1548,16 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20231214 00:08:22.200",
-                            "endtime": "20231214 00:08:22.203"
+                            "starttime": "20231221 00:08:29.384",
+                            "endtime": "20231221 00:08:29.387"
                           }
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:22.200",
-                          "endtime": "20231214 00:08:22.203"
+                          "starttime": "20231221 00:08:29.384",
+                          "endtime": "20231221 00:08:29.387"
                         },
                         "_text": "No application is open"
                       }
@@ -1569,18 +1569,18 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20231214 00:08:21.706",
-                      "endtime": "20231214 00:08:22.203"
+                      "starttime": "20231221 00:08:28.516",
+                      "endtime": "20231221 00:08:29.387"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support.[Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXb93366f0]\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nWebDriverException: Message: Verification failed for: storage:filename=demo-saucelabs.apk - File is not available. Make sure the file is in App Storage and you have access permissions to it before retrying. If you have confirmed you have access to the file in App Storage and you continue to get this error, contact help@saucelabs.com for support. [Trace: XXXXXXXX-XXXX-XXXX-XXXX-XXXXf00d7c6a]\n\n\nAlso teardown failed:\nNo application is open"
                   }
                 }
               ],
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "starttime": "20231214 00:08:20.803",
-                  "endtime": "20231214 00:08:22.204"
+                  "starttime": "20231221 00:08:27.993",
+                  "endtime": "20231221 00:08:29.387"
                 }
               }
             }
@@ -1588,8 +1588,8 @@
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "starttime": "20231214 00:08:18.709",
-              "endtime": "20231214 00:08:22.205"
+              "starttime": "20231221 00:08:26.047",
+              "endtime": "20231221 00:08:29.388"
             }
           }
         },
@@ -1659,7 +1659,7 @@
                       },
                       "msg": {
                         "_attributes": {
-                          "timestamp": "20231214 00:08:22.670",
+                          "timestamp": "20231221 00:08:29.613",
                           "level": "FAIL"
                         },
                         "_text": "No application is open"
@@ -1667,22 +1667,22 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:22.670",
-                          "endtime": "20231214 00:08:22.671"
+                          "starttime": "20231221 00:08:29.613",
+                          "endtime": "20231221 00:08:29.614"
                         }
                       }
                     },
                     "msg": [
                       {
                         "_attributes": {
-                          "timestamp": "20231214 00:08:22.672",
+                          "timestamp": "20231221 00:08:29.615",
                           "level": "WARN"
                         },
                         "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                       },
                       {
                         "_attributes": {
-                          "timestamp": "20231214 00:08:22.672",
+                          "timestamp": "20231221 00:08:29.615",
                           "level": "FAIL"
                         },
                         "_text": "SessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n"
@@ -1691,16 +1691,16 @@
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20231214 00:08:22.211",
-                        "endtime": "20231214 00:08:22.672"
+                        "starttime": "20231221 00:08:29.395",
+                        "endtime": "20231221 00:08:29.615"
                       }
                     }
                   },
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20231214 00:08:22.211",
-                      "endtime": "20231214 00:08:22.672"
+                      "starttime": "20231221 00:08:29.395",
+                      "endtime": "20231221 00:08:29.615"
                     }
                   }
                 },
@@ -1728,7 +1728,7 @@
                       },
                       "msg": {
                         "_attributes": {
-                          "timestamp": "20231214 00:08:22.673",
+                          "timestamp": "20231221 00:08:29.616",
                           "level": "FAIL"
                         },
                         "_text": "No application is open"
@@ -1736,22 +1736,22 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20231214 00:08:22.673",
-                          "endtime": "20231214 00:08:22.673"
+                          "starttime": "20231221 00:08:29.616",
+                          "endtime": "20231221 00:08:29.616"
                         }
                       }
                     },
                     "msg": [
                       {
                         "_attributes": {
-                          "timestamp": "20231214 00:08:22.674",
+                          "timestamp": "20231221 00:08:29.617",
                           "level": "WARN"
                         },
                         "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                       },
                       {
                         "_attributes": {
-                          "timestamp": "20231214 00:08:22.674",
+                          "timestamp": "20231221 00:08:29.617",
                           "level": "FAIL"
                         },
                         "_text": "No application is open"
@@ -1760,16 +1760,16 @@
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20231214 00:08:22.673",
-                        "endtime": "20231214 00:08:22.675"
+                        "starttime": "20231221 00:08:29.616",
+                        "endtime": "20231221 00:08:29.617"
                       }
                     }
                   },
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20231214 00:08:22.672",
-                      "endtime": "20231214 00:08:22.675"
+                      "starttime": "20231221 00:08:29.615",
+                      "endtime": "20231221 00:08:29.618"
                     },
                     "_text": "No application is open"
                   }
@@ -1778,8 +1778,8 @@
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "starttime": "20231214 00:08:22.211",
-                  "endtime": "20231214 00:08:22.675"
+                  "starttime": "20231221 00:08:29.394",
+                  "endtime": "20231221 00:08:29.618"
                 },
                 "_text": "Setup failed:\nSessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
               }
@@ -1787,16 +1787,16 @@
             "status": {
               "_attributes": {
                 "status": "FAIL",
-                "starttime": "20231214 00:08:22.207",
-                "endtime": "20231214 00:08:22.675"
+                "starttime": "20231221 00:08:29.391",
+                "endtime": "20231221 00:08:29.618"
               }
             }
           },
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "starttime": "20231214 00:08:22.206",
-              "endtime": "20231214 00:08:22.676"
+              "starttime": "20231221 00:08:29.389",
+              "endtime": "20231221 00:08:29.619"
             }
           }
         }
@@ -1804,8 +1804,8 @@
       "status": {
         "_attributes": {
           "status": "FAIL",
-          "starttime": "20231214 00:08:18.692",
-          "endtime": "20231214 00:08:22.677"
+          "starttime": "20231221 00:08:26.031",
+          "endtime": "20231221 00:08:29.620"
         }
       }
     },
@@ -1949,112 +1949,112 @@
       "msg": [
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:19.365",
+            "timestamp": "20231221 00:08:26.467",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:19.370",
+            "timestamp": "20231221 00:08:26.471",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:19.846",
+            "timestamp": "20231221 00:08:27.032",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:19.849",
+            "timestamp": "20231221 00:08:27.035",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:20.339",
+            "timestamp": "20231221 00:08:27.297",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:20.342",
+            "timestamp": "20231221 00:08:27.300",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:20.798",
+            "timestamp": "20231221 00:08:27.988",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:20.801",
+            "timestamp": "20231221 00:08:27.991",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:21.227",
+            "timestamp": "20231221 00:08:28.257",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:21.230",
+            "timestamp": "20231221 00:08:28.260",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:21.702",
+            "timestamp": "20231221 00:08:28.513",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:21.705",
+            "timestamp": "20231221 00:08:28.515",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:22.199",
+            "timestamp": "20231221 00:08:29.383",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:22.203",
+            "timestamp": "20231221 00:08:29.386",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:22.672",
+            "timestamp": "20231221 00:08:29.615",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20231214 00:08:22.674",
+            "timestamp": "20231221 00:08:29.617",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.8.18 on linux)" generated="20231228 00:08:07.082" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.8.18 on linux)" generated="20240104 00:08:38.387" rpa="false" schemaversion="4">
 <suite id="s1" name="Tests" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests">
 <suite id="s1-s1" name="Android" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android">
 <suite id="s1-s1-s1" name="Catalog" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/catalog.robot">
@@ -23,40 +23,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:07.670" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:07.670" endtime="20231228 00:08:07.671"/>
+<msg timestamp="20240104 00:08:38.966" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:38.966" endtime="20240104 00:08:38.967"/>
 </kw>
-<msg timestamp="20231228 00:08:07.672" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:07.672" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg timestamp="20240104 00:08:38.968" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:38.969" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
-<status status="FAIL" starttime="20231228 00:08:07.210" endtime="20231228 00:08:07.673"/>
+<status status="FAIL" starttime="20240104 00:08:38.518" endtime="20240104 00:08:38.969"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:07.210" endtime="20231228 00:08:07.673"/>
+<status status="FAIL" starttime="20240104 00:08:38.518" endtime="20240104 00:08:38.969"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231228 00:08:07.673" endtime="20231228 00:08:07.673"/>
+<status status="NOT RUN" starttime="20240104 00:08:38.969" endtime="20240104 00:08:38.969"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:07.210" endtime="20231228 00:08:07.673"/>
+<status status="FAIL" starttime="20240104 00:08:38.518" endtime="20240104 00:08:38.969"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:07.675" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:07.674" endtime="20231228 00:08:07.675"/>
+<msg timestamp="20240104 00:08:38.971" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:38.970" endtime="20240104 00:08:38.971"/>
 </kw>
-<msg timestamp="20231228 00:08:07.676" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:07.677" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:07.673" endtime="20231228 00:08:07.677"/>
+<msg timestamp="20240104 00:08:38.972" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:38.973" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:38.970" endtime="20240104 00:08:38.973"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:07.673" endtime="20231228 00:08:07.677">No application is open</status>
+<status status="FAIL" starttime="20240104 00:08:38.969" endtime="20240104 00:08:38.973">No application is open</status>
 </kw>
 <tag>open_product</tag>
-<status status="FAIL" starttime="20231228 00:08:07.209" endtime="20231228 00:08:07.677">Setup failed:
+<status status="FAIL" starttime="20240104 00:08:38.517" endtime="20240104 00:08:38.973">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -84,40 +84,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:08.025" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:08.025" endtime="20231228 00:08:08.025"/>
+<msg timestamp="20240104 00:08:39.344" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:39.344" endtime="20240104 00:08:39.344"/>
 </kw>
-<msg timestamp="20231228 00:08:08.027" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.027" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg timestamp="20240104 00:08:39.346" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:39.346" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
-<status status="FAIL" starttime="20231228 00:08:07.678" endtime="20231228 00:08:08.027"/>
+<status status="FAIL" starttime="20240104 00:08:38.974" endtime="20240104 00:08:39.346"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:07.678" endtime="20231228 00:08:08.027"/>
+<status status="FAIL" starttime="20240104 00:08:38.974" endtime="20240104 00:08:39.346"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231228 00:08:08.027" endtime="20231228 00:08:08.027"/>
+<status status="NOT RUN" starttime="20240104 00:08:39.346" endtime="20240104 00:08:39.346"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:07.678" endtime="20231228 00:08:08.028"/>
+<status status="FAIL" starttime="20240104 00:08:38.974" endtime="20240104 00:08:39.346"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:08.028" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:08.028" endtime="20231228 00:08:08.028"/>
+<msg timestamp="20240104 00:08:39.347" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:39.347" endtime="20240104 00:08:39.347"/>
 </kw>
-<msg timestamp="20231228 00:08:08.030" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.030" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:08.028" endtime="20231228 00:08:08.030"/>
+<msg timestamp="20240104 00:08:39.349" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:39.349" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:39.347" endtime="20240104 00:08:39.349"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:08.028" endtime="20231228 00:08:08.030">No application is open</status>
+<status status="FAIL" starttime="20240104 00:08:39.347" endtime="20240104 00:08:39.349">No application is open</status>
 </kw>
 <tag>rate_product</tag>
-<status status="FAIL" starttime="20231228 00:08:07.677" endtime="20231228 00:08:08.030">Setup failed:
+<status status="FAIL" starttime="20240104 00:08:38.973" endtime="20240104 00:08:39.349">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -145,40 +145,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:08.421" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:08.420" endtime="20231228 00:08:08.421"/>
+<msg timestamp="20240104 00:08:39.711" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:39.711" endtime="20240104 00:08:39.711"/>
 </kw>
-<msg timestamp="20231228 00:08:08.422" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.422" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg timestamp="20240104 00:08:39.713" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:39.713" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
-<status status="FAIL" starttime="20231228 00:08:08.032" endtime="20231228 00:08:08.423"/>
+<status status="FAIL" starttime="20240104 00:08:39.351" endtime="20240104 00:08:39.713"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:08.031" endtime="20231228 00:08:08.423"/>
+<status status="FAIL" starttime="20240104 00:08:39.350" endtime="20240104 00:08:39.713"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231228 00:08:08.423" endtime="20231228 00:08:08.423"/>
+<status status="NOT RUN" starttime="20240104 00:08:39.714" endtime="20240104 00:08:39.714"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:08.031" endtime="20231228 00:08:08.423"/>
+<status status="FAIL" starttime="20240104 00:08:39.350" endtime="20240104 00:08:39.714"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:08.424" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:08.423" endtime="20231228 00:08:08.424"/>
+<msg timestamp="20240104 00:08:39.714" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:39.714" endtime="20240104 00:08:39.715"/>
 </kw>
-<msg timestamp="20231228 00:08:08.425" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.425" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:08.423" endtime="20231228 00:08:08.426"/>
+<msg timestamp="20240104 00:08:39.716" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:39.716" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:39.714" endtime="20240104 00:08:39.716"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:08.423" endtime="20231228 00:08:08.426">No application is open</status>
+<status status="FAIL" starttime="20240104 00:08:39.714" endtime="20240104 00:08:39.717">No application is open</status>
 </kw>
 <tag>sort_by</tag>
-<status status="FAIL" starttime="20231228 00:08:08.031" endtime="20231228 00:08:08.426">Setup failed:
+<status status="FAIL" starttime="20240104 00:08:39.350" endtime="20240104 00:08:39.717">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -206,40 +206,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:08.889" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:08.889" endtime="20231228 00:08:08.889"/>
+<msg timestamp="20240104 00:08:40.150" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:40.149" endtime="20240104 00:08:40.150"/>
 </kw>
-<msg timestamp="20231228 00:08:08.891" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.891" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg timestamp="20240104 00:08:40.151" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:40.152" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
-<status status="FAIL" starttime="20231228 00:08:08.427" endtime="20231228 00:08:08.891"/>
+<status status="FAIL" starttime="20240104 00:08:39.718" endtime="20240104 00:08:40.152"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:08.427" endtime="20231228 00:08:08.891"/>
+<status status="FAIL" starttime="20240104 00:08:39.718" endtime="20240104 00:08:40.152"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231228 00:08:08.892" endtime="20231228 00:08:08.892"/>
+<status status="NOT RUN" starttime="20240104 00:08:40.152" endtime="20240104 00:08:40.152"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:08.426" endtime="20231228 00:08:08.892"/>
+<status status="FAIL" starttime="20240104 00:08:39.717" endtime="20240104 00:08:40.152"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:08.892" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:08.892" endtime="20231228 00:08:08.893"/>
+<msg timestamp="20240104 00:08:40.153" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:40.153" endtime="20240104 00:08:40.153"/>
 </kw>
-<msg timestamp="20231228 00:08:08.894" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.894" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:08.892" endtime="20231228 00:08:08.894"/>
+<msg timestamp="20240104 00:08:40.155" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:40.155" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:40.153" endtime="20240104 00:08:40.155"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:08.892" endtime="20231228 00:08:08.895">No application is open</status>
+<status status="FAIL" starttime="20240104 00:08:40.152" endtime="20240104 00:08:40.155">No application is open</status>
 </kw>
 <tag>add_cart</tag>
-<status status="FAIL" starttime="20231228 00:08:08.426" endtime="20231228 00:08:08.895">Setup failed:
+<status status="FAIL" starttime="20240104 00:08:39.717" endtime="20240104 00:08:40.155">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -247,7 +247,7 @@ Please visit https://saucelabs.com/pricing to purchase a subscription.
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" starttime="20231228 00:08:07.101" endtime="20231228 00:08:08.895"/>
+<status status="FAIL" starttime="20240104 00:08:38.406" endtime="20240104 00:08:40.156"/>
 </suite>
 <suite id="s1-s1-s2" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/login.robot">
 <test id="s1-s1-s2-t1" name="Scenario: Login with wrong credentials" line="11">
@@ -270,40 +270,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:09.245" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:09.245" endtime="20231228 00:08:09.245"/>
+<msg timestamp="20240104 00:08:40.589" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:40.589" endtime="20240104 00:08:40.590"/>
 </kw>
-<msg timestamp="20231228 00:08:09.247" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.247" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg timestamp="20240104 00:08:40.591" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:40.591" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
-<status status="FAIL" starttime="20231228 00:08:08.901" endtime="20231228 00:08:09.247"/>
+<status status="FAIL" starttime="20240104 00:08:40.161" endtime="20240104 00:08:40.591"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:08.900" endtime="20231228 00:08:09.247"/>
+<status status="FAIL" starttime="20240104 00:08:40.161" endtime="20240104 00:08:40.591"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231228 00:08:09.247" endtime="20231228 00:08:09.247"/>
+<status status="NOT RUN" starttime="20240104 00:08:40.591" endtime="20240104 00:08:40.591"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:08.900" endtime="20231228 00:08:09.247"/>
+<status status="FAIL" starttime="20240104 00:08:40.161" endtime="20240104 00:08:40.591"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:09.248" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:09.248" endtime="20231228 00:08:09.248"/>
+<msg timestamp="20240104 00:08:40.592" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:40.592" endtime="20240104 00:08:40.592"/>
 </kw>
-<msg timestamp="20231228 00:08:09.249" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.250" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:09.248" endtime="20231228 00:08:09.250"/>
+<msg timestamp="20240104 00:08:40.594" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:40.594" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:40.592" endtime="20240104 00:08:40.594"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:09.248" endtime="20231228 00:08:09.250">No application is open</status>
+<status status="FAIL" starttime="20240104 00:08:40.592" endtime="20240104 00:08:40.594">No application is open</status>
 </kw>
 <tag>wrong_login</tag>
-<status status="FAIL" starttime="20231228 00:08:08.900" endtime="20231228 00:08:09.250">Setup failed:
+<status status="FAIL" starttime="20240104 00:08:40.160" endtime="20240104 00:08:40.594">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -331,40 +331,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:09.627" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:09.627" endtime="20231228 00:08:09.627"/>
+<msg timestamp="20240104 00:08:41.010" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:41.010" endtime="20240104 00:08:41.010"/>
 </kw>
-<msg timestamp="20231228 00:08:09.628" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.629" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg timestamp="20240104 00:08:41.011" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.012" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
-<status status="FAIL" starttime="20231228 00:08:09.251" endtime="20231228 00:08:09.629"/>
+<status status="FAIL" starttime="20240104 00:08:40.595" endtime="20240104 00:08:41.012"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:09.251" endtime="20231228 00:08:09.629"/>
+<status status="FAIL" starttime="20240104 00:08:40.595" endtime="20240104 00:08:41.012"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231228 00:08:09.629" endtime="20231228 00:08:09.629"/>
+<status status="NOT RUN" starttime="20240104 00:08:41.012" endtime="20240104 00:08:41.012"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:09.251" endtime="20231228 00:08:09.629"/>
+<status status="FAIL" starttime="20240104 00:08:40.595" endtime="20240104 00:08:41.012"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:09.630" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:09.630" endtime="20231228 00:08:09.630"/>
+<msg timestamp="20240104 00:08:41.013" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:41.013" endtime="20240104 00:08:41.013"/>
 </kw>
-<msg timestamp="20231228 00:08:09.631" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.631" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:09.629" endtime="20231228 00:08:09.631"/>
+<msg timestamp="20240104 00:08:41.014" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.014" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:41.013" endtime="20240104 00:08:41.015"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:09.629" endtime="20231228 00:08:09.632">No application is open</status>
+<status status="FAIL" starttime="20240104 00:08:41.012" endtime="20240104 00:08:41.015">No application is open</status>
 </kw>
 <tag>login_success</tag>
-<status status="FAIL" starttime="20231228 00:08:09.250" endtime="20231228 00:08:09.632">Setup failed:
+<status status="FAIL" starttime="20240104 00:08:40.594" endtime="20240104 00:08:41.015">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -392,40 +392,40 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:09.992" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:09.992" endtime="20231228 00:08:09.992"/>
+<msg timestamp="20240104 00:08:41.372" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:41.371" endtime="20240104 00:08:41.372"/>
 </kw>
-<msg timestamp="20231228 00:08:09.994" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.994" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg timestamp="20240104 00:08:41.373" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.373" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
-<status status="FAIL" starttime="20231228 00:08:09.633" endtime="20231228 00:08:09.994"/>
+<status status="FAIL" starttime="20240104 00:08:41.016" endtime="20240104 00:08:41.373"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:09.632" endtime="20231228 00:08:09.994"/>
+<status status="FAIL" starttime="20240104 00:08:41.016" endtime="20240104 00:08:41.374"/>
 </kw>
 <kw name="Perform Login" library="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" starttime="20231228 00:08:09.994" endtime="20231228 00:08:09.994"/>
+<status status="NOT RUN" starttime="20240104 00:08:41.374" endtime="20240104 00:08:41.374"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:09.632" endtime="20231228 00:08:09.994"/>
+<status status="FAIL" starttime="20240104 00:08:41.016" endtime="20240104 00:08:41.374"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:09.995" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:09.995" endtime="20231228 00:08:09.996"/>
+<msg timestamp="20240104 00:08:41.375" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:41.374" endtime="20240104 00:08:41.375"/>
 </kw>
-<msg timestamp="20231228 00:08:09.997" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.997" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:09.995" endtime="20231228 00:08:09.997"/>
+<msg timestamp="20240104 00:08:41.376" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.376" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:41.374" endtime="20240104 00:08:41.376"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:09.995" endtime="20231228 00:08:09.997">No application is open</status>
+<status status="FAIL" starttime="20240104 00:08:41.374" endtime="20240104 00:08:41.377">No application is open</status>
 </kw>
 <tag>logout_success</tag>
-<status status="FAIL" starttime="20231228 00:08:09.632" endtime="20231228 00:08:09.997">Setup failed:
+<status status="FAIL" starttime="20240104 00:08:41.015" endtime="20240104 00:08:41.377">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -433,9 +433,9 @@ Please visit https://saucelabs.com/pricing to purchase a subscription.
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" starttime="20231228 00:08:08.896" endtime="20231228 00:08:09.998"/>
+<status status="FAIL" starttime="20240104 00:08:40.157" endtime="20240104 00:08:41.377"/>
 </suite>
-<status status="FAIL" starttime="20231228 00:08:07.100" endtime="20231228 00:08:09.999"/>
+<status status="FAIL" starttime="20240104 00:08:38.405" endtime="20240104 00:08:41.378"/>
 </suite>
 <suite id="s1-s2" name="Ios" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios">
 <suite id="s1-s2-s1" name="Test" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/test.robot">
@@ -458,11 +458,11 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:10.415" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:10.415" endtime="20231228 00:08:10.415"/>
+<msg timestamp="20240104 00:08:41.776" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:41.776" endtime="20240104 00:08:41.777"/>
 </kw>
-<msg timestamp="20231228 00:08:10.416" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:10.416" level="FAIL">SessionNotCreatedException: Message: 
+<msg timestamp="20240104 00:08:41.778" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.778" level="FAIL">SessionNotCreatedException: Message: 
 
 Unable to find file 'demo-saucelabs.ipa' in app storage
 
@@ -470,25 +470,25 @@ Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.21'
 Driver info: driver.version: unknown
 </msg>
-<status status="FAIL" starttime="20231228 00:08:10.005" endtime="20231228 00:08:10.417"/>
+<status status="FAIL" starttime="20240104 00:08:41.384" endtime="20240104 00:08:41.778"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:10.004" endtime="20231228 00:08:10.417"/>
+<status status="FAIL" starttime="20240104 00:08:41.384" endtime="20240104 00:08:41.778"/>
 </kw>
 <kw name="After Tests" library="base_keywords" type="TEARDOWN">
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
 <kw name="Capture Page Screenshot" library="AppiumLibrary">
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<msg timestamp="20231228 00:08:10.417" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:10.417" endtime="20231228 00:08:10.418"/>
+<msg timestamp="20240104 00:08:41.779" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:41.779" endtime="20240104 00:08:41.779"/>
 </kw>
-<msg timestamp="20231228 00:08:10.419" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:10.419" level="FAIL">No application is open</msg>
-<status status="FAIL" starttime="20231228 00:08:10.417" endtime="20231228 00:08:10.419"/>
+<msg timestamp="20240104 00:08:41.780" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.780" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240104 00:08:41.778" endtime="20240104 00:08:41.780"/>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:10.417" endtime="20231228 00:08:10.419">No application is open</status>
+<status status="FAIL" starttime="20240104 00:08:41.778" endtime="20240104 00:08:41.780">No application is open</status>
 </kw>
-<status status="FAIL" starttime="20231228 00:08:10.004" endtime="20231228 00:08:10.419">Setup failed:
+<status status="FAIL" starttime="20240104 00:08:41.384" endtime="20240104 00:08:41.781">Setup failed:
 SessionNotCreatedException: Message: 
 
 Unable to find file 'demo-saucelabs.ipa' in app storage
@@ -501,11 +501,11 @@ Driver info: driver.version: unknown
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" starttime="20231228 00:08:10.000" endtime="20231228 00:08:10.420"/>
+<status status="FAIL" starttime="20240104 00:08:41.380" endtime="20240104 00:08:41.781"/>
 </suite>
-<status status="FAIL" starttime="20231228 00:08:09.999" endtime="20231228 00:08:10.420"/>
+<status status="FAIL" starttime="20240104 00:08:41.379" endtime="20240104 00:08:41.782"/>
 </suite>
-<status status="FAIL" starttime="20231228 00:08:07.083" endtime="20231228 00:08:10.421"/>
+<status status="FAIL" starttime="20240104 00:08:38.388" endtime="20240104 00:08:41.783"/>
 </suite>
 <statistics>
 <total>
@@ -530,21 +530,21 @@ No application is open</status>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20231228 00:08:07.672" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:07.676" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.027" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.030" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.422" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.425" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.891" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:08.894" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.247" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.249" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.628" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.631" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.994" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:09.997" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:10.416" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg timestamp="20231228 00:08:10.419" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:38.968" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:38.972" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:39.346" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:39.349" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:39.713" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:39.716" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:40.151" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:40.155" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:40.591" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:40.594" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.011" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.014" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.373" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.376" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.778" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240104 00:08:41.780" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
 </errors>
 </robot>

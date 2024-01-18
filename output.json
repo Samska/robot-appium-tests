@@ -7,10 +7,10 @@
   },
   "robot": {
     "_attributes": {
-      "generator": "Robot 6.1.1 (Python 3.8.18 on linux)",
-      "generated": "20240111 00:08:31.761",
+      "generator": "Robot 7.0 (Python 3.8.18 on linux)",
+      "generated": "2024-01-18T00:08:42.231357",
       "rpa": "false",
-      "schemaversion": "4"
+      "schemaversion": "5"
     },
     "suite": {
       "_attributes": {
@@ -43,20 +43,60 @@
                     {
                       "_attributes": {
                         "name": "Before Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "SETUP"
                       },
                       "kw": [
                         {
                           "_attributes": {
                             "name": "Open App",
-                            "library": "base_keywords"
+                            "owner": "base_keywords"
                           },
                           "kw": {
                             "_attributes": {
                               "name": "Open Application",
-                              "library": "AppiumLibrary"
+                              "owner": "AppiumLibrary"
                             },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "owner": "AppiumLibrary"
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:42.708079",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "start": "2024-01-18T00:08:42.707766",
+                                  "elapsed": "0.001277"
+                                },
+                                "_text": "No application is open"
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:42.710634",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:42.710792",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              }
+                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -83,65 +123,28 @@
                             "doc": {
                               "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                             },
-                            "kw": {
-                              "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "library": "AppiumLibrary"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "msg": {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:32.322",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "starttime": "20240111 00:08:32.322",
-                                  "endtime": "20240111 00:08:32.323"
-                                }
-                              }
-                            },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:32.325",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:32.325",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20240111 00:08:31.915",
-                                "endtime": "20240111 00:08:32.326"
-                              }
+                                "start": "2024-01-18T00:08:42.412242",
+                                "elapsed": "0.298728"
+                              },
+                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:31.915",
-                              "endtime": "20240111 00:08:32.326"
-                            }
+                              "start": "2024-01-18T00:08:42.411609",
+                              "elapsed": "0.299513"
+                            },
+                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
                         },
                         {
                           "_attributes": {
                             "name": "Perform Login",
-                            "library": "login_keywords"
+                            "owner": "login_keywords"
                           },
                           "arg": [
                             {
@@ -154,8 +157,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20240111 00:08:32.326",
-                              "endtime": "20240111 00:08:32.326"
+                              "start": "2024-01-18T00:08:42.711356",
+                              "elapsed": "0.000027"
                             }
                           }
                         }
@@ -163,77 +166,80 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:31.915",
-                          "endtime": "20240111 00:08:32.326"
-                        }
+                          "start": "2024-01-18T00:08:42.411236",
+                          "elapsed": "0.300230"
+                        },
+                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
                     },
                     {
                       "_attributes": {
                         "name": "After Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "TEARDOWN"
                       },
                       "kw": {
                         "_attributes": {
                           "name": "Close Application",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "owner": "AppiumLibrary"
                         },
                         "kw": {
                           "_attributes": {
                             "name": "Capture Page Screenshot",
-                            "library": "AppiumLibrary"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                            "owner": "AppiumLibrary"
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:32.328",
+                              "time": "2024-01-18T00:08:42.712422",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:32.328",
-                              "endtime": "20240111 00:08:32.328"
-                            }
+                              "start": "2024-01-18T00:08:42.712232",
+                              "elapsed": "0.000345"
+                            },
+                            "_text": "No application is open"
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:32.330",
+                              "time": "2024-01-18T00:08:42.714117",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:32.330",
+                              "time": "2024-01-18T00:08:42.714254",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           }
                         ],
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20240111 00:08:32.326",
-                            "endtime": "20240111 00:08:32.330"
-                          }
+                            "start": "2024-01-18T00:08:42.712035",
+                            "elapsed": "0.002361"
+                          },
+                          "_text": "No application is open"
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:32.326",
-                          "endtime": "20240111 00:08:32.330"
+                          "start": "2024-01-18T00:08:42.711744",
+                          "elapsed": "0.002760"
                         },
                         "_text": "No application is open"
                       }
@@ -245,8 +251,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20240111 00:08:31.915",
-                      "endtime": "20240111 00:08:32.330"
+                      "start": "2024-01-18T00:08:42.409615",
+                      "elapsed": "0.304955"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -261,20 +267,60 @@
                     {
                       "_attributes": {
                         "name": "Before Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "SETUP"
                       },
                       "kw": [
                         {
                           "_attributes": {
                             "name": "Open App",
-                            "library": "base_keywords"
+                            "owner": "base_keywords"
                           },
                           "kw": {
                             "_attributes": {
                               "name": "Open Application",
-                              "library": "AppiumLibrary"
+                              "owner": "AppiumLibrary"
                             },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "owner": "AppiumLibrary"
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:42.971110",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "start": "2024-01-18T00:08:42.970813",
+                                  "elapsed": "0.000526"
+                                },
+                                "_text": "No application is open"
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:42.972971",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:42.973135",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              }
+                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -301,65 +347,28 @@
                             "doc": {
                               "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                             },
-                            "kw": {
-                              "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "library": "AppiumLibrary"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "msg": {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:32.673",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "starttime": "20240111 00:08:32.672",
-                                  "endtime": "20240111 00:08:32.673"
-                                }
-                              }
-                            },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:32.675",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:32.675",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20240111 00:08:32.331",
-                                "endtime": "20240111 00:08:32.675"
-                              }
+                                "start": "2024-01-18T00:08:42.716206",
+                                "elapsed": "0.257134"
+                              },
+                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:32.331",
-                              "endtime": "20240111 00:08:32.675"
-                            }
+                              "start": "2024-01-18T00:08:42.715966",
+                              "elapsed": "0.257573"
+                            },
+                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
                         },
                         {
                           "_attributes": {
                             "name": "Perform Login",
-                            "library": "login_keywords"
+                            "owner": "login_keywords"
                           },
                           "arg": [
                             {
@@ -372,8 +381,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20240111 00:08:32.675",
-                              "endtime": "20240111 00:08:32.675"
+                              "start": "2024-01-18T00:08:42.973771",
+                              "elapsed": "0.000026"
                             }
                           }
                         }
@@ -381,77 +390,80 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:32.331",
-                          "endtime": "20240111 00:08:32.675"
-                        }
+                          "start": "2024-01-18T00:08:42.715486",
+                          "elapsed": "0.258395"
+                        },
+                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
                     },
                     {
                       "_attributes": {
                         "name": "After Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "TEARDOWN"
                       },
                       "kw": {
                         "_attributes": {
                           "name": "Close Application",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "owner": "AppiumLibrary"
                         },
                         "kw": {
                           "_attributes": {
                             "name": "Capture Page Screenshot",
-                            "library": "AppiumLibrary"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                            "owner": "AppiumLibrary"
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:32.676",
+                              "time": "2024-01-18T00:08:42.974797",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:32.676",
-                              "endtime": "20240111 00:08:32.676"
-                            }
+                              "start": "2024-01-18T00:08:42.974640",
+                              "elapsed": "0.000306"
+                            },
+                            "_text": "No application is open"
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:32.678",
+                              "time": "2024-01-18T00:08:42.976501",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:32.678",
+                              "time": "2024-01-18T00:08:42.976659",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           }
                         ],
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20240111 00:08:32.676",
-                            "endtime": "20240111 00:08:32.678"
-                          }
+                            "start": "2024-01-18T00:08:42.974431",
+                            "elapsed": "0.002374"
+                          },
+                          "_text": "No application is open"
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:32.675",
-                          "endtime": "20240111 00:08:32.678"
+                          "start": "2024-01-18T00:08:42.974143",
+                          "elapsed": "0.002823"
                         },
                         "_text": "No application is open"
                       }
@@ -463,8 +475,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20240111 00:08:32.330",
-                      "endtime": "20240111 00:08:32.678"
+                      "start": "2024-01-18T00:08:42.714881",
+                      "elapsed": "0.262160"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -479,20 +491,60 @@
                     {
                       "_attributes": {
                         "name": "Before Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "SETUP"
                       },
                       "kw": [
                         {
                           "_attributes": {
                             "name": "Open App",
-                            "library": "base_keywords"
+                            "owner": "base_keywords"
                           },
                           "kw": {
                             "_attributes": {
                               "name": "Open Application",
-                              "library": "AppiumLibrary"
+                              "owner": "AppiumLibrary"
                             },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "owner": "AppiumLibrary"
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.261996",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "start": "2024-01-18T00:08:43.261713",
+                                  "elapsed": "0.000525"
+                                },
+                                "_text": "No application is open"
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.263816",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.263985",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              }
+                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -519,65 +571,28 @@
                             "doc": {
                               "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                             },
-                            "kw": {
-                              "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "library": "AppiumLibrary"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "msg": {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:33.045",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "starttime": "20240111 00:08:33.045",
-                                  "endtime": "20240111 00:08:33.046"
-                                }
-                              }
-                            },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:33.047",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:33.047",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20240111 00:08:32.679",
-                                "endtime": "20240111 00:08:33.047"
-                              }
+                                "start": "2024-01-18T00:08:42.978592",
+                                "elapsed": "0.285595"
+                              },
+                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:32.679",
-                              "endtime": "20240111 00:08:33.048"
-                            }
+                              "start": "2024-01-18T00:08:42.978360",
+                              "elapsed": "0.286065"
+                            },
+                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
                         },
                         {
                           "_attributes": {
                             "name": "Perform Login",
-                            "library": "login_keywords"
+                            "owner": "login_keywords"
                           },
                           "arg": [
                             {
@@ -590,8 +605,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20240111 00:08:33.048",
-                              "endtime": "20240111 00:08:33.048"
+                              "start": "2024-01-18T00:08:43.264665",
+                              "elapsed": "0.000027"
                             }
                           }
                         }
@@ -599,77 +614,80 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:32.679",
-                          "endtime": "20240111 00:08:33.048"
-                        }
+                          "start": "2024-01-18T00:08:42.977991",
+                          "elapsed": "0.286788"
+                        },
+                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
                     },
                     {
                       "_attributes": {
                         "name": "After Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "TEARDOWN"
                       },
                       "kw": {
                         "_attributes": {
                           "name": "Close Application",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "owner": "AppiumLibrary"
                         },
                         "kw": {
                           "_attributes": {
                             "name": "Capture Page Screenshot",
-                            "library": "AppiumLibrary"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                            "owner": "AppiumLibrary"
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:33.049",
+                              "time": "2024-01-18T00:08:43.265662",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:33.048",
-                              "endtime": "20240111 00:08:33.049"
-                            }
+                              "start": "2024-01-18T00:08:43.265513",
+                              "elapsed": "0.000289"
+                            },
+                            "_text": "No application is open"
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:33.050",
+                              "time": "2024-01-18T00:08:43.267319",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:33.050",
+                              "time": "2024-01-18T00:08:43.267467",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           }
                         ],
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20240111 00:08:33.048",
-                            "endtime": "20240111 00:08:33.050"
-                          }
+                            "start": "2024-01-18T00:08:43.265327",
+                            "elapsed": "0.002289"
+                          },
+                          "_text": "No application is open"
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:33.048",
-                          "endtime": "20240111 00:08:33.051"
+                          "start": "2024-01-18T00:08:43.265039",
+                          "elapsed": "0.002733"
                         },
                         "_text": "No application is open"
                       }
@@ -681,8 +699,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20240111 00:08:32.678",
-                      "endtime": "20240111 00:08:33.051"
+                      "start": "2024-01-18T00:08:42.977350",
+                      "elapsed": "0.290497"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -697,20 +715,60 @@
                     {
                       "_attributes": {
                         "name": "Before Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "SETUP"
                       },
                       "kw": [
                         {
                           "_attributes": {
                             "name": "Open App",
-                            "library": "base_keywords"
+                            "owner": "base_keywords"
                           },
                           "kw": {
                             "_attributes": {
                               "name": "Open Application",
-                              "library": "AppiumLibrary"
+                              "owner": "AppiumLibrary"
                             },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "owner": "AppiumLibrary"
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.474592",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "start": "2024-01-18T00:08:43.474299",
+                                  "elapsed": "0.000539"
+                                },
+                                "_text": "No application is open"
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.476441",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.476603",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              }
+                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -737,65 +795,28 @@
                             "doc": {
                               "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                             },
-                            "kw": {
-                              "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "library": "AppiumLibrary"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "msg": {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:33.410",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "starttime": "20240111 00:08:33.410",
-                                  "endtime": "20240111 00:08:33.411"
-                                }
-                              }
-                            },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:33.412",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:33.412",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20240111 00:08:33.052",
-                                "endtime": "20240111 00:08:33.413"
-                              }
+                                "start": "2024-01-18T00:08:43.269419",
+                                "elapsed": "0.207382"
+                              },
+                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:33.051",
-                              "endtime": "20240111 00:08:33.413"
-                            }
+                              "start": "2024-01-18T00:08:43.269184",
+                              "elapsed": "0.207832"
+                            },
+                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
                         },
                         {
                           "_attributes": {
                             "name": "Perform Login",
-                            "library": "login_keywords"
+                            "owner": "login_keywords"
                           },
                           "arg": [
                             {
@@ -808,8 +829,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20240111 00:08:33.413",
-                              "endtime": "20240111 00:08:33.413"
+                              "start": "2024-01-18T00:08:43.477254",
+                              "elapsed": "0.000026"
                             }
                           }
                         }
@@ -817,77 +838,80 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:33.051",
-                          "endtime": "20240111 00:08:33.413"
-                        }
+                          "start": "2024-01-18T00:08:43.268839",
+                          "elapsed": "0.208528"
+                        },
+                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
                     },
                     {
                       "_attributes": {
                         "name": "After Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "TEARDOWN"
                       },
                       "kw": {
                         "_attributes": {
                           "name": "Close Application",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "owner": "AppiumLibrary"
                         },
                         "kw": {
                           "_attributes": {
                             "name": "Capture Page Screenshot",
-                            "library": "AppiumLibrary"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                            "owner": "AppiumLibrary"
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:33.414",
+                              "time": "2024-01-18T00:08:43.478637",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:33.414",
-                              "endtime": "20240111 00:08:33.414"
-                            }
+                              "start": "2024-01-18T00:08:43.478484",
+                              "elapsed": "0.000295"
+                            },
+                            "_text": "No application is open"
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:33.416",
+                              "time": "2024-01-18T00:08:43.480311",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:33.416",
+                              "time": "2024-01-18T00:08:43.480508",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           }
                         ],
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20240111 00:08:33.414",
-                            "endtime": "20240111 00:08:33.416"
-                          }
+                            "start": "2024-01-18T00:08:43.478290",
+                            "elapsed": "0.002376"
+                          },
+                          "_text": "No application is open"
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:33.413",
-                          "endtime": "20240111 00:08:33.416"
+                          "start": "2024-01-18T00:08:43.477632",
+                          "elapsed": "0.003184"
                         },
                         "_text": "No application is open"
                       }
@@ -899,8 +923,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20240111 00:08:33.051",
-                      "endtime": "20240111 00:08:33.416"
+                      "start": "2024-01-18T00:08:43.268155",
+                      "elapsed": "0.212726"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -909,8 +933,8 @@
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "starttime": "20240111 00:08:31.780",
-                  "endtime": "20240111 00:08:33.417"
+                  "start": "2024-01-18T00:08:42.252897",
+                  "elapsed": "1.228608"
                 }
               }
             },
@@ -931,20 +955,60 @@
                     {
                       "_attributes": {
                         "name": "Before Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "SETUP"
                       },
                       "kw": [
                         {
                           "_attributes": {
                             "name": "Open App",
-                            "library": "base_keywords"
+                            "owner": "base_keywords"
                           },
                           "kw": {
                             "_attributes": {
                               "name": "Open Application",
-                              "library": "AppiumLibrary"
+                              "owner": "AppiumLibrary"
                             },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "owner": "AppiumLibrary"
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.697559",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "start": "2024-01-18T00:08:43.697269",
+                                  "elapsed": "0.000703"
+                                },
+                                "_text": "No application is open"
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.699344",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.699507",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              }
+                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -971,65 +1035,28 @@
                             "doc": {
                               "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                             },
-                            "kw": {
-                              "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "library": "AppiumLibrary"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "msg": {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:33.797",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "starttime": "20240111 00:08:33.797",
-                                  "endtime": "20240111 00:08:33.797"
-                                }
-                              }
-                            },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:33.799",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:33.799",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20240111 00:08:33.422",
-                                "endtime": "20240111 00:08:33.799"
-                              }
+                                "start": "2024-01-18T00:08:43.486483",
+                                "elapsed": "0.213231"
+                              },
+                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:33.422",
-                              "endtime": "20240111 00:08:33.799"
-                            }
+                              "start": "2024-01-18T00:08:43.486256",
+                              "elapsed": "0.213655"
+                            },
+                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
                         },
                         {
                           "_attributes": {
                             "name": "Perform Login",
-                            "library": "login_keywords"
+                            "owner": "login_keywords"
                           },
                           "arg": [
                             {
@@ -1042,8 +1069,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20240111 00:08:33.799",
-                              "endtime": "20240111 00:08:33.799"
+                              "start": "2024-01-18T00:08:43.700143",
+                              "elapsed": "0.000028"
                             }
                           }
                         }
@@ -1051,77 +1078,80 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:33.421",
-                          "endtime": "20240111 00:08:33.799"
-                        }
+                          "start": "2024-01-18T00:08:43.485979",
+                          "elapsed": "0.214276"
+                        },
+                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
                     },
                     {
                       "_attributes": {
                         "name": "After Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "TEARDOWN"
                       },
                       "kw": {
                         "_attributes": {
                           "name": "Close Application",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "owner": "AppiumLibrary"
                         },
                         "kw": {
                           "_attributes": {
                             "name": "Capture Page Screenshot",
-                            "library": "AppiumLibrary"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                            "owner": "AppiumLibrary"
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:33.800",
+                              "time": "2024-01-18T00:08:43.701204",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:33.800",
-                              "endtime": "20240111 00:08:33.800"
-                            }
+                              "start": "2024-01-18T00:08:43.701051",
+                              "elapsed": "0.000295"
+                            },
+                            "_text": "No application is open"
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:33.802",
+                              "time": "2024-01-18T00:08:43.702599",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:33.802",
+                              "time": "2024-01-18T00:08:43.702745",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           }
                         ],
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20240111 00:08:33.800",
-                            "endtime": "20240111 00:08:33.802"
-                          }
+                            "start": "2024-01-18T00:08:43.700864",
+                            "elapsed": "0.002029"
+                          },
+                          "_text": "No application is open"
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:33.800",
-                          "endtime": "20240111 00:08:33.802"
+                          "start": "2024-01-18T00:08:43.700569",
+                          "elapsed": "0.002483"
                         },
                         "_text": "No application is open"
                       }
@@ -1133,8 +1163,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20240111 00:08:33.421",
-                      "endtime": "20240111 00:08:33.802"
+                      "start": "2024-01-18T00:08:43.485449",
+                      "elapsed": "0.217668"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -1149,20 +1179,60 @@
                     {
                       "_attributes": {
                         "name": "Before Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "SETUP"
                       },
                       "kw": [
                         {
                           "_attributes": {
                             "name": "Open App",
-                            "library": "base_keywords"
+                            "owner": "base_keywords"
                           },
                           "kw": {
                             "_attributes": {
                               "name": "Open Application",
-                              "library": "AppiumLibrary"
+                              "owner": "AppiumLibrary"
                             },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "owner": "AppiumLibrary"
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.934962",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "start": "2024-01-18T00:08:43.934665",
+                                  "elapsed": "0.000533"
+                                },
+                                "_text": "No application is open"
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.936526",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:43.936699",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              }
+                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -1189,65 +1259,28 @@
                             "doc": {
                               "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                             },
-                            "kw": {
-                              "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "library": "AppiumLibrary"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "msg": {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:34.165",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "starttime": "20240111 00:08:34.164",
-                                  "endtime": "20240111 00:08:34.165"
-                                }
-                              }
-                            },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:34.166",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:34.166",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20240111 00:08:33.803",
-                                "endtime": "20240111 00:08:34.166"
-                              }
+                                "start": "2024-01-18T00:08:43.704692",
+                                "elapsed": "0.232207"
+                              },
+                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:33.803",
-                              "endtime": "20240111 00:08:34.167"
-                            }
+                              "start": "2024-01-18T00:08:43.704444",
+                              "elapsed": "0.232653"
+                            },
+                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
                         },
                         {
                           "_attributes": {
                             "name": "Perform Login",
-                            "library": "login_keywords"
+                            "owner": "login_keywords"
                           },
                           "arg": [
                             {
@@ -1260,8 +1293,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20240111 00:08:34.167",
-                              "endtime": "20240111 00:08:34.167"
+                              "start": "2024-01-18T00:08:43.937351",
+                              "elapsed": "0.000028"
                             }
                           }
                         }
@@ -1269,77 +1302,80 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:33.803",
-                          "endtime": "20240111 00:08:34.167"
-                        }
+                          "start": "2024-01-18T00:08:43.704062",
+                          "elapsed": "0.233401"
+                        },
+                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
                     },
                     {
                       "_attributes": {
                         "name": "After Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "TEARDOWN"
                       },
                       "kw": {
                         "_attributes": {
                           "name": "Close Application",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "owner": "AppiumLibrary"
                         },
                         "kw": {
                           "_attributes": {
                             "name": "Capture Page Screenshot",
-                            "library": "AppiumLibrary"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                            "owner": "AppiumLibrary"
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:34.168",
+                              "time": "2024-01-18T00:08:43.938774",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:34.167",
-                              "endtime": "20240111 00:08:34.168"
-                            }
+                              "start": "2024-01-18T00:08:43.938245",
+                              "elapsed": "0.000687"
+                            },
+                            "_text": "No application is open"
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:34.169",
+                              "time": "2024-01-18T00:08:43.940188",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:34.169",
+                              "time": "2024-01-18T00:08:43.940341",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           }
                         ],
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20240111 00:08:34.167",
-                            "endtime": "20240111 00:08:34.169"
-                          }
+                            "start": "2024-01-18T00:08:43.938039",
+                            "elapsed": "0.002482"
+                          },
+                          "_text": "No application is open"
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:34.167",
-                          "endtime": "20240111 00:08:34.169"
+                          "start": "2024-01-18T00:08:43.937726",
+                          "elapsed": "0.002957"
                         },
                         "_text": "No application is open"
                       }
@@ -1351,8 +1387,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20240111 00:08:33.802",
-                      "endtime": "20240111 00:08:34.169"
+                      "start": "2024-01-18T00:08:43.703431",
+                      "elapsed": "0.237338"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -1367,20 +1403,60 @@
                     {
                       "_attributes": {
                         "name": "Before Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "SETUP"
                       },
                       "kw": [
                         {
                           "_attributes": {
                             "name": "Open App",
-                            "library": "base_keywords"
+                            "owner": "base_keywords"
                           },
                           "kw": {
                             "_attributes": {
                               "name": "Open Application",
-                              "library": "AppiumLibrary"
+                              "owner": "AppiumLibrary"
                             },
+                            "kw": {
+                              "_attributes": {
+                                "name": "Capture Page Screenshot",
+                                "owner": "AppiumLibrary"
+                              },
+                              "msg": {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:44.210175",
+                                  "level": "FAIL"
+                                },
+                                "_text": "No application is open"
+                              },
+                              "doc": {
+                                "_text": "Takes a screenshot of the current page and embeds it into the log."
+                              },
+                              "status": {
+                                "_attributes": {
+                                  "status": "FAIL",
+                                  "start": "2024-01-18T00:08:44.209853",
+                                  "elapsed": "0.000580"
+                                },
+                                "_text": "No application is open"
+                              }
+                            },
+                            "msg": [
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:44.211729",
+                                  "level": "WARN"
+                                },
+                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                              },
+                              {
+                                "_attributes": {
+                                  "time": "2024-01-18T00:08:44.211889",
+                                  "level": "FAIL"
+                                },
+                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              }
+                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -1407,65 +1483,28 @@
                             "doc": {
                               "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                             },
-                            "kw": {
-                              "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "library": "AppiumLibrary"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "msg": {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:34.540",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "starttime": "20240111 00:08:34.539",
-                                  "endtime": "20240111 00:08:34.540"
-                                }
-                              }
-                            },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:34.541",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "timestamp": "20240111 00:08:34.541",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "starttime": "20240111 00:08:34.170",
-                                "endtime": "20240111 00:08:34.542"
-                              }
+                                "start": "2024-01-18T00:08:43.942274",
+                                "elapsed": "0.269829"
+                              },
+                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:34.170",
-                              "endtime": "20240111 00:08:34.542"
-                            }
+                              "start": "2024-01-18T00:08:43.942047",
+                              "elapsed": "0.270348"
+                            },
+                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
                         },
                         {
                           "_attributes": {
                             "name": "Perform Login",
-                            "library": "login_keywords"
+                            "owner": "login_keywords"
                           },
                           "arg": [
                             {
@@ -1478,8 +1517,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "starttime": "20240111 00:08:34.542",
-                              "endtime": "20240111 00:08:34.542"
+                              "start": "2024-01-18T00:08:44.212720",
+                              "elapsed": "0.000030"
                             }
                           }
                         }
@@ -1487,77 +1526,80 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:34.170",
-                          "endtime": "20240111 00:08:34.542"
-                        }
+                          "start": "2024-01-18T00:08:43.941723",
+                          "elapsed": "0.271115"
+                        },
+                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
                     },
                     {
                       "_attributes": {
                         "name": "After Tests",
-                        "library": "base_keywords",
+                        "owner": "base_keywords",
                         "type": "TEARDOWN"
                       },
                       "kw": {
                         "_attributes": {
                           "name": "Close Application",
-                          "library": "AppiumLibrary"
-                        },
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "owner": "AppiumLibrary"
                         },
                         "kw": {
                           "_attributes": {
                             "name": "Capture Page Screenshot",
-                            "library": "AppiumLibrary"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                            "owner": "AppiumLibrary"
                           },
                           "msg": {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:34.543",
+                              "time": "2024-01-18T00:08:44.213743",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           },
+                          "doc": {
+                            "_text": "Takes a screenshot of the current page and embeds it into the log."
+                          },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "starttime": "20240111 00:08:34.543",
-                              "endtime": "20240111 00:08:34.543"
-                            }
+                              "start": "2024-01-18T00:08:44.213588",
+                              "elapsed": "0.000298"
+                            },
+                            "_text": "No application is open"
                           }
                         },
                         "msg": [
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:34.545",
+                              "time": "2024-01-18T00:08:44.215141",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "timestamp": "20240111 00:08:34.545",
+                              "time": "2024-01-18T00:08:44.215284",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
                           }
                         ],
+                        "doc": {
+                          "_text": "Closes the current application and also close webdriver session."
+                        },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "starttime": "20240111 00:08:34.542",
-                            "endtime": "20240111 00:08:34.545"
-                          }
+                            "start": "2024-01-18T00:08:44.213394",
+                            "elapsed": "0.002039"
+                          },
+                          "_text": "No application is open"
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:34.542",
-                          "endtime": "20240111 00:08:34.545"
+                          "start": "2024-01-18T00:08:44.213098",
+                          "elapsed": "0.002498"
                         },
                         "_text": "No application is open"
                       }
@@ -1569,8 +1611,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20240111 00:08:34.170",
-                      "endtime": "20240111 00:08:34.545"
+                      "start": "2024-01-18T00:08:43.941115",
+                      "elapsed": "0.274555"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -1579,8 +1621,8 @@
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "starttime": "20240111 00:08:33.418",
-                  "endtime": "20240111 00:08:34.545"
+                  "start": "2024-01-18T00:08:43.482220",
+                  "elapsed": "0.733893"
                 }
               }
             }
@@ -1588,8 +1630,8 @@
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "starttime": "20240111 00:08:31.778",
-              "endtime": "20240111 00:08:34.546"
+              "start": "2024-01-18T00:08:42.251790",
+              "elapsed": "1.965257"
             }
           }
         },
@@ -1615,14 +1657,54 @@
                 {
                   "_attributes": {
                     "name": "Before Tests",
-                    "library": "base_keywords",
+                    "owner": "base_keywords",
                     "type": "SETUP"
                   },
                   "kw": {
                     "_attributes": {
                       "name": "Open Application",
-                      "library": "AppiumLibrary"
+                      "owner": "AppiumLibrary"
                     },
+                    "kw": {
+                      "_attributes": {
+                        "name": "Capture Page Screenshot",
+                        "owner": "AppiumLibrary"
+                      },
+                      "msg": {
+                        "_attributes": {
+                          "time": "2024-01-18T00:08:44.385970",
+                          "level": "FAIL"
+                        },
+                        "_text": "No application is open"
+                      },
+                      "doc": {
+                        "_text": "Takes a screenshot of the current page and embeds it into the log."
+                      },
+                      "status": {
+                        "_attributes": {
+                          "status": "FAIL",
+                          "start": "2024-01-18T00:08:44.385678",
+                          "elapsed": "0.000535"
+                        },
+                        "_text": "No application is open"
+                      }
+                    },
+                    "msg": [
+                      {
+                        "_attributes": {
+                          "time": "2024-01-18T00:08:44.387307",
+                          "level": "WARN"
+                        },
+                        "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+                      },
+                      {
+                        "_attributes": {
+                          "time": "2024-01-18T00:08:44.387474",
+                          "level": "FAIL"
+                        },
+                        "_text": "SessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n"
+                      }
+                    ],
                     "arg": [
                       {
                         "_text": "${REMOTE_URL}"
@@ -1649,127 +1731,92 @@
                     "doc": {
                       "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
                     },
-                    "kw": {
-                      "_attributes": {
-                        "name": "Capture Page Screenshot",
-                        "library": "AppiumLibrary"
-                      },
-                      "doc": {
-                        "_text": "Takes a screenshot of the current page and embeds it into the log."
-                      },
-                      "msg": {
-                        "_attributes": {
-                          "timestamp": "20240111 00:08:34.988",
-                          "level": "FAIL"
-                        },
-                        "_text": "No application is open"
-                      },
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "starttime": "20240111 00:08:34.988",
-                          "endtime": "20240111 00:08:34.989"
-                        }
-                      }
-                    },
-                    "msg": [
-                      {
-                        "_attributes": {
-                          "timestamp": "20240111 00:08:34.990",
-                          "level": "WARN"
-                        },
-                        "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                      },
-                      {
-                        "_attributes": {
-                          "timestamp": "20240111 00:08:34.990",
-                          "level": "FAIL"
-                        },
-                        "_text": "SessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n"
-                      }
-                    ],
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20240111 00:08:34.552",
-                        "endtime": "20240111 00:08:34.990"
-                      }
+                        "start": "2024-01-18T00:08:44.223565",
+                        "elapsed": "0.164115"
+                      },
+                      "_text": "SessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n"
                     }
                   },
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20240111 00:08:34.552",
-                      "endtime": "20240111 00:08:34.990"
-                    }
+                      "start": "2024-01-18T00:08:44.223301",
+                      "elapsed": "0.164591"
+                    },
+                    "_text": "SessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n"
                   }
                 },
                 {
                   "_attributes": {
                     "name": "After Tests",
-                    "library": "base_keywords",
+                    "owner": "base_keywords",
                     "type": "TEARDOWN"
                   },
                   "kw": {
                     "_attributes": {
                       "name": "Close Application",
-                      "library": "AppiumLibrary"
-                    },
-                    "doc": {
-                      "_text": "Closes the current application and also close webdriver session."
+                      "owner": "AppiumLibrary"
                     },
                     "kw": {
                       "_attributes": {
                         "name": "Capture Page Screenshot",
-                        "library": "AppiumLibrary"
-                      },
-                      "doc": {
-                        "_text": "Takes a screenshot of the current page and embeds it into the log."
+                        "owner": "AppiumLibrary"
                       },
                       "msg": {
                         "_attributes": {
-                          "timestamp": "20240111 00:08:34.991",
+                          "time": "2024-01-18T00:08:44.388949",
                           "level": "FAIL"
                         },
                         "_text": "No application is open"
                       },
+                      "doc": {
+                        "_text": "Takes a screenshot of the current page and embeds it into the log."
+                      },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "starttime": "20240111 00:08:34.991",
-                          "endtime": "20240111 00:08:34.991"
-                        }
+                          "start": "2024-01-18T00:08:44.388795",
+                          "elapsed": "0.000305"
+                        },
+                        "_text": "No application is open"
                       }
                     },
                     "msg": [
                       {
                         "_attributes": {
-                          "timestamp": "20240111 00:08:34.992",
+                          "time": "2024-01-18T00:08:44.390161",
                           "level": "WARN"
                         },
                         "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                       },
                       {
                         "_attributes": {
-                          "timestamp": "20240111 00:08:34.992",
+                          "time": "2024-01-18T00:08:44.390311",
                           "level": "FAIL"
                         },
                         "_text": "No application is open"
                       }
                     ],
+                    "doc": {
+                      "_text": "Closes the current application and also close webdriver session."
+                    },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "starttime": "20240111 00:08:34.991",
-                        "endtime": "20240111 00:08:34.993"
-                      }
+                        "start": "2024-01-18T00:08:44.388585",
+                        "elapsed": "0.001880"
+                      },
+                      "_text": "No application is open"
                     }
                   },
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "starttime": "20240111 00:08:34.990",
-                      "endtime": "20240111 00:08:34.993"
+                      "start": "2024-01-18T00:08:44.388226",
+                      "elapsed": "0.002398"
                     },
                     "_text": "No application is open"
                   }
@@ -1778,8 +1825,8 @@
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "starttime": "20240111 00:08:34.552",
-                  "endtime": "20240111 00:08:34.993"
+                  "start": "2024-01-18T00:08:44.222787",
+                  "elapsed": "0.167907"
                 },
                 "_text": "Setup failed:\nSessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
               }
@@ -1787,16 +1834,16 @@
             "status": {
               "_attributes": {
                 "status": "FAIL",
-                "starttime": "20240111 00:08:34.548",
-                "endtime": "20240111 00:08:34.993"
+                "start": "2024-01-18T00:08:44.218906",
+                "elapsed": "0.172242"
               }
             }
           },
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "starttime": "20240111 00:08:34.547",
-              "endtime": "20240111 00:08:34.994"
+              "start": "2024-01-18T00:08:44.217642",
+              "elapsed": "0.174295"
             }
           }
         }
@@ -1804,8 +1851,8 @@
       "status": {
         "_attributes": {
           "status": "FAIL",
-          "starttime": "20240111 00:08:31.761",
-          "endtime": "20240111 00:08:34.994"
+          "start": "2024-01-18T00:08:42.232270",
+          "elapsed": "2.160475"
         }
       }
     },
@@ -1949,112 +1996,119 @@
       "msg": [
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:32.325",
+            "time": "2024-01-18T00:08:42.406885",
+            "level": "WARN"
+          },
+          "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/keywords/catalog_keywords.robot' on line 9: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead."
+        },
+        {
+          "_attributes": {
+            "time": "2024-01-18T00:08:42.710634",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:32.330",
+            "time": "2024-01-18T00:08:42.714117",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:32.675",
+            "time": "2024-01-18T00:08:42.972971",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:32.678",
+            "time": "2024-01-18T00:08:42.976501",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:33.047",
+            "time": "2024-01-18T00:08:43.263816",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:33.050",
+            "time": "2024-01-18T00:08:43.267319",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:33.412",
+            "time": "2024-01-18T00:08:43.476441",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:33.416",
+            "time": "2024-01-18T00:08:43.480311",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:33.799",
+            "time": "2024-01-18T00:08:43.699344",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:33.802",
+            "time": "2024-01-18T00:08:43.702599",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:34.166",
+            "time": "2024-01-18T00:08:43.936526",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:34.169",
+            "time": "2024-01-18T00:08:43.940188",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:34.541",
+            "time": "2024-01-18T00:08:44.211729",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:34.545",
+            "time": "2024-01-18T00:08:44.215141",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:34.990",
+            "time": "2024-01-18T00:08:44.387307",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "timestamp": "20240111 00:08:34.992",
+            "time": "2024-01-18T00:08:44.390161",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"

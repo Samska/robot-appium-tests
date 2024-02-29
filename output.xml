@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.8.18 on linux)" generated="2024-02-22T00:08:08.842346" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.8.18 on linux)" generated="2024-02-29T00:07:44.522330" rpa="false" schemaversion="5">
 <suite id="s1" name="Tests" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests">
 <suite id="s1-s1" name="Android" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android">
 <suite id="s1-s1-s1" name="Catalog" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/catalog.robot">
@@ -8,12 +8,12 @@
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:09.407696" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:45.074037" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:09.407372" elapsed="0.001247">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.073711" elapsed="0.001243">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:09.410276" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:09.410455" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg time="2024-02-29T00:07:45.076559" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:45.076737" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
 <arg>${REMOTE_URL}</arg>
@@ -30,39 +30,39 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-02-22T00:08:09.030792" elapsed="0.379832">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:44.689232" elapsed="0.387694">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:09.030156" elapsed="0.380619">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:44.688486" elapsed="0.388589">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-02-22T00:08:09.411004" elapsed="0.000026"/>
+<status status="NOT RUN" start="2024-02-29T00:07:45.077301" elapsed="0.000026"/>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:09.029770" elapsed="0.381344">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:44.688123" elapsed="0.389287">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:09.412172" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:45.078446" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:09.412006" elapsed="0.000311">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.078283" elapsed="0.000306">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:09.413882" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:09.414042" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:45.080170" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:45.080304" level="FAIL">No application is open</msg>
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-02-22T00:08:09.411690" elapsed="0.002479">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.077969" elapsed="0.002475">No application is open</status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:09.411395" elapsed="0.002881">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.077683" elapsed="0.002868">No application is open</status>
 </kw>
 <tag>open_product</tag>
-<status status="FAIL" start="2024-02-22T00:08:09.029079" elapsed="0.385272">Setup failed:
+<status status="FAIL" start="2024-02-29T00:07:44.687391" elapsed="0.393221">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -75,12 +75,12 @@ No application is open</status>
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:09.801549" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:45.519843" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:09.801227" elapsed="0.000568">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.519534" elapsed="0.000546">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:09.803422" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:09.803576" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg time="2024-02-29T00:07:45.521695" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:45.521845" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
 <arg>${REMOTE_URL}</arg>
@@ -97,39 +97,39 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-02-22T00:08:09.416067" elapsed="0.387683">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:45.082774" elapsed="0.439249">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:09.415687" elapsed="0.388204">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:45.082405" elapsed="0.439759">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-02-22T00:08:09.804106" elapsed="0.000025"/>
+<status status="NOT RUN" start="2024-02-29T00:07:45.522378" elapsed="0.000025"/>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:09.415258" elapsed="0.388956">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:45.081596" elapsed="0.440891">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:09.805409" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:45.523661" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:09.804975" elapsed="0.000589">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.523232" elapsed="0.000592">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:09.807152" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:09.807305" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:45.525422" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:45.525561" level="FAIL">No application is open</msg>
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-02-22T00:08:09.804772" elapsed="0.002656">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.523026" elapsed="0.002676">No application is open</status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:09.804479" elapsed="0.003057">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.522746" elapsed="0.003061">No application is open</status>
 </kw>
 <tag>rate_product</tag>
-<status status="FAIL" start="2024-02-22T00:08:09.414673" elapsed="0.392919">Setup failed:
+<status status="FAIL" start="2024-02-29T00:07:45.080981" elapsed="0.444881">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -142,12 +142,12 @@ No application is open</status>
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:10.227044" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:45.986229" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:10.226764" elapsed="0.000518">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.985937" elapsed="0.000529">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:10.228857" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:10.229009" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg time="2024-02-29T00:07:45.988059" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:45.988216" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
 <arg>${REMOTE_URL}</arg>
@@ -164,39 +164,39 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-02-22T00:08:09.809294" elapsed="0.419896">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:45.527304" elapsed="0.461127">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:09.809042" elapsed="0.420291">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:45.527071" elapsed="0.461576">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-02-22T00:08:10.229557" elapsed="0.000026"/>
+<status status="NOT RUN" start="2024-02-29T00:07:45.988926" elapsed="0.000033"/>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:09.808586" elapsed="0.421079">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:45.526722" elapsed="0.462322">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:10.230602" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:45.989961" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:10.230445" elapsed="0.000309">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.989804" elapsed="0.000308">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:10.232289" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:10.232429" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:45.991656" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:45.991806" level="FAIL">No application is open</msg>
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-02-22T00:08:10.230246" elapsed="0.002320">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.989596" elapsed="0.002362">No application is open</status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:10.229942" elapsed="0.002733">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:45.989309" elapsed="0.002808">No application is open</status>
 </kw>
 <tag>sort_by</tag>
-<status status="FAIL" start="2024-02-22T00:08:09.807946" elapsed="0.424794">Setup failed:
+<status status="FAIL" start="2024-02-29T00:07:45.526164" elapsed="0.466026">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -209,12 +209,12 @@ No application is open</status>
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:10.666628" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:46.393316" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:10.666343" elapsed="0.000517">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:46.393008" elapsed="0.000549">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:10.668478" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:10.668631" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg time="2024-02-29T00:07:46.395133" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:46.395284" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
 <arg>${REMOTE_URL}</arg>
@@ -231,39 +231,39 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-02-22T00:08:10.234667" elapsed="0.434143">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:45.994258" elapsed="0.401206">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:10.234073" elapsed="0.434879">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:45.993648" elapsed="0.401957">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-02-22T00:08:10.669178" elapsed="0.000026"/>
+<status status="NOT RUN" start="2024-02-29T00:07:46.395824" elapsed="0.000025"/>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:10.233744" elapsed="0.435544">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:45.993200" elapsed="0.402731">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:10.670205" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:46.396803" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:10.670050" elapsed="0.000294">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:46.396654" elapsed="0.000310">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:10.671876" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:10.672006" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:46.398495" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:46.398628" level="FAIL">No application is open</msg>
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-02-22T00:08:10.669837" elapsed="0.002309">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:46.396469" elapsed="0.002294">No application is open</status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:10.669548" elapsed="0.002707">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:46.396190" elapsed="0.002687">No application is open</status>
 </kw>
 <tag>add_cart</tag>
-<status status="FAIL" start="2024-02-22T00:08:10.233099" elapsed="0.439213">Setup failed:
+<status status="FAIL" start="2024-02-29T00:07:45.992511" elapsed="0.406419">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -271,7 +271,7 @@ Please visit https://saucelabs.com/pricing to purchase a subscription.
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" start="2024-02-22T00:08:08.863405" elapsed="1.809563"/>
+<status status="FAIL" start="2024-02-29T00:07:44.544258" elapsed="1.855260"/>
 </suite>
 <suite id="s1-s1-s2" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/login.robot">
 <test id="s1-s1-s2-t1" name="Scenario: Login with wrong credentials" line="11">
@@ -279,12 +279,12 @@ No application is open</status>
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:11.040952" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:46.855846" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:11.040633" elapsed="0.000553">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:46.855568" elapsed="0.000506">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:11.042606" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:11.042762" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg time="2024-02-29T00:07:46.857457" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:46.857616" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
 <arg>${REMOTE_URL}</arg>
@@ -301,39 +301,39 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-02-22T00:08:10.677991" elapsed="0.364966">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:46.404425" elapsed="0.453383">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:10.677731" elapsed="0.365431">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:46.404199" elapsed="0.453818">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-02-22T00:08:11.043411" elapsed="0.000026"/>
+<status status="NOT RUN" start="2024-02-29T00:07:46.858252" elapsed="0.000026"/>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:10.677306" elapsed="0.366217">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:46.403780" elapsed="0.454581">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:11.044419" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:46.859233" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:11.044265" elapsed="0.000302">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:46.859084" elapsed="0.000293">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:11.045825" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:11.046043" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:46.860625" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:46.860769" level="FAIL">No application is open</msg>
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-02-22T00:08:11.044076" elapsed="0.002092">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:46.858904" elapsed="0.002047">No application is open</status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:11.043786" elapsed="0.002492">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:46.858618" elapsed="0.002480">No application is open</status>
 </kw>
 <tag>wrong_login</tag>
-<status status="FAIL" start="2024-02-22T00:08:10.676757" elapsed="0.369588">Setup failed:
+<status status="FAIL" start="2024-02-29T00:07:46.403242" elapsed="0.457917">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -346,12 +346,12 @@ No application is open</status>
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:11.747443" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:47.258116" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:11.747140" elapsed="0.000536">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:47.257836" elapsed="0.000507">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:11.748977" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:11.749139" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg time="2024-02-29T00:07:47.259643" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:47.259793" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
 <arg>${REMOTE_URL}</arg>
@@ -368,39 +368,39 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-02-22T00:08:11.047980" elapsed="0.701349">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:46.862641" elapsed="0.397327">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:11.047652" elapsed="0.701876">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:46.862403" elapsed="0.397705">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-02-22T00:08:11.749764" elapsed="0.000026"/>
+<status status="NOT RUN" start="2024-02-29T00:07:47.260324" elapsed="0.000025"/>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:11.047245" elapsed="0.702629">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:46.862073" elapsed="0.398356">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:11.750800" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:47.261350" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:11.750648" elapsed="0.000292">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:47.261197" elapsed="0.000292">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:11.752207" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:11.752352" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:47.262740" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:47.262876" level="FAIL">No application is open</msg>
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-02-22T00:08:11.750462" elapsed="0.002039">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:47.261012" elapsed="0.001999">No application is open</status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:11.750173" elapsed="0.002488">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:47.260683" elapsed="0.002432">No application is open</status>
 </kw>
 <tag>login_success</tag>
-<status status="FAIL" start="2024-02-22T00:08:11.046655" elapsed="0.706067">Setup failed:
+<status status="FAIL" start="2024-02-29T00:07:46.861465" elapsed="0.401706">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -413,12 +413,12 @@ No application is open</status>
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:12.115821" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:47.707450" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:12.115507" elapsed="0.000571">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:47.707171" elapsed="0.000512">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:12.117377" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:12.117529" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
+<msg time="2024-02-29T00:07:47.709019" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:47.709172" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </msg>
 <arg>${REMOTE_URL}</arg>
@@ -435,39 +435,39 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-02-22T00:08:11.754007" elapsed="0.363699">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:47.264355" elapsed="0.444999">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:11.753735" elapsed="0.364166">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:47.264136" elapsed="0.445409">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-02-22T00:08:12.118161" elapsed="0.000026"/>
+<status status="NOT RUN" start="2024-02-29T00:07:47.709768" elapsed="0.000026"/>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:11.753464" elapsed="0.364807">WebDriverException: Message: Uh oh, you've run out of minutes!
+<status status="FAIL" start="2024-02-29T00:07:47.263871" elapsed="0.446005">WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 </status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:12.119513" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:47.711146" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:12.119357" elapsed="0.000307">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:47.710994" elapsed="0.000303">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:12.120937" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:12.121079" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:47.712556" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:47.712687" level="FAIL">No application is open</msg>
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-02-22T00:08:12.119159" elapsed="0.002051">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:47.710785" elapsed="0.002069">No application is open</status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:12.118531" elapsed="0.002791">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:47.710135" elapsed="0.002829">No application is open</status>
 </kw>
 <tag>logout_success</tag>
-<status status="FAIL" start="2024-02-22T00:08:11.753047" elapsed="0.368330">Setup failed:
+<status status="FAIL" start="2024-02-29T00:07:47.263471" elapsed="0.449547">Setup failed:
 WebDriverException: Message: Uh oh, you've run out of minutes!
 Please visit https://saucelabs.com/pricing to purchase a subscription.
 
@@ -475,9 +475,9 @@ Please visit https://saucelabs.com/pricing to purchase a subscription.
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" start="2024-02-22T00:08:10.673527" elapsed="1.448315"/>
+<status status="FAIL" start="2024-02-29T00:07:46.400055" elapsed="1.313408"/>
 </suite>
-<status status="FAIL" start="2024-02-22T00:08:08.862448" elapsed="3.260245"/>
+<status status="FAIL" start="2024-02-29T00:07:44.543049" elapsed="3.171233"/>
 </suite>
 <suite id="s1-s2" name="Ios" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios">
 <suite id="s1-s2-s1" name="Test" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/test.robot">
@@ -485,12 +485,12 @@ No application is open</status>
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:12.442941" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:48.026953" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:12.442668" elapsed="0.000500">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:48.026658" elapsed="0.000521">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:12.444258" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:12.444422" level="FAIL">SessionNotCreatedException: Message: 
+<msg time="2024-02-29T00:07:48.028276" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:48.028427" level="FAIL">SessionNotCreatedException: Message: 
 
 Unable to find file 'demo-saucelabs.ipa' in app storage
 
@@ -512,7 +512,7 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |
 | strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-02-22T00:08:12.128617" elapsed="0.315999">SessionNotCreatedException: Message: 
+<status status="FAIL" start="2024-02-29T00:07:47.720086" elapsed="0.308515">SessionNotCreatedException: Message: 
 
 Unable to find file 'demo-saucelabs.ipa' in app storage
 
@@ -521,7 +521,7 @@ System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd6
 Driver info: driver.version: unknown
 </status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:12.128366" elapsed="0.316455">SessionNotCreatedException: Message: 
+<status status="FAIL" start="2024-02-29T00:07:47.719837" elapsed="0.308903">SessionNotCreatedException: Message: 
 
 Unable to find file 'demo-saucelabs.ipa' in app storage
 
@@ -533,18 +533,18 @@ Driver info: driver.version: unknown
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application" owner="AppiumLibrary">
 <kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-02-22T00:08:12.445737" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:48.029713" level="FAIL">No application is open</msg>
 <doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-02-22T00:08:12.445586" elapsed="0.000297">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:48.029563" elapsed="0.000293">No application is open</status>
 </kw>
-<msg time="2024-02-22T00:08:12.446947" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:12.447088" level="FAIL">No application is open</msg>
+<msg time="2024-02-29T00:07:48.030905" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:48.031037" level="FAIL">No application is open</msg>
 <doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-02-22T00:08:12.445406" elapsed="0.001832">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:48.029359" elapsed="0.001808">No application is open</status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:12.445122" elapsed="0.002275">No application is open</status>
+<status status="FAIL" start="2024-02-29T00:07:48.029079" elapsed="0.002191">No application is open</status>
 </kw>
-<status status="FAIL" start="2024-02-22T00:08:12.127882" elapsed="0.319584">Setup failed:
+<status status="FAIL" start="2024-02-29T00:07:47.719358" elapsed="0.311966">Setup failed:
 SessionNotCreatedException: Message: 
 
 Unable to find file 'demo-saucelabs.ipa' in app storage
@@ -557,11 +557,11 @@ Driver info: driver.version: unknown
 Also teardown failed:
 No application is open</status>
 </test>
-<status status="FAIL" start="2024-02-22T00:08:12.124469" elapsed="0.323436"/>
+<status status="FAIL" start="2024-02-29T00:07:47.715960" elapsed="0.315784"/>
 </suite>
-<status status="FAIL" start="2024-02-22T00:08:12.123246" elapsed="0.325472"/>
+<status status="FAIL" start="2024-02-29T00:07:47.714764" elapsed="0.317630"/>
 </suite>
-<status status="FAIL" start="2024-02-22T00:08:08.843222" elapsed="3.606286"/>
+<status status="FAIL" start="2024-02-29T00:07:44.523213" elapsed="3.509881"/>
 </suite>
 <statistics>
 <total>
@@ -586,22 +586,22 @@ No application is open</status>
 </suite>
 </statistics>
 <errors>
-<msg time="2024-02-22T00:08:09.026446" level="WARN">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/keywords/catalog_keywords.robot' on line 9: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
-<msg time="2024-02-22T00:08:09.410276" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:09.413882" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:09.803422" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:09.807152" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:10.228857" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:10.232289" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:10.668478" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:10.671876" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:11.042606" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:11.045825" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:11.748977" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:11.752207" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:12.117377" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:12.120937" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:12.444258" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-02-22T00:08:12.446947" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:44.684719" level="WARN">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/keywords/catalog_keywords.robot' on line 9: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2024-02-29T00:07:45.076559" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:45.080170" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:45.521695" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:45.525422" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:45.988059" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:45.991656" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:46.395133" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:46.398495" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:46.857457" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:46.860625" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:47.259643" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:47.262740" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:47.709019" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:47.712556" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:48.028276" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-02-29T00:07:48.030905" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
 </errors>
 </robot>

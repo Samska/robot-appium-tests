@@ -8,7 +8,7 @@
   "robot": {
     "_attributes": {
       "generator": "Robot 7.0 (Python 3.8.18 on linux)",
-      "generated": "2024-02-29T00:07:44.522330",
+      "generated": "2024-03-07T00:06:40.757216",
       "rpa": "false",
       "schemaversion": "5"
     },
@@ -64,7 +64,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:45.074037",
+                                  "time": "2024-03-07T00:06:42.246635",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -75,8 +75,8 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "start": "2024-02-29T00:07:45.073711",
-                                  "elapsed": "0.001243"
+                                  "start": "2024-03-07T00:06:42.246324",
+                                  "elapsed": "0.001235"
                                 },
                                 "_text": "No application is open"
                               }
@@ -84,14 +84,14 @@
                             "msg": [
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:45.076559",
+                                  "time": "2024-03-07T00:06:42.249229",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:45.076737",
+                                  "time": "2024-03-07T00:06:42.249413",
                                   "level": "FAIL"
                                 },
                                 "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
@@ -126,8 +126,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-02-29T00:07:44.689232",
-                                "elapsed": "0.387694"
+                                "start": "2024-03-07T00:06:40.928471",
+                                "elapsed": "1.321141"
                               },
                               "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
@@ -135,8 +135,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:44.688486",
-                              "elapsed": "0.388589"
+                              "start": "2024-03-07T00:06:40.927808",
+                              "elapsed": "1.322014"
                             },
                             "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
@@ -157,8 +157,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-02-29T00:07:45.077301",
-                              "elapsed": "0.000026"
+                              "start": "2024-03-07T00:06:42.250053",
+                              "elapsed": "0.000025"
                             }
                           }
                         }
@@ -166,8 +166,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:44.688123",
-                          "elapsed": "0.389287"
+                          "start": "2024-03-07T00:06:40.927446",
+                          "elapsed": "1.322717"
                         },
                         "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
@@ -190,7 +190,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:45.078446",
+                              "time": "2024-03-07T00:06:42.251197",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -201,8 +201,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:45.078283",
-                              "elapsed": "0.000306"
+                              "start": "2024-03-07T00:06:42.251035",
+                              "elapsed": "0.000316"
                             },
                             "_text": "No application is open"
                           }
@@ -210,14 +210,14 @@
                         "msg": [
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:45.080170",
+                              "time": "2024-03-07T00:06:42.253111",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:45.080304",
+                              "time": "2024-03-07T00:06:42.253298",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -229,8 +229,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-02-29T00:07:45.077969",
-                            "elapsed": "0.002475"
+                            "start": "2024-03-07T00:06:42.250722",
+                            "elapsed": "0.002918"
                           },
                           "_text": "No application is open"
                         }
@@ -238,8 +238,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:45.077683",
-                          "elapsed": "0.002868"
+                          "start": "2024-03-07T00:06:42.250436",
+                          "elapsed": "0.003342"
                         },
                         "_text": "No application is open"
                       }
@@ -251,8 +251,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-02-29T00:07:44.687391",
-                      "elapsed": "0.393221"
+                      "start": "2024-03-07T00:06:40.926670",
+                      "elapsed": "1.327172"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -288,7 +288,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:45.519843",
+                                  "time": "2024-03-07T00:06:42.636405",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -299,8 +299,8 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "start": "2024-02-29T00:07:45.519534",
-                                  "elapsed": "0.000546"
+                                  "start": "2024-03-07T00:06:42.636002",
+                                  "elapsed": "0.000643"
                                 },
                                 "_text": "No application is open"
                               }
@@ -308,14 +308,14 @@
                             "msg": [
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:45.521695",
+                                  "time": "2024-03-07T00:06:42.638207",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:45.521845",
+                                  "time": "2024-03-07T00:06:42.638356",
                                   "level": "FAIL"
                                 },
                                 "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
@@ -350,8 +350,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-02-29T00:07:45.082774",
-                                "elapsed": "0.439249"
+                                "start": "2024-03-07T00:06:42.255366",
+                                "elapsed": "0.383189"
                               },
                               "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
@@ -359,8 +359,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:45.082405",
-                              "elapsed": "0.439759"
+                              "start": "2024-03-07T00:06:42.255124",
+                              "elapsed": "0.383633"
                             },
                             "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
@@ -381,8 +381,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-02-29T00:07:45.522378",
-                              "elapsed": "0.000025"
+                              "start": "2024-03-07T00:06:42.638992",
+                              "elapsed": "0.000026"
                             }
                           }
                         }
@@ -390,8 +390,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:45.081596",
-                          "elapsed": "0.440891"
+                          "start": "2024-03-07T00:06:42.254806",
+                          "elapsed": "0.384296"
                         },
                         "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
@@ -414,7 +414,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:45.523661",
+                              "time": "2024-03-07T00:06:42.640329",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -425,8 +425,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:45.523232",
-                              "elapsed": "0.000592"
+                              "start": "2024-03-07T00:06:42.639861",
+                              "elapsed": "0.000623"
                             },
                             "_text": "No application is open"
                           }
@@ -434,14 +434,14 @@
                         "msg": [
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:45.525422",
+                              "time": "2024-03-07T00:06:42.642034",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:45.525561",
+                              "time": "2024-03-07T00:06:42.642180",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -453,8 +453,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-02-29T00:07:45.523026",
-                            "elapsed": "0.002676"
+                            "start": "2024-03-07T00:06:42.639664",
+                            "elapsed": "0.002666"
                           },
                           "_text": "No application is open"
                         }
@@ -462,8 +462,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:45.522746",
-                          "elapsed": "0.003061"
+                          "start": "2024-03-07T00:06:42.639376",
+                          "elapsed": "0.003113"
                         },
                         "_text": "No application is open"
                       }
@@ -475,8 +475,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-02-29T00:07:45.080981",
-                      "elapsed": "0.444881"
+                      "start": "2024-03-07T00:06:42.254170",
+                      "elapsed": "0.388390"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -512,7 +512,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:45.986229",
+                                  "time": "2024-03-07T00:06:43.023166",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -523,8 +523,8 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "start": "2024-02-29T00:07:45.985937",
-                                  "elapsed": "0.000529"
+                                  "start": "2024-03-07T00:06:43.022945",
+                                  "elapsed": "0.000429"
                                 },
                                 "_text": "No application is open"
                               }
@@ -532,14 +532,14 @@
                             "msg": [
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:45.988059",
+                                  "time": "2024-03-07T00:06:43.024973",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:45.988216",
+                                  "time": "2024-03-07T00:06:43.025140",
                                   "level": "FAIL"
                                 },
                                 "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
@@ -574,8 +574,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-02-29T00:07:45.527304",
-                                "elapsed": "0.461127"
+                                "start": "2024-03-07T00:06:42.644596",
+                                "elapsed": "0.380691"
                               },
                               "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
@@ -583,8 +583,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:45.527071",
-                              "elapsed": "0.461576"
+                              "start": "2024-03-07T00:06:42.644270",
+                              "elapsed": "0.381145"
                             },
                             "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
@@ -605,8 +605,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-02-29T00:07:45.988926",
-                              "elapsed": "0.000033"
+                              "start": "2024-03-07T00:06:43.025620",
+                              "elapsed": "0.000024"
                             }
                           }
                         }
@@ -614,8 +614,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:45.526722",
-                          "elapsed": "0.462322"
+                          "start": "2024-03-07T00:06:42.643784",
+                          "elapsed": "0.381943"
                         },
                         "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
@@ -638,7 +638,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:45.989961",
+                              "time": "2024-03-07T00:06:43.026620",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -649,7 +649,7 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:45.989804",
+                              "start": "2024-03-07T00:06:43.026460",
                               "elapsed": "0.000308"
                             },
                             "_text": "No application is open"
@@ -658,14 +658,14 @@
                         "msg": [
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:45.991656",
+                              "time": "2024-03-07T00:06:43.028316",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:45.991806",
+                              "time": "2024-03-07T00:06:43.028480",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -677,8 +677,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-02-29T00:07:45.989596",
-                            "elapsed": "0.002362"
+                            "start": "2024-03-07T00:06:43.026251",
+                            "elapsed": "0.002341"
                           },
                           "_text": "No application is open"
                         }
@@ -686,8 +686,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:45.989309",
-                          "elapsed": "0.002808"
+                          "start": "2024-03-07T00:06:43.025974",
+                          "elapsed": "0.002724"
                         },
                         "_text": "No application is open"
                       }
@@ -699,8 +699,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-02-29T00:07:45.526164",
-                      "elapsed": "0.466026"
+                      "start": "2024-03-07T00:06:42.643176",
+                      "elapsed": "0.385576"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -736,7 +736,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:46.393316",
+                                  "time": "2024-03-07T00:06:43.406819",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -747,8 +747,8 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "start": "2024-02-29T00:07:46.393008",
-                                  "elapsed": "0.000549"
+                                  "start": "2024-03-07T00:06:43.406604",
+                                  "elapsed": "0.000419"
                                 },
                                 "_text": "No application is open"
                               }
@@ -756,14 +756,14 @@
                             "msg": [
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:46.395133",
+                                  "time": "2024-03-07T00:06:43.408585",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:46.395284",
+                                  "time": "2024-03-07T00:06:43.408748",
                                   "level": "FAIL"
                                 },
                                 "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
@@ -798,8 +798,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-02-29T00:07:45.994258",
-                                "elapsed": "0.401206"
+                                "start": "2024-03-07T00:06:43.030422",
+                                "elapsed": "0.378487"
                               },
                               "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
@@ -807,8 +807,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:45.993648",
-                              "elapsed": "0.401957"
+                              "start": "2024-03-07T00:06:43.029895",
+                              "elapsed": "0.379141"
                             },
                             "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
@@ -829,8 +829,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-02-29T00:07:46.395824",
-                              "elapsed": "0.000025"
+                              "start": "2024-03-07T00:06:43.409237",
+                              "elapsed": "0.000024"
                             }
                           }
                         }
@@ -838,8 +838,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:45.993200",
-                          "elapsed": "0.402731"
+                          "start": "2024-03-07T00:06:43.029607",
+                          "elapsed": "0.379733"
                         },
                         "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
@@ -862,7 +862,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:46.396803",
+                              "time": "2024-03-07T00:06:43.410189",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -873,8 +873,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:46.396654",
-                              "elapsed": "0.000310"
+                              "start": "2024-03-07T00:06:43.410039",
+                              "elapsed": "0.000288"
                             },
                             "_text": "No application is open"
                           }
@@ -882,14 +882,14 @@
                         "msg": [
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:46.398495",
+                              "time": "2024-03-07T00:06:43.411847",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:46.398628",
+                              "time": "2024-03-07T00:06:43.412005",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -901,8 +901,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-02-29T00:07:46.396469",
-                            "elapsed": "0.002294"
+                            "start": "2024-03-07T00:06:43.409850",
+                            "elapsed": "0.002295"
                           },
                           "_text": "No application is open"
                         }
@@ -910,8 +910,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:46.396190",
-                          "elapsed": "0.002687"
+                          "start": "2024-03-07T00:06:43.409578",
+                          "elapsed": "0.002675"
                         },
                         "_text": "No application is open"
                       }
@@ -923,8 +923,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-02-29T00:07:45.992511",
-                      "elapsed": "0.406419"
+                      "start": "2024-03-07T00:06:43.029056",
+                      "elapsed": "0.383251"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -933,8 +933,8 @@
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "start": "2024-02-29T00:07:44.544258",
-                  "elapsed": "1.855260"
+                  "start": "2024-03-07T00:06:40.778912",
+                  "elapsed": "2.634035"
                 }
               }
             },
@@ -976,7 +976,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:46.855846",
+                                  "time": "2024-03-07T00:06:43.801244",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -987,8 +987,8 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "start": "2024-02-29T00:07:46.855568",
-                                  "elapsed": "0.000506"
+                                  "start": "2024-03-07T00:06:43.800967",
+                                  "elapsed": "0.000497"
                                 },
                                 "_text": "No application is open"
                               }
@@ -996,14 +996,14 @@
                             "msg": [
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:46.857457",
+                                  "time": "2024-03-07T00:06:43.802864",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:46.857616",
+                                  "time": "2024-03-07T00:06:43.803041",
                                   "level": "FAIL"
                                 },
                                 "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
@@ -1038,8 +1038,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-02-29T00:07:46.404425",
-                                "elapsed": "0.453383"
+                                "start": "2024-03-07T00:06:43.417721",
+                                "elapsed": "0.385469"
                               },
                               "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
@@ -1047,8 +1047,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:46.404199",
-                              "elapsed": "0.453818"
+                              "start": "2024-03-07T00:06:43.417498",
+                              "elapsed": "0.385826"
                             },
                             "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
@@ -1069,8 +1069,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-02-29T00:07:46.858252",
-                              "elapsed": "0.000026"
+                              "start": "2024-03-07T00:06:43.803541",
+                              "elapsed": "0.000024"
                             }
                           }
                         }
@@ -1078,8 +1078,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:46.403780",
-                          "elapsed": "0.454581"
+                          "start": "2024-03-07T00:06:43.417083",
+                          "elapsed": "0.386565"
                         },
                         "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
@@ -1102,7 +1102,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:46.859233",
+                              "time": "2024-03-07T00:06:43.804549",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1113,8 +1113,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:46.859084",
-                              "elapsed": "0.000293"
+                              "start": "2024-03-07T00:06:43.804390",
+                              "elapsed": "0.000305"
                             },
                             "_text": "No application is open"
                           }
@@ -1122,14 +1122,14 @@
                         "msg": [
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:46.860625",
+                              "time": "2024-03-07T00:06:43.805937",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:46.860769",
+                              "time": "2024-03-07T00:06:43.806102",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1141,8 +1141,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-02-29T00:07:46.858904",
-                            "elapsed": "0.002047"
+                            "start": "2024-03-07T00:06:43.804197",
+                            "elapsed": "0.002010"
                           },
                           "_text": "No application is open"
                         }
@@ -1150,8 +1150,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:46.858618",
-                          "elapsed": "0.002480"
+                          "start": "2024-03-07T00:06:43.803894",
+                          "elapsed": "0.002416"
                         },
                         "_text": "No application is open"
                       }
@@ -1163,8 +1163,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-02-29T00:07:46.403242",
-                      "elapsed": "0.457917"
+                      "start": "2024-03-07T00:06:43.416637",
+                      "elapsed": "0.389727"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -1200,7 +1200,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:47.258116",
+                                  "time": "2024-03-07T00:06:44.180725",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -1211,8 +1211,8 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "start": "2024-02-29T00:07:47.257836",
-                                  "elapsed": "0.000507"
+                                  "start": "2024-03-07T00:06:44.180389",
+                                  "elapsed": "0.000583"
                                 },
                                 "_text": "No application is open"
                               }
@@ -1220,14 +1220,14 @@
                             "msg": [
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:47.259643",
+                                  "time": "2024-03-07T00:06:44.182292",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:47.259793",
+                                  "time": "2024-03-07T00:06:44.182470",
                                   "level": "FAIL"
                                 },
                                 "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
@@ -1262,8 +1262,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-02-29T00:07:46.862641",
-                                "elapsed": "0.397327"
+                                "start": "2024-03-07T00:06:43.807868",
+                                "elapsed": "0.374774"
                               },
                               "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
@@ -1271,8 +1271,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:46.862403",
-                              "elapsed": "0.397705"
+                              "start": "2024-03-07T00:06:43.807622",
+                              "elapsed": "0.375163"
                             },
                             "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
@@ -1293,8 +1293,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-02-29T00:07:47.260324",
-                              "elapsed": "0.000025"
+                              "start": "2024-03-07T00:06:44.183004",
+                              "elapsed": "0.000024"
                             }
                           }
                         }
@@ -1302,8 +1302,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:46.862073",
-                          "elapsed": "0.398356"
+                          "start": "2024-03-07T00:06:43.807271",
+                          "elapsed": "0.375838"
                         },
                         "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
@@ -1326,7 +1326,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:47.261350",
+                              "time": "2024-03-07T00:06:44.183987",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1337,8 +1337,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:47.261197",
-                              "elapsed": "0.000292"
+                              "start": "2024-03-07T00:06:44.183830",
+                              "elapsed": "0.000313"
                             },
                             "_text": "No application is open"
                           }
@@ -1346,14 +1346,14 @@
                         "msg": [
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:47.262740",
+                              "time": "2024-03-07T00:06:44.185401",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:47.262876",
+                              "time": "2024-03-07T00:06:44.185533",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1365,8 +1365,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-02-29T00:07:47.261012",
-                            "elapsed": "0.001999"
+                            "start": "2024-03-07T00:06:44.183644",
+                            "elapsed": "0.002023"
                           },
                           "_text": "No application is open"
                         }
@@ -1374,8 +1374,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:47.260683",
-                          "elapsed": "0.002432"
+                          "start": "2024-03-07T00:06:44.183362",
+                          "elapsed": "0.002411"
                         },
                         "_text": "No application is open"
                       }
@@ -1387,8 +1387,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-02-29T00:07:46.861465",
-                      "elapsed": "0.401706"
+                      "start": "2024-03-07T00:06:43.806694",
+                      "elapsed": "0.379151"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -1424,7 +1424,7 @@
                               },
                               "msg": {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:47.707450",
+                                  "time": "2024-03-07T00:06:44.586805",
                                   "level": "FAIL"
                                 },
                                 "_text": "No application is open"
@@ -1435,8 +1435,8 @@
                               "status": {
                                 "_attributes": {
                                   "status": "FAIL",
-                                  "start": "2024-02-29T00:07:47.707171",
-                                  "elapsed": "0.000512"
+                                  "start": "2024-03-07T00:06:44.586564",
+                                  "elapsed": "0.000452"
                                 },
                                 "_text": "No application is open"
                               }
@@ -1444,14 +1444,14 @@
                             "msg": [
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:47.709019",
+                                  "time": "2024-03-07T00:06:44.588309",
                                   "level": "WARN"
                                 },
                                 "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                               },
                               {
                                 "_attributes": {
-                                  "time": "2024-02-29T00:07:47.709172",
+                                  "time": "2024-03-07T00:06:44.588454",
                                   "level": "FAIL"
                                 },
                                 "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
@@ -1486,8 +1486,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-02-29T00:07:47.264355",
-                                "elapsed": "0.444999"
+                                "start": "2024-03-07T00:06:44.187351",
+                                "elapsed": "0.401278"
                               },
                               "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                             }
@@ -1495,8 +1495,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:47.264136",
-                              "elapsed": "0.445409"
+                              "start": "2024-03-07T00:06:44.187118",
+                              "elapsed": "0.401693"
                             },
                             "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                           }
@@ -1517,8 +1517,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-02-29T00:07:47.709768",
-                              "elapsed": "0.000026"
+                              "start": "2024-03-07T00:06:44.589019",
+                              "elapsed": "0.000023"
                             }
                           }
                         }
@@ -1526,8 +1526,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:47.263871",
-                          "elapsed": "0.446005"
+                          "start": "2024-03-07T00:06:44.186735",
+                          "elapsed": "0.402387"
                         },
                         "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
                       }
@@ -1550,7 +1550,7 @@
                           },
                           "msg": {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:47.711146",
+                              "time": "2024-03-07T00:06:44.590308",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1561,8 +1561,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-02-29T00:07:47.710994",
-                              "elapsed": "0.000303"
+                              "start": "2024-03-07T00:06:44.590155",
+                              "elapsed": "0.000304"
                             },
                             "_text": "No application is open"
                           }
@@ -1570,14 +1570,14 @@
                         "msg": [
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:47.712556",
+                              "time": "2024-03-07T00:06:44.591723",
                               "level": "WARN"
                             },
                             "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                           },
                           {
                             "_attributes": {
-                              "time": "2024-02-29T00:07:47.712687",
+                              "time": "2024-03-07T00:06:44.591858",
                               "level": "FAIL"
                             },
                             "_text": "No application is open"
@@ -1589,8 +1589,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-02-29T00:07:47.710785",
-                            "elapsed": "0.002069"
+                            "start": "2024-03-07T00:06:44.589959",
+                            "elapsed": "0.002034"
                           },
                           "_text": "No application is open"
                         }
@@ -1598,8 +1598,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:47.710135",
-                          "elapsed": "0.002829"
+                          "start": "2024-03-07T00:06:44.589371",
+                          "elapsed": "0.002730"
                         },
                         "_text": "No application is open"
                       }
@@ -1611,8 +1611,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-02-29T00:07:47.263471",
-                      "elapsed": "0.449547"
+                      "start": "2024-03-07T00:06:44.186181",
+                      "elapsed": "0.405998"
                     },
                     "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
                   }
@@ -1621,8 +1621,8 @@
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "start": "2024-02-29T00:07:46.400055",
-                  "elapsed": "1.313408"
+                  "start": "2024-03-07T00:06:43.413513",
+                  "elapsed": "1.179104"
                 }
               }
             }
@@ -1630,8 +1630,8 @@
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "start": "2024-02-29T00:07:44.543049",
-              "elapsed": "3.171233"
+              "start": "2024-03-07T00:06:40.777800",
+              "elapsed": "3.815679"
             }
           }
         },
@@ -1672,7 +1672,7 @@
                       },
                       "msg": {
                         "_attributes": {
-                          "time": "2024-02-29T00:07:48.026953",
+                          "time": "2024-03-07T00:06:44.970507",
                           "level": "FAIL"
                         },
                         "_text": "No application is open"
@@ -1683,8 +1683,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:48.026658",
-                          "elapsed": "0.000521"
+                          "start": "2024-03-07T00:06:44.970225",
+                          "elapsed": "0.000511"
                         },
                         "_text": "No application is open"
                       }
@@ -1692,14 +1692,14 @@
                     "msg": [
                       {
                         "_attributes": {
-                          "time": "2024-02-29T00:07:48.028276",
+                          "time": "2024-03-07T00:06:44.971837",
                           "level": "WARN"
                         },
                         "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                       },
                       {
                         "_attributes": {
-                          "time": "2024-02-29T00:07:48.028427",
+                          "time": "2024-03-07T00:06:44.972002",
                           "level": "FAIL"
                         },
                         "_text": "SessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n"
@@ -1734,8 +1734,8 @@
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "start": "2024-02-29T00:07:47.720086",
-                        "elapsed": "0.308515"
+                        "start": "2024-03-07T00:06:44.599471",
+                        "elapsed": "0.372764"
                       },
                       "_text": "SessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n"
                     }
@@ -1743,8 +1743,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-02-29T00:07:47.719837",
-                      "elapsed": "0.308903"
+                      "start": "2024-03-07T00:06:44.599215",
+                      "elapsed": "0.373239"
                     },
                     "_text": "SessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n"
                   }
@@ -1767,7 +1767,7 @@
                       },
                       "msg": {
                         "_attributes": {
-                          "time": "2024-02-29T00:07:48.029713",
+                          "time": "2024-03-07T00:06:44.973406",
                           "level": "FAIL"
                         },
                         "_text": "No application is open"
@@ -1778,8 +1778,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-02-29T00:07:48.029563",
-                          "elapsed": "0.000293"
+                          "start": "2024-03-07T00:06:44.973243",
+                          "elapsed": "0.000311"
                         },
                         "_text": "No application is open"
                       }
@@ -1787,14 +1787,14 @@
                     "msg": [
                       {
                         "_attributes": {
-                          "time": "2024-02-29T00:07:48.030905",
+                          "time": "2024-03-07T00:06:44.974604",
                           "level": "WARN"
                         },
                         "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
                       },
                       {
                         "_attributes": {
-                          "time": "2024-02-29T00:07:48.031037",
+                          "time": "2024-03-07T00:06:44.974753",
                           "level": "FAIL"
                         },
                         "_text": "No application is open"
@@ -1806,8 +1806,8 @@
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "start": "2024-02-29T00:07:48.029359",
-                        "elapsed": "0.001808"
+                        "start": "2024-03-07T00:06:44.973055",
+                        "elapsed": "0.001850"
                       },
                       "_text": "No application is open"
                     }
@@ -1815,8 +1815,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-02-29T00:07:48.029079",
-                      "elapsed": "0.002191"
+                      "start": "2024-03-07T00:06:44.972770",
+                      "elapsed": "0.002286"
                     },
                     "_text": "No application is open"
                   }
@@ -1825,8 +1825,8 @@
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "start": "2024-02-29T00:07:47.719358",
-                  "elapsed": "0.311966"
+                  "start": "2024-03-07T00:06:44.598725",
+                  "elapsed": "0.376407"
                 },
                 "_text": "Setup failed:\nSessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
               }
@@ -1834,16 +1834,16 @@
             "status": {
               "_attributes": {
                 "status": "FAIL",
-                "start": "2024-02-29T00:07:47.715960",
-                "elapsed": "0.315784"
+                "start": "2024-03-07T00:06:44.595319",
+                "elapsed": "0.380242"
               }
             }
           },
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "start": "2024-02-29T00:07:47.714764",
-              "elapsed": "0.317630"
+              "start": "2024-03-07T00:06:44.594066",
+              "elapsed": "0.382340"
             }
           }
         }
@@ -1851,8 +1851,8 @@
       "status": {
         "_attributes": {
           "status": "FAIL",
-          "start": "2024-02-29T00:07:44.523213",
-          "elapsed": "3.509881"
+          "start": "2024-03-07T00:06:40.758064",
+          "elapsed": "4.219158"
         }
       }
     },
@@ -1996,119 +1996,119 @@
       "msg": [
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:44.684719",
+            "time": "2024-03-07T00:06:40.923779",
             "level": "WARN"
           },
           "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/keywords/catalog_keywords.robot' on line 9: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead."
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:45.076559",
+            "time": "2024-03-07T00:06:42.249229",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:45.080170",
+            "time": "2024-03-07T00:06:42.253111",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:45.521695",
+            "time": "2024-03-07T00:06:42.638207",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:45.525422",
+            "time": "2024-03-07T00:06:42.642034",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:45.988059",
+            "time": "2024-03-07T00:06:43.024973",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:45.991656",
+            "time": "2024-03-07T00:06:43.028316",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:46.395133",
+            "time": "2024-03-07T00:06:43.408585",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:46.398495",
+            "time": "2024-03-07T00:06:43.411847",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:46.857457",
+            "time": "2024-03-07T00:06:43.802864",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:46.860625",
+            "time": "2024-03-07T00:06:43.805937",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:47.259643",
+            "time": "2024-03-07T00:06:44.182292",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:47.262740",
+            "time": "2024-03-07T00:06:44.185401",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:47.709019",
+            "time": "2024-03-07T00:06:44.588309",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:47.712556",
+            "time": "2024-03-07T00:06:44.591723",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:48.028276",
+            "time": "2024-03-07T00:06:44.971837",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
         },
         {
           "_attributes": {
-            "time": "2024-02-29T00:07:48.030905",
+            "time": "2024-03-07T00:06:44.974604",
             "level": "WARN"
           },
           "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"

@@ -8,7 +8,7 @@
   "robot": {
     "_attributes": {
       "generator": "Robot 7.0 (Python 3.8.18 on linux)",
-      "generated": "2024-03-07T00:06:40.757216",
+      "generated": "2024-03-14T00:07:54.528898",
       "rpa": "false",
       "schemaversion": "5"
     },
@@ -54,49 +54,15 @@
                           },
                           "kw": {
                             "_attributes": {
-                              "name": "Open Application",
-                              "owner": "AppiumLibrary"
+                              "name": "Open Application"
                             },
-                            "kw": {
+                            "msg": {
                               "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "owner": "AppiumLibrary"
+                                "time": "2024-03-14T00:07:54.704076",
+                                "level": "FAIL"
                               },
-                              "msg": {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:42.246635",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "start": "2024-03-07T00:06:42.246324",
-                                  "elapsed": "0.001235"
-                                },
-                                "_text": "No application is open"
-                              }
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:42.249229",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:42.249413",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -120,25 +86,22 @@
                                 "_text": "name=${JOB_NAME}"
                               }
                             ],
-                            "doc": {
-                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                            },
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-07T00:06:40.928471",
-                                "elapsed": "1.321141"
+                                "start": "2024-03-14T00:07:54.704042",
+                                "elapsed": "0.000090"
                               },
-                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-07T00:06:40.927808",
-                              "elapsed": "1.322014"
+                              "start": "2024-03-14T00:07:54.702726",
+                              "elapsed": "0.001561"
                             },
-                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                            "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
                         },
                         {
@@ -157,8 +120,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-07T00:06:42.250053",
-                              "elapsed": "0.000025"
+                              "start": "2024-03-14T00:07:54.704463",
+                              "elapsed": "0.000023"
                             }
                           }
                         }
@@ -166,10 +129,10 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:40.927446",
-                          "elapsed": "1.322717"
+                          "start": "2024-03-14T00:07:54.702321",
+                          "elapsed": "0.002248"
                         },
-                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                        "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
                     },
                     {
@@ -180,68 +143,31 @@
                       },
                       "kw": {
                         "_attributes": {
-                          "name": "Close Application",
-                          "owner": "AppiumLibrary"
+                          "name": "Close Application"
                         },
-                        "kw": {
+                        "msg": {
                           "_attributes": {
-                            "name": "Capture Page Screenshot",
-                            "owner": "AppiumLibrary"
+                            "time": "2024-03-14T00:07:54.705955",
+                            "level": "FAIL"
                           },
-                          "msg": {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:42.251197",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "FAIL",
-                              "start": "2024-03-07T00:06:42.251035",
-                              "elapsed": "0.000316"
-                            },
-                            "_text": "No application is open"
-                          }
-                        },
-                        "msg": [
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:42.253111",
-                              "level": "WARN"
-                            },
-                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                          },
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:42.253298",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "_text": "No keyword with name 'Close Application' found."
                         },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-07T00:06:42.250722",
-                            "elapsed": "0.002918"
+                            "start": "2024-03-14T00:07:54.705931",
+                            "elapsed": "0.000055"
                           },
-                          "_text": "No application is open"
+                          "_text": "No keyword with name 'Close Application' found."
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:42.250436",
-                          "elapsed": "0.003342"
+                          "start": "2024-03-14T00:07:54.704833",
+                          "elapsed": "0.001252"
                         },
-                        "_text": "No application is open"
+                        "_text": "No keyword with name 'Close Application' found."
                       }
                     }
                   ],
@@ -251,10 +177,10 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-07T00:06:40.926670",
-                      "elapsed": "1.327172"
+                      "start": "2024-03-14T00:07:54.701551",
+                      "elapsed": "0.004591"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
                 },
                 {
@@ -278,49 +204,15 @@
                           },
                           "kw": {
                             "_attributes": {
-                              "name": "Open Application",
-                              "owner": "AppiumLibrary"
+                              "name": "Open Application"
                             },
-                            "kw": {
+                            "msg": {
                               "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "owner": "AppiumLibrary"
+                                "time": "2024-03-14T00:07:54.708595",
+                                "level": "FAIL"
                               },
-                              "msg": {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:42.636405",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "start": "2024-03-07T00:06:42.636002",
-                                  "elapsed": "0.000643"
-                                },
-                                "_text": "No application is open"
-                              }
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:42.638207",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:42.638356",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -344,25 +236,22 @@
                                 "_text": "name=${JOB_NAME}"
                               }
                             ],
-                            "doc": {
-                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                            },
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-07T00:06:42.255366",
-                                "elapsed": "0.383189"
+                                "start": "2024-03-14T00:07:54.708571",
+                                "elapsed": "0.000058"
                               },
-                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-07T00:06:42.255124",
-                              "elapsed": "0.383633"
+                              "start": "2024-03-14T00:07:54.707476",
+                              "elapsed": "0.001259"
                             },
-                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                            "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
                         },
                         {
@@ -381,8 +270,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-07T00:06:42.638992",
-                              "elapsed": "0.000026"
+                              "start": "2024-03-14T00:07:54.708900",
+                              "elapsed": "0.000022"
                             }
                           }
                         }
@@ -390,10 +279,10 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:42.254806",
-                          "elapsed": "0.384296"
+                          "start": "2024-03-14T00:07:54.707062",
+                          "elapsed": "0.001938"
                         },
-                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                        "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
                     },
                     {
@@ -404,68 +293,31 @@
                       },
                       "kw": {
                         "_attributes": {
-                          "name": "Close Application",
-                          "owner": "AppiumLibrary"
+                          "name": "Close Application"
                         },
-                        "kw": {
+                        "msg": {
                           "_attributes": {
-                            "name": "Capture Page Screenshot",
-                            "owner": "AppiumLibrary"
+                            "time": "2024-03-14T00:07:54.710269",
+                            "level": "FAIL"
                           },
-                          "msg": {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:42.640329",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "FAIL",
-                              "start": "2024-03-07T00:06:42.639861",
-                              "elapsed": "0.000623"
-                            },
-                            "_text": "No application is open"
-                          }
-                        },
-                        "msg": [
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:42.642034",
-                              "level": "WARN"
-                            },
-                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                          },
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:42.642180",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "_text": "No keyword with name 'Close Application' found."
                         },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-07T00:06:42.639664",
-                            "elapsed": "0.002666"
+                            "start": "2024-03-14T00:07:54.710243",
+                            "elapsed": "0.000058"
                           },
-                          "_text": "No application is open"
+                          "_text": "No keyword with name 'Close Application' found."
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:42.639376",
-                          "elapsed": "0.003113"
+                          "start": "2024-03-14T00:07:54.709225",
+                          "elapsed": "0.001170"
                         },
-                        "_text": "No application is open"
+                        "_text": "No keyword with name 'Close Application' found."
                       }
                     }
                   ],
@@ -475,10 +327,10 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-07T00:06:42.254170",
-                      "elapsed": "0.388390"
+                      "start": "2024-03-14T00:07:54.706442",
+                      "elapsed": "0.004006"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
                 },
                 {
@@ -502,49 +354,15 @@
                           },
                           "kw": {
                             "_attributes": {
-                              "name": "Open Application",
-                              "owner": "AppiumLibrary"
+                              "name": "Open Application"
                             },
-                            "kw": {
+                            "msg": {
                               "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "owner": "AppiumLibrary"
+                                "time": "2024-03-14T00:07:54.712730",
+                                "level": "FAIL"
                               },
-                              "msg": {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:43.023166",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "start": "2024-03-07T00:06:43.022945",
-                                  "elapsed": "0.000429"
-                                },
-                                "_text": "No application is open"
-                              }
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:43.024973",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:43.025140",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -568,25 +386,22 @@
                                 "_text": "name=${JOB_NAME}"
                               }
                             ],
-                            "doc": {
-                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                            },
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-07T00:06:42.644596",
-                                "elapsed": "0.380691"
+                                "start": "2024-03-14T00:07:54.712706",
+                                "elapsed": "0.000057"
                               },
-                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-07T00:06:42.644270",
-                              "elapsed": "0.381145"
+                              "start": "2024-03-14T00:07:54.711716",
+                              "elapsed": "0.001151"
                             },
-                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                            "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
                         },
                         {
@@ -605,8 +420,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-07T00:06:43.025620",
-                              "elapsed": "0.000024"
+                              "start": "2024-03-14T00:07:54.713030",
+                              "elapsed": "0.000026"
                             }
                           }
                         }
@@ -614,10 +429,10 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:42.643784",
-                          "elapsed": "0.381943"
+                          "start": "2024-03-14T00:07:54.711341",
+                          "elapsed": "0.001794"
                         },
-                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                        "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
                     },
                     {
@@ -628,68 +443,31 @@
                       },
                       "kw": {
                         "_attributes": {
-                          "name": "Close Application",
-                          "owner": "AppiumLibrary"
+                          "name": "Close Application"
                         },
-                        "kw": {
+                        "msg": {
                           "_attributes": {
-                            "name": "Capture Page Screenshot",
-                            "owner": "AppiumLibrary"
+                            "time": "2024-03-14T00:07:54.714390",
+                            "level": "FAIL"
                           },
-                          "msg": {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:43.026620",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "FAIL",
-                              "start": "2024-03-07T00:06:43.026460",
-                              "elapsed": "0.000308"
-                            },
-                            "_text": "No application is open"
-                          }
-                        },
-                        "msg": [
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:43.028316",
-                              "level": "WARN"
-                            },
-                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                          },
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:43.028480",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "_text": "No keyword with name 'Close Application' found."
                         },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-07T00:06:43.026251",
-                            "elapsed": "0.002341"
+                            "start": "2024-03-14T00:07:54.714367",
+                            "elapsed": "0.000053"
                           },
-                          "_text": "No application is open"
+                          "_text": "No keyword with name 'Close Application' found."
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:43.025974",
-                          "elapsed": "0.002724"
+                          "start": "2024-03-14T00:07:54.713353",
+                          "elapsed": "0.001158"
                         },
-                        "_text": "No application is open"
+                        "_text": "No keyword with name 'Close Application' found."
                       }
                     }
                   ],
@@ -699,10 +477,10 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-07T00:06:42.643176",
-                      "elapsed": "0.385576"
+                      "start": "2024-03-14T00:07:54.710732",
+                      "elapsed": "0.003831"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
                 },
                 {
@@ -726,49 +504,15 @@
                           },
                           "kw": {
                             "_attributes": {
-                              "name": "Open Application",
-                              "owner": "AppiumLibrary"
+                              "name": "Open Application"
                             },
-                            "kw": {
+                            "msg": {
                               "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "owner": "AppiumLibrary"
+                                "time": "2024-03-14T00:07:54.716877",
+                                "level": "FAIL"
                               },
-                              "msg": {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:43.406819",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "start": "2024-03-07T00:06:43.406604",
-                                  "elapsed": "0.000419"
-                                },
-                                "_text": "No application is open"
-                              }
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:43.408585",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:43.408748",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -792,25 +536,22 @@
                                 "_text": "name=${JOB_NAME}"
                               }
                             ],
-                            "doc": {
-                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                            },
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-07T00:06:43.030422",
-                                "elapsed": "0.378487"
+                                "start": "2024-03-14T00:07:54.716853",
+                                "elapsed": "0.000091"
                               },
-                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-07T00:06:43.029895",
-                              "elapsed": "0.379141"
+                              "start": "2024-03-14T00:07:54.715865",
+                              "elapsed": "0.001191"
                             },
-                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                            "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
                         },
                         {
@@ -829,8 +570,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-07T00:06:43.409237",
-                              "elapsed": "0.000024"
+                              "start": "2024-03-14T00:07:54.717224",
+                              "elapsed": "0.000021"
                             }
                           }
                         }
@@ -838,10 +579,10 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:43.029607",
-                          "elapsed": "0.379733"
+                          "start": "2024-03-14T00:07:54.715520",
+                          "elapsed": "0.001802"
                         },
-                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                        "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
                     },
                     {
@@ -852,68 +593,31 @@
                       },
                       "kw": {
                         "_attributes": {
-                          "name": "Close Application",
-                          "owner": "AppiumLibrary"
+                          "name": "Close Application"
                         },
-                        "kw": {
+                        "msg": {
                           "_attributes": {
-                            "name": "Capture Page Screenshot",
-                            "owner": "AppiumLibrary"
+                            "time": "2024-03-14T00:07:54.719240",
+                            "level": "FAIL"
                           },
-                          "msg": {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:43.410189",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "FAIL",
-                              "start": "2024-03-07T00:06:43.410039",
-                              "elapsed": "0.000288"
-                            },
-                            "_text": "No application is open"
-                          }
-                        },
-                        "msg": [
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:43.411847",
-                              "level": "WARN"
-                            },
-                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                          },
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:43.412005",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "_text": "No keyword with name 'Close Application' found."
                         },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-07T00:06:43.409850",
-                            "elapsed": "0.002295"
+                            "start": "2024-03-14T00:07:54.719214",
+                            "elapsed": "0.000058"
                           },
-                          "_text": "No application is open"
+                          "_text": "No keyword with name 'Close Application' found."
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:43.409578",
-                          "elapsed": "0.002675"
+                          "start": "2024-03-14T00:07:54.717544",
+                          "elapsed": "0.001826"
                         },
-                        "_text": "No application is open"
+                        "_text": "No keyword with name 'Close Application' found."
                       }
                     }
                   ],
@@ -923,18 +627,18 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-07T00:06:43.029056",
-                      "elapsed": "0.383251"
+                      "start": "2024-03-14T00:07:54.714864",
+                      "elapsed": "0.004559"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
                 }
               ],
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "start": "2024-03-07T00:06:40.778912",
-                  "elapsed": "2.634035"
+                  "start": "2024-03-14T00:07:54.549772",
+                  "elapsed": "0.170248"
                 }
               }
             },
@@ -966,49 +670,15 @@
                           },
                           "kw": {
                             "_attributes": {
-                              "name": "Open Application",
-                              "owner": "AppiumLibrary"
+                              "name": "Open Application"
                             },
-                            "kw": {
+                            "msg": {
                               "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "owner": "AppiumLibrary"
+                                "time": "2024-03-14T00:07:54.727157",
+                                "level": "FAIL"
                               },
-                              "msg": {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:43.801244",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "start": "2024-03-07T00:06:43.800967",
-                                  "elapsed": "0.000497"
-                                },
-                                "_text": "No application is open"
-                              }
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:43.802864",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:43.803041",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -1032,25 +702,22 @@
                                 "_text": "name=${JOB_NAME}"
                               }
                             ],
-                            "doc": {
-                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                            },
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-07T00:06:43.417721",
-                                "elapsed": "0.385469"
+                                "start": "2024-03-14T00:07:54.727130",
+                                "elapsed": "0.000063"
                               },
-                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-07T00:06:43.417498",
-                              "elapsed": "0.385826"
+                              "start": "2024-03-14T00:07:54.726156",
+                              "elapsed": "0.001145"
                             },
-                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                            "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
                         },
                         {
@@ -1069,8 +736,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-07T00:06:43.803541",
-                              "elapsed": "0.000024"
+                              "start": "2024-03-14T00:07:54.727464",
+                              "elapsed": "0.000022"
                             }
                           }
                         }
@@ -1078,10 +745,10 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:43.417083",
-                          "elapsed": "0.386565"
+                          "start": "2024-03-14T00:07:54.725885",
+                          "elapsed": "0.001677"
                         },
-                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                        "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
                     },
                     {
@@ -1092,68 +759,31 @@
                       },
                       "kw": {
                         "_attributes": {
-                          "name": "Close Application",
-                          "owner": "AppiumLibrary"
+                          "name": "Close Application"
                         },
-                        "kw": {
+                        "msg": {
                           "_attributes": {
-                            "name": "Capture Page Screenshot",
-                            "owner": "AppiumLibrary"
+                            "time": "2024-03-14T00:07:54.728757",
+                            "level": "FAIL"
                           },
-                          "msg": {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:43.804549",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "FAIL",
-                              "start": "2024-03-07T00:06:43.804390",
-                              "elapsed": "0.000305"
-                            },
-                            "_text": "No application is open"
-                          }
-                        },
-                        "msg": [
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:43.805937",
-                              "level": "WARN"
-                            },
-                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                          },
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:43.806102",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "_text": "No keyword with name 'Close Application' found."
                         },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-07T00:06:43.804197",
-                            "elapsed": "0.002010"
+                            "start": "2024-03-14T00:07:54.728734",
+                            "elapsed": "0.000054"
                           },
-                          "_text": "No application is open"
+                          "_text": "No keyword with name 'Close Application' found."
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:43.803894",
-                          "elapsed": "0.002416"
+                          "start": "2024-03-14T00:07:54.727783",
+                          "elapsed": "0.001098"
                         },
-                        "_text": "No application is open"
+                        "_text": "No keyword with name 'Close Application' found."
                       }
                     }
                   ],
@@ -1163,10 +793,10 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-07T00:06:43.416637",
-                      "elapsed": "0.389727"
+                      "start": "2024-03-14T00:07:54.725376",
+                      "elapsed": "0.003557"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
                 },
                 {
@@ -1190,49 +820,15 @@
                           },
                           "kw": {
                             "_attributes": {
-                              "name": "Open Application",
-                              "owner": "AppiumLibrary"
+                              "name": "Open Application"
                             },
-                            "kw": {
+                            "msg": {
                               "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "owner": "AppiumLibrary"
+                                "time": "2024-03-14T00:07:54.730903",
+                                "level": "FAIL"
                               },
-                              "msg": {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:44.180725",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "start": "2024-03-07T00:06:44.180389",
-                                  "elapsed": "0.000583"
-                                },
-                                "_text": "No application is open"
-                              }
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:44.182292",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:44.182470",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -1256,25 +852,22 @@
                                 "_text": "name=${JOB_NAME}"
                               }
                             ],
-                            "doc": {
-                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                            },
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-07T00:06:43.807868",
-                                "elapsed": "0.374774"
+                                "start": "2024-03-14T00:07:54.730856",
+                                "elapsed": "0.000085"
                               },
-                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-07T00:06:43.807622",
-                              "elapsed": "0.375163"
+                              "start": "2024-03-14T00:07:54.729917",
+                              "elapsed": "0.001132"
                             },
-                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                            "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
                         },
                         {
@@ -1293,8 +886,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-07T00:06:44.183004",
-                              "elapsed": "0.000024"
+                              "start": "2024-03-14T00:07:54.731220",
+                              "elapsed": "0.000022"
                             }
                           }
                         }
@@ -1302,10 +895,10 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:43.807271",
-                          "elapsed": "0.375838"
+                          "start": "2024-03-14T00:07:54.729656",
+                          "elapsed": "0.001661"
                         },
-                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                        "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
                     },
                     {
@@ -1316,68 +909,31 @@
                       },
                       "kw": {
                         "_attributes": {
-                          "name": "Close Application",
-                          "owner": "AppiumLibrary"
+                          "name": "Close Application"
                         },
-                        "kw": {
+                        "msg": {
                           "_attributes": {
-                            "name": "Capture Page Screenshot",
-                            "owner": "AppiumLibrary"
+                            "time": "2024-03-14T00:07:54.732697",
+                            "level": "FAIL"
                           },
-                          "msg": {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:44.183987",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "FAIL",
-                              "start": "2024-03-07T00:06:44.183830",
-                              "elapsed": "0.000313"
-                            },
-                            "_text": "No application is open"
-                          }
-                        },
-                        "msg": [
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:44.185401",
-                              "level": "WARN"
-                            },
-                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                          },
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:44.185533",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "_text": "No keyword with name 'Close Application' found."
                         },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-07T00:06:44.183644",
-                            "elapsed": "0.002023"
+                            "start": "2024-03-14T00:07:54.732673",
+                            "elapsed": "0.000054"
                           },
-                          "_text": "No application is open"
+                          "_text": "No keyword with name 'Close Application' found."
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:44.183362",
-                          "elapsed": "0.002411"
+                          "start": "2024-03-14T00:07:54.731533",
+                          "elapsed": "0.001288"
                         },
-                        "_text": "No application is open"
+                        "_text": "No keyword with name 'Close Application' found."
                       }
                     }
                   ],
@@ -1387,10 +943,10 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-07T00:06:43.806694",
-                      "elapsed": "0.379151"
+                      "start": "2024-03-14T00:07:54.729220",
+                      "elapsed": "0.003653"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
                 },
                 {
@@ -1414,49 +970,15 @@
                           },
                           "kw": {
                             "_attributes": {
-                              "name": "Open Application",
-                              "owner": "AppiumLibrary"
+                              "name": "Open Application"
                             },
-                            "kw": {
+                            "msg": {
                               "_attributes": {
-                                "name": "Capture Page Screenshot",
-                                "owner": "AppiumLibrary"
+                                "time": "2024-03-14T00:07:54.734707",
+                                "level": "FAIL"
                               },
-                              "msg": {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:44.586805",
-                                  "level": "FAIL"
-                                },
-                                "_text": "No application is open"
-                              },
-                              "doc": {
-                                "_text": "Takes a screenshot of the current page and embeds it into the log."
-                              },
-                              "status": {
-                                "_attributes": {
-                                  "status": "FAIL",
-                                  "start": "2024-03-07T00:06:44.586564",
-                                  "elapsed": "0.000452"
-                                },
-                                "_text": "No application is open"
-                              }
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             },
-                            "msg": [
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:44.588309",
-                                  "level": "WARN"
-                                },
-                                "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                              },
-                              {
-                                "_attributes": {
-                                  "time": "2024-03-07T00:06:44.588454",
-                                  "level": "FAIL"
-                                },
-                                "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
-                              }
-                            ],
                             "arg": [
                               {
                                 "_text": "${REMOTE_URL}"
@@ -1480,25 +1002,22 @@
                                 "_text": "name=${JOB_NAME}"
                               }
                             ],
-                            "doc": {
-                              "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                            },
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-07T00:06:44.187351",
-                                "elapsed": "0.401278"
+                                "start": "2024-03-14T00:07:54.734684",
+                                "elapsed": "0.000055"
                               },
-                              "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                              "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
                           },
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-07T00:06:44.187118",
-                              "elapsed": "0.401693"
+                              "start": "2024-03-14T00:07:54.733777",
+                              "elapsed": "0.001098"
                             },
-                            "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                            "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
                         },
                         {
@@ -1517,8 +1036,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-07T00:06:44.589019",
-                              "elapsed": "0.000023"
+                              "start": "2024-03-14T00:07:54.735070",
+                              "elapsed": "0.000022"
                             }
                           }
                         }
@@ -1526,10 +1045,10 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:44.186735",
-                          "elapsed": "0.402387"
+                          "start": "2024-03-14T00:07:54.733514",
+                          "elapsed": "0.001655"
                         },
-                        "_text": "WebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n"
+                        "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
                     },
                     {
@@ -1540,68 +1059,31 @@
                       },
                       "kw": {
                         "_attributes": {
-                          "name": "Close Application",
-                          "owner": "AppiumLibrary"
+                          "name": "Close Application"
                         },
-                        "kw": {
+                        "msg": {
                           "_attributes": {
-                            "name": "Capture Page Screenshot",
-                            "owner": "AppiumLibrary"
+                            "time": "2024-03-14T00:07:54.736362",
+                            "level": "FAIL"
                           },
-                          "msg": {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:44.590308",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          },
-                          "doc": {
-                            "_text": "Takes a screenshot of the current page and embeds it into the log."
-                          },
-                          "status": {
-                            "_attributes": {
-                              "status": "FAIL",
-                              "start": "2024-03-07T00:06:44.590155",
-                              "elapsed": "0.000304"
-                            },
-                            "_text": "No application is open"
-                          }
-                        },
-                        "msg": [
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:44.591723",
-                              "level": "WARN"
-                            },
-                            "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                          },
-                          {
-                            "_attributes": {
-                              "time": "2024-03-07T00:06:44.591858",
-                              "level": "FAIL"
-                            },
-                            "_text": "No application is open"
-                          }
-                        ],
-                        "doc": {
-                          "_text": "Closes the current application and also close webdriver session."
+                          "_text": "No keyword with name 'Close Application' found."
                         },
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-07T00:06:44.589959",
-                            "elapsed": "0.002034"
+                            "start": "2024-03-14T00:07:54.736339",
+                            "elapsed": "0.000052"
                           },
-                          "_text": "No application is open"
+                          "_text": "No keyword with name 'Close Application' found."
                         }
                       },
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-07T00:06:44.589371",
-                          "elapsed": "0.002730"
+                          "start": "2024-03-14T00:07:54.735386",
+                          "elapsed": "0.001096"
                         },
-                        "_text": "No application is open"
+                        "_text": "No keyword with name 'Close Application' found."
                       }
                     }
                   ],
@@ -1611,18 +1093,18 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-07T00:06:44.186181",
-                      "elapsed": "0.405998"
+                      "start": "2024-03-14T00:07:54.733149",
+                      "elapsed": "0.003385"
                     },
-                    "_text": "Setup failed:\nWebDriverException: Message: Uh oh, you've run out of minutes!\nPlease visit https://saucelabs.com/pricing to purchase a subscription.\n\n\nAlso teardown failed:\nNo application is open"
+                    "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
                 }
               ],
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "start": "2024-03-07T00:06:43.413513",
-                  "elapsed": "1.179104"
+                  "start": "2024-03-14T00:07:54.720733",
+                  "elapsed": "0.016176"
                 }
               }
             }
@@ -1630,8 +1112,8 @@
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "start": "2024-03-07T00:06:40.777800",
-              "elapsed": "3.815679"
+              "start": "2024-03-14T00:07:54.548658",
+              "elapsed": "0.188918"
             }
           }
         },
@@ -1662,49 +1144,15 @@
                   },
                   "kw": {
                     "_attributes": {
-                      "name": "Open Application",
-                      "owner": "AppiumLibrary"
+                      "name": "Open Application"
                     },
-                    "kw": {
+                    "msg": {
                       "_attributes": {
-                        "name": "Capture Page Screenshot",
-                        "owner": "AppiumLibrary"
+                        "time": "2024-03-14T00:07:54.744954",
+                        "level": "FAIL"
                       },
-                      "msg": {
-                        "_attributes": {
-                          "time": "2024-03-07T00:06:44.970507",
-                          "level": "FAIL"
-                        },
-                        "_text": "No application is open"
-                      },
-                      "doc": {
-                        "_text": "Takes a screenshot of the current page and embeds it into the log."
-                      },
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "start": "2024-03-07T00:06:44.970225",
-                          "elapsed": "0.000511"
-                        },
-                        "_text": "No application is open"
-                      }
+                      "_text": "No keyword with name 'Open Application' found."
                     },
-                    "msg": [
-                      {
-                        "_attributes": {
-                          "time": "2024-03-07T00:06:44.971837",
-                          "level": "WARN"
-                        },
-                        "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                      },
-                      {
-                        "_attributes": {
-                          "time": "2024-03-07T00:06:44.972002",
-                          "level": "FAIL"
-                        },
-                        "_text": "SessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n"
-                      }
-                    ],
                     "arg": [
                       {
                         "_text": "${REMOTE_URL}"
@@ -1728,25 +1176,22 @@
                         "_text": "name=${JOB_NAME}"
                       }
                     ],
-                    "doc": {
-                      "_text": "Opens a new application to given Appium server.\nCapabilities of appium server, Android and iOS,\nPlease check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md\n| *Option*            | *Man.* | *Description*     |\n| remote_url          | Yes    | Appium server url |\n| alias               | no     | alias             |\n| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |"
-                    },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "start": "2024-03-07T00:06:44.599471",
-                        "elapsed": "0.372764"
+                        "start": "2024-03-14T00:07:54.744929",
+                        "elapsed": "0.000058"
                       },
-                      "_text": "SessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n"
+                      "_text": "No keyword with name 'Open Application' found."
                     }
                   },
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-07T00:06:44.599215",
-                      "elapsed": "0.373239"
+                      "start": "2024-03-14T00:07:54.744035",
+                      "elapsed": "0.001059"
                     },
-                    "_text": "SessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n"
+                    "_text": "No keyword with name 'Open Application' found."
                   }
                 },
                 {
@@ -1757,93 +1202,56 @@
                   },
                   "kw": {
                     "_attributes": {
-                      "name": "Close Application",
-                      "owner": "AppiumLibrary"
+                      "name": "Close Application"
                     },
-                    "kw": {
+                    "msg": {
                       "_attributes": {
-                        "name": "Capture Page Screenshot",
-                        "owner": "AppiumLibrary"
+                        "time": "2024-03-14T00:07:54.746241",
+                        "level": "FAIL"
                       },
-                      "msg": {
-                        "_attributes": {
-                          "time": "2024-03-07T00:06:44.973406",
-                          "level": "FAIL"
-                        },
-                        "_text": "No application is open"
-                      },
-                      "doc": {
-                        "_text": "Takes a screenshot of the current page and embeds it into the log."
-                      },
-                      "status": {
-                        "_attributes": {
-                          "status": "FAIL",
-                          "start": "2024-03-07T00:06:44.973243",
-                          "elapsed": "0.000311"
-                        },
-                        "_text": "No application is open"
-                      }
-                    },
-                    "msg": [
-                      {
-                        "_attributes": {
-                          "time": "2024-03-07T00:06:44.974604",
-                          "level": "WARN"
-                        },
-                        "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-                      },
-                      {
-                        "_attributes": {
-                          "time": "2024-03-07T00:06:44.974753",
-                          "level": "FAIL"
-                        },
-                        "_text": "No application is open"
-                      }
-                    ],
-                    "doc": {
-                      "_text": "Closes the current application and also close webdriver session."
+                      "_text": "No keyword with name 'Close Application' found."
                     },
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "start": "2024-03-07T00:06:44.973055",
-                        "elapsed": "0.001850"
+                        "start": "2024-03-14T00:07:54.746218",
+                        "elapsed": "0.000054"
                       },
-                      "_text": "No application is open"
+                      "_text": "No keyword with name 'Close Application' found."
                     }
                   },
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-07T00:06:44.972770",
-                      "elapsed": "0.002286"
+                      "start": "2024-03-14T00:07:54.745313",
+                      "elapsed": "0.001052"
                     },
-                    "_text": "No application is open"
+                    "_text": "No keyword with name 'Close Application' found."
                   }
                 }
               ],
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "start": "2024-03-07T00:06:44.598725",
-                  "elapsed": "0.376407"
+                  "start": "2024-03-14T00:07:54.743554",
+                  "elapsed": "0.002863"
                 },
-                "_text": "Setup failed:\nSessionNotCreatedException: Message: \n\nUnable to find file 'demo-saucelabs.ipa' in app storage\n\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'\nDriver info: driver.version: unknown\n\n\nAlso teardown failed:\nNo application is open"
+                "_text": "Setup failed:\nNo keyword with name 'Open Application' found.\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
               }
             },
             "status": {
               "_attributes": {
                 "status": "FAIL",
-                "start": "2024-03-07T00:06:44.595319",
-                "elapsed": "0.380242"
+                "start": "2024-03-14T00:07:54.739208",
+                "elapsed": "0.007596"
               }
             }
           },
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "start": "2024-03-07T00:06:44.594066",
-              "elapsed": "0.382340"
+              "start": "2024-03-14T00:07:54.738120",
+              "elapsed": "0.009491"
             }
           }
         }
@@ -1851,8 +1259,8 @@
       "status": {
         "_attributes": {
           "status": "FAIL",
-          "start": "2024-03-07T00:06:40.758064",
-          "elapsed": "4.219158"
+          "start": "2024-03-14T00:07:54.529736",
+          "elapsed": "0.218598"
         }
       }
     },
@@ -1996,122 +1404,31 @@
       "msg": [
         {
           "_attributes": {
-            "time": "2024-03-07T00:06:40.923779",
+            "time": "2024-03-14T00:07:54.690605",
+            "level": "ERROR"
+          },
+          "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py\", line 4, in <module>\n    from AppiumLibrary.keywords import *\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/__init__.py\", line 9, in <module>\n    from ._touch import _TouchKeywords\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/_touch.py\", line 3, in <module>\n    from appium.webdriver.common.touch_action import TouchAction\nPYTHONPATH:\n  /opt/hostedtoolcache/Python/3.8.18/x64/bin\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python38.zip\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/lib-dynload\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages"
+        },
+        {
+          "_attributes": {
+            "time": "2024-03-14T00:07:54.698972",
             "level": "WARN"
           },
           "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/keywords/catalog_keywords.robot' on line 9: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead."
         },
         {
           "_attributes": {
-            "time": "2024-03-07T00:06:42.249229",
-            "level": "WARN"
+            "time": "2024-03-14T00:07:54.722672",
+            "level": "ERROR"
           },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+          "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py\", line 4, in <module>\n    from AppiumLibrary.keywords import *\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/__init__.py\", line 9, in <module>\n    from ._touch import _TouchKeywords\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/_touch.py\", line 3, in <module>\n    from appium.webdriver.common.touch_action import TouchAction\nPYTHONPATH:\n  /opt/hostedtoolcache/Python/3.8.18/x64/bin\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python38.zip\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/lib-dynload\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages"
         },
         {
           "_attributes": {
-            "time": "2024-03-07T00:06:42.253111",
-            "level": "WARN"
+            "time": "2024-03-14T00:07:54.741057",
+            "level": "ERROR"
           },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:42.638207",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:42.642034",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:43.024973",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:43.028316",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:43.408585",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:43.411847",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:43.802864",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:43.805937",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:44.182292",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:44.185401",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:44.588309",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:44.591723",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:44.971837",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
-        },
-        {
-          "_attributes": {
-            "time": "2024-03-07T00:06:44.974604",
-            "level": "WARN"
-          },
-          "_text": "Keyword 'Capture Page Screenshot' could not be run on failure: No application is open"
+          "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py\", line 4, in <module>\n    from AppiumLibrary.keywords import *\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/__init__.py\", line 9, in <module>\n    from ._touch import _TouchKeywords\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/_touch.py\", line 3, in <module>\n    from appium.webdriver.common.touch_action import TouchAction\nPYTHONPATH:\n  /opt/hostedtoolcache/Python/3.8.18/x64/bin\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python38.zip\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/lib-dynload\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages"
         }
       ]
     }

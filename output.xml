@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.8.18 on linux)" generated="2024-03-07T00:06:40.757216" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.8.18 on linux)" generated="2024-03-14T00:07:54.528898" rpa="false" schemaversion="5">
 <suite id="s1" name="Tests" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests">
 <suite id="s1-s1" name="Android" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android">
 <suite id="s1-s1-s1" name="Catalog" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/catalog.robot">
 <test id="s1-s1-s1-t1" name="Scenario: Open product from the catalog" line="11">
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
-<kw name="Open Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:42.246635" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:42.246324" elapsed="0.001235">No application is open</status>
-</kw>
-<msg time="2024-03-07T00:06:42.249229" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:42.249413" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</msg>
+<kw name="Open Application">
+<msg time="2024-03-14T00:07:54.704076" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -23,66 +15,36 @@ Please visit https://saucelabs.com/pricing to purchase a subscription.
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<doc>Opens a new application to given Appium server.
-Capabilities of appium server, Android and iOS,
-Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
-| *Option*            | *Man.* | *Description*     |
-| remote_url          | Yes    | Appium server url |
-| alias               | no     | alias             |
-| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-03-07T00:06:40.928471" elapsed="1.321141">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.704042" elapsed="0.000090">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:40.927808" elapsed="1.322014">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.702726" elapsed="0.001561">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-07T00:06:42.250053" elapsed="0.000025"/>
+<status status="NOT RUN" start="2024-03-14T00:07:54.704463" elapsed="0.000023"/>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:40.927446" elapsed="1.322717">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.702321" elapsed="0.002248">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
-<kw name="Close Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:42.251197" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:42.251035" elapsed="0.000316">No application is open</status>
+<kw name="Close Application">
+<msg time="2024-03-14T00:07:54.705955" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-03-14T00:07:54.705931" elapsed="0.000055">No keyword with name 'Close Application' found.</status>
 </kw>
-<msg time="2024-03-07T00:06:42.253111" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:42.253298" level="FAIL">No application is open</msg>
-<doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-03-07T00:06:42.250722" elapsed="0.002918">No application is open</status>
-</kw>
-<status status="FAIL" start="2024-03-07T00:06:42.250436" elapsed="0.003342">No application is open</status>
+<status status="FAIL" start="2024-03-14T00:07:54.704833" elapsed="0.001252">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>open_product</tag>
-<status status="FAIL" start="2024-03-07T00:06:40.926670" elapsed="1.327172">Setup failed:
-WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-
+<status status="FAIL" start="2024-03-14T00:07:54.701551" elapsed="0.004591">Setup failed:
+No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
-No application is open</status>
+No keyword with name 'Close Application' found.</status>
 </test>
 <test id="s1-s1-s1-t2" name="Scenario: Rate product from catalog" line="16">
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
-<kw name="Open Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:42.636405" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:42.636002" elapsed="0.000643">No application is open</status>
-</kw>
-<msg time="2024-03-07T00:06:42.638207" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:42.638356" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</msg>
+<kw name="Open Application">
+<msg time="2024-03-14T00:07:54.708595" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -90,66 +52,36 @@ Please visit https://saucelabs.com/pricing to purchase a subscription.
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<doc>Opens a new application to given Appium server.
-Capabilities of appium server, Android and iOS,
-Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
-| *Option*            | *Man.* | *Description*     |
-| remote_url          | Yes    | Appium server url |
-| alias               | no     | alias             |
-| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-03-07T00:06:42.255366" elapsed="0.383189">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.708571" elapsed="0.000058">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:42.255124" elapsed="0.383633">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.707476" elapsed="0.001259">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-07T00:06:42.638992" elapsed="0.000026"/>
+<status status="NOT RUN" start="2024-03-14T00:07:54.708900" elapsed="0.000022"/>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:42.254806" elapsed="0.384296">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.707062" elapsed="0.001938">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
-<kw name="Close Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:42.640329" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:42.639861" elapsed="0.000623">No application is open</status>
+<kw name="Close Application">
+<msg time="2024-03-14T00:07:54.710269" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-03-14T00:07:54.710243" elapsed="0.000058">No keyword with name 'Close Application' found.</status>
 </kw>
-<msg time="2024-03-07T00:06:42.642034" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:42.642180" level="FAIL">No application is open</msg>
-<doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-03-07T00:06:42.639664" elapsed="0.002666">No application is open</status>
-</kw>
-<status status="FAIL" start="2024-03-07T00:06:42.639376" elapsed="0.003113">No application is open</status>
+<status status="FAIL" start="2024-03-14T00:07:54.709225" elapsed="0.001170">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>rate_product</tag>
-<status status="FAIL" start="2024-03-07T00:06:42.254170" elapsed="0.388390">Setup failed:
-WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-
+<status status="FAIL" start="2024-03-14T00:07:54.706442" elapsed="0.004006">Setup failed:
+No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
-No application is open</status>
+No keyword with name 'Close Application' found.</status>
 </test>
 <test id="s1-s1-s1-t3" name="Scenario: Sort products by Name - Ascending" line="20">
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
-<kw name="Open Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:43.023166" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.022945" elapsed="0.000429">No application is open</status>
-</kw>
-<msg time="2024-03-07T00:06:43.024973" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.025140" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</msg>
+<kw name="Open Application">
+<msg time="2024-03-14T00:07:54.712730" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -157,66 +89,36 @@ Please visit https://saucelabs.com/pricing to purchase a subscription.
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<doc>Opens a new application to given Appium server.
-Capabilities of appium server, Android and iOS,
-Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
-| *Option*            | *Man.* | *Description*     |
-| remote_url          | Yes    | Appium server url |
-| alias               | no     | alias             |
-| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-03-07T00:06:42.644596" elapsed="0.380691">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.712706" elapsed="0.000057">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:42.644270" elapsed="0.381145">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.711716" elapsed="0.001151">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-07T00:06:43.025620" elapsed="0.000024"/>
+<status status="NOT RUN" start="2024-03-14T00:07:54.713030" elapsed="0.000026"/>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:42.643784" elapsed="0.381943">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.711341" elapsed="0.001794">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
-<kw name="Close Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:43.026620" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.026460" elapsed="0.000308">No application is open</status>
+<kw name="Close Application">
+<msg time="2024-03-14T00:07:54.714390" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-03-14T00:07:54.714367" elapsed="0.000053">No keyword with name 'Close Application' found.</status>
 </kw>
-<msg time="2024-03-07T00:06:43.028316" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.028480" level="FAIL">No application is open</msg>
-<doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.026251" elapsed="0.002341">No application is open</status>
-</kw>
-<status status="FAIL" start="2024-03-07T00:06:43.025974" elapsed="0.002724">No application is open</status>
+<status status="FAIL" start="2024-03-14T00:07:54.713353" elapsed="0.001158">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>sort_by</tag>
-<status status="FAIL" start="2024-03-07T00:06:42.643176" elapsed="0.385576">Setup failed:
-WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-
+<status status="FAIL" start="2024-03-14T00:07:54.710732" elapsed="0.003831">Setup failed:
+No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
-No application is open</status>
+No keyword with name 'Close Application' found.</status>
 </test>
 <test id="s1-s1-s1-t4" name="Scenario: Add product from catalog to cart" line="24">
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
-<kw name="Open Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:43.406819" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.406604" elapsed="0.000419">No application is open</status>
-</kw>
-<msg time="2024-03-07T00:06:43.408585" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.408748" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</msg>
+<kw name="Open Application">
+<msg time="2024-03-14T00:07:54.716877" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -224,69 +126,39 @@ Please visit https://saucelabs.com/pricing to purchase a subscription.
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<doc>Opens a new application to given Appium server.
-Capabilities of appium server, Android and iOS,
-Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
-| *Option*            | *Man.* | *Description*     |
-| remote_url          | Yes    | Appium server url |
-| alias               | no     | alias             |
-| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.030422" elapsed="0.378487">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.716853" elapsed="0.000091">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:43.029895" elapsed="0.379141">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.715865" elapsed="0.001191">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-07T00:06:43.409237" elapsed="0.000024"/>
+<status status="NOT RUN" start="2024-03-14T00:07:54.717224" elapsed="0.000021"/>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:43.029607" elapsed="0.379733">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.715520" elapsed="0.001802">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
-<kw name="Close Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:43.410189" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.410039" elapsed="0.000288">No application is open</status>
+<kw name="Close Application">
+<msg time="2024-03-14T00:07:54.719240" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-03-14T00:07:54.719214" elapsed="0.000058">No keyword with name 'Close Application' found.</status>
 </kw>
-<msg time="2024-03-07T00:06:43.411847" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.412005" level="FAIL">No application is open</msg>
-<doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.409850" elapsed="0.002295">No application is open</status>
-</kw>
-<status status="FAIL" start="2024-03-07T00:06:43.409578" elapsed="0.002675">No application is open</status>
+<status status="FAIL" start="2024-03-14T00:07:54.717544" elapsed="0.001826">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>add_cart</tag>
-<status status="FAIL" start="2024-03-07T00:06:43.029056" elapsed="0.383251">Setup failed:
-WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-
+<status status="FAIL" start="2024-03-14T00:07:54.714864" elapsed="0.004559">Setup failed:
+No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
-No application is open</status>
+No keyword with name 'Close Application' found.</status>
 </test>
-<status status="FAIL" start="2024-03-07T00:06:40.778912" elapsed="2.634035"/>
+<status status="FAIL" start="2024-03-14T00:07:54.549772" elapsed="0.170248"/>
 </suite>
 <suite id="s1-s1-s2" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/login.robot">
 <test id="s1-s1-s2-t1" name="Scenario: Login with wrong credentials" line="11">
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
-<kw name="Open Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:43.801244" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.800967" elapsed="0.000497">No application is open</status>
-</kw>
-<msg time="2024-03-07T00:06:43.802864" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.803041" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</msg>
+<kw name="Open Application">
+<msg time="2024-03-14T00:07:54.727157" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -294,66 +166,36 @@ Please visit https://saucelabs.com/pricing to purchase a subscription.
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<doc>Opens a new application to given Appium server.
-Capabilities of appium server, Android and iOS,
-Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
-| *Option*            | *Man.* | *Description*     |
-| remote_url          | Yes    | Appium server url |
-| alias               | no     | alias             |
-| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.417721" elapsed="0.385469">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.727130" elapsed="0.000063">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:43.417498" elapsed="0.385826">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.726156" elapsed="0.001145">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-07T00:06:43.803541" elapsed="0.000024"/>
+<status status="NOT RUN" start="2024-03-14T00:07:54.727464" elapsed="0.000022"/>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:43.417083" elapsed="0.386565">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.725885" elapsed="0.001677">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
-<kw name="Close Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:43.804549" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.804390" elapsed="0.000305">No application is open</status>
+<kw name="Close Application">
+<msg time="2024-03-14T00:07:54.728757" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-03-14T00:07:54.728734" elapsed="0.000054">No keyword with name 'Close Application' found.</status>
 </kw>
-<msg time="2024-03-07T00:06:43.805937" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.806102" level="FAIL">No application is open</msg>
-<doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.804197" elapsed="0.002010">No application is open</status>
-</kw>
-<status status="FAIL" start="2024-03-07T00:06:43.803894" elapsed="0.002416">No application is open</status>
+<status status="FAIL" start="2024-03-14T00:07:54.727783" elapsed="0.001098">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>wrong_login</tag>
-<status status="FAIL" start="2024-03-07T00:06:43.416637" elapsed="0.389727">Setup failed:
-WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-
+<status status="FAIL" start="2024-03-14T00:07:54.725376" elapsed="0.003557">Setup failed:
+No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
-No application is open</status>
+No keyword with name 'Close Application' found.</status>
 </test>
 <test id="s1-s1-s2-t2" name="Scenario: Login successfully" line="17">
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
-<kw name="Open Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:44.180725" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:44.180389" elapsed="0.000583">No application is open</status>
-</kw>
-<msg time="2024-03-07T00:06:44.182292" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.182470" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</msg>
+<kw name="Open Application">
+<msg time="2024-03-14T00:07:54.730903" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -361,66 +203,36 @@ Please visit https://saucelabs.com/pricing to purchase a subscription.
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<doc>Opens a new application to given Appium server.
-Capabilities of appium server, Android and iOS,
-Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
-| *Option*            | *Man.* | *Description*     |
-| remote_url          | Yes    | Appium server url |
-| alias               | no     | alias             |
-| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-03-07T00:06:43.807868" elapsed="0.374774">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.730856" elapsed="0.000085">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:43.807622" elapsed="0.375163">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.729917" elapsed="0.001132">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-07T00:06:44.183004" elapsed="0.000024"/>
+<status status="NOT RUN" start="2024-03-14T00:07:54.731220" elapsed="0.000022"/>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:43.807271" elapsed="0.375838">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.729656" elapsed="0.001661">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
-<kw name="Close Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:44.183987" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:44.183830" elapsed="0.000313">No application is open</status>
+<kw name="Close Application">
+<msg time="2024-03-14T00:07:54.732697" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-03-14T00:07:54.732673" elapsed="0.000054">No keyword with name 'Close Application' found.</status>
 </kw>
-<msg time="2024-03-07T00:06:44.185401" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.185533" level="FAIL">No application is open</msg>
-<doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-03-07T00:06:44.183644" elapsed="0.002023">No application is open</status>
-</kw>
-<status status="FAIL" start="2024-03-07T00:06:44.183362" elapsed="0.002411">No application is open</status>
+<status status="FAIL" start="2024-03-14T00:07:54.731533" elapsed="0.001288">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>login_success</tag>
-<status status="FAIL" start="2024-03-07T00:06:43.806694" elapsed="0.379151">Setup failed:
-WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-
+<status status="FAIL" start="2024-03-14T00:07:54.729220" elapsed="0.003653">Setup failed:
+No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
-No application is open</status>
+No keyword with name 'Close Application' found.</status>
 </test>
 <test id="s1-s1-s2-t3" name="Scenario: Logout successfully" line="22">
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
-<kw name="Open Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:44.586805" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:44.586564" elapsed="0.000452">No application is open</status>
-</kw>
-<msg time="2024-03-07T00:06:44.588309" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.588454" level="FAIL">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</msg>
+<kw name="Open Application">
+<msg time="2024-03-14T00:07:54.734707" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -428,76 +240,41 @@ Please visit https://saucelabs.com/pricing to purchase a subscription.
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<doc>Opens a new application to given Appium server.
-Capabilities of appium server, Android and iOS,
-Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
-| *Option*            | *Man.* | *Description*     |
-| remote_url          | Yes    | Appium server url |
-| alias               | no     | alias             |
-| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-03-07T00:06:44.187351" elapsed="0.401278">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.734684" elapsed="0.000055">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:44.187118" elapsed="0.401693">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.733777" elapsed="0.001098">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-07T00:06:44.589019" elapsed="0.000023"/>
+<status status="NOT RUN" start="2024-03-14T00:07:54.735070" elapsed="0.000022"/>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:44.186735" elapsed="0.402387">WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.733514" elapsed="0.001655">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
-<kw name="Close Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:44.590308" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:44.590155" elapsed="0.000304">No application is open</status>
+<kw name="Close Application">
+<msg time="2024-03-14T00:07:54.736362" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-03-14T00:07:54.736339" elapsed="0.000052">No keyword with name 'Close Application' found.</status>
 </kw>
-<msg time="2024-03-07T00:06:44.591723" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.591858" level="FAIL">No application is open</msg>
-<doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-03-07T00:06:44.589959" elapsed="0.002034">No application is open</status>
-</kw>
-<status status="FAIL" start="2024-03-07T00:06:44.589371" elapsed="0.002730">No application is open</status>
+<status status="FAIL" start="2024-03-14T00:07:54.735386" elapsed="0.001096">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>logout_success</tag>
-<status status="FAIL" start="2024-03-07T00:06:44.186181" elapsed="0.405998">Setup failed:
-WebDriverException: Message: Uh oh, you've run out of minutes!
-Please visit https://saucelabs.com/pricing to purchase a subscription.
-
+<status status="FAIL" start="2024-03-14T00:07:54.733149" elapsed="0.003385">Setup failed:
+No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
-No application is open</status>
+No keyword with name 'Close Application' found.</status>
 </test>
-<status status="FAIL" start="2024-03-07T00:06:43.413513" elapsed="1.179104"/>
+<status status="FAIL" start="2024-03-14T00:07:54.720733" elapsed="0.016176"/>
 </suite>
-<status status="FAIL" start="2024-03-07T00:06:40.777800" elapsed="3.815679"/>
+<status status="FAIL" start="2024-03-14T00:07:54.548658" elapsed="0.188918"/>
 </suite>
 <suite id="s1-s2" name="Ios" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios">
 <suite id="s1-s2-s1" name="Test" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/test.robot">
 <test id="s1-s2-s1-t1" name="Scenario: Take screenshot" line="9">
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
-<kw name="Open Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:44.970507" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:44.970225" elapsed="0.000511">No application is open</status>
-</kw>
-<msg time="2024-03-07T00:06:44.971837" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.972002" level="FAIL">SessionNotCreatedException: Message: 
-
-Unable to find file 'demo-saucelabs.ipa' in app storage
-
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'
-Driver info: driver.version: unknown
-</msg>
+<kw name="Open Application">
+<msg time="2024-03-14T00:07:54.744954" level="FAIL">No keyword with name 'Open Application' found.</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -505,63 +282,28 @@ Driver info: driver.version: unknown
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<doc>Opens a new application to given Appium server.
-Capabilities of appium server, Android and iOS,
-Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
-| *Option*            | *Man.* | *Description*     |
-| remote_url          | Yes    | Appium server url |
-| alias               | no     | alias             |
-| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
-<status status="FAIL" start="2024-03-07T00:06:44.599471" elapsed="0.372764">SessionNotCreatedException: Message: 
-
-Unable to find file 'demo-saucelabs.ipa' in app storage
-
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'
-Driver info: driver.version: unknown
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.744929" elapsed="0.000058">No keyword with name 'Open Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:44.599215" elapsed="0.373239">SessionNotCreatedException: Message: 
-
-Unable to find file 'demo-saucelabs.ipa' in app storage
-
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'
-Driver info: driver.version: unknown
-</status>
+<status status="FAIL" start="2024-03-14T00:07:54.744035" elapsed="0.001059">No keyword with name 'Open Application' found.</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
-<kw name="Close Application" owner="AppiumLibrary">
-<kw name="Capture Page Screenshot" owner="AppiumLibrary">
-<msg time="2024-03-07T00:06:44.973406" level="FAIL">No application is open</msg>
-<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
-<status status="FAIL" start="2024-03-07T00:06:44.973243" elapsed="0.000311">No application is open</status>
+<kw name="Close Application">
+<msg time="2024-03-14T00:07:54.746241" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-03-14T00:07:54.746218" elapsed="0.000054">No keyword with name 'Close Application' found.</status>
 </kw>
-<msg time="2024-03-07T00:06:44.974604" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.974753" level="FAIL">No application is open</msg>
-<doc>Closes the current application and also close webdriver session.</doc>
-<status status="FAIL" start="2024-03-07T00:06:44.973055" elapsed="0.001850">No application is open</status>
+<status status="FAIL" start="2024-03-14T00:07:54.745313" elapsed="0.001052">No keyword with name 'Close Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-07T00:06:44.972770" elapsed="0.002286">No application is open</status>
-</kw>
-<status status="FAIL" start="2024-03-07T00:06:44.598725" elapsed="0.376407">Setup failed:
-SessionNotCreatedException: Message: 
-
-Unable to find file 'demo-saucelabs.ipa' in app storage
-
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'Sauce Labs RDC', ip: 'N/A', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.133+', java.version: '11.0.21'
-Driver info: driver.version: unknown
-
+<status status="FAIL" start="2024-03-14T00:07:54.743554" elapsed="0.002863">Setup failed:
+No keyword with name 'Open Application' found.
 
 Also teardown failed:
-No application is open</status>
+No keyword with name 'Close Application' found.</status>
 </test>
-<status status="FAIL" start="2024-03-07T00:06:44.595319" elapsed="0.380242"/>
+<status status="FAIL" start="2024-03-14T00:07:54.739208" elapsed="0.007596"/>
 </suite>
-<status status="FAIL" start="2024-03-07T00:06:44.594066" elapsed="0.382340"/>
+<status status="FAIL" start="2024-03-14T00:07:54.738120" elapsed="0.009491"/>
 </suite>
-<status status="FAIL" start="2024-03-07T00:06:40.758064" elapsed="4.219158"/>
+<status status="FAIL" start="2024-03-14T00:07:54.529736" elapsed="0.218598"/>
 </suite>
 <statistics>
 <total>
@@ -586,22 +328,48 @@ No application is open</status>
 </suite>
 </statistics>
 <errors>
-<msg time="2024-03-07T00:06:40.923779" level="WARN">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/keywords/catalog_keywords.robot' on line 9: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
-<msg time="2024-03-07T00:06:42.249229" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:42.253111" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:42.638207" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:42.642034" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.024973" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.028316" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.408585" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.411847" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.802864" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:43.805937" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.182292" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.185401" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.588309" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.591723" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.971837" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
-<msg time="2024-03-07T00:06:44.974604" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2024-03-14T00:07:54.690605" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py", line 4, in &lt;module&gt;
+    from AppiumLibrary.keywords import *
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/__init__.py", line 9, in &lt;module&gt;
+    from ._touch import _TouchKeywords
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/_touch.py", line 3, in &lt;module&gt;
+    from appium.webdriver.common.touch_action import TouchAction
+PYTHONPATH:
+  /opt/hostedtoolcache/Python/3.8.18/x64/bin
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python38.zip
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/lib-dynload
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages</msg>
+<msg time="2024-03-14T00:07:54.698972" level="WARN">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/keywords/catalog_keywords.robot' on line 9: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2024-03-14T00:07:54.722672" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py", line 4, in &lt;module&gt;
+    from AppiumLibrary.keywords import *
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/__init__.py", line 9, in &lt;module&gt;
+    from ._touch import _TouchKeywords
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/_touch.py", line 3, in &lt;module&gt;
+    from appium.webdriver.common.touch_action import TouchAction
+PYTHONPATH:
+  /opt/hostedtoolcache/Python/3.8.18/x64/bin
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python38.zip
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/lib-dynload
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages</msg>
+<msg time="2024-03-14T00:07:54.741057" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py", line 4, in &lt;module&gt;
+    from AppiumLibrary.keywords import *
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/__init__.py", line 9, in &lt;module&gt;
+    from ._touch import _TouchKeywords
+  File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/_touch.py", line 3, in &lt;module&gt;
+    from appium.webdriver.common.touch_action import TouchAction
+PYTHONPATH:
+  /opt/hostedtoolcache/Python/3.8.18/x64/bin
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python38.zip
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/lib-dynload
+  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages</msg>
 </errors>
 </robot>

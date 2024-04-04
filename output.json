@@ -8,7 +8,7 @@
   "robot": {
     "_attributes": {
       "generator": "Robot 7.0 (Python 3.8.18 on linux)",
-      "generated": "2024-03-28T00:08:14.177424",
+      "generated": "2024-04-04T00:09:03.465894",
       "rpa": "false",
       "schemaversion": "5"
     },
@@ -58,7 +58,7 @@
                             },
                             "msg": {
                               "_attributes": {
-                                "time": "2024-03-28T00:08:14.405982",
+                                "time": "2024-04-04T00:09:03.655130",
                                 "level": "FAIL"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
@@ -89,8 +89,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-28T00:08:14.405946",
-                                "elapsed": "0.000100"
+                                "start": "2024-04-04T00:09:03.655095",
+                                "elapsed": "0.000122"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
@@ -98,8 +98,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-28T00:08:14.404603",
-                              "elapsed": "0.001608"
+                              "start": "2024-04-04T00:09:03.653778",
+                              "elapsed": "0.001602"
                             },
                             "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
@@ -120,8 +120,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-28T00:08:14.406391",
-                              "elapsed": "0.000022"
+                              "start": "2024-04-04T00:09:03.655560",
+                              "elapsed": "0.000023"
                             }
                           }
                         }
@@ -129,8 +129,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.404151",
-                          "elapsed": "0.002342"
+                          "start": "2024-04-04T00:09:03.653365",
+                          "elapsed": "0.002298"
                         },
                         "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
@@ -147,7 +147,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "time": "2024-03-28T00:08:14.407925",
+                            "time": "2024-04-04T00:09:03.657002",
                             "level": "FAIL"
                           },
                           "_text": "No keyword with name 'Close Application' found."
@@ -155,8 +155,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-28T00:08:14.407900",
-                            "elapsed": "0.000058"
+                            "start": "2024-04-04T00:09:03.656977",
+                            "elapsed": "0.000057"
                           },
                           "_text": "No keyword with name 'Close Application' found."
                         }
@@ -164,8 +164,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.406753",
-                          "elapsed": "0.001307"
+                          "start": "2024-04-04T00:09:03.655916",
+                          "elapsed": "0.001219"
                         },
                         "_text": "No keyword with name 'Close Application' found."
                       }
@@ -177,8 +177,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-28T00:08:14.403397",
-                      "elapsed": "0.004720"
+                      "start": "2024-04-04T00:09:03.652609",
+                      "elapsed": "0.004582"
                     },
                     "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
@@ -208,7 +208,7 @@
                             },
                             "msg": {
                               "_attributes": {
-                                "time": "2024-03-28T00:08:14.410203",
+                                "time": "2024-04-04T00:09:03.659595",
                                 "level": "FAIL"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
@@ -239,8 +239,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-28T00:08:14.410178",
-                                "elapsed": "0.000058"
+                                "start": "2024-04-04T00:09:03.659568",
+                                "elapsed": "0.000061"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
@@ -248,8 +248,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-28T00:08:14.409088",
-                              "elapsed": "0.001253"
+                              "start": "2024-04-04T00:09:03.658453",
+                              "elapsed": "0.001284"
                             },
                             "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
@@ -270,8 +270,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-28T00:08:14.410516",
-                              "elapsed": "0.000022"
+                              "start": "2024-04-04T00:09:03.659902",
+                              "elapsed": "0.000021"
                             }
                           }
                         }
@@ -279,8 +279,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.408806",
-                          "elapsed": "0.001810"
+                          "start": "2024-04-04T00:09:03.658093",
+                          "elapsed": "0.001906"
                         },
                         "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
@@ -297,7 +297,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "time": "2024-03-28T00:08:14.411931",
+                            "time": "2024-04-04T00:09:03.661268",
                             "level": "FAIL"
                           },
                           "_text": "No keyword with name 'Close Application' found."
@@ -305,8 +305,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-28T00:08:14.411903",
-                            "elapsed": "0.000058"
+                            "start": "2024-04-04T00:09:03.661244",
+                            "elapsed": "0.000055"
                           },
                           "_text": "No keyword with name 'Close Application' found."
                         }
@@ -314,8 +314,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.410869",
-                          "elapsed": "0.001184"
+                          "start": "2024-04-04T00:09:03.660222",
+                          "elapsed": "0.001171"
                         },
                         "_text": "No keyword with name 'Close Application' found."
                       }
@@ -327,8 +327,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-28T00:08:14.408418",
-                      "elapsed": "0.003687"
+                      "start": "2024-04-04T00:09:03.657511",
+                      "elapsed": "0.003934"
                     },
                     "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
@@ -358,7 +358,7 @@
                             },
                             "msg": {
                               "_attributes": {
-                                "time": "2024-03-28T00:08:14.414090",
+                                "time": "2024-04-04T00:09:03.663800",
                                 "level": "FAIL"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
@@ -389,8 +389,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-28T00:08:14.414066",
-                                "elapsed": "0.000056"
+                                "start": "2024-04-04T00:09:03.663768",
+                                "elapsed": "0.000066"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
@@ -398,8 +398,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-28T00:08:14.413051",
-                              "elapsed": "0.001174"
+                              "start": "2024-04-04T00:09:03.662725",
+                              "elapsed": "0.001217"
                             },
                             "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
@@ -420,7 +420,7 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-28T00:08:14.414390",
+                              "start": "2024-04-04T00:09:03.664110",
                               "elapsed": "0.000021"
                             }
                           }
@@ -429,8 +429,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.412782",
-                          "elapsed": "0.001708"
+                          "start": "2024-04-04T00:09:03.662324",
+                          "elapsed": "0.001883"
                         },
                         "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
@@ -447,7 +447,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "time": "2024-03-28T00:08:14.415807",
+                            "time": "2024-04-04T00:09:03.665486",
                             "level": "FAIL"
                           },
                           "_text": "No keyword with name 'Close Application' found."
@@ -455,8 +455,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-28T00:08:14.415783",
-                            "elapsed": "0.000054"
+                            "start": "2024-04-04T00:09:03.665462",
+                            "elapsed": "0.000055"
                           },
                           "_text": "No keyword with name 'Close Application' found."
                         }
@@ -464,8 +464,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.414709",
-                          "elapsed": "0.001222"
+                          "start": "2024-04-04T00:09:03.664427",
+                          "elapsed": "0.001183"
                         },
                         "_text": "No keyword with name 'Close Application' found."
                       }
@@ -477,8 +477,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-28T00:08:14.412385",
-                      "elapsed": "0.003600"
+                      "start": "2024-04-04T00:09:03.661747",
+                      "elapsed": "0.003915"
                     },
                     "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
@@ -508,7 +508,7 @@
                             },
                             "msg": {
                               "_attributes": {
-                                "time": "2024-03-28T00:08:14.417948",
+                                "time": "2024-04-04T00:09:03.667660",
                                 "level": "FAIL"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
@@ -539,8 +539,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-28T00:08:14.417925",
-                                "elapsed": "0.000098"
+                                "start": "2024-04-04T00:09:03.667636",
+                                "elapsed": "0.000093"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
@@ -548,8 +548,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-28T00:08:14.416919",
-                              "elapsed": "0.001216"
+                              "start": "2024-04-04T00:09:03.666612",
+                              "elapsed": "0.001229"
                             },
                             "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
@@ -570,8 +570,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-28T00:08:14.418306",
-                              "elapsed": "0.000023"
+                              "start": "2024-04-04T00:09:03.668008",
+                              "elapsed": "0.000022"
                             }
                           }
                         }
@@ -579,8 +579,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.416649",
-                          "elapsed": "0.001759"
+                          "start": "2024-04-04T00:09:03.666339",
+                          "elapsed": "0.001766"
                         },
                         "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
@@ -597,7 +597,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "time": "2024-03-28T00:08:14.420654",
+                            "time": "2024-04-04T00:09:03.670019",
                             "level": "FAIL"
                           },
                           "_text": "No keyword with name 'Close Application' found."
@@ -605,8 +605,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-28T00:08:14.420629",
-                            "elapsed": "0.000058"
+                            "start": "2024-04-04T00:09:03.669994",
+                            "elapsed": "0.000057"
                           },
                           "_text": "No keyword with name 'Close Application' found."
                         }
@@ -614,8 +614,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.418632",
-                          "elapsed": "0.002152"
+                          "start": "2024-04-04T00:09:03.668321",
+                          "elapsed": "0.001825"
                         },
                         "_text": "No keyword with name 'Close Application' found."
                       }
@@ -627,8 +627,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-28T00:08:14.416259",
-                      "elapsed": "0.004578"
+                      "start": "2024-04-04T00:09:03.665943",
+                      "elapsed": "0.004255"
                     },
                     "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
@@ -637,8 +637,8 @@
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "start": "2024-03-28T00:08:14.199055",
-                  "elapsed": "0.222305"
+                  "start": "2024-04-04T00:09:03.487140",
+                  "elapsed": "0.183564"
                 }
               }
             },
@@ -674,7 +674,7 @@
                             },
                             "msg": {
                               "_attributes": {
-                                "time": "2024-03-28T00:08:14.427748",
+                                "time": "2024-04-04T00:09:03.678175",
                                 "level": "FAIL"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
@@ -705,8 +705,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-28T00:08:14.427722",
-                                "elapsed": "0.000064"
+                                "start": "2024-04-04T00:09:03.678149",
+                                "elapsed": "0.000061"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
@@ -714,8 +714,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-28T00:08:14.426747",
-                              "elapsed": "0.001153"
+                              "start": "2024-04-04T00:09:03.677182",
+                              "elapsed": "0.001138"
                             },
                             "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
@@ -736,8 +736,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-28T00:08:14.428066",
-                              "elapsed": "0.000022"
+                              "start": "2024-04-04T00:09:03.678499",
+                              "elapsed": "0.000024"
                             }
                           }
                         }
@@ -745,8 +745,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.426473",
-                          "elapsed": "0.001694"
+                          "start": "2024-04-04T00:09:03.676866",
+                          "elapsed": "0.001739"
                         },
                         "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
@@ -763,7 +763,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "time": "2024-03-28T00:08:14.429410",
+                            "time": "2024-04-04T00:09:03.679880",
                             "level": "FAIL"
                           },
                           "_text": "No keyword with name 'Close Application' found."
@@ -771,8 +771,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-28T00:08:14.429386",
-                            "elapsed": "0.000055"
+                            "start": "2024-04-04T00:09:03.679843",
+                            "elapsed": "0.000071"
                           },
                           "_text": "No keyword with name 'Close Application' found."
                         }
@@ -780,8 +780,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.428387",
-                          "elapsed": "0.001146"
+                          "start": "2024-04-04T00:09:03.678835",
+                          "elapsed": "0.001176"
                         },
                         "_text": "No keyword with name 'Close Application' found."
                       }
@@ -793,8 +793,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-28T00:08:14.426037",
-                      "elapsed": "0.003550"
+                      "start": "2024-04-04T00:09:03.676306",
+                      "elapsed": "0.003758"
                     },
                     "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
@@ -824,7 +824,7 @@
                             },
                             "msg": {
                               "_attributes": {
-                                "time": "2024-03-28T00:08:14.431494",
+                                "time": "2024-04-04T00:09:03.682762",
                                 "level": "FAIL"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
@@ -855,8 +855,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-28T00:08:14.431468",
-                                "elapsed": "0.000059"
+                                "start": "2024-04-04T00:09:03.682736",
+                                "elapsed": "0.000060"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
@@ -864,8 +864,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-28T00:08:14.430493",
-                              "elapsed": "0.001138"
+                              "start": "2024-04-04T00:09:03.681336",
+                              "elapsed": "0.001567"
                             },
                             "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
@@ -886,8 +886,8 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-28T00:08:14.431792",
-                              "elapsed": "0.000021"
+                              "start": "2024-04-04T00:09:03.683066",
+                              "elapsed": "0.000022"
                             }
                           }
                         }
@@ -895,8 +895,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.430224",
-                          "elapsed": "0.001666"
+                          "start": "2024-04-04T00:09:03.680945",
+                          "elapsed": "0.002247"
                         },
                         "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
@@ -913,7 +913,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "time": "2024-03-28T00:08:14.433293",
+                            "time": "2024-04-04T00:09:03.684569",
                             "level": "FAIL"
                           },
                           "_text": "No keyword with name 'Close Application' found."
@@ -921,7 +921,7 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-28T00:08:14.433268",
+                            "start": "2024-04-04T00:09:03.684545",
                             "elapsed": "0.000056"
                           },
                           "_text": "No keyword with name 'Close Application' found."
@@ -930,8 +930,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.432107",
-                          "elapsed": "0.001313"
+                          "start": "2024-04-04T00:09:03.683420",
+                          "elapsed": "0.001275"
                         },
                         "_text": "No keyword with name 'Close Application' found."
                       }
@@ -943,8 +943,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-28T00:08:14.429858",
-                      "elapsed": "0.003616"
+                      "start": "2024-04-04T00:09:03.680410",
+                      "elapsed": "0.004337"
                     },
                     "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
@@ -974,7 +974,7 @@
                             },
                             "msg": {
                               "_attributes": {
-                                "time": "2024-03-28T00:08:14.435365",
+                                "time": "2024-04-04T00:09:03.686621",
                                 "level": "FAIL"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
@@ -1005,8 +1005,8 @@
                             "status": {
                               "_attributes": {
                                 "status": "FAIL",
-                                "start": "2024-03-28T00:08:14.435339",
-                                "elapsed": "0.000060"
+                                "start": "2024-04-04T00:09:03.686598",
+                                "elapsed": "0.000056"
                               },
                               "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                             }
@@ -1014,8 +1014,8 @@
                           "status": {
                             "_attributes": {
                               "status": "FAIL",
-                              "start": "2024-03-28T00:08:14.434381",
-                              "elapsed": "0.001161"
+                              "start": "2024-04-04T00:09:03.685685",
+                              "elapsed": "0.001107"
                             },
                             "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                           }
@@ -1036,7 +1036,7 @@
                           "status": {
                             "_attributes": {
                               "status": "NOT RUN",
-                              "start": "2024-03-28T00:08:14.435709",
+                              "start": "2024-04-04T00:09:03.686956",
                               "elapsed": "0.000021"
                             }
                           }
@@ -1045,8 +1045,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.434116",
-                          "elapsed": "0.001691"
+                          "start": "2024-04-04T00:09:03.685424",
+                          "elapsed": "0.001629"
                         },
                         "_text": "No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?"
                       }
@@ -1063,7 +1063,7 @@
                         },
                         "msg": {
                           "_attributes": {
-                            "time": "2024-03-28T00:08:14.437022",
+                            "time": "2024-04-04T00:09:03.688296",
                             "level": "FAIL"
                           },
                           "_text": "No keyword with name 'Close Application' found."
@@ -1071,8 +1071,8 @@
                         "status": {
                           "_attributes": {
                             "status": "FAIL",
-                            "start": "2024-03-28T00:08:14.436998",
-                            "elapsed": "0.000055"
+                            "start": "2024-04-04T00:09:03.688273",
+                            "elapsed": "0.000054"
                           },
                           "_text": "No keyword with name 'Close Application' found."
                         }
@@ -1080,8 +1080,8 @@
                       "status": {
                         "_attributes": {
                           "status": "FAIL",
-                          "start": "2024-03-28T00:08:14.436021",
-                          "elapsed": "0.001124"
+                          "start": "2024-04-04T00:09:03.687295",
+                          "elapsed": "0.001125"
                         },
                         "_text": "No keyword with name 'Close Application' found."
                       }
@@ -1093,8 +1093,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-28T00:08:14.433748",
-                      "elapsed": "0.003448"
+                      "start": "2024-04-04T00:09:03.685050",
+                      "elapsed": "0.003421"
                     },
                     "_text": "Setup failed:\nNo keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
                   }
@@ -1103,8 +1103,8 @@
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "start": "2024-03-28T00:08:14.421868",
-                  "elapsed": "0.015679"
+                  "start": "2024-04-04T00:09:03.671301",
+                  "elapsed": "0.017571"
                 }
               }
             }
@@ -1112,8 +1112,8 @@
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "start": "2024-03-28T00:08:14.198006",
-              "elapsed": "0.240126"
+              "start": "2024-04-04T00:09:03.485980",
+              "elapsed": "0.203514"
             }
           }
         },
@@ -1148,7 +1148,7 @@
                     },
                     "msg": {
                       "_attributes": {
-                        "time": "2024-03-28T00:08:14.445783",
+                        "time": "2024-04-04T00:09:03.697147",
                         "level": "FAIL"
                       },
                       "_text": "No keyword with name 'Open Application' found."
@@ -1179,8 +1179,8 @@
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "start": "2024-03-28T00:08:14.445756",
-                        "elapsed": "0.000066"
+                        "start": "2024-04-04T00:09:03.697122",
+                        "elapsed": "0.000059"
                       },
                       "_text": "No keyword with name 'Open Application' found."
                     }
@@ -1188,8 +1188,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-28T00:08:14.444824",
-                      "elapsed": "0.001116"
+                      "start": "2024-04-04T00:09:03.696229",
+                      "elapsed": "0.001058"
                     },
                     "_text": "No keyword with name 'Open Application' found."
                   }
@@ -1206,7 +1206,7 @@
                     },
                     "msg": {
                       "_attributes": {
-                        "time": "2024-03-28T00:08:14.447174",
+                        "time": "2024-04-04T00:09:03.698550",
                         "level": "FAIL"
                       },
                       "_text": "No keyword with name 'Close Application' found."
@@ -1214,8 +1214,8 @@
                     "status": {
                       "_attributes": {
                         "status": "FAIL",
-                        "start": "2024-03-28T00:08:14.447148",
-                        "elapsed": "0.000059"
+                        "start": "2024-04-04T00:09:03.698523",
+                        "elapsed": "0.000060"
                       },
                       "_text": "No keyword with name 'Close Application' found."
                     }
@@ -1223,8 +1223,8 @@
                   "status": {
                     "_attributes": {
                       "status": "FAIL",
-                      "start": "2024-03-28T00:08:14.446170",
-                      "elapsed": "0.001138"
+                      "start": "2024-04-04T00:09:03.697504",
+                      "elapsed": "0.001185"
                     },
                     "_text": "No keyword with name 'Close Application' found."
                   }
@@ -1233,8 +1233,8 @@
               "status": {
                 "_attributes": {
                   "status": "FAIL",
-                  "start": "2024-03-28T00:08:14.444420",
-                  "elapsed": "0.002944"
+                  "start": "2024-04-04T00:09:03.695815",
+                  "elapsed": "0.002927"
                 },
                 "_text": "Setup failed:\nNo keyword with name 'Open Application' found.\n\nAlso teardown failed:\nNo keyword with name 'Close Application' found."
               }
@@ -1242,16 +1242,16 @@
             "status": {
               "_attributes": {
                 "status": "FAIL",
-                "start": "2024-03-28T00:08:14.439822",
-                "elapsed": "0.007882"
+                "start": "2024-04-04T00:09:03.691268",
+                "elapsed": "0.007827"
               }
             }
           },
           "status": {
             "_attributes": {
               "status": "FAIL",
-              "start": "2024-03-28T00:08:14.438617",
-              "elapsed": "0.009625"
+              "start": "2024-04-04T00:09:03.690243",
+              "elapsed": "0.009436"
             }
           }
         }
@@ -1259,8 +1259,8 @@
       "status": {
         "_attributes": {
           "status": "FAIL",
-          "start": "2024-03-28T00:08:14.178348",
-          "elapsed": "0.270421"
+          "start": "2024-04-04T00:09:03.466756",
+          "elapsed": "0.233474"
         }
       }
     },
@@ -1404,28 +1404,28 @@
       "msg": [
         {
           "_attributes": {
-            "time": "2024-03-28T00:08:14.391912",
+            "time": "2024-04-04T00:09:03.641603",
             "level": "ERROR"
           },
           "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py\", line 4, in <module>\n    from AppiumLibrary.keywords import *\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/__init__.py\", line 9, in <module>\n    from ._touch import _TouchKeywords\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/_touch.py\", line 3, in <module>\n    from appium.webdriver.common.touch_action import TouchAction\nPYTHONPATH:\n  /opt/hostedtoolcache/Python/3.8.18/x64/bin\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python38.zip\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/lib-dynload\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages"
         },
         {
           "_attributes": {
-            "time": "2024-03-28T00:08:14.400723",
+            "time": "2024-04-04T00:09:03.649983",
             "level": "WARN"
           },
           "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/keywords/catalog_keywords.robot' on line 9: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead."
         },
         {
           "_attributes": {
-            "time": "2024-03-28T00:08:14.424058",
+            "time": "2024-04-04T00:09:03.673859",
             "level": "ERROR"
           },
           "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py\", line 4, in <module>\n    from AppiumLibrary.keywords import *\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/__init__.py\", line 9, in <module>\n    from ._touch import _TouchKeywords\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/_touch.py\", line 3, in <module>\n    from appium.webdriver.common.touch_action import TouchAction\nPYTHONPATH:\n  /opt/hostedtoolcache/Python/3.8.18/x64/bin\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python38.zip\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/lib-dynload\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages"
         },
         {
           "_attributes": {
-            "time": "2024-03-28T00:08:14.441759",
+            "time": "2024-04-04T00:09:03.693110",
             "level": "ERROR"
           },
           "_text": "Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py\", line 4, in <module>\n    from AppiumLibrary.keywords import *\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/__init__.py\", line 9, in <module>\n    from ._touch import _TouchKeywords\n  File \"/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/keywords/_touch.py\", line 3, in <module>\n    from appium.webdriver.common.touch_action import TouchAction\nPYTHONPATH:\n  /opt/hostedtoolcache/Python/3.8.18/x64/bin\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python38.zip\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/lib-dynload\n  /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.8.18 on linux)" generated="2024-03-28T00:08:14.177424" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0 (Python 3.8.18 on linux)" generated="2024-04-04T00:09:03.465894" rpa="false" schemaversion="5">
 <suite id="s1" name="Tests" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests">
 <suite id="s1-s1" name="Android" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android">
 <suite id="s1-s1-s1" name="Catalog" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/catalog.robot">
@@ -7,7 +7,7 @@
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application">
-<msg time="2024-03-28T00:08:14.405982" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
+<msg time="2024-04-04T00:09:03.655130" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -15,26 +15,26 @@
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<status status="FAIL" start="2024-03-28T00:08:14.405946" elapsed="0.000100">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.655095" elapsed="0.000122">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.404603" elapsed="0.001608">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.653778" elapsed="0.001602">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-28T00:08:14.406391" elapsed="0.000022"/>
+<status status="NOT RUN" start="2024-04-04T00:09:03.655560" elapsed="0.000023"/>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.404151" elapsed="0.002342">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.653365" elapsed="0.002298">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application">
-<msg time="2024-03-28T00:08:14.407925" level="FAIL">No keyword with name 'Close Application' found.</msg>
-<status status="FAIL" start="2024-03-28T00:08:14.407900" elapsed="0.000058">No keyword with name 'Close Application' found.</status>
+<msg time="2024-04-04T00:09:03.657002" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-04-04T00:09:03.656977" elapsed="0.000057">No keyword with name 'Close Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.406753" elapsed="0.001307">No keyword with name 'Close Application' found.</status>
+<status status="FAIL" start="2024-04-04T00:09:03.655916" elapsed="0.001219">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>open_product</tag>
-<status status="FAIL" start="2024-03-28T00:08:14.403397" elapsed="0.004720">Setup failed:
+<status status="FAIL" start="2024-04-04T00:09:03.652609" elapsed="0.004582">Setup failed:
 No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
@@ -44,7 +44,7 @@ No keyword with name 'Close Application' found.</status>
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application">
-<msg time="2024-03-28T00:08:14.410203" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
+<msg time="2024-04-04T00:09:03.659595" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -52,26 +52,26 @@ No keyword with name 'Close Application' found.</status>
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<status status="FAIL" start="2024-03-28T00:08:14.410178" elapsed="0.000058">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.659568" elapsed="0.000061">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.409088" elapsed="0.001253">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.658453" elapsed="0.001284">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-28T00:08:14.410516" elapsed="0.000022"/>
+<status status="NOT RUN" start="2024-04-04T00:09:03.659902" elapsed="0.000021"/>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.408806" elapsed="0.001810">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.658093" elapsed="0.001906">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application">
-<msg time="2024-03-28T00:08:14.411931" level="FAIL">No keyword with name 'Close Application' found.</msg>
-<status status="FAIL" start="2024-03-28T00:08:14.411903" elapsed="0.000058">No keyword with name 'Close Application' found.</status>
+<msg time="2024-04-04T00:09:03.661268" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-04-04T00:09:03.661244" elapsed="0.000055">No keyword with name 'Close Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.410869" elapsed="0.001184">No keyword with name 'Close Application' found.</status>
+<status status="FAIL" start="2024-04-04T00:09:03.660222" elapsed="0.001171">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>rate_product</tag>
-<status status="FAIL" start="2024-03-28T00:08:14.408418" elapsed="0.003687">Setup failed:
+<status status="FAIL" start="2024-04-04T00:09:03.657511" elapsed="0.003934">Setup failed:
 No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
@@ -81,7 +81,7 @@ No keyword with name 'Close Application' found.</status>
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application">
-<msg time="2024-03-28T00:08:14.414090" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
+<msg time="2024-04-04T00:09:03.663800" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -89,26 +89,26 @@ No keyword with name 'Close Application' found.</status>
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<status status="FAIL" start="2024-03-28T00:08:14.414066" elapsed="0.000056">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.663768" elapsed="0.000066">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.413051" elapsed="0.001174">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.662725" elapsed="0.001217">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-28T00:08:14.414390" elapsed="0.000021"/>
+<status status="NOT RUN" start="2024-04-04T00:09:03.664110" elapsed="0.000021"/>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.412782" elapsed="0.001708">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.662324" elapsed="0.001883">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application">
-<msg time="2024-03-28T00:08:14.415807" level="FAIL">No keyword with name 'Close Application' found.</msg>
-<status status="FAIL" start="2024-03-28T00:08:14.415783" elapsed="0.000054">No keyword with name 'Close Application' found.</status>
+<msg time="2024-04-04T00:09:03.665486" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-04-04T00:09:03.665462" elapsed="0.000055">No keyword with name 'Close Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.414709" elapsed="0.001222">No keyword with name 'Close Application' found.</status>
+<status status="FAIL" start="2024-04-04T00:09:03.664427" elapsed="0.001183">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>sort_by</tag>
-<status status="FAIL" start="2024-03-28T00:08:14.412385" elapsed="0.003600">Setup failed:
+<status status="FAIL" start="2024-04-04T00:09:03.661747" elapsed="0.003915">Setup failed:
 No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
@@ -118,7 +118,7 @@ No keyword with name 'Close Application' found.</status>
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application">
-<msg time="2024-03-28T00:08:14.417948" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
+<msg time="2024-04-04T00:09:03.667660" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -126,39 +126,39 @@ No keyword with name 'Close Application' found.</status>
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<status status="FAIL" start="2024-03-28T00:08:14.417925" elapsed="0.000098">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.667636" elapsed="0.000093">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.416919" elapsed="0.001216">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.666612" elapsed="0.001229">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-28T00:08:14.418306" elapsed="0.000023"/>
+<status status="NOT RUN" start="2024-04-04T00:09:03.668008" elapsed="0.000022"/>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.416649" elapsed="0.001759">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.666339" elapsed="0.001766">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application">
-<msg time="2024-03-28T00:08:14.420654" level="FAIL">No keyword with name 'Close Application' found.</msg>
-<status status="FAIL" start="2024-03-28T00:08:14.420629" elapsed="0.000058">No keyword with name 'Close Application' found.</status>
+<msg time="2024-04-04T00:09:03.670019" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-04-04T00:09:03.669994" elapsed="0.000057">No keyword with name 'Close Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.418632" elapsed="0.002152">No keyword with name 'Close Application' found.</status>
+<status status="FAIL" start="2024-04-04T00:09:03.668321" elapsed="0.001825">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>add_cart</tag>
-<status status="FAIL" start="2024-03-28T00:08:14.416259" elapsed="0.004578">Setup failed:
+<status status="FAIL" start="2024-04-04T00:09:03.665943" elapsed="0.004255">Setup failed:
 No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
 No keyword with name 'Close Application' found.</status>
 </test>
-<status status="FAIL" start="2024-03-28T00:08:14.199055" elapsed="0.222305"/>
+<status status="FAIL" start="2024-04-04T00:09:03.487140" elapsed="0.183564"/>
 </suite>
 <suite id="s1-s1-s2" name="Login" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/android/login.robot">
 <test id="s1-s1-s2-t1" name="Scenario: Login with wrong credentials" line="11">
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application">
-<msg time="2024-03-28T00:08:14.427748" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
+<msg time="2024-04-04T00:09:03.678175" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -166,26 +166,26 @@ No keyword with name 'Close Application' found.</status>
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<status status="FAIL" start="2024-03-28T00:08:14.427722" elapsed="0.000064">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.678149" elapsed="0.000061">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.426747" elapsed="0.001153">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.677182" elapsed="0.001138">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-28T00:08:14.428066" elapsed="0.000022"/>
+<status status="NOT RUN" start="2024-04-04T00:09:03.678499" elapsed="0.000024"/>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.426473" elapsed="0.001694">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.676866" elapsed="0.001739">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application">
-<msg time="2024-03-28T00:08:14.429410" level="FAIL">No keyword with name 'Close Application' found.</msg>
-<status status="FAIL" start="2024-03-28T00:08:14.429386" elapsed="0.000055">No keyword with name 'Close Application' found.</status>
+<msg time="2024-04-04T00:09:03.679880" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-04-04T00:09:03.679843" elapsed="0.000071">No keyword with name 'Close Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.428387" elapsed="0.001146">No keyword with name 'Close Application' found.</status>
+<status status="FAIL" start="2024-04-04T00:09:03.678835" elapsed="0.001176">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>wrong_login</tag>
-<status status="FAIL" start="2024-03-28T00:08:14.426037" elapsed="0.003550">Setup failed:
+<status status="FAIL" start="2024-04-04T00:09:03.676306" elapsed="0.003758">Setup failed:
 No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
@@ -195,7 +195,7 @@ No keyword with name 'Close Application' found.</status>
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application">
-<msg time="2024-03-28T00:08:14.431494" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
+<msg time="2024-04-04T00:09:03.682762" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -203,26 +203,26 @@ No keyword with name 'Close Application' found.</status>
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<status status="FAIL" start="2024-03-28T00:08:14.431468" elapsed="0.000059">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.682736" elapsed="0.000060">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.430493" elapsed="0.001138">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.681336" elapsed="0.001567">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-28T00:08:14.431792" elapsed="0.000021"/>
+<status status="NOT RUN" start="2024-04-04T00:09:03.683066" elapsed="0.000022"/>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.430224" elapsed="0.001666">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.680945" elapsed="0.002247">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application">
-<msg time="2024-03-28T00:08:14.433293" level="FAIL">No keyword with name 'Close Application' found.</msg>
-<status status="FAIL" start="2024-03-28T00:08:14.433268" elapsed="0.000056">No keyword with name 'Close Application' found.</status>
+<msg time="2024-04-04T00:09:03.684569" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-04-04T00:09:03.684545" elapsed="0.000056">No keyword with name 'Close Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.432107" elapsed="0.001313">No keyword with name 'Close Application' found.</status>
+<status status="FAIL" start="2024-04-04T00:09:03.683420" elapsed="0.001275">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>login_success</tag>
-<status status="FAIL" start="2024-03-28T00:08:14.429858" elapsed="0.003616">Setup failed:
+<status status="FAIL" start="2024-04-04T00:09:03.680410" elapsed="0.004337">Setup failed:
 No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
@@ -232,7 +232,7 @@ No keyword with name 'Close Application' found.</status>
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open App" owner="base_keywords">
 <kw name="Open Application">
-<msg time="2024-03-28T00:08:14.435365" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
+<msg time="2024-04-04T00:09:03.686621" level="FAIL">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -240,41 +240,41 @@ No keyword with name 'Close Application' found.</status>
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<status status="FAIL" start="2024-03-28T00:08:14.435339" elapsed="0.000060">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.686598" elapsed="0.000056">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.434381" elapsed="0.001161">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.685685" elapsed="0.001107">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="Perform Login" owner="login_keywords">
 <arg>bob@example.com</arg>
 <arg>10203040</arg>
-<status status="NOT RUN" start="2024-03-28T00:08:14.435709" elapsed="0.000021"/>
+<status status="NOT RUN" start="2024-04-04T00:09:03.686956" elapsed="0.000021"/>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.434116" elapsed="0.001691">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
+<status status="FAIL" start="2024-04-04T00:09:03.685424" elapsed="0.001629">No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application">
-<msg time="2024-03-28T00:08:14.437022" level="FAIL">No keyword with name 'Close Application' found.</msg>
-<status status="FAIL" start="2024-03-28T00:08:14.436998" elapsed="0.000055">No keyword with name 'Close Application' found.</status>
+<msg time="2024-04-04T00:09:03.688296" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-04-04T00:09:03.688273" elapsed="0.000054">No keyword with name 'Close Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.436021" elapsed="0.001124">No keyword with name 'Close Application' found.</status>
+<status status="FAIL" start="2024-04-04T00:09:03.687295" elapsed="0.001125">No keyword with name 'Close Application' found.</status>
 </kw>
 <tag>logout_success</tag>
-<status status="FAIL" start="2024-03-28T00:08:14.433748" elapsed="0.003448">Setup failed:
+<status status="FAIL" start="2024-04-04T00:09:03.685050" elapsed="0.003421">Setup failed:
 No keyword with name 'Open Application' found. Did you try using keyword 'base_keywords.Open App' and forgot to use enough whitespace between keyword and arguments?
 
 Also teardown failed:
 No keyword with name 'Close Application' found.</status>
 </test>
-<status status="FAIL" start="2024-03-28T00:08:14.421868" elapsed="0.015679"/>
+<status status="FAIL" start="2024-04-04T00:09:03.671301" elapsed="0.017571"/>
 </suite>
-<status status="FAIL" start="2024-03-28T00:08:14.198006" elapsed="0.240126"/>
+<status status="FAIL" start="2024-04-04T00:09:03.485980" elapsed="0.203514"/>
 </suite>
 <suite id="s1-s2" name="Ios" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios">
 <suite id="s1-s2-s1" name="Test" source="/home/runner/work/robot-appium-tests/robot-appium-tests/tests/ios/test.robot">
 <test id="s1-s2-s1-t1" name="Scenario: Take screenshot" line="9">
 <kw name="Before Tests" owner="base_keywords" type="SETUP">
 <kw name="Open Application">
-<msg time="2024-03-28T00:08:14.445783" level="FAIL">No keyword with name 'Open Application' found.</msg>
+<msg time="2024-04-04T00:09:03.697147" level="FAIL">No keyword with name 'Open Application' found.</msg>
 <arg>${REMOTE_URL}</arg>
 <arg>platformName=${PLATFORM_NAME}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
@@ -282,28 +282,28 @@ No keyword with name 'Close Application' found.</status>
 <arg>app=${APP}</arg>
 <arg>automationName=${AUTOMATION_NAME}</arg>
 <arg>name=${JOB_NAME}</arg>
-<status status="FAIL" start="2024-03-28T00:08:14.445756" elapsed="0.000066">No keyword with name 'Open Application' found.</status>
+<status status="FAIL" start="2024-04-04T00:09:03.697122" elapsed="0.000059">No keyword with name 'Open Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.444824" elapsed="0.001116">No keyword with name 'Open Application' found.</status>
+<status status="FAIL" start="2024-04-04T00:09:03.696229" elapsed="0.001058">No keyword with name 'Open Application' found.</status>
 </kw>
 <kw name="After Tests" owner="base_keywords" type="TEARDOWN">
 <kw name="Close Application">
-<msg time="2024-03-28T00:08:14.447174" level="FAIL">No keyword with name 'Close Application' found.</msg>
-<status status="FAIL" start="2024-03-28T00:08:14.447148" elapsed="0.000059">No keyword with name 'Close Application' found.</status>
+<msg time="2024-04-04T00:09:03.698550" level="FAIL">No keyword with name 'Close Application' found.</msg>
+<status status="FAIL" start="2024-04-04T00:09:03.698523" elapsed="0.000060">No keyword with name 'Close Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.446170" elapsed="0.001138">No keyword with name 'Close Application' found.</status>
+<status status="FAIL" start="2024-04-04T00:09:03.697504" elapsed="0.001185">No keyword with name 'Close Application' found.</status>
 </kw>
-<status status="FAIL" start="2024-03-28T00:08:14.444420" elapsed="0.002944">Setup failed:
+<status status="FAIL" start="2024-04-04T00:09:03.695815" elapsed="0.002927">Setup failed:
 No keyword with name 'Open Application' found.
 
 Also teardown failed:
 No keyword with name 'Close Application' found.</status>
 </test>
-<status status="FAIL" start="2024-03-28T00:08:14.439822" elapsed="0.007882"/>
+<status status="FAIL" start="2024-04-04T00:09:03.691268" elapsed="0.007827"/>
 </suite>
-<status status="FAIL" start="2024-03-28T00:08:14.438617" elapsed="0.009625"/>
+<status status="FAIL" start="2024-04-04T00:09:03.690243" elapsed="0.009436"/>
 </suite>
-<status status="FAIL" start="2024-03-28T00:08:14.178348" elapsed="0.270421"/>
+<status status="FAIL" start="2024-04-04T00:09:03.466756" elapsed="0.233474"/>
 </suite>
 <statistics>
 <total>
@@ -328,7 +328,7 @@ No keyword with name 'Close Application' found.</status>
 </suite>
 </statistics>
 <errors>
-<msg time="2024-03-28T00:08:14.391912" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
+<msg time="2024-04-04T00:09:03.641603" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py", line 4, in &lt;module&gt;
     from AppiumLibrary.keywords import *
@@ -342,8 +342,8 @@ PYTHONPATH:
   /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8
   /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/lib-dynload
   /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages</msg>
-<msg time="2024-03-28T00:08:14.400723" level="WARN">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/keywords/catalog_keywords.robot' on line 9: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
-<msg time="2024-03-28T00:08:14.424058" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
+<msg time="2024-04-04T00:09:03.649983" level="WARN">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/resources/android/keywords/catalog_keywords.robot' on line 9: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2024-04-04T00:09:03.673859" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py", line 4, in &lt;module&gt;
     from AppiumLibrary.keywords import *
@@ -357,7 +357,7 @@ PYTHONPATH:
   /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8
   /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/lib-dynload
   /opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages</msg>
-<msg time="2024-03-28T00:08:14.441759" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
+<msg time="2024-04-04T00:09:03.693110" level="ERROR">Error in file '/home/runner/work/robot-appium-tests/robot-appium-tests/config/settings.robot' on line 2: Importing library 'AppiumLibrary' failed: ModuleNotFoundError: No module named 'appium.webdriver.common.touch_action'
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.8.18/x64/lib/python3.8/site-packages/AppiumLibrary/__init__.py", line 4, in &lt;module&gt;
     from AppiumLibrary.keywords import *

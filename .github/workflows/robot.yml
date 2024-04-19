@@ -2,7 +2,7 @@ name: Robot Framework and Appium Tests
 
 on:
   schedule:
-    - cron: "0 0 * * 4"
+    - cron: '0 0 * * 4'
   workflow_dispatch: # Enable the run worklfow button on the Action
 
 jobs:
